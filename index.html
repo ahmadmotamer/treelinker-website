@@ -3,20 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TreeLinker – Connect, grow, and share your world with smart link-in-bio tools built for creators and professionals." />
-  <title>TreeLinker – Your Smart Link Hub</title>
+  <meta name="description" content="TreeLinker – A private, local-first family tree and memories app. Build your family graph, capture precious moments, and share them with the people who matter." />
+  <title>TreeLinker – Your Family Tree & Memories App</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="icon" type="image/png" href="assets/icons/logo.png" />
 </head>
 <body>
 
-  <!-- Nav -->
   <nav class="site-nav" aria-label="Main navigation">
     <div class="container">
-      <a href="index.html" class="nav-logo" aria-label="TreeLinker home">
-        🌲 TreeLinker
-      </a>
+      <a href="index.html" class="nav-logo" aria-label="TreeLinker home"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
       <ul class="nav-links" role="list">
         <li><a href="index.html">Home</a></li>
         <li><a href="support.html">Support</a></li>
@@ -25,7 +22,7 @@
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6"  x2="21" y2="6"  />
+          <line x1="3" y1="6"  x2="21" y2="6" />
           <line x1="3" y1="12" x2="21" y2="12" />
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
@@ -34,107 +31,214 @@
   </nav>
 
   <main>
+
     <!-- Hero -->
     <section class="hero">
       <div class="container">
-        <h1>One Link.<br>Endless Possibilities.</h1>
-        <p>TreeLinker helps you share everything you create, curate, and sell from a single beautiful page.</p>
-        <div style="display:flex;gap:.75rem;justify-content:center;flex-wrap:wrap;">
-          <a href="#features" class="btn btn-primary">Get Started</a>
-          <a href="#how-it-works" class="btn btn-outline">See How It Works</a>
+        <h1>Map your family.<br>Keep their stories alive.</h1>
+        <p>TreeLinker is a private family tree and memories app. Build your family graph, capture precious moments, and share them with the people who matter — all from your phone.</p>
+        <div class="hero-actions">
+          <a href="#download" class="btn btn-primary">Download the App</a>
+          <a href="#features" class="btn btn-outline brand-text">See What It Does</a>
         </div>
       </div>
     </section>
 
     <!-- Features -->
-    <section class="section" id="features">
+    <section class="section section-alt" id="features">
       <div class="container">
-        <h2 class="section-title">Everything you need</h2>
-        <p class="section-subtitle">Simple tools that do powerful things.</p>
+        <h2 class="section-title">Everything you need for your family archive</h2>
+        <p class="section-subtitle">Six powerful features, beautifully organized in one app.</p>
         <div class="grid-3">
+
           <div class="card">
-            <div style="font-size:2rem;margin-bottom:.75rem;">🔗</div>
-            <h3 style="margin-bottom:.5rem;">Unlimited Links</h3>
-            <p style="color:var(--color-text-muted);font-size:.95rem;">Add as many links as you want — social profiles, websites, stores, downloads, and more.</p>
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <circle cx="12" cy="5" r="2"/><circle cx="5" cy="17" r="2"/><circle cx="19" cy="17" r="2"/>
+                <line x1="12" y1="7" x2="8" y2="15"/><line x1="12" y1="7" x2="16" y2="15"/>
+              </svg>
+            </div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;font-size:1.05rem;">Family Tree Builder</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Visualize your family relationships with any connection type. See how everyone is connected at a glance — parents, siblings, cousins, and more.</p>
           </div>
+
           <div class="card">
-            <div style="font-size:2rem;margin-bottom:.75rem;">📊</div>
-            <h3 style="margin-bottom:.5rem;">Smart Analytics</h3>
-            <p style="color:var(--color-text-muted);font-size:.95rem;">Know what your audience clicks, where they come from, and when they're most active.</p>
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+            </div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;font-size:1.05rem;">Memory Archive</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Attach photos, notes, dates, and locations to the people in your tree. Nothing gets forgotten — your family's moments live alongside the people they belong to.</p>
           </div>
+
           <div class="card">
-            <div style="font-size:2rem;margin-bottom:.75rem;">🎨</div>
-            <h3 style="margin-bottom:.5rem;">Custom Themes</h3>
-            <p style="color:var(--color-text-muted);font-size:.95rem;">Pick a theme or build your own. Your page, your brand, your style.</p>
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/>
+                <path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+              </svg>
+            </div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;font-size:1.05rem;">Family Groups</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Invite relatives to shared spaces. Post memories, plan events, and stay connected — each group is private and invitation-only.</p>
           </div>
+
           <div class="card">
-            <div style="font-size:2rem;margin-bottom:.75rem;">🛡️</div>
-            <h3 style="margin-bottom:.5rem;">Privacy First</h3>
-            <p style="color:var(--color-text-muted);font-size:.95rem;">We never sell your data. Your links, your visitors — private and secure.</p>
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
+              </svg>
+            </div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;font-size:1.05rem;">Private by Design</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Your data lives on your device first. Local-first architecture means you're in control. Cloud sync is opt-in — not required to use the app.</p>
           </div>
+
           <div class="card">
-            <div style="font-size:2rem;margin-bottom:.75rem;">📱</div>
-            <h3 style="margin-bottom:.5rem;">Mobile Ready</h3>
-            <p style="color:var(--color-text-muted);font-size:.95rem;">Your TreeLinker page looks perfect on every device — phone, tablet, or desktop.</p>
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/>
+              </svg>
+            </div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;font-size:1.05rem;">Contact Integration</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Link your phone's address book to your family tree. Recognize who's who without re-entering names and numbers you already have.</p>
           </div>
+
           <div class="card">
-            <div style="font-size:2rem;margin-bottom:.75rem;">⚡</div>
-            <h3 style="margin-bottom:.5rem;">Lightning Fast</h3>
-            <p style="color:var(--color-text-muted);font-size:.95rem;">Pages load instantly so your visitors never wait. Speed is built in by default.</p>
+            <div class="feature-icon" aria-hidden="true">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/>
+              </svg>
+            </div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;font-size:1.05rem;">Smart Reminders</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Never miss a birthday, anniversary, or family occasion. TreeLinker surfaces upcoming events for the people in your tree so you can reach out in time.</p>
           </div>
+
         </div>
       </div>
     </section>
 
     <!-- How it works -->
-    <section class="section section-alt" id="how-it-works">
+    <section class="section" id="how-it-works">
       <div class="container">
-        <h2 class="section-title">How it works</h2>
-        <p class="section-subtitle">Up and running in under a minute.</p>
+        <h2 class="section-title">Up and running in minutes</h2>
+        <p class="section-subtitle">Three steps to your living family archive.</p>
         <div class="grid-3">
-          <div style="text-align:center;padding:1rem;">
-            <div style="font-size:2.5rem;font-weight:900;color:var(--color-primary);margin-bottom:.5rem;">1</div>
-            <h3>Create your account</h3>
-            <p style="color:var(--color-text-muted);margin-top:.5rem;font-size:.95rem;">Sign up free. No credit card needed.</p>
+
+          <div style="text-align:center;padding:1rem 1.5rem;">
+            <div style="font-family:var(--font-serif);font-size:3rem;font-weight:900;font-style:italic;color:var(--color-sage);opacity:.5;line-height:1;margin-bottom:.625rem;">1</div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;">Create your profile</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Sign up with your name and email. TreeLinker creates your personal starting point in the family tree — you.</p>
           </div>
-          <div style="text-align:center;padding:1rem;">
-            <div style="font-size:2.5rem;font-weight:900;color:var(--color-primary);margin-bottom:.5rem;">2</div>
-            <h3>Add your links</h3>
-            <p style="color:var(--color-text-muted);margin-top:.5rem;font-size:.95rem;">Paste any URL and give it a label. Drag to reorder anytime.</p>
+
+          <div style="text-align:center;padding:1rem 1.5rem;">
+            <div style="font-family:var(--font-serif);font-size:3rem;font-weight:900;font-style:italic;color:var(--color-sage);opacity:.5;line-height:1;margin-bottom:.625rem;">2</div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;">Add your family</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Import from your contacts or add family members manually. Draw the relationships between them — parent, sibling, spouse, and more.</p>
           </div>
-          <div style="text-align:center;padding:1rem;">
-            <div style="font-size:2.5rem;font-weight:900;color:var(--color-primary);margin-bottom:.5rem;">3</div>
-            <h3>Share your page</h3>
-            <p style="color:var(--color-text-muted);margin-top:.5rem;font-size:.95rem;">Copy your unique TreeLinker URL and put it everywhere.</p>
+
+          <div style="text-align:center;padding:1rem 1.5rem;">
+            <div style="font-family:var(--font-serif);font-size:3rem;font-weight:900;font-style:italic;color:var(--color-sage);opacity:.5;line-height:1;margin-bottom:.625rem;">3</div>
+            <h3 style="font-family:var(--font-serif);font-weight:700;margin-bottom:.5rem;">Capture &amp; share</h3>
+            <p style="color:var(--color-text-muted);font-size:.925rem;line-height:1.7;">Add memories, photos, and notes. Invite relatives to a shared group and share the moments that matter to your whole family.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Privacy promise -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="grid-2" style="gap:4rem;align-items:center;">
+          <div>
+            <h2 class="section-title">Built to protect your family's most personal moments</h2>
+            <p style="color:var(--color-text-muted);font-size:.975rem;line-height:1.8;margin-bottom:1.5rem;">TreeLinker was designed with a local-first architecture. Your family's data lives on your device — the cloud is always opt-in, never required.</p>
+            <ul style="list-style:none;display:flex;flex-direction:column;gap:.875rem;">
+              <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+                <span style="color:var(--color-sage);margin-top:.1rem;flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                Your family's photos and notes never leave your device without your consent
+              </li>
+              <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+                <span style="color:var(--color-sage);margin-top:.1rem;flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                Remote cloud sync is optional and can be disabled at any time
+              </li>
+              <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+                <span style="color:var(--color-sage);margin-top:.1rem;flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                We never sell or share your personal information with advertisers
+              </li>
+              <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+                <span style="color:var(--color-sage);margin-top:.1rem;flex-shrink:0;">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="20 6 9 17 4 12"/></svg>
+                </span>
+                Full account deletion removes everything — on your device and from our servers
+              </li>
+            </ul>
+            <div style="margin-top:1.75rem;">
+              <a href="privacy.html" class="btn btn-outline" style="font-size:.85rem;">Read our Privacy Policy →</a>
+            </div>
+          </div>
+          <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;">
+            <div class="card" style="text-align:center;padding:1.75rem 1.25rem;">
+              <div style="font-family:var(--font-serif);font-size:2.5rem;font-weight:900;font-style:italic;color:var(--color-sage);line-height:1;margin-bottom:.5rem;">100%</div>
+              <div style="font-size:.8rem;color:var(--color-text-muted);line-height:1.5;">Local-first storage by default</div>
+            </div>
+            <div class="card" style="text-align:center;padding:1.75rem 1.25rem;">
+              <div style="font-family:var(--font-serif);font-size:2.5rem;font-weight:900;font-style:italic;color:var(--color-sage);line-height:1;margin-bottom:.5rem;">0</div>
+              <div style="font-size:.8rem;color:var(--color-text-muted);line-height:1.5;">Third-party analytics SDKs</div>
+            </div>
+            <div class="card" style="text-align:center;padding:1.75rem 1.25rem;">
+              <div style="font-family:var(--font-serif);font-size:2.5rem;font-weight:900;font-style:italic;color:var(--color-sage);line-height:1;margin-bottom:.5rem;">∞</div>
+              <div style="font-size:.8rem;color:var(--color-text-muted);line-height:1.5;">Family members you can add</div>
+            </div>
+            <div class="card" style="text-align:center;padding:1.75rem 1.25rem;">
+              <div style="font-family:var(--font-serif);font-size:2.5rem;font-weight:900;font-style:italic;color:var(--color-sage);line-height:1;margin-bottom:.5rem;">5+</div>
+              <div style="font-size:.8rem;color:var(--color-text-muted);line-height:1.5;">Supported languages</div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA -->
-    <section class="section" style="text-align:center;">
-      <div class="container">
-        <h2 class="section-title">Ready to grow your audience?</h2>
-        <p class="section-subtitle">Join thousands of creators who trust TreeLinker.</p>
-        <a href="contact.html" class="btn btn-primary">Get in Touch</a>
+    <!-- Download CTA -->
+    <section class="section" id="download" style="text-align:center;">
+      <div class="container" style="max-width:38rem;">
+        <h2 class="section-title">Start preserving your family's story today</h2>
+        <p class="section-subtitle">Free to download on iOS and Android. Your family's history is worth keeping.</p>
+        <div class="hero-actions">
+          <a href="#" class="btn btn-primary">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.8-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/></svg>
+            App Store
+          </a>
+          <a href="#" class="btn btn-outline">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M3.18 23.72c.35.2.74.28 1.14.24L15.88 12 12 8.12 3.18 23.72zm18.29-11.01L18.56 11l-3.12 1.75 3.13 3.13 2.9-1.63c.65-.38.65-1.16 0-1.54zM2.15 1.12a1.5 1.5 0 0 0-.21.72v20.28c0 .27.07.52.21.72L14.01 12 2.15 1.12zm13.31 9.35L12 8.12l-9.38-9.38A1.56 1.56 0 0 1 3.18.28l11.28 10.19z"/></svg>
+            Google Play
+          </a>
+        </div>
       </div>
     </section>
+
   </main>
 
-  <!-- Footer -->
   <footer class="site-footer">
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
-          <p>Your smart link-in-bio hub for creators and professionals.</p>
+          <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
+          <p>A private, local-first family tree and memories app for iOS and Android.</p>
         </div>
         <div class="footer-col">
-          <h4>Company</h4>
+          <h4>App</h4>
           <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
             <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
           </ul>
         </div>
         <div class="footer-col">
@@ -148,7 +252,7 @@
       </div>
       <div class="footer-bottom">
         <span>&copy; <span id="year"></span> TreeLinker. All rights reserved.</span>
-        <span>Made with 🌱</span>
+        <span>Made with <span class="nav-logo-img footer-logo-inline" aria-hidden="true"></span></span>
       </div>
     </div>
   </footer>

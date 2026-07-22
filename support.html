@@ -3,49 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TreeLinker Support – Find answers to common questions or get in touch with our team." />
+  <meta name="description" content="TreeLinker Support – Find answers to common questions about the family tree app, or get in touch with our team." />
   <title>Support – TreeLinker</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
-  <style>
-    .faq-item {
-      border-bottom: 1px solid var(--color-border);
-      padding: 1.25rem 0;
-    }
-    .faq-item:first-child { padding-top: 0; }
-    .faq-question {
-      width: 100%;
-      background: none;
-      border: none;
-      text-align: left;
-      font-size: 1rem;
-      font-weight: 600;
-      cursor: pointer;
-      color: var(--color-text);
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-      padding: 0;
-    }
-    .faq-question svg { flex-shrink: 0; transition: transform .2s; }
-    .faq-item.open .faq-question svg { transform: rotate(180deg); }
-    .faq-answer {
-      display: none;
-      padding-top: .75rem;
-      color: var(--color-text-muted);
-      font-size: .95rem;
-      line-height: 1.7;
-    }
-    .faq-item.open .faq-answer { display: block; }
-  </style>
+  <link rel="icon" type="image/png" href="assets/icons/logo.png" />
 </head>
 <body>
 
   <nav class="site-nav" aria-label="Main navigation">
     <div class="container">
-      <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
+      <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
       <ul class="nav-links" role="list">
         <li><a href="index.html">Home</a></li>
         <li><a href="support.html">Support</a></li>
@@ -54,7 +22,7 @@
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6"  x2="21" y2="6"  />
+          <line x1="3" y1="6"  x2="21" y2="6" />
           <line x1="3" y1="12" x2="21" y2="12" />
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
@@ -66,28 +34,40 @@
     <header class="page-header">
       <div class="container">
         <h1>Support Center</h1>
-        <p>Browse common questions or reach out directly — we're here to help.</p>
+        <p>Common questions about TreeLinker · ahmedmosttamer@gmail.com</p>
       </div>
     </header>
 
     <!-- Quick links -->
-    <section class="section section-alt">
+    <section class="section section-alt" style="padding:2.5rem 0;">
       <div class="container">
         <div class="grid-3">
-          <a href="contact.html" class="card" style="text-decoration:none;display:block;">
-            <div style="font-size:2rem;margin-bottom:.5rem;">💬</div>
-            <h3 style="margin-bottom:.35rem;">Contact Us</h3>
-            <p style="color:var(--color-text-muted);font-size:.9rem;">Send us a message and we'll reply within 24 hours.</p>
+          <a href="contact.html" class="card" style="text-decoration:none;display:flex;gap:1rem;align-items:flex-start;">
+            <div class="feature-icon" style="margin:0;flex-shrink:0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <div>
+              <h3 style="font-family:var(--font-serif);font-weight:700;font-size:.975rem;margin-bottom:.3rem;">Contact Us</h3>
+              <p style="color:var(--color-text-muted);font-size:.875rem;line-height:1.6;">Send us a message and we'll reply within 24 hours.</p>
+            </div>
           </a>
-          <a href="delete-account.html" class="card" style="text-decoration:none;display:block;">
-            <div style="font-size:2rem;margin-bottom:.5rem;">🗑️</div>
-            <h3 style="margin-bottom:.35rem;">Delete Account</h3>
-            <p style="color:var(--color-text-muted);font-size:.9rem;">Request permanent removal of your account and data.</p>
+          <a href="delete-account.html" class="card" style="text-decoration:none;display:flex;gap:1rem;align-items:flex-start;">
+            <div class="feature-icon" style="margin:0;flex-shrink:0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
+            </div>
+            <div>
+              <h3 style="font-family:var(--font-serif);font-weight:700;font-size:.975rem;margin-bottom:.3rem;">Delete Account</h3>
+              <p style="color:var(--color-text-muted);font-size:.875rem;line-height:1.6;">Step-by-step instructions for removing your account and data.</p>
+            </div>
           </a>
-          <a href="privacy.html" class="card" style="text-decoration:none;display:block;">
-            <div style="font-size:2rem;margin-bottom:.5rem;">🔒</div>
-            <h3 style="margin-bottom:.35rem;">Privacy Policy</h3>
-            <p style="color:var(--color-text-muted);font-size:.9rem;">Learn how we handle and protect your personal data.</p>
+          <a href="privacy.html" class="card" style="text-decoration:none;display:flex;gap:1rem;align-items:flex-start;">
+            <div class="feature-icon" style="margin:0;flex-shrink:0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+            </div>
+            <div>
+              <h3 class="brand-text" style="font-family:var(--font-serif);font-weight:700;font-size:.975rem;margin-bottom:.3rem;">Privacy Policy</h3>
+              <p style="color:var(--color-text-muted);font-size:.875rem;line-height:1.6;">Learn how we handle and protect your family data.</p>
+            </div>
           </a>
         </div>
       </div>
@@ -98,12 +78,15 @@
       <div class="container" style="max-width:52rem;">
         <h2 class="section-title">Frequently Asked Questions</h2>
 
+        <!-- Getting started -->
+        <h3 style="font-family:var(--font-serif);font-size:1rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem;margin-top:0;">Getting Started</h3>
+
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
             What is TreeLinker?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">TreeLinker is a link-in-bio platform that lets you create a single shareable page containing all your important links — social media, websites, portfolios, online stores, and more.</div>
+          <div class="faq-answer">TreeLinker is a private family tree and memories app for iOS and Android. It helps you map your family relationships, capture memories (photos, notes, dates) tied to the people you love, share moments with family groups, and never miss a birthday — all stored privately on your device first.</div>
         </div>
 
         <div class="faq-item">
@@ -111,23 +94,72 @@
             Is TreeLinker free?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">Yes! The core features of TreeLinker are free. We may offer optional paid plans with advanced analytics and customisation in the future.</div>
+          <div class="faq-answer">Yes, TreeLinker is free to download and use. All core features — family tree, memories, contacts, groups, and reminders — are included at no cost.</div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            How do I change my username or URL?
+            Can I use TreeLinker offline?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">Go to your account settings and tap "Edit Profile." You can update your username there. Keep in mind that changing your username will also change your TreeLinker URL.</div>
+          <div class="faq-answer">Yes. TreeLinker is built local-first — your family tree, contacts, and memories are stored directly on your device. You can view and edit your data with no internet connection. An internet connection is only required when syncing to the cloud (optional), receiving push notifications, or connecting with other registered users.</div>
+        </div>
+
+        <!-- Family Tree -->
+        <h3 style="font-family:var(--font-serif);font-size:1rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem;margin-top:2rem;">Family Tree &amp; Contacts</h3>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I build my family tree?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">After creating your profile, tap the "+" button on the Family Tree screen to add a family member. You can set their name, relationship to you (parent, sibling, spouse, child, cousin, etc.), and optional details like birthday and contact information. The app draws the connections between everyone automatically.</div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            Can I add custom links to my page?
+            Can I import contacts from my phone?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">Absolutely. You can add any URL as a custom link, give it a title, and reorder links by dragging them in the editor.</div>
+          <div class="faq-answer">Yes. TreeLinker can read your device's address book with your permission. When you add a family member, you can select them directly from your contacts instead of typing their details manually. Your full contact list is processed on-device — it is not uploaded to our servers.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What relationship types are supported?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">TreeLinker supports a wide range of relationship types including parent, child, sibling, spouse/partner, grandparent, grandchild, aunt/uncle, niece/nephew, cousin, and custom relationships. Relationships are automatically reciprocal — if you set someone as your parent, you appear as their child.</div>
+        </div>
+
+        <!-- Memories & Groups -->
+        <h3 style="font-family:var(--font-serif);font-size:1rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem;margin-top:2rem;">Memories &amp; Groups</h3>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            How do I add a memory to a person?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">Open a person's profile from the Family Tree or Contacts screen, then tap "Add Memory." You can write notes, attach a photo, add a date, and set a location. Memories are stored privately on your device by default and are only visible to others if you choose to share them to a group.</div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What are family groups?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">Family groups are private, invitation-only shared spaces within TreeLinker. You create a group, give it a name (e.g., "Smith Family" or "Dad's 70th Birthday"), and invite family members who have the app. Members can view and post shared memories in the group. You control who is invited and can leave or delete the group at any time.</div>
+        </div>
+
+        <!-- Account & Privacy -->
+        <h3 style="font-family:var(--font-serif);font-size:1rem;font-weight:700;color:var(--color-text-muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem;margin-top:2rem;">Account &amp; Privacy</h3>
+
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            What data is backed up to the cloud?
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+          </button>
+          <div class="faq-answer">By default, nothing is backed up — your data stays on your device. If you enable cloud sync in Settings, your relationship graph, profile information, and shared group memories are mirrored to our secure cloud database (Neo4j AuraDB). You can disable cloud sync at any time and your local data is unaffected.</div>
         </div>
 
         <div class="faq-item">
@@ -135,7 +167,7 @@
             How do I reset my password?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">On the login screen, tap "Forgot password?" and enter your email address. You'll receive a reset link within a few minutes. Check your spam folder if you don't see it.</div>
+          <div class="faq-answer">On the login screen, tap "Forgot Password?" and enter your email address. You'll receive a 6-digit reset code by email. Enter the code in the app, then set a new password. Reset codes expire after 24 hours and lock after 5 incorrect attempts. Check your spam folder if you don't see the email within a few minutes.</div>
         </div>
 
         <div class="faq-item">
@@ -143,25 +175,25 @@
             How do I delete my account?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">Visit our <a href="delete-account.html">Delete Account</a> page and follow the steps. Your data will be permanently removed within 30 days of your request.</div>
+          <div class="faq-answer">Account deletion is done directly in the app: go to <strong>Settings → Delete Account</strong>, confirm your password, and tap "Permanently Delete." This immediately removes all your local data and queues your remote data for deletion. Visit our <a href="delete-account.html">Delete Account page</a> for full details and a step-by-step guide.</div>
         </div>
 
         <div class="faq-item">
           <button class="faq-question" aria-expanded="false">
-            How do I report a bug or abusive content?
+            Are my family photos secure?
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
           </button>
-          <div class="faq-answer">Use our <a href="contact.html">contact form</a> and select the relevant category. We take abuse reports seriously and aim to respond within 24 hours.</div>
+          <div class="faq-answer">Yes. Photos are stored as encrypted binary data in your device's local database. If cloud sync is enabled, they are transmitted over HTTPS/TLS and stored in our secure cloud database. We never use your photos for training AI models, advertising, or any purpose other than displaying them to you within the app.</div>
         </div>
 
       </div>
     </section>
 
     <!-- Still need help -->
-    <section class="section section-alt" style="text-align:center;">
+    <section class="section section-alt" style="text-align:center;padding:3.5rem 0;">
       <div class="container">
         <h2 class="section-title">Still need help?</h2>
-        <p class="section-subtitle">Our team typically responds within 24 hours on business days.</p>
+        <p class="section-subtitle">Our team typically responds within 24 hours on business days (Monday–Friday).</p>
         <a href="contact.html" class="btn btn-primary">Send a Message</a>
       </div>
     </section>
@@ -171,8 +203,16 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
-          <p>Your smart link-in-bio hub for creators and professionals.</p>
+          <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
+          <p>A private, local-first family tree and memories app for iOS and Android.</p>
+        </div>
+        <div class="footer-col">
+          <h4>App</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
         <div class="footer-col">
           <h4>Legal</h4>
@@ -192,7 +232,6 @@
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="assets/js/script.js"></script>
   <script>
-    // Simple accordion for FAQ
     document.querySelectorAll('.faq-question').forEach(btn => {
       btn.addEventListener('click', () => {
         const item = btn.closest('.faq-item');

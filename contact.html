@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Contact the TreeLinker team – we'd love to hear from you." />
+  <meta name="description" content="Contact the TreeLinker team — we read every message and respond within 24 hours on business days." />
   <title>Contact – TreeLinker</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="icon" type="image/png" href="assets/icons/logo.png" />
 </head>
 <body>
 
   <nav class="site-nav" aria-label="Main navigation">
     <div class="container">
-      <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
+      <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
       <ul class="nav-links" role="list">
         <li><a href="index.html">Home</a></li>
         <li><a href="support.html">Support</a></li>
@@ -22,7 +22,7 @@
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6"  x2="21" y2="6"  />
+          <line x1="3" y1="6"  x2="21" y2="6" />
           <line x1="3" y1="12" x2="21" y2="12" />
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
@@ -39,12 +39,13 @@
     </header>
 
     <section class="section">
-      <div class="container" style="display:grid;gap:3rem;grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));align-items:start;">
+      <div class="container grid-2" style="max-width:60rem;gap:3.5rem;">
 
-        <!-- Form -->
+        <!-- Contact form -->
         <div>
           <div id="form-status" hidden></div>
           <form id="contact-form" novalidate>
+
             <div class="form-group">
               <label for="name">Your name</label>
               <input type="text" id="name" name="name" autocomplete="name" required placeholder="Jane Smith" />
@@ -56,52 +57,61 @@
             </div>
 
             <div class="form-group">
-              <label for="subject">Subject</label>
+              <label for="subject">Topic</label>
               <select id="subject" name="subject" required>
                 <option value="">Choose a topic…</option>
                 <option value="general">General question</option>
                 <option value="bug">Report a bug</option>
                 <option value="feature">Feature request</option>
                 <option value="account">Account issue</option>
-                <option value="abuse">Report abuse</option>
+                <option value="privacy">Privacy inquiry</option>
                 <option value="other">Other</option>
               </select>
             </div>
 
             <div class="form-group">
               <label for="message">Message</label>
-              <textarea id="message" name="message" required placeholder="Tell us what's on your mind…"></textarea>
+              <textarea id="message" name="message" required placeholder="Tell us what's on your mind — the more detail you share, the better we can help."></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary" style="width:100%;">Send Message</button>
           </form>
         </div>
 
-        <!-- Info -->
+        <!-- Contact info -->
         <div style="display:flex;flex-direction:column;gap:1.25rem;">
-          <div class="card">
-            <div style="font-size:1.75rem;margin-bottom:.5rem;">📧</div>
-            <h3 style="margin-bottom:.35rem;">Email</h3>
-            <p style="color:var(--color-text-muted);font-size:.9rem;">
-              General: <a href="mailto:hello@treelinker.app">hello@treelinker.app</a><br />
-              Support: <a href="mailto:support@treelinker.app">support@treelinker.app</a><br />
-              Privacy: <a href="mailto:privacy@treelinker.app">privacy@treelinker.app</a>
-            </p>
+
+          <div class="card" style="display:flex;gap:1rem;align-items:flex-start;">
+            <div class="feature-icon" style="margin:0;flex-shrink:0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div>
+              <div style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:.3rem;">Email</div>
+              <a href="mailto:ahmedmosttamer@gmail.com" style="font-size:.9rem;color:var(--color-primary);">ahmedmosttamer@gmail.com</a>
+            </div>
           </div>
 
-          <div class="card">
-            <div style="font-size:1.75rem;margin-bottom:.5rem;">⏱️</div>
-            <h3 style="margin-bottom:.35rem;">Response Time</h3>
-            <p style="color:var(--color-text-muted);font-size:.9rem;">We aim to respond within <strong>24 hours</strong> on business days (Monday–Friday).</p>
+          <div class="card" style="display:flex;gap:1rem;align-items:flex-start;">
+            <div class="feature-icon" style="margin:0;flex-shrink:0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div>
+              <div style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:.3rem;">Response Time</div>
+              <p style="font-size:.875rem;color:var(--color-text);line-height:1.6;">We aim to respond within <strong>24 hours</strong> on business days (Monday–Friday).</p>
+            </div>
           </div>
 
-          <div class="card">
-            <div style="font-size:1.75rem;margin-bottom:.5rem;">📚</div>
-            <h3 style="margin-bottom:.35rem;">Self-Service</h3>
-            <p style="color:var(--color-text-muted);font-size:.9rem;">Many questions are answered in our <a href="support.html">Support Center</a>. Check there first for the fastest help.</p>
+          <div class="card" style="display:flex;gap:1rem;align-items:flex-start;">
+            <div class="feature-icon" style="margin:0;flex-shrink:0;">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            </div>
+            <div>
+              <div style="font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--color-text-muted);margin-bottom:.3rem;">Self-Service</div>
+              <p style="font-size:.875rem;color:var(--color-text);line-height:1.6;">Many questions are already answered in our <a href="support.html">Support Center</a>. Check there first for the fastest help.</p>
+            </div>
           </div>
+
         </div>
-
       </div>
     </section>
   </main>
@@ -110,8 +120,16 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
-          <p>Your smart link-in-bio hub for creators and professionals.</p>
+          <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
+          <p>A private, local-first family tree and memories app for iOS and Android.</p>
+        </div>
+        <div class="footer-col">
+          <h4>App</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
         <div class="footer-col">
           <h4>Legal</h4>

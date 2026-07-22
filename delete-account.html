@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Delete your TreeLinker account and all associated data." />
+  <meta name="description" content="How to delete your TreeLinker account and permanently remove all your family data from our systems." />
   <title>Delete Account – TreeLinker</title>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="manifest" href="manifest.webmanifest" />
-  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+  <link rel="icon" type="image/png" href="assets/icons/logo.png" />
 </head>
 <body>
 
   <nav class="site-nav" aria-label="Main navigation">
     <div class="container">
-      <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
+      <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
       <ul class="nav-links" role="list">
         <li><a href="index.html">Home</a></li>
         <li><a href="support.html">Support</a></li>
@@ -22,7 +22,7 @@
       </ul>
       <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6"  x2="21" y2="6"  />
+          <line x1="3" y1="6"  x2="21" y2="6" />
           <line x1="3" y1="12" x2="21" y2="12" />
           <line x1="3" y1="18" x2="21" y2="18" />
         </svg>
@@ -34,60 +34,80 @@
     <header class="page-header">
       <div class="container">
         <h1>Delete Your Account</h1>
-        <p>We're sorry to see you go. This action is permanent and cannot be undone.</p>
+        <p>Permanent · Immediate · Cannot be undone</p>
       </div>
     </header>
 
     <section class="section">
-      <div class="container" style="max-width:40rem;">
+      <div class="container" style="max-width:42rem;">
 
-        <div class="alert alert-error" role="alert">
-          <strong>Warning:</strong> Deleting your account will permanently remove all your links, analytics, and profile data. This cannot be recovered.
+        <div class="callout callout-warning" role="alert" style="margin-bottom:2rem;">
+          <strong>This action is permanent.</strong> Deleting your account immediately erases all your family data — locally and from our servers. There is no recovery option after deletion is confirmed.
         </div>
 
-        <div class="card" style="margin-bottom:1.5rem;">
-          <h2 style="font-size:1.1rem;margin-bottom:1rem;color:var(--color-primary-dk);">What gets deleted</h2>
-          <ul style="list-style:none;display:flex;flex-direction:column;gap:.5rem;">
-            <li>✅ Your profile and all link data</li>
-            <li>✅ Your analytics history</li>
-            <li>✅ Your account credentials</li>
-            <li>✅ Any stored preferences or themes</li>
+        <!-- What gets deleted -->
+        <h2 style="font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--color-forest);margin-bottom:1rem;">What gets deleted</h2>
+
+        <div class="card" style="margin-bottom:2rem;">
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:.75rem;">
+            <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-sage)" stroke-width="2.5" style="margin-top:.15rem;flex-shrink:0;"><polyline points="20 6 9 17 4 12"/></svg>
+              Your profile — name, email, phone number, photo, and biography
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-sage)" stroke-width="2.5" style="margin-top:.15rem;flex-shrink:0;"><polyline points="20 6 9 17 4 12"/></svg>
+              Your entire family tree — all contacts and relationship connections
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-sage)" stroke-width="2.5" style="margin-top:.15rem;flex-shrink:0;"><polyline points="20 6 9 17 4 12"/></svg>
+              All memories — photos, notes, dates, and locations
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-sage)" stroke-width="2.5" style="margin-top:.15rem;flex-shrink:0;"><polyline points="20 6 9 17 4 12"/></svg>
+              Group memberships — you will be removed from all shared family groups
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-sage)" stroke-width="2.5" style="margin-top:.15rem;flex-shrink:0;"><polyline points="20 6 9 17 4 12"/></svg>
+              Your account credentials and session tokens
+            </li>
+            <li style="display:flex;align-items:flex-start;gap:.75rem;font-size:.925rem;color:var(--color-text);">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="var(--color-sage)" stroke-width="2.5" style="margin-top:.15rem;flex-shrink:0;"><polyline points="20 6 9 17 4 12"/></svg>
+              Push notification tokens and all notification preferences
+            </li>
           </ul>
-          <p style="margin-top:1rem;font-size:.875rem;color:var(--color-text-muted);">Anonymised, aggregated usage statistics may be retained for up to 90 days as described in our <a href="privacy.html">Privacy Policy</a>.</p>
+          <p style="margin-top:1.1rem;font-size:.825rem;color:var(--color-text-muted);border-top:1px solid var(--color-border);padding-top:.875rem;">Groups you created will remain for other members. Any memories you shared to a group before deletion will be removed from the group as well.</p>
         </div>
 
-        <div id="delete-status" hidden></div>
+        <!-- How to delete in-app -->
+        <h2 style="font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--color-forest);margin-bottom:1rem;">How to delete your account</h2>
+        <p style="color:var(--color-text-muted);font-size:.925rem;margin-bottom:1.25rem;">Account deletion is done directly in the TreeLinker app. Follow these steps:</p>
 
-        <form id="delete-form" novalidate>
-          <div class="form-group">
-            <label for="del-email">Email address on your account</label>
-            <input type="email" id="del-email" name="email" autocomplete="email" required placeholder="you@example.com" />
-          </div>
+        <ol class="steps" style="margin-bottom:2rem;">
+          <li>Open the <strong>TreeLinker</strong> app on your iOS or Android device.</li>
+          <li>Tap your <strong>profile photo</strong> or the menu icon to open Settings.</li>
+          <li>Scroll down to the <strong>Account</strong> section and tap <strong>Delete Account</strong>.</li>
+          <li>Enter your <strong>current password</strong> to confirm your identity.</li>
+          <li>Read the confirmation message, then tap <strong>Permanently Delete My Account</strong>.</li>
+        </ol>
 
-          <div class="form-group">
-            <label for="del-reason">Reason for leaving (optional)</label>
-            <select id="del-reason" name="reason">
-              <option value="">Select a reason…</option>
-              <option value="not-using">Not using TreeLinker anymore</option>
-              <option value="switching">Switching to another service</option>
-              <option value="privacy">Privacy concerns</option>
-              <option value="missing-features">Missing features I need</option>
-              <option value="other">Other</option>
-            </select>
-          </div>
+        <div class="callout" style="margin-bottom:2rem;">
+          Deletion begins immediately. Your local data is erased first. Your remote data (if cloud sync was enabled) is fully removed within minutes.
+        </div>
 
-          <div class="form-group">
-            <label for="del-confirm">Type <strong>DELETE</strong> to confirm</label>
-            <input type="text" id="del-confirm" name="confirm" required placeholder="DELETE" pattern="DELETE" />
-          </div>
+        <!-- Can't access your account? -->
+        <h2 style="font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--color-forest);margin-bottom:.75rem;">Can't access your account?</h2>
+        <p style="color:var(--color-text);font-size:.925rem;line-height:1.75;margin-bottom:1rem;">If you can't log in to delete your account yourself (for example, if you've forgotten your password and no longer have access to your email), contact us directly and we'll delete your account manually after verifying your identity.</p>
 
-          <button type="submit" class="btn btn-primary" style="background:#DC2626;border-color:#DC2626;width:100%;">
-            Permanently Delete My Account
-          </button>
-        </form>
+        <div style="display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:2.5rem;">
+          <a href="contact.html" class="btn btn-outline">Contact Support</a>
+          <a href="mailto:ahmedmosttamer@gmail.com" class="btn btn-outline">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            ahmedmosttamer@gmail.com
+          </a>
+        </div>
 
-        <p style="margin-top:1.5rem;font-size:.875rem;color:var(--color-text-muted);text-align:center;">
-          Changed your mind? <a href="index.html">Go back home</a> or <a href="contact.html">contact support</a>.
+        <p style="font-size:.875rem;color:var(--color-text-muted);text-align:center;">
+          Changed your mind? <a href="index.html">Go back home</a> &nbsp;·&nbsp; <a href="privacy.html">Read our Privacy Policy</a>
         </p>
 
       </div>
@@ -98,8 +118,16 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
-          <p>Your smart link-in-bio hub for creators and professionals.</p>
+          <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
+          <p>A private, local-first family tree and memories app for iOS and Android.</p>
+        </div>
+        <div class="footer-col">
+          <h4>App</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="support.html">Support</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </div>
         <div class="footer-col">
           <h4>Legal</h4>
