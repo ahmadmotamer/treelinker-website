@@ -94,9 +94,29 @@
           Deletion begins immediately. Your local data is erased first. Your remote data (if cloud sync was enabled) is fully removed within minutes.
         </div>
 
+        <!-- Delete via website -->
+        <h2 style="font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--color-forest);margin-bottom:.75rem;">Delete via this page</h2>
+        <p style="color:var(--color-text-muted);font-size:.925rem;margin-bottom:1.25rem;">If you no longer have access to the app, you can delete your account here using your email and password.</p>
+
+        <div id="delete-status" hidden style="margin-bottom:1.25rem;"></div>
+
+        <form id="delete-form" novalidate style="margin-bottom:2.5rem;">
+          <div class="form-group">
+            <label for="del-email">Email address</label>
+            <input type="email" id="del-email" name="email" autocomplete="email" required placeholder="you@example.com" />
+          </div>
+          <div class="form-group">
+            <label for="del-password">Password</label>
+            <input type="password" id="del-password" name="password" autocomplete="current-password" required placeholder="Your current password" />
+          </div>
+          <button type="submit" id="delete-btn" class="btn" style="width:100%;background:var(--color-error,#c0392b);color:#fff;border:none;">
+            Permanently Delete My Account
+          </button>
+        </form>
+
         <!-- Can't access your account? -->
         <h2 style="font-family:var(--font-serif);font-size:1.25rem;font-weight:700;color:var(--color-forest);margin-bottom:.75rem;">Can't access your account?</h2>
-        <p style="color:var(--color-text);font-size:.925rem;line-height:1.75;margin-bottom:1rem;">If you can't log in to delete your account yourself (for example, if you've forgotten your password and no longer have access to your email), contact us directly and we'll delete your account manually after verifying your identity.</p>
+        <p style="color:var(--color-text);font-size:.925rem;line-height:1.75;margin-bottom:1rem;">If you've forgotten your password and no longer have access to your email, contact us directly and we'll delete your account manually after verifying your identity.</p>
 
         <div style="display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:2.5rem;">
           <a href="contact.html" class="btn btn-outline">Contact Support</a>
