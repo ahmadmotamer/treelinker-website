@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Delete your TreeLinker account and all associated data." />
+  <title>Delete Account – TreeLinker</title>
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg" />
+</head>
+<body>
+
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="container">
+      <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="support.html">Support</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="privacy.html">Privacy</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="6"  x2="21" y2="6"  />
+          <line x1="3" y1="12" x2="21" y2="12" />
+          <line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <header class="page-header">
+      <div class="container">
+        <h1>Delete Your Account</h1>
+        <p>We're sorry to see you go. This action is permanent and cannot be undone.</p>
+      </div>
+    </header>
+
+    <section class="section">
+      <div class="container" style="max-width:40rem;">
+
+        <div class="alert alert-error" role="alert">
+          <strong>Warning:</strong> Deleting your account will permanently remove all your links, analytics, and profile data. This cannot be recovered.
+        </div>
+
+        <div class="card" style="margin-bottom:1.5rem;">
+          <h2 style="font-size:1.1rem;margin-bottom:1rem;color:var(--color-primary-dk);">What gets deleted</h2>
+          <ul style="list-style:none;display:flex;flex-direction:column;gap:.5rem;">
+            <li>✅ Your profile and all link data</li>
+            <li>✅ Your analytics history</li>
+            <li>✅ Your account credentials</li>
+            <li>✅ Any stored preferences or themes</li>
+          </ul>
+          <p style="margin-top:1rem;font-size:.875rem;color:var(--color-text-muted);">Anonymised, aggregated usage statistics may be retained for up to 90 days as described in our <a href="privacy.html">Privacy Policy</a>.</p>
+        </div>
+
+        <div id="delete-status" hidden></div>
+
+        <form id="delete-form" novalidate>
+          <div class="form-group">
+            <label for="del-email">Email address on your account</label>
+            <input type="email" id="del-email" name="email" autocomplete="email" required placeholder="you@example.com" />
+          </div>
+
+          <div class="form-group">
+            <label for="del-reason">Reason for leaving (optional)</label>
+            <select id="del-reason" name="reason">
+              <option value="">Select a reason…</option>
+              <option value="not-using">Not using TreeLinker anymore</option>
+              <option value="switching">Switching to another service</option>
+              <option value="privacy">Privacy concerns</option>
+              <option value="missing-features">Missing features I need</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="del-confirm">Type <strong>DELETE</strong> to confirm</label>
+            <input type="text" id="del-confirm" name="confirm" required placeholder="DELETE" pattern="DELETE" />
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="background:#DC2626;border-color:#DC2626;width:100%;">
+            Permanently Delete My Account
+          </button>
+        </form>
+
+        <p style="margin-top:1.5rem;font-size:.875rem;color:var(--color-text-muted);text-align:center;">
+          Changed your mind? <a href="index.html">Go back home</a> or <a href="contact.html">contact support</a>.
+        </p>
+
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="nav-logo">🌲 TreeLinker</a>
+          <p>Your smart link-in-bio hub for creators and professionals.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="privacy.html">Privacy Policy</a></li>
+            <li><a href="terms.html">Terms of Service</a></li>
+            <li><a href="delete-account.html">Delete Account</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>&copy; <span id="year"></span> TreeLinker. All rights reserved.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
