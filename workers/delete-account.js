@@ -41,9 +41,16 @@ export default {
       }
       userId = rows[0].id;
       storedHash = rows[0].hash;
-    } catch {
-      return reply({ success: false, reason: 'Service unavailable. Please try again.' }, 503);
-    }
+    } catch (error) {
+        console.error("Neo4j Error:", error);
+        return reply(
+          {
+            success: false,
+            reason: "Service unavailable. Please try again."
+          },
+          503
+        );
+      }
 
     // Verify password against stored bcrypt hash
     const isValid = await bcrypt.compare(password, storedHash);
