@@ -55,7 +55,7 @@
   const deleteBtn    = document.getElementById('delete-btn');
 
   // Replace with your deployed Worker URL
-  const DELETE_ACCOUNT_URL = 'https://treelinker.ahmedmosttamer.workers.dev';
+  const DELETE_ACCOUNT_URL = 'https://treelinker-delete-account.ahmedmosttamer.workers.dev';
 
   if (deleteForm) {
     deleteForm.addEventListener('submit', async function (e) {
