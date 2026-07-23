@@ -46,7 +46,7 @@ export default {
         return reply(
           {
             success: false,
-            reason: "Service unavailable. Please try again."
+            reason: "Service unavailable: " + String(error)
           },
           503
         );
