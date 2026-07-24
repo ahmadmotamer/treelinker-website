@@ -89,7 +89,7 @@ async function neo4j(env, statement, parameters = {}) {
     body: JSON.stringify({ statements: [{ statement, parameters }] }),
   });
 
-  if (!res.ok) throw new Error(`Neo4j HTTP ${res.status}`);
+  if (!res.ok) throw new Error(`Neo4j HTTP ${res.status} at ${env.NEO4J_URI}/db/neo4j/tx/commit (user=${env.NEO4J_USER})`);
 
   const data = await res.json();
   if (data.errors?.length) throw new Error(data.errors[0].message);
