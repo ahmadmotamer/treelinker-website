@@ -124,7 +124,7 @@
       ].join('\n');
 
       const mailto =
-        'mailto:ahmedmosttamer@gmail.com' +
+        'mailto:treelinkerapp@gmail.com' +
         '?subject=' + encodeURIComponent('[TreeLinker] ' + subject) +
         '&body='    + encodeURIComponent(body);
 
