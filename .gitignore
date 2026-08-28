@@ -1,0 +1,13 @@
+# Dependencies. This repository had no .gitignore, and the first `git add -A`
+# swept 4,000 files of node_modules into a commit.
+node_modules/
+workers/node_modules/
+
+# Assembled by build.sh from an allowlist. Output, not source.
+dist/
+
+# Wrangler's local state, including a cached account id.
+.wrangler/
+workers/.wrangler/
+
+.DS_Store

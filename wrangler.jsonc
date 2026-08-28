@@ -1,0 +1,25 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	/**
+	 * The public site: landing page, privacy policy, terms, support, and the
+	 * account-deletion form. Served at treelinker.ahmedmosttamer.workers.dev,
+	 * which is also the URL the app's in-app Privacy Policy screen loads in a
+	 * WebView — so this deployment is what users actually read, and it is a
+	 * release gate for anything that changes what the app collects.
+	 *
+	 * Written down because it was not: the site had been deployed by hand with
+	 * no configuration in the repository, which made "what is live" a question
+	 * only the Cloudflare dashboard could answer and the deploy impossible to
+	 * repeat.
+	 *
+	 * Assets only — there is no Worker script. `./build.sh` assembles `dist/`
+	 * from an explicit allowlist of pages, so nothing ships that was not named:
+	 * pointing this at the repository root would be one forgotten exclusion
+	 * away from publishing `.git` to the open web.
+	 */
+	"name": "treelinker",
+	"compatibility_date": "2026-08-28",
+	"assets": {
+		"directory": "./dist"
+	}
+}
