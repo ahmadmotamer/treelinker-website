@@ -1,0 +1,1885 @@
+{
+  "chrome": {
+    "nav": {
+      "home": "Accueil",
+      "familyTree": "Arbre généalogique",
+      "contacts": "Contacts",
+      "callerId": "Identification d'appel",
+      "guides": "Guides",
+      "compare": "Comparatifs",
+      "language": "Langue",
+      "menu": "Ouvrir le menu",
+      "aria": "Navigation principale"
+    },
+    "groups": {
+      "home": "Accueil",
+      "solutions": "Ce que fait TreeLinker",
+      "guides": "Guides",
+      "compare": "Comparatifs",
+      "features": "Fonctionnalités"
+    },
+    "groupDescriptions": {
+      "guides": "Des marches à suivre concrètes pour cartographier une famille, ranger un carnet d'adresses et savoir qui est qui.",
+      "compare": "Des comparatifs honnêtes entre applications d'arbre généalogique, gestionnaires de contacts et identificateurs d'appel — y compris les cas où TreeLinker n'est pas le bon outil.",
+      "features": "Chaque partie de TreeLinker, expliquée séparément."
+    },
+    "pages": {
+      "relationshipManager": "Gestion des relations",
+      "familyOrganizer": "Organisation familiale",
+      "familyMemoryApp": "Souvenirs de famille"
+    },
+    "labels": {
+      "answer": "Réponse courte",
+      "faq": "Questions fréquentes",
+      "related": "Pages liées",
+      "breadcrumb": "Fil d'Ariane"
+    },
+    "cta": {
+      "title": "Commencez avec les contacts que vous avez déjà",
+      "body": "TreeLinker est gratuit sur Google Play. Sans publicité, sans abonnement, et votre carnet d'adresses ne quitte jamais votre téléphone.",
+      "play": "Télécharger sur Google Play",
+      "secondary": "Voir comment fonctionne l'identification",
+      "note": "Android. Gratuit. Aucun compte nécessaire pour parcourir vos propres contacts.",
+      "identity": ""
+    },
+    "footer": {
+      "legal": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "terms": "Conditions d'utilisation",
+      "deleteAccount": "Supprimer le compte",
+      "support": "Assistance",
+      "rights": "Tous droits réservés.",
+      "madeWith": "Fait avec"
+    },
+    "identity": {
+      "category": "une application de gestion des relations familiales",
+      "description": "TreeLinker est une application de gestion des relations familiales : gestion des contacts, arbre généalogique, relations, groupes, étiquettes, événements, souvenirs et identification d'appel, au même endroit.",
+      "chain": [
+        "gestion des contacts",
+        "arbre généalogique",
+        "relations",
+        "groupes",
+        "étiquettes",
+        "événements",
+        "souvenirs",
+        "identification d'appel"
+      ],
+      "aria": "Ce qu'est TreeLinker"
+    }
+  },
+  "pages": {
+    "": {
+      "title": "TreeLinker — Savoir comment tous vos contacts sont liés",
+      "description": "Une application de relations familiales. Construisez un arbre généalogique à partir des contacts déjà présents sur votre téléphone, rangez vos proches en groupes et étiquettes, gardez événements et souvenirs auprès des personnes concernées, et voyez le lien de parenté de celui qui vous appelle. Gratuit, Android, et votre carnet d'adresses n'est jamais téléversé.",
+      "h1": "Savoir comment tous vos contacts sont liés",
+      "lead": "Votre téléphone connaît déjà le numéro de tout le monde. Il ignore totalement qui ces gens sont les uns pour les autres. TreeLinker ajoute la couche manquante — les relations — et laisse votre carnet d'adresses sur l'appareil.",
+      "answer": "TreeLinker est une application de gestion des relations familiales pour Android. Elle lit les contacts déjà présents sur votre téléphone, vous permet d'enregistrer les liens de parenté et dessine le résultat sous forme d'arbre généalogique. Autour, elle ajoute groupes, étiquettes, événements, souvenirs et une carte d'identification indiquant comment l'appelant vous est lié. Elle est gratuite, sans publicité, et ne téléverse jamais votre carnet d'adresses dans une base partagée.",
+      "featuresTitle": "Une application pour les gens de votre vie",
+      "featuresSubtitle": "Huit parties, une idée : tout est rattaché à une personne.",
+      "cards": [
+        {
+          "h3": "Arbre issu de vos contacts",
+          "p": "Partez du carnet d'adresses que vous avez déjà au lieu de retaper des centaines de noms. Reliez deux personnes et la relation inverse est créée toute seule."
+        },
+        {
+          "h3": "Suggestions de relations",
+          "p": "Quand votre arbre implique une relation — le fils de votre frère est votre neveu — TreeLinker la propose avec un indice de confiance et une explication que vous pouvez accepter, modifier ou ignorer."
+        },
+        {
+          "h3": "Groupes et étiquettes",
+          "p": "Les groupes sont des espaces partagés pour une famille, un quartier ou une promotion. Les étiquettes sont des libellés privés — Médecin, Plombier, Le Caire — qui traversent tout."
+        },
+        {
+          "h3": "Événements et dates clés",
+          "p": "Anniversaires, mariages et commémorations vivent auprès des personnes concernées, et les prochains apparaissent sur votre écran d'accueil."
+        },
+        {
+          "h3": "Souvenirs",
+          "p": "Récits, événements et dates clés avec photos, dates et lieux, rattachés à la personne concernée plutôt que perdus dans la galerie."
+        },
+        {
+          "h3": "Identification d'appel",
+          "p": "Quand quelqu'un de vos contacts appelle, TreeLinker montre son lien avec vous, pas seulement un nom. Rien n'est interrogé en ligne, rien n'est publié."
+        }
+      ],
+      "stepsTitle": "Opérationnel en quelques minutes",
+      "steps": [
+        {
+          "h3": "Ouvrez vos contacts",
+          "p": "TreeLinker lit le carnet d'adresses déjà présent sur votre téléphone. Rien n'est téléversé, rien n'est retapé."
+        },
+        {
+          "h3": "Reliez deux personnes",
+          "p": "Dites qu'Omar est votre frère. La relation inverse est créée automatiquement et votre arbre cesse d'être vide."
+        },
+        {
+          "h3": "Gardez le contexte",
+          "p": "Ajoutez groupes, étiquettes, dates clés et souvenirs au fil de l'eau. L'arbre devient un registre des personnes, pas seulement de leurs numéros."
+        }
+      ],
+      "sections": [
+        {
+          "h2": "Le problème d'un carnet d'adresses ordinaire",
+          "body": [
+            "Une liste de contacts stocke un nom et un numéro. Elle ne stocke pas la seule chose qu'on oublie vraiment : qui est cette personne pour vous, et pour tous les autres de la liste.",
+            "Dans un carnet de plusieurs milliers d'entrées, ce manque coûte cher. Quatre personnes partagent un prénom. Un cousin croisé deux fois appelle et vous n'arrivez pas à le situer. Quelqu'un meurt et personne ne peut dire comment la famille était reliée. L'information existait — elle n'avait simplement nulle part où vivre."
+          ]
+        },
+        {
+          "h2": "Ce qu'ajoute TreeLinker",
+          "body": [
+            "TreeLinker conserve le carnet d'adresses et ajoute les relations entre les personnes qu'il contient. Dès qu'elles existent, tout le reste suit : l'arbre se dessine, les proches se regroupent, un appelant se situe, et un souvenir se rattache aux personnes qui étaient là."
+          ],
+          "list": [
+            "Sept types de relations — parent, enfant, frère ou sœur, conjoint, ami, proche, autre — chacun avec sa couleur et son icône",
+            "Relations réciproques automatiques : vous enregistrez un sens, l'autre est créé",
+            "Suggestions de relations avec indice de confiance et explication en langage clair",
+            "Groupes avec invitations, sondages et discussions nommées",
+            "Étiquettes avec contacts assignés, couleurs et icônes",
+            "Une chronologie sur chaque contact, appels entrants compris",
+            "Récits, événements et dates clés avec photos, dates et lieux",
+            "Des arbres partageables avec un autre utilisateur de TreeLinker, qui verra les mêmes personnes sous les noms de son propre carnet"
+          ]
+        },
+        {
+          "h2": "Privé par construction, pas par promesse",
+          "body": [
+            "TreeLinker fonctionne d'abord en local. Vos contacts, relations et souvenirs sont stockés sur votre appareil, et les synchroniser avec votre compte est quelque chose que vous activez, pas quelque chose qui se produit par défaut.",
+            "L'identification d'appel en est l'illustration la plus nette. TreeLinker n'a aucune base de numéros et ne peut nommer un inconnu, parce qu'elle n'en collecte jamais. Si un numéro entrant n'appartient pas à quelqu'un que vous connaissez déjà, rien du tout ne s'affiche."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker téléverse-t-elle mes contacts ?",
+          "a": "Non. Votre carnet d'adresses est lu sur l'appareil et y reste. TreeLinker ne construit pas d'annuaire partagé de numéros et ne peut dire à personne à qui appartient un numéro."
+        },
+        {
+          "q": "TreeLinker est-elle gratuite ?",
+          "a": "Oui. Gratuite sur Google Play, sans publicité ni abonnement."
+        },
+        {
+          "q": "Existe-t-il une version iPhone ?",
+          "a": "Pas encore. TreeLinker est aujourd'hui disponible uniquement sur Android."
+        },
+        {
+          "q": "Ma famille doit-elle l'installer aussi ?",
+          "a": "Non. Vous pouvez cartographier toute votre famille seul. Partager un arbre avec un autre utilisateur est facultatif et ponctuel : rien ne continue à se synchroniser ensuite."
+        }
+      ]
+    },
+    "family-tree-app": {
+      "title": "Application d'arbre généalogique partant de vos contacts — TreeLinker",
+      "description": "La plupart des applications d'arbre généalogique obligent à retaper chaque nom. TreeLinker construit l'arbre à partir des contacts déjà sur votre téléphone, crée les relations inverses automatiquement et suggère celles que votre arbre implique.",
+      "h1": "Une application d'arbre généalogique qui part de vos contacts",
+      "lead": "Les noms sont déjà dans votre téléphone. Un arbre généalogique ne devrait pas commencer par un formulaire vide.",
+      "answer": "TreeLinker est une application d'arbre généalogique pour Android qui construit l'arbre à partir des contacts déjà présents sur votre téléphone. Vous choisissez deux personnes, indiquez leur lien, et la relation inverse est créée pour vous. À mesure que l'arbre grandit, elle propose les relations déductibles — l'enfant de votre frère ou sœur est votre neveu ou nièce — avec un indice de confiance et une explication. Ce n'est pas un service de généalogie : ni registres historiques ni correspondance ADN, car elle est faite pour la famille vivante de votre carnet d'adresses.",
+      "sections": [
+        {
+          "h2": "Pourquoi partir des contacts compte",
+          "body": [
+            "Le reproche le plus fréquent fait aux logiciels d'arbre généalogique n'est pas l'exactitude mais l'effort et la lenteur : chaque personne doit être saisie, et le bénéfice n'arrive qu'après des dizaines d'entrées.",
+            "Si les personnes sont déjà dans votre carnet, cette étape disparaît entièrement. Vous reliez celles que vous avez, et l'arbre a des branches en une ou deux minutes."
+          ]
+        },
+        {
+          "h2": "Des relations, pas seulement des cases",
+          "body": [
+            "TreeLinker prend en charge sept types de relations, chacun avec sa couleur et son icône, pour qu'un arbre dense reste lisible.",
+            "Enregistrer un sens enregistre l'autre. Si vous dites qu'Omar est votre frère, sa fiche dit que vous êtes le sien : vous ne maintenez jamais les deux moitiés à la main."
+          ]
+        },
+        {
+          "h2": "Des suggestions que vous pouvez refuser",
+          "body": [
+            "Quand les relations existantes en impliquent une nouvelle, TreeLinker la propose au lieu de l'écrire. Chaque suggestion porte un indice de confiance et une phrase expliquant de quelles relations elle découle ; en cas d'ambiguïté, on vous demande le type.",
+            "Rien n'entre dans votre arbre parce qu'un logiciel a deviné. Tout ce qui s'y trouve y est parce que vous l'avez accepté."
+          ]
+        },
+        {
+          "h2": "Ce qu'elle ne fait délibérément pas",
+          "body": [
+            "TreeLinker n'a ni collection de registres historiques, ni recensements, ni correspondance ADN. Si votre objectif est de rechercher des ancêtres nés il y a deux cents ans, le bon outil est un service de généalogie, pas TreeLinker.",
+            "Elle est faite pour l'autre moitié du problème : la famille vivante à qui vous parlez et dont personne n'a jamais écrit les relations."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dois-je saisir chaque proche à la main ?",
+          "a": "Non. TreeLinker lit les contacts déjà sur votre téléphone et vous reliez ceux qui s'y trouvent. Vous ne saisissez que les proches dont vous n'avez aucune fiche."
+        },
+        {
+          "q": "Puis-je exporter l'arbre au format GEDCOM ?",
+          "a": "Pas aujourd'hui. L'import et l'export GEDCOM ne sont pas encore pris en charge."
+        },
+        {
+          "q": "Recherche-t-elle dans des registres historiques ?",
+          "a": "Non. Aucune collection de registres ni correspondance ADN. TreeLinker cartographie la famille vivante de votre carnet d'adresses."
+        },
+        {
+          "q": "Fonctionne-t-elle hors ligne ?",
+          "a": "Oui. L'arbre est stocké sur votre appareil et se consulte et se modifie sans connexion."
+        }
+      ]
+    },
+    "family-contact-manager": {
+      "title": "Gestionnaire de contacts familiaux — ranger par lien de parenté | TreeLinker",
+      "description": "Un gestionnaire de contacts qui organise les personnes selon leur lien avec vous, pas seulement par nom. Groupes, étiquettes, chronologies par contact et dates clés, stockés sur votre appareil.",
+      "h1": "Un gestionnaire de contacts organisé par relation",
+      "lead": "Le nom et le numéro sont ce qu'il y a de moins intéressant chez les gens de votre téléphone.",
+      "answer": "TreeLinker est un gestionnaire de contacts pour Android qui organise votre carnet d'adresses par relation plutôt qu'alphabétiquement. Chaque contact peut porter des relations avec d'autres personnes, des appartenances à des groupes, des étiquettes privées, une chronologie de ce qui s'est passé entre vous, des dates clés et des souvenirs partagés. Elle lit les contacts déjà présents sur votre appareil, les y laisse, et ajoute le contexte qu'un carnet ordinaire n'a nulle part où ranger.",
+      "sections": [
+        {
+          "h2": "Ce que stocke une application de contacts ordinaire",
+          "body": [
+            "Un carnet standard enregistre un nom, un numéro, parfois un e-mail et une société. C'est assez pour passer un appel et pas pour grand-chose d'autre.",
+            "Il ne peut pas vous dire que l'appelante est la cousine de votre femme, que vous vous êtes parlé pour la dernière fois à un mariage en juin, ou qu'il s'agit de l'électricien qui a fait du bon travail il y a deux ans. Cette information est dans votre tête et nulle part ailleurs."
+          ]
+        },
+        {
+          "h2": "Ce que stocke TreeLinker à la place",
+          "body": [
+            "Chaque contact dans TreeLinker est une personne avec une place dans votre vie, pas une ligne dans une liste."
+          ],
+          "list": [
+            "Des relations avec d'autres contacts, dessinées en arbre généalogique",
+            "Des groupes — une famille, un quartier, une promotion — avec invitations et espaces partagés",
+            "Des étiquettes comme Médecin, Plombier ou Le Caire, privées, avec couleur et icône",
+            "Une chronologie de notes et d'appels entrants, la plus récente en tête, l'essentiel épinglé",
+            "Des dates clés et des événements qui remontent à l'approche",
+            "Des récits et souvenirs avec photos, dates et lieux"
+          ]
+        },
+        {
+          "h2": "Une recherche qui va au-delà du nom",
+          "body": [
+            "La liste filtre pendant la frappe contre un index préparé, de sorte que plusieurs milliers de contacts restent rapides. Groupes et étiquettes ont chacun leur recherche sur les contacts assignés.",
+            "Comme une personne peut appartenir à plusieurs groupes et porter plusieurs étiquettes à la fois, on l'atteint quel que soit l'angle sous lequel on y pense."
+          ]
+        },
+        {
+          "h2": "Où vivent vos contacts",
+          "body": [
+            "TreeLinker stocke votre carnet d'adresses sur votre appareil. La synchronisation avec votre compte est facultative, et il n'existe aucun annuaire partagé que d'autres pourraient consulter.",
+            "TreeLinker n'écrit jamais non plus d'elle-même dans le carnet de votre téléphone. Ajouter quelqu'un à vos contacts est toujours une décision délibérée de votre part."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Fusionne-t-elle les doublons ?",
+          "a": "Elle les regroupe à l'affichage, pour qu'une même personne n'apparaisse pas deux fois dans un arbre ou un groupe. Elle ne fusionne pas encore les fiches du carnet de votre téléphone."
+        },
+        {
+          "q": "Sauvegarde-t-elle mes contacts ?",
+          "a": "Pas aujourd'hui en tant que fonction dédiée. Les contacts se synchronisent avec votre compte TreeLinker si vous activez la synchronisation."
+        },
+        {
+          "q": "Puis-je l'utiliser sans compte ?",
+          "a": "Un compte est nécessaire pour tout ce qui se synchronise ou se partage, comme les groupes et le partage d'arbres."
+        },
+        {
+          "q": "A-t-elle besoin de mon journal d'appels ?",
+          "a": "Non. TreeLinker ne demande jamais l'accès au journal d'appels. Elle voit les appels entrants via le rôle de filtrage d'appels d'Android, un appel à la fois."
+        }
+      ]
+    },
+    "relationship-manager": {
+      "title": "Gestion des relations — savoir qui est qui | TreeLinker",
+      "description": "Enregistrez comment les gens de votre vie sont reliés, voyez le chemin entre deux d'entre eux et gardez une chronologie de ce qui s'est passé avec chacun.",
+      "h1": "Une gestion des relations pour les gens que vous connaissez vraiment",
+      "lead": "Les CRM personnels suivent votre réseau professionnel. TreeLinker suit la famille que vous êtes censé déjà comprendre.",
+      "answer": "TreeLinker est un gestionnaire de relations pour Android. Il enregistre comment les personnes de votre carnet sont reliées à vous et entre elles, le dessine en arbre, tient une chronologie sur chaque contact et utilise les mêmes informations pour vous dire comment l'appelant vous est lié. Contrairement à un CRM personnel professionnel, il est construit autour des familles et non des clients, et stocke tout sur votre appareil par défaut.",
+      "sections": [
+        {
+          "h2": "L'information que personne n'écrit",
+          "body": [
+            "Les familles portent beaucoup de savoir non documenté : qui est le beau-frère de qui, quel cousin appartient à quel oncle, pourquoi deux branches ne se parlent pas. Une ou deux personnes par famille le détiennent, et il disparaît avec elles.",
+            "TreeLinker donne à ce savoir un lieu où vivre qui ne soit pas la mémoire de quelqu'un."
+          ]
+        },
+        {
+          "h2": "Une chronologie sur chaque personne",
+          "body": [
+            "Chaque contact a une chronologie antéchronologique. Vous ajoutez des notes — « a refait le câblage de la cuisine », « n'a pas répondu », « excellent travail, prix juste » — et les appels entrants y figurent à côté.",
+            "Ce que vous voulez garder en haut peut être épinglé, et c'est dans les éléments épinglés que la carte d'identification puise."
+          ]
+        },
+        {
+          "h2": "Partager ce que vous avez cartographié",
+          "body": [
+            "Un arbre que vous avez construit peut être envoyé à un autre utilisateur de TreeLinker. Il verra les mêmes personnes, mais sous les noms de son propre carnet : vos noms ne sont jamais imposés à ses contacts.",
+            "Le transfert est ponctuel. Rien ne continue à se synchroniser ensuite, et l'expéditeur n'apprend rien de ce que le destinataire en fait."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "L'application me rappelle-t-elle de donner des nouvelles ?",
+          "a": "Pas encore. Les dates clés et les événements à venir remontent d'eux-mêmes, mais il n'existe aujourd'hui aucun rappel de suivi."
+        },
+        {
+          "q": "Est-ce un CRM professionnel ?",
+          "a": "Il peut contenir des contacts professionnels via les étiquettes, mais il est conçu autour des relations familiales, pas de tunnels de vente."
+        },
+        {
+          "q": "Qu'advient-il de mes données si j'arrête ?",
+          "a": "Vous pouvez supprimer votre compte depuis l'application, ce qui retire vos données de l'appareil et des serveurs."
+        }
+      ]
+    },
+    "family-organizer": {
+      "title": "Organisation familiale — groupes, étiquettes et décisions partagées | TreeLinker",
+      "description": "Rangez vos proches dans des groupes privés, étiquetez vos contacts avec vos propres libellés et tranchez les décisions familiales avec des sondages et des discussions nommées qui restent retrouvables.",
+      "h1": "Une organisation familiale où les décisions restent retrouvables",
+      "lead": "Les conversations de groupe enterrent tout. Une discussion nommée avec un sondage attaché, non.",
+      "answer": "TreeLinker organise les personnes de votre carnet de deux façons à la fois. Les groupes sont des espaces partagés, sur invitation uniquement, pour une famille, un quartier ou une promotion, où les membres peuvent lancer des sondages et tenir des discussions nommées. Les étiquettes sont des libellés privés — Médecin, Plombier, Le Caire — que vous seul voyez et qui traversent tous les groupes. Une personne peut appartenir à plusieurs groupes et porter plusieurs étiquettes en même temps.",
+      "sections": [
+        {
+          "h2": "Les groupes sont partagés, les étiquettes vous appartiennent",
+          "body": [
+            "Un groupe a des membres, une photo de couverture, une icône et un écran de détail, et l'on y entre sur invitation. Ce qui s'y passe est visible de tous ses membres.",
+            "Une étiquette a un nom, une couleur, une icône, une description facultative et une liste de contacts assignés. Personne d'autre ne voit vos étiquettes, et c'est ce qui les rend utiles pour des libellés comme Médecin ou Difficile."
+          ]
+        },
+        {
+          "h2": "Des sondages, pour la décision sans cesse reposée",
+          "body": [
+            "N'importe quel membre peut créer un sondage avec une question et quelques options. Chacun a une voix ; la changer remplace l'ancienne au lieu de s'y ajouter, et l'on voit qui a choisi quoi. Le créateur peut le clore une fois la question tranchée.",
+            "Il existe parce que « où mange-t-on ? » est ce qu'un groupe familial a le plus souvent besoin de trancher, et qu'un fil de discussion est un mauvais instrument pour cela."
+          ]
+        },
+        {
+          "h2": "Des discussions que l'on peut rouvrir",
+          "body": [
+            "Une discussion a un titre — « Dîner de l'Aïd 2026 » — et tout ce qui y est publié y reste. Des mois plus tard, c'est encore un élément nommé dans la liste du groupe au lieu de quatre cents messages plus haut.",
+            "Un sondage peut y être attaché, pour que le débat et son issue restent au même endroit."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Les autres voient-ils mes étiquettes ?",
+          "a": "Non. Les étiquettes sont privées à votre compte. Les groupes sont partagés ; les étiquettes jamais."
+        },
+        {
+          "q": "Peut-on rejoindre un groupe sans invitation ?",
+          "a": "Non. Les groupes sont sur invitation uniquement."
+        },
+        {
+          "q": "Un contact peut-il être dans plusieurs groupes ?",
+          "a": "Oui, et porter autant d'étiquettes que vous voulez en même temps."
+        }
+      ]
+    },
+    "family-memory-app": {
+      "title": "Application de souvenirs familiaux — récits et photos auprès des personnes concernées | TreeLinker",
+      "description": "Gardez récits de famille, événements et dates clés rattachés aux personnes dont ils parlent, avec photos, dates et lieux, plutôt que dispersés dans une galerie.",
+      "h1": "Une application de souvenirs construite autour des personnes",
+      "lead": "Une photo dans une galerie est un fichier. La même photo rattachée à votre grand-mère est un témoignage.",
+      "answer": "TreeLinker garde les souvenirs de famille rattachés aux personnes concernées. Un souvenir est un récit partagé, un événement ou une date clé, et peut porter des photos, une date et un lieu. Comme les souvenirs sont accrochés à un contact plutôt que posés dans un fil, ouvrir une personne montre ce que vous avez d'elle, et les dates clés enregistrées reviennent chaque année.",
+      "sections": [
+        {
+          "h2": "Trois sortes de souvenirs",
+          "body": [
+            "Un récit est quelque chose qui s'est passé et qui mérite d'être raconté. Un événement a une date et des gens qui y étaient. Une date clé est un anniversaire qui revient : une naissance, un mariage, le jour d'un décès.",
+            "La distinction compte parce qu'ils se comportent différemment : les dates clés reviennent chaque année et figurent dans vos événements à venir ; les récits restent simplement là où vous les avez mis."
+          ]
+        },
+        {
+          "h2": "Rattaché à une personne, pas à un fil",
+          "body": [
+            "Ouvrir un contact montre les souvenirs où il figure. C'est l'inverse d'un fil social, où seule la chose la plus récente est retrouvable.",
+            "Les groupes ont aussi leurs propres souvenirs, de sorte qu'un groupe familial peut garder le voyage auquel toute la famille est allée au lieu de le classer sous une seule personne."
+          ]
+        },
+        {
+          "h2": "Ce que ce n'est pas",
+          "body": [
+            "TreeLinker n'est pas un service de sauvegarde de photos et ne cherche pas à en remplacer un. Elle garde les photos qui donnent son sens à un souvenir, pas toutes celles que vous avez prises."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je ajouter de la vidéo ?",
+          "a": "Pas actuellement. Les souvenirs acceptent photos, dates et lieux."
+        },
+        {
+          "q": "Les souvenirs sont-ils partagés automatiquement ?",
+          "a": "Non. Les souvenirs rattachés à un contact sont les vôtres. Ceux d'un groupe sont visibles de ses membres."
+        },
+        {
+          "q": "Les dates clés me préviennent-elles ?",
+          "a": "Les dates clés proches remontent dans l'application à leur approche. Il n'y a pas encore de notifications push."
+        }
+      ]
+    },
+    "caller-identification": {
+      "title": "Identification d'appel qui ne téléverse jamais vos contacts — TreeLinker",
+      "description": "La plupart des applications d'identification d'appel fonctionnent en téléversant le carnet d'adresses de tout le monde dans une base partagée. TreeLinker n'en a aucune. Elle montre le lien de l'appelant avec vous à partir des seuls contacts déjà présents sur votre téléphone.",
+      "h1": "Identification d'appel qui ne téléverse jamais vos contacts",
+      "lead": "Le marché habituel : votre carnet d'adresses devient une pièce d'un annuaire mondial. TreeLinker ne passe pas ce marché.",
+      "answer": "TreeLinker affiche une carte lorsque quelqu'un de vos propres contacts vous appelle, indiquant son lien avec vous — par exemple « Nadia — sœur de Safa » — plutôt qu'un simple nom. Tout ce qui y figure vient de votre appareil. TreeLinker n'a aucune base de numéros, ne peut pas vous dire à qui appartient un numéro inconnu, et ne téléverse jamais votre carnet d'adresses. Si l'appelant n'est pas quelqu'un que vous connaissez déjà, aucune carte ne s'affiche.",
+      "sections": [
+        {
+          "h2": "Comment fonctionnent les applications ordinaires",
+          "body": [
+            "Les grands services d'identification savent nommer des inconnus parce qu'ils ont collecté des centaines de millions de carnets d'adresses. Quand quelqu'un installe l'application et accorde l'accès aux contacts, toutes les personnes de son téléphone rejoignent un annuaire partagé — y compris des gens qui n'ont rien installé et n'ont jamais consenti.",
+            "C'est pour cela que ces applications peuvent nommer un numéro inconnu, et c'est aussi le reproche le plus fréquent qu'on leur fait."
+          ]
+        },
+        {
+          "h2": "Comment TreeLinker procède",
+          "body": [
+            "TreeLinker répond à une autre question. Non pas « à qui appartient ce numéro », qui suppose de collecter, mais « comment cette personne m'est-elle liée », qui ne suppose que ce qui se trouve déjà sur votre téléphone.",
+            "Le nom et la relation sur la carte sont lus dans vos propres contacts et votre propre arbre. Pendant que le téléphone sonne, rien n'est récupéré sur le réseau, et rien de l'appel n'est publié à qui que ce soit."
+          ]
+        },
+        {
+          "h2": "Le cas quotidien, ce ne sont pas les inconnus",
+          "body": [
+            "Dans un carnet de milliers d'entrées, le problème n'est généralement pas un numéro inconnu mais un nom connu que vous n'arrivez pas à situer : quatre personnes sont enregistrées sous Nadia et c'est celle dont vous avez oublié le lien.",
+            "C'est à cela que sert la carte. Elle situe, elle n'identifie pas."
+          ]
+        },
+        {
+          "h2": "Le « nom d'appel » sur un contact",
+          "body": [
+            "Chaque contact comporte une section montrant exactement ce qui apparaîtra quand cette personne appellera. TreeLinker le recommande à partir des relations déjà enregistrées, et vous pouvez l'accepter, le modifier ou l'effacer.",
+            "C'est une note privée. Elle n'est jamais montrée à la personne qu'elle décrit, jamais aux autres utilisateurs, et n'est publiée nulle part."
+          ]
+        }
+      ],
+      "table": {
+        "caption": "En quoi TreeLinker diffère d'une application d'identification classique",
+        "head": [
+          "",
+          "TreeLinker",
+          "Applications d'identification classiques"
+        ],
+        "rows": [
+          [
+            "Nomme les numéros inconnus",
+            "Non — délibérément",
+            "Oui"
+          ],
+          [
+            "Téléverse votre carnet d'adresses",
+            "Jamais",
+            "Le plus souvent, pour bâtir l'annuaire"
+          ],
+          [
+            "Montre le lien avec l'appelant",
+            "Oui",
+            "Non"
+          ],
+          [
+            "Blocage du spam et des fraudes",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Connexion nécessaire pendant la sonnerie",
+            "Non",
+            "Généralement"
+          ],
+          [
+            "Publicité",
+            "Aucune",
+            "Courante dans les versions gratuites"
+          ],
+          [
+            "Prix",
+            "Gratuit",
+            "Version gratuite avec option payante"
+          ]
+        ],
+        "note": "Si vous avez besoin d'identifier des numéros inconnus et de bloquer le spam, une application d'identification classique est le bon outil : TreeLinker ne fait ni l'un ni l'autre et n'en a pas l'intention."
+      },
+      "faq": [
+        {
+          "q": "TreeLinker peut-elle me dire à qui appartient un numéro inconnu ?",
+          "a": "Non. Elle n'a pas de base numéro-vers-nom et refuse délibérément de répondre à cette question. Un service qui y répond permet à n'importe qui de parcourir l'espace de numérotation et de moissonner des identités."
+        },
+        {
+          "q": "Bloque-t-elle les appels indésirables ?",
+          "a": "Non. TreeLinker n'a pas de base de spam et ne bloque pas les appels."
+        },
+        {
+          "q": "La personne décrite voit-elle mon nom d'appel ?",
+          "a": "Non. C'est une note privée visible de vous seul, sur votre appareil et dans votre compte."
+        },
+        {
+          "q": "Quelles autorisations lui faut-il ?",
+          "a": "Le rôle de filtrage d'appels d'Android, pour voir le numéro entrant, et l'autorisation de s'afficher par-dessus les autres applications. L'accès au journal d'appels n'est jamais demandé."
+        },
+        {
+          "q": "L'identification d'appel existe-t-elle sur iPhone ?",
+          "a": "Non. Android uniquement, car iOS ne propose pas de rôle de filtrage d'appels équivalent."
+        }
+      ]
+    },
+    "guides/how-to-create-a-family-tree": {
+      "title": "Comment créer un arbre généalogique à partir de vos contacts",
+      "description": "Une marche à suivre : partir des contacts que vous avez déjà, relier la première relation, laisser l'inverse se créer, puis s'étendre à partir de là.",
+      "h1": "Comment créer un arbre généalogique",
+      "lead": "L'arbre généalogique le plus rapide est celui qu'on n'a pas à taper.",
+      "answer": "Partez des personnes déjà présentes dans votre téléphone plutôt que d'un formulaire vide. Choisissez-vous, reliez un proche — un parent ou un frère — et la relation inverse est créée automatiquement. Progressez ensuite vers l'extérieur, personne par personne, en acceptant les relations déduites à mesure que la forme se dessine. Un arbre de vingt personnes prend ainsi quelques minutes, contre une heure de saisie dans un outil généalogique classique.",
+      "sections": [
+        {
+          "h2": "1. Commencez par vous",
+          "body": [
+            "Votre propre fiche est l'ancre. Tout chemin de relation se mesure finalement depuis elle, et la carte d'identification décrit les personnes par rapport à vous."
+          ]
+        },
+        {
+          "h2": "2. Reliez d'abord les plus proches",
+          "body": [
+            "Parents, frères et sœurs, conjoint, enfants. Ce sont les relations qui produiront le plus de déductions ensuite, car presque toutes les autres liaisons d'une famille passent par l'une d'elles.",
+            "N'enregistrez qu'un sens. L'autre est créé pour vous."
+          ]
+        },
+        {
+          "h2": "3. Progressez par la famille, pas par l'alphabet",
+          "body": [
+            "Suivez la famille, pas la liste de contacts. Depuis un parent, ajoutez ses frères et sœurs ; depuis eux, leurs enfants. Chaque ajout améliore les suggestions suivantes.",
+            "Si une relation est ambiguë, on vous demande le type au lieu d'en choisir un à votre place."
+          ]
+        },
+        {
+          "h2": "4. Acceptez ou refusez les suggestions",
+          "body": [
+            "Dès qu'il y a assez de structure, TreeLinker propose des relations avec un indice de confiance et une explication. Acceptez les bonnes, ignorez le reste. Rien n'est écrit sans vous."
+          ]
+        },
+        {
+          "h2": "5. Ajoutez le contexte pendant que vous vous en souvenez",
+          "body": [
+            "Des dates clés, une étiquette, une note dans la chronologie. C'est la partie que l'on repousse, puis que l'on perd."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Combien de personnes faut-il pour que ce soit utile ?",
+          "a": "L'arbre cesse d'être vide dès la première relation. Les suggestions deviennent utiles autour de dix à quinze personnes."
+        },
+        {
+          "q": "Et si un proche n'est pas dans mes contacts ?",
+          "a": "Vous pouvez l'ajouter manuellement. Aucun numéro n'est requis."
+        },
+        {
+          "q": "Deux personnes peuvent-elles partager un arbre ?",
+          "a": "Vous pouvez envoyer un arbre à un autre utilisateur, qui enregistre les relations dans le sien. C'est un transfert ponctuel, pas un document partagé."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-contacts": {
+      "title": "Comment organiser ses contacts familiaux",
+      "description": "Une méthode pour un grand carnet d'adresses : les relations d'abord, puis les groupes pour les espaces partagés, puis les étiquettes privées pour tout ce qui les traverse.",
+      "h1": "Comment organiser ses contacts familiaux",
+      "lead": "Trois passes sur un carnet d'adresses que vous alimentez depuis dix ans.",
+      "answer": "Organisez en trois passes. D'abord, enregistrez les relations, pour que le carnet sache qui appartient à qui. Ensuite, créez des groupes pour les vrais espaces partagés : famille proche, famille de votre conjoint, voisinage. Enfin, ajoutez des étiquettes privées pour les libellés qui traversent les groupes, comme Médecin, Plombier ou une ville. Dans cet ordre : les relations rendent les groupes évidents, et les groupes rendent évidentes les étiquettes manquantes.",
+      "sections": [
+        {
+          "h2": "Première passe : les relations",
+          "body": [
+            "Commencez par les personnes que vous contactez le plus. Vingt relations suffisent à faire apparaître la structure de la famille, et c'est la passe qui rend les deux autres rapides."
+          ]
+        },
+        {
+          "h2": "Deuxième passe : les groupes",
+          "body": [
+            "Un groupe devrait correspondre à quelque chose de réel : une famille qui se réunit vraiment, une rue, une promotion. Si personne n'y serait jamais invité, c'est une étiquette, pas un groupe.",
+            "Les groupes ont une photo de couverture, une icône et une liste de membres, et l'on y entre sur invitation."
+          ]
+        },
+        {
+          "h2": "Troisième passe : les étiquettes",
+          "body": [
+            "Les étiquettes sont privées et traversent tout : Médecin, Électricien, Travail, Université, Urgence, un nom de ville. Chacune a une couleur et une icône pour que la liste reste lisible d'un coup d'œil.",
+            "TreeLinker suggérera des étiquettes qu'elle peut déduire de vos contacts. Comme pour les relations, une suggestion est une proposition : rien n'est créé sans vous."
+          ]
+        },
+        {
+          "h2": "Ce qu'il faut sauter",
+          "body": [
+            "N'essayez pas d'étiqueter tout le monde. La valeur est dans les vingt contacts que vous devez vraiment retrouver, pas dans une taxonomie complète que vous ne maintiendrez jamais."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Groupes ou étiquettes ?",
+          "a": "Si d'autres doivent le voir et y être invités, prenez un groupe. Si c'est un libellé privé pour votre propre classement, prenez une étiquette."
+        },
+        {
+          "q": "Puis-je renommer une étiquette plus tard ?",
+          "a": "Oui. Les étiquettes se modifient ou se suppriment depuis l'écran d'organisation."
+        },
+        {
+          "q": "Y a-t-il une limite ?",
+          "a": "Aucune limite pratique de groupes, d'étiquettes ou de membres."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-family-relationships": {
+      "title": "Comment suivre les relations familiales",
+      "description": "Enregistrez les liens une fois, laissez les relations réciproques et la déduction faire l'entretien, et tenez une chronologie pour vous souvenir aussi de ce qui s'est passé.",
+      "h1": "Comment suivre les relations familiales",
+      "lead": "Le problème n'est pas d'apprendre qui est qui, mais de s'en souvenir cinq ans plus tard.",
+      "answer": "Enregistrez chaque relation une fois, dans un sens, et laissez l'inverse se créer automatiquement : c'est ce qui empêche une carte familiale de pourrir. Laissez l'application proposer les relations impliquées par les existantes au lieu de saisir chaque cousin à la main. Tenez ensuite une courte chronologie sur les personnes qui comptent, pour disposer d'un registre de ce qui s'est passé et pas seulement d'un schéma de qui est parent de qui.",
+      "sections": [
+        {
+          "h2": "Enregistrer une fois, dans un sens",
+          "body": [
+            "Les cartes familiales tenues à la main échouent parce que chaque fait doit être saisi deux fois et qu'une moitié finit par être oubliée. Les relations réciproques suppriment complètement ce mode de défaillance."
+          ]
+        },
+        {
+          "h2": "Laisser la déduction faire le fastidieux",
+          "body": [
+            "La plupart des relations d'une famille sont impliquées par d'autres : l'enfant d'un frère ou d'une sœur, le parent du conjoint, le frère d'un parent. Rien de tout cela n'a besoin d'être saisi si les liens sous-jacents existent.",
+            "TreeLinker les propose avec un indice de confiance et une explication, et vous interroge en cas d'ambiguïté."
+          ]
+        },
+        {
+          "h2": "Tenir une chronologie, pas seulement un arbre",
+          "body": [
+            "L'arbre donne la structure. La chronologie donne l'histoire : quand vous vous êtes parlé pour la dernière fois, ce qui a été dit, ce qui s'est bien passé.",
+            "Les entrées vont de la plus récente à la plus ancienne, et l'essentiel peut être épinglé."
+          ]
+        },
+        {
+          "h2": "Exploiter les appels que vous recevez déjà",
+          "body": [
+            "Les appels entrants de personnes que vous connaissez sont consignés sur leur chronologie, de sorte que l'historique de contact se construit tout seul."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Et si j'enregistre une relation de travers ?",
+          "a": "Les relations se modifient ou se suppriment, et le côté réciproque est mis à jour avec elles."
+        },
+        {
+          "q": "Suit-elle les appels sortants ?",
+          "a": "Non. TreeLinker ne lit jamais votre journal d'appels. Seuls les appels entrants vus via le rôle de filtrage sont consignés."
+        },
+        {
+          "q": "Puis-je voir comment deux personnes sont reliées ?",
+          "a": "L'arbre montre les liens autour d'une personne. Une requête directe « chemin entre deux personnes » n'est pas encore disponible."
+        }
+      ]
+    },
+    "guides/how-to-organize-relatives": {
+      "title": "Comment organiser ses proches en groupes",
+      "description": "Comment découper une famille élargie en groupes qui restent utiles, et quand une étiquette privée est le meilleur outil.",
+      "h1": "Comment organiser ses proches",
+      "lead": "Un seul groupe nommé « Famille » avec quatre-vingt-dix personnes revient à n'avoir aucun groupe.",
+      "answer": "Découpez une famille élargie selon les lignes qui la découpent déjà dans la vraie vie : votre famille proche, celle de votre conjoint, la branche de chaque grand-parent, les personnes d'une même ville. Un groupe devrait être quelque chose où l'on pourrait plausiblement être invité et publier. Ce qui est en réalité un libellé privé sur une personne — son métier, comment vous la connaissez, où elle habite — relève d'une étiquette, car les étiquettes n'appartiennent qu'à vous et traversent tous les groupes.",
+      "sections": [
+        {
+          "h2": "Suivre les vraies divisions",
+          "body": [
+            "Les familles ont déjà une structure : des branches, des foyers, ceux qui se retrouvent aux fêtes et ceux qu'on voit aux mariages. Les groupes fonctionnent quand ils correspondent à un rassemblement qui a vraiment lieu."
+          ]
+        },
+        {
+          "h2": "Garder des groupes assez petits pour être utilisés",
+          "body": [
+            "Un groupe trop grand est mis en sourdine, et un groupe en sourdine pourrait tout aussi bien ne pas exister. Si un sondage y serait sans objet pour la moitié des membres, scindez-le."
+          ]
+        },
+        {
+          "h2": "Utiliser les étiquettes pour le transversal",
+          "body": [
+            "Les proches médecins, les proches au Caire, ceux qu'on ne voit qu'aux enterrements. Cela traverse toutes les branches et n'appartient à aucun espace partagé.",
+            "Les étiquettes étant privées, vous pouvez étiqueter honnêtement."
+          ]
+        },
+        {
+          "h2": "Laisser l'arbre porter la filiation",
+          "body": [
+            "N'essayez pas d'encoder la descendance dans les noms de groupes. L'arbre la porte déjà, et mieux."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Un proche peut-il être dans deux groupes ?",
+          "a": "Oui, dans autant que cela a du sens."
+        },
+        {
+          "q": "Les membres se voient-ils entre eux ?",
+          "a": "Oui. Un groupe est un espace partagé et les membres voient la liste."
+        },
+        {
+          "q": "Puis-je retirer quelqu'un d'un groupe ?",
+          "a": "Oui, depuis l'écran de détail du groupe."
+        }
+      ]
+    },
+    "guides/how-to-remember-family-birthdays": {
+      "title": "Comment retenir les anniversaires et dates clés de la famille",
+      "description": "Enregistrez anniversaires et commémorations comme dates clés sur les personnes concernées et laissez les prochaines remonter d'elles-mêmes.",
+      "h1": "Comment retenir les anniversaires de famille",
+      "lead": "Une date dans un agenda est détachée de la personne. Une date sur la personne ne l'est pas.",
+      "answer": "Enregistrez chaque anniversaire ou commémoration comme une date clé rattachée au contact concerné, plutôt que comme une entrée d'agenda. Les dates clés reviennent chaque année, et les prochaines apparaissent dans les événements à venir de TreeLinker. Comme la date est posée sur la personne, ouvrir ce contact l'affiche à côté de tout ce que vous savez d'elle : le lien, les souvenirs partagés et l'historique de contact.",
+      "sections": [
+        {
+          "h2": "Les dates clés reviennent, les événements non",
+          "body": [
+            "Une date clé est un anniversaire qui revient chaque année : une naissance, un mariage, un décès. Un événement a eu lieu une fois. Choisir le bon type détermine s'il reparaîtra un jour."
+          ]
+        },
+        {
+          "h2": "Les ajouter pendant que vous y êtes déjà",
+          "body": [
+            "Le moment d'enregistrer un anniversaire est celui où vous regardez la fiche pour une autre raison. Un après-midi consacré à de la saisie n'arrive jamais."
+          ]
+        },
+        {
+          "h2": "Laisser les événements à venir faire remonter l'information",
+          "body": [
+            "Les dates clés qui approchent apparaissent dans la section des événements à venir, vous les voyez donc sans aller les chercher. Il n'y a pas encore de notifications push, cela fonctionne donc mieux si vous ouvrez l'application régulièrement."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Recevrai-je une notification ?",
+          "a": "Pas aujourd'hui. Les dates proches apparaissent dans l'application ; les notifications push ne sont pas encore implémentées."
+        },
+        {
+          "q": "Lit-elle les anniversaires de mes contacts ?",
+          "a": "Les contacts ont un champ anniversaire que TreeLinker peut utiliser. Les dates clés que vous ajoutez vous-même sont distinctes et plus riches."
+        },
+        {
+          "q": "Une date clé peut-elle appartenir à un groupe ?",
+          "a": "Oui. Les groupes peuvent contenir leurs propres souvenirs, y compris des dates clés."
+        }
+      ]
+    },
+    "guides/how-to-document-family-memories": {
+      "title": "Comment documenter les souvenirs de famille",
+      "description": "Recueillez les récits de famille tant que ceux qui s'en souviennent sont encore là — rattachés aux personnes concernées, avec photos, dates et lieux.",
+      "h1": "Comment documenter les souvenirs de famille",
+      "lead": "L'essentiel de l'histoire familiale ne se perd pas avec le temps, mais parce que personne ne l'écrit.",
+      "answer": "Rattachez chaque souvenir à la personne concernée plutôt que de le classer par date. Enregistrez-le comme récit s'il mérite d'être raconté, comme événement s'il a eu lieu une fois avec des gens présents, ou comme date clé s'il revient. Ajoutez les photos qui lui donnent son sens, le lieu et la date. Commencez par les proches les plus âgés, car c'est leur savoir qui a une échéance.",
+      "sections": [
+        {
+          "h2": "Commencer par ceux qui en détiennent le plus",
+          "body": [
+            "Dans chaque famille, une ou deux personnes savent comment tout le monde est relié et ce qui s'est passé. Recueillez leur savoir en premier. C'est la seule partie de la tâche qui soit vraiment urgente."
+          ]
+        },
+        {
+          "h2": "Écrire là où cela appartient",
+          "body": [
+            "Un souvenir rattaché à une personne se retrouve en ouvrant cette personne. Un souvenir dans un fil chronologique ne se retrouve qu'en faisant défiler.",
+            "Les souvenirs de groupe fonctionnent de même pour ce que toute la famille a fait ensemble."
+          ]
+        },
+        {
+          "h2": "Un court témoignage vaut mieux que rien",
+          "body": [
+            "Trois phrases et une photographie font un souvenir complet. Attendre d'avoir le temps de bien faire est la manière de ne jamais le faire."
+          ]
+        },
+        {
+          "h2": "Garder les détails qui le situent",
+          "body": [
+            "Une date et un lieu transforment une anecdote en témoignage. Ce sont aussi eux qui permettront, des années plus tard, de le relier à quelque chose de connu."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je joindre plusieurs photos ?",
+          "a": "Oui. Les souvenirs acceptent des photos ainsi qu'une date et un lieu."
+        },
+        {
+          "q": "Puis-je enregistrer de l'audio ?",
+          "a": "Pas actuellement. Les souvenirs sont du texte, des photos, des dates et des lieux."
+        },
+        {
+          "q": "Qui voit un souvenir que j'ajoute à un contact ?",
+          "a": "Vous seul, sauf s'il s'agit d'un souvenir de groupe, visible de ses membres."
+        }
+      ]
+    },
+    "compare/family-tree-vs-contact-manager": {
+      "title": "Arbre généalogique ou gestionnaire de contacts : que vous faut-il ?",
+      "description": "Une application d'arbre cartographie l'ascendance ; un gestionnaire de contacts stocke des informations. Ils répondent à des questions différentes, et la plupart de ceux qui veulent l'un veulent en fait des morceaux des deux.",
+      "h1": "Arbre généalogique ou gestionnaire de contacts",
+      "lead": "Ils semblent voisins et résolvent des problèmes presque opposés.",
+      "answer": "Une application d'arbre généalogique répond à « comment suis-je lié à mes ancêtres », le plus souvent au sujet de personnes décédées, et se construit autour des registres et de l'ascendance. Un gestionnaire de contacts répond à « quelles informations ai-je sur cette personne », au sujet de gens à qui vous parlez, et se construit autour de champs et de rangement. Aucun ne répond à « comment cette personne vivante est-elle reliée à tous les autres de mon téléphone » — la question pour laquelle TreeLinker est fait, et la raison pour laquelle il se situe entre les deux catégories.",
+      "table": {
+        "caption": "À quoi sert vraiment chaque type d'application",
+        "head": [
+          "",
+          "Arbre généalogique",
+          "Gestionnaire de contacts",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Question principale",
+            "Comment suis-je lié à mes ancêtres ?",
+            "Que sais-je de cette personne ?",
+            "Comment m'est-elle liée ?"
+          ],
+          [
+            "Sujet habituel",
+            "Personnes décédées",
+            "Personnes que vous contactez",
+            "Personnes que vous contactez"
+          ],
+          [
+            "Point de départ",
+            "Un arbre vide",
+            "Votre carnet d'adresses",
+            "Votre carnet d'adresses"
+          ],
+          [
+            "Registres historiques",
+            "Oui",
+            "Non",
+            "Non"
+          ],
+          [
+            "Correspondance ADN",
+            "Souvent",
+            "Non",
+            "Non"
+          ],
+          [
+            "Numéros de téléphone",
+            "Rarement",
+            "Oui",
+            "Oui"
+          ],
+          [
+            "Relations entre contacts",
+            "Oui",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Groupes et libellés",
+            "Limités",
+            "Oui",
+            "Oui"
+          ],
+          [
+            "Événements et souvenirs sur les personnes",
+            "Oui",
+            "Limités",
+            "Oui"
+          ],
+          [
+            "Identification d'appel",
+            "Non",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Fonctionne hors ligne",
+            "Rarement",
+            "Généralement",
+            "Oui"
+          ]
+        ],
+        "note": "Si vous recherchez des ancêtres nés il y a des générations, utilisez un service de généalogie. TreeLinker garde en revanche la famille vivante."
+      },
+      "sections": [
+        {
+          "h2": "Choisissez une application de généalogie si",
+          "body": [
+            "Vous voulez rechercher des ancêtres, fouiller recensements et registres paroissiaux, travailler avec des correspondances ADN ou collaborer sur un arbre mondial partagé. TreeLinker ne fait rien de tout cela."
+          ]
+        },
+        {
+          "h2": "Choisissez un gestionnaire de contacts si",
+          "body": [
+            "Votre problème, ce sont les doublons, la synchronisation entre comptes, les cartes de visite ou la sauvegarde. Les gestionnaires dédiés font cela mieux que TreeLinker."
+          ]
+        },
+        {
+          "h2": "Choisissez TreeLinker si",
+          "body": [
+            "Votre problème est que vous ne vous rappelez pas comment les gens de votre téléphone sont reliés entre eux, et que vous voulez l'écrire sans tout retaper."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Une seule application peut-elle faire les deux ?",
+          "a": "En partie. TreeLinker couvre la moitié relationnelle de la généalogie et la moitié organisationnelle de la gestion de contacts, mais ni la recherche historique ni la sauvegarde des contacts."
+        },
+        {
+          "q": "Puis-je importer un arbre depuis un service de généalogie ?",
+          "a": "Pas aujourd'hui — l'import GEDCOM n'est pas pris en charge."
+        }
+      ]
+    },
+    "compare/family-tree-apps": {
+      "title": "Applications d'arbre généalogique comparées : à quoi elles servent vraiment",
+      "description": "Services de généalogie, arbres collaboratifs et applications partant des contacts résolvent des problèmes différents. Un comparatif honnête, y compris les cas où TreeLinker est le mauvais choix.",
+      "h1": "Applications d'arbre généalogique comparées",
+      "lead": "La catégorie contient au moins trois produits différents sous le même nom.",
+      "answer": "Les applications d'arbre généalogique se divisent en trois familles. Les services de généalogie fondés sur les registres s'appuient sur d'immenses archives historiques et la correspondance ADN, et visent la recherche d'ancêtres. Les arbres collaboratifs se concentrent sur un arbre mondial unique édité par beaucoup de monde. Les applications partant des contacts, comme TreeLinker, cartographient la famille vivante déjà présente dans votre téléphone et ne détiennent aucun registre historique. Le bon choix dépend entièrement de savoir si les personnes qui vous intéressent sont vivantes.",
+      "table": {
+        "caption": "Trois familles d'applications d'arbre généalogique",
+        "head": [
+          "",
+          "Généalogie sur registres",
+          "Arbre mondial collaboratif",
+          "Partant des contacts (TreeLinker)"
+        ],
+        "rows": [
+          [
+            "Conçue pour",
+            "Rechercher des ancêtres",
+            "Un arbre édité par beaucoup",
+            "La famille vivante de votre téléphone"
+          ],
+          [
+            "Registres historiques",
+            "Collections immenses",
+            "Quelques-uns",
+            "Aucun"
+          ],
+          [
+            "Correspondance ADN",
+            "Généralement",
+            "Non",
+            "Non"
+          ],
+          [
+            "Effort de départ",
+            "Élevé — tout saisir",
+            "Élevé",
+            "Faible — part de vos contacts"
+          ],
+          [
+            "Contacts du téléphone",
+            "Non",
+            "Non",
+            "Essentiels"
+          ],
+          [
+            "Suggestions de relations",
+            "Indices de registres",
+            "Quelques-unes",
+            "Depuis votre propre arbre, avec indices de confiance"
+          ],
+          [
+            "Identification d'appel",
+            "Non",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Prix",
+            "Abonnement",
+            "Gratuit ou freemium",
+            "Gratuit"
+          ],
+          [
+            "Usage hors ligne",
+            "Limité",
+            "Limité",
+            "Complet"
+          ]
+        ],
+        "note": "TreeLinker n'est pas un outil de généalogie. S'il vous faut des registres ou de l'ADN, il ne peut pas vous aider."
+      },
+      "sections": [
+        {
+          "h2": "Le reproche le plus courant dans la catégorie",
+          "body": [
+            "Dans les avis sur les applications de généalogie, la critique récurrente n'est pas l'exactitude mais l'effort et la vitesse : les vues d'ascendance chargent lentement, tout doit être saisi à la main, et il manque souvent une vue en liste compacte pour parcourir les noms rapidement."
+          ]
+        },
+        {
+          "h2": "Où une application partant des contacts aide",
+          "body": [
+            "Démarrer depuis le carnet d'adresses supprime la saisie qui bloque la plupart des gens dès la première session. En contrepartie, aucun registre : c'est un complément à un service de généalogie, pas un remplaçant."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quelle est la meilleure application d'arbre généalogique ?",
+          "a": "Cela dépend si vos sujets sont vivants ou non. Pour les ancêtres, un service de généalogie sur registres. Pour la famille vivante de votre carnet, une application partant des contacts."
+        },
+        {
+          "q": "Puis-je utiliser les deux ?",
+          "a": "Oui, et beaucoup de gens le devraient. Elles détiennent des moitiés différentes de la même famille."
+        }
+      ]
+    },
+    "compare/contact-management-apps": {
+      "title": "Applications de gestion de contacts comparées : rangement, CRM et relations",
+      "description": "Outils de synchronisation et de nettoyage, CRM personnels et applications centrées sur les relations résolvent des problèmes différents. Où chacune convient, et où TreeLinker ne convient pas.",
+      "h1": "Applications de gestion de contacts comparées",
+      "lead": "Trois produits différents, un seul nom de catégorie.",
+      "answer": "Les applications de contacts se répartissent en trois groupes. Les outils de synchronisation et de nettoyage se concentrent sur la fusion des doublons, la sauvegarde et la cohérence entre plusieurs comptes. Les CRM personnels se concentrent sur les rappels de suivi, les notes et l'entretien d'un réseau professionnel. Les applications centrées sur les relations, comme TreeLinker, se concentrent sur la façon dont les gens de votre carnet sont reliés à vous et entre eux. TreeLinker fait bien le troisième et ne tente pas les deux premiers.",
+      "table": {
+        "caption": "À quoi sert chaque type d'application de contacts",
+        "head": [
+          "",
+          "Synchroniser et nettoyer",
+          "CRM personnel",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Tâche principale",
+            "Un carnet bien rangé",
+            "Entretenir un réseau",
+            "Savoir qui est qui"
+          ],
+          [
+            "Fusion des doublons",
+            "Oui",
+            "Oui",
+            "Regroupement à l'affichage"
+          ],
+          [
+            "Sauvegarde et restauration",
+            "Oui",
+            "Oui",
+            "Pas encore"
+          ],
+          [
+            "Synchronisation multi-comptes",
+            "Oui",
+            "Oui",
+            "Votre compte seulement"
+          ],
+          [
+            "Rappels de suivi",
+            "Parfois",
+            "Oui",
+            "Pas encore"
+          ],
+          [
+            "Notes par contact",
+            "Oui",
+            "Oui",
+            "Oui, sous forme de chronologie"
+          ],
+          [
+            "Scan de cartes de visite",
+            "Souvent",
+            "Souvent",
+            "Non"
+          ],
+          [
+            "Relations entre contacts",
+            "Non",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Arbre généalogique",
+            "Non",
+            "Non",
+            "Oui"
+          ],
+          [
+            "Groupes et étiquettes privées",
+            "Libellés",
+            "Partiel",
+            "Oui"
+          ],
+          [
+            "Identification d'appel",
+            "Non",
+            "Non",
+            "Oui, vos contacts uniquement"
+          ],
+          [
+            "Prix",
+            "Freemium",
+            "Abonnement",
+            "Gratuit"
+          ]
+        ],
+        "note": "Si les doublons et la sauvegarde sont votre problème, un outil de synchronisation et de nettoyage vous servira mieux aujourd'hui."
+      },
+      "sections": [
+        {
+          "h2": "Ce que demandent le plus les utilisateurs",
+          "body": [
+            "Les demandes constantes dans cette catégorie sont la détection et la fusion des doublons, une sauvegarde fiable, des rappels d'anniversaires et de suivi, et un carnet d'adresses cohérent entre comptes. TreeLinker n'adresse aujourd'hui directement aucune d'entre elles, ce qu'il vaut mieux savoir avant de l'installer."
+          ]
+        },
+        {
+          "h2": "Ce que TreeLinker ajoute et que les autres n'ont pas",
+          "body": [
+            "Aucun gestionnaire de contacts courant n'enregistre comment deux contacts sont liés. Ce seul champ manquant est ce à partir de quoi se construisent l'arbre généalogique, l'identification d'appel consciente des relations et les suggestions de relations."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Dois-je remplacer mon gestionnaire de contacts par TreeLinker ?",
+          "a": "Seulement si les relations sont votre problème. Si ce sont les doublons, la sauvegarde et la synchronisation, gardez l'outil que vous avez."
+        },
+        {
+          "q": "TreeLinker modifie-t-elle le carnet de mon téléphone ?",
+          "a": "Non. Elle n'y écrit jamais d'elle-même."
+        }
+      ]
+    },
+    "features/family-tree": {
+      "title": "Arbre généalogique — fonctionnalités TreeLinker",
+      "description": "Un arbre généalogique interactif avec zoom et déplacement, construit depuis vos contacts, avec des types de relations codés par couleur et des liens réciproques automatiques.",
+      "h1": "Arbre généalogique",
+      "lead": "Les relations que vous enregistrez, dessinées.",
+      "answer": "TreeLinker dessine vos relations enregistrées sous forme d'arbre généalogique interactif que vous pouvez zoomer et déplacer. Chaque type de relation — parent, enfant, frère ou sœur, conjoint, ami, proche, autre — a sa couleur et son icône, pour qu'un arbre dense reste lisible. Les personnes qui le composent viennent des contacts déjà présents sur votre téléphone, et enregistrer un sens de la relation crée l'inverse automatiquement.",
+      "sections": [
+        {
+          "h2": "Construit à partir des contacts, pas de formulaires",
+          "body": [
+            "Chaque personne de l'arbre peut être un contact que vous avez déjà. Les proches sans fiche téléphonique s'ajoutent manuellement."
+          ]
+        },
+        {
+          "h2": "Lisible d'un coup d'œil",
+          "body": [
+            "Couleur et icône par type de relation, avec zoom et déplacement, pour que la structure se voie sans lire chaque étiquette."
+          ]
+        },
+        {
+          "h2": "Partageable à vos conditions",
+          "body": [
+            "Un arbre peut être envoyé à un autre utilisateur de TreeLinker. Il verra les mêmes personnes sous les noms de son propre carnet et choisira quoi enregistrer."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quelle taille un arbre peut-il atteindre ?",
+          "a": "Aucune limite fixée au nombre de personnes ou de relations."
+        },
+        {
+          "q": "Fonctionne-t-il hors ligne ?",
+          "a": "Oui, entièrement."
+        }
+      ]
+    },
+    "features/contacts": {
+      "title": "Contacts — fonctionnalités TreeLinker",
+      "description": "Le carnet d'adresses de votre téléphone, lu sur l'appareil, consultable et enrichi de relations, groupes, étiquettes, chronologies et souvenirs.",
+      "h1": "Contacts",
+      "lead": "Le carnet d'adresses que vous avez, avec un endroit où ranger ce que vous savez.",
+      "answer": "TreeLinker lit les contacts déjà présents sur votre appareil et les y laisse. La liste filtre pendant la frappe contre un index préparé, de sorte qu'un grand carnet reste rapide. Chaque contact gagne des relations, des appartenances à des groupes, des étiquettes privées, une chronologie et des souvenirs. TreeLinker n'écrit jamais d'elle-même dans le carnet de votre téléphone et ne le téléverse jamais.",
+      "sections": [
+        {
+          "h2": "Rapide sur un grand carnet",
+          "body": [
+            "La recherche filtre contre un index construit une fois par liste au lieu de tout réanalyser à chaque frappe, de sorte que plusieurs milliers de contacts restent réactifs."
+          ]
+        },
+        {
+          "h2": "Doublons regroupés dans les listes",
+          "body": [
+            "La même personne existe souvent sous plusieurs fiches : un contact de l'appareil, une fiche synchronisée, un second numéro. TreeLinker les replie partout où elle affiche une liste, pour que personne n'apparaisse deux fois dans un arbre ou un groupe."
+          ]
+        },
+        {
+          "h2": "Enrichi, pas exporté",
+          "body": [
+            "Quand un contact utilise aussi TreeLinker, sa photo de profil peut être affichée. La correspondance se fait en comparant des numéros hachés, et aucun nom n'est échangé."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker modifie-t-elle mes contacts ?",
+          "a": "Non. Toute modification de votre carnet est faite délibérément par vous."
+        },
+        {
+          "q": "Fusionne-t-elle les doublons définitivement ?",
+          "a": "Pas encore. Elle les regroupe uniquement à l'affichage."
+        }
+      ]
+    },
+    "features/relationships": {
+      "title": "Relations — fonctionnalités TreeLinker",
+      "description": "Sept types de relations, des liens réciproques automatiques et des suggestions avec indices de confiance et explications en langage clair.",
+      "h1": "Relations",
+      "lead": "Le champ qui manque à toutes les autres applications de contacts.",
+      "answer": "TreeLinker enregistre le lien entre deux contacts au moyen de sept types : parent, enfant, frère ou sœur, conjoint, ami, proche et autre. Enregistrer un sens crée l'inverse automatiquement. À mesure que l'arbre grandit, l'application propose les relations impliquées par les existantes, chacune avec un indice de confiance et une explication des liens qui l'ont produite, et vous demande le type en cas d'ambiguïté.",
+      "sections": [
+        {
+          "h2": "Réciproques par construction",
+          "body": [
+            "Vous ne maintenez jamais les deux moitiés d'une relation. C'est ce qui empêche une carte familiale de pourrir au fil des années de modifications."
+          ]
+        },
+        {
+          "h2": "Des suggestions, jamais d'écritures silencieuses",
+          "body": [
+            "Les relations déduites sont des propositions. Chacune porte un indice de confiance et une phrase explicative, et rien n'entre dans votre arbre sans votre accord."
+          ]
+        },
+        {
+          "h2": "Ce que les relations débloquent",
+          "body": [
+            "Dès qu'elles existent, l'arbre peut être dessiné, un appelant situé, des étiquettes suggérées, et un arbre partagé de manière à signifier la même chose sur le téléphone de quelqu'un d'autre."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je définir un type de relation personnalisé ?",
+          "a": "Il y a sept types intégrés, dont « autre » pour ce qui ne rentre pas ailleurs."
+        },
+        {
+          "q": "Que signifie l'indice de confiance ?",
+          "a": "À quel point vos relations existantes impliquent celle qui est suggérée. Il est montré avec le raisonnement pour que vous en jugiez vous-même."
+        }
+      ]
+    },
+    "features/groups": {
+      "title": "Groupes — fonctionnalités TreeLinker",
+      "description": "Des espaces partagés privés, sur invitation uniquement, pour une famille, un quartier ou une promotion, avec sondages, discussions nommées et souvenirs partagés.",
+      "h1": "Groupes",
+      "lead": "Des espaces partagés où l'on est invité.",
+      "answer": "Un groupe est un espace privé, sur invitation uniquement, pour un ensemble de personnes : une famille, un quartier, une promotion. Il a un nom, une icône, une photo de couverture et une liste de membres, et ceux-ci peuvent lancer des sondages, tenir des discussions nommées et conserver des souvenirs partagés. Les groupes sont la seule partie de TreeLinker dans laquelle d'autres personnes peuvent regarder, et nul n'y entre sans invitation.",
+      "sections": [
+        {
+          "h2": "Sondages",
+          "body": [
+            "Une voix par membre, modifiable, avec résultats visibles et possibilité de clôture par le créateur. Conçu pour la décision qu'un groupe familial repose sans cesse."
+          ]
+        },
+        {
+          "h2": "Discussions",
+          "body": [
+            "Un sujet nommé qui reste retrouvable des mois plus tard, au lieu d'être enseveli dans un fil. Un sondage peut y être attaché."
+          ]
+        },
+        {
+          "h2": "Souvenirs partagés",
+          "body": [
+            "Un groupe peut conserver ses propres souvenirs, de sorte qu'un voyage auquel tout le monde est allé soit classé sous le groupe et non sous une personne."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quelqu'un peut-il trouver mon groupe ?",
+          "a": "Non. Les groupes sont sur invitation uniquement et ne sont pas découvrables."
+        },
+        {
+          "q": "Puis-je quitter un groupe ?",
+          "a": "Oui, à tout moment."
+        }
+      ]
+    },
+    "features/tags": {
+      "title": "Étiquettes — fonctionnalités TreeLinker",
+      "description": "Des libellés privés avec couleur, icône et liste de contacts assignés. Personne d'autre ne les voit jamais.",
+      "h1": "Étiquettes",
+      "lead": "Des libellés privés qui traversent tous les groupes.",
+      "answer": "Une étiquette est un libellé privé que vous assignez à des contacts : Médecin, Plombier, Travail, une ville. Elle a un nom, une couleur, une icône, une description facultative et une liste de contacts assignés avec recherche. Les étiquettes ne sont visibles que de vous, ce qui les rend utiles pour des libellés que vous ne mettriez jamais dans un espace partagé. TreeLinker peut suggérer des étiquettes depuis vos contacts, mais n'en crée jamais sans vous.",
+      "sections": [
+        {
+          "h2": "Privées, contrairement aux groupes",
+          "body": [
+            "Les groupes sont des espaces partagés avec des membres. Les étiquettes sont votre propre système de classement et ne sont exposées à personne."
+          ]
+        },
+        {
+          "h2": "Organisées pour le coup d'œil",
+          "body": [
+            "Chaque carte d'étiquette montre son icône sur sa couleur avec le nombre de contacts assignés, et la liste est triée alphabétiquement avec une recherche sur les contacts assignés."
+          ]
+        },
+        {
+          "h2": "Suggérées, pas imposées",
+          "body": [
+            "TreeLinker peut proposer des étiquettes d'après ce qu'elle voit dans vos contacts. Les suggestions sont calculées sur le moment et jamais enregistrées si vous ne les acceptez pas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Deux étiquettes peuvent-elles porter le même nom ?",
+          "a": "Non. Les doublons de nom sont refusés quelle que soit la casse."
+        },
+        {
+          "q": "« Favori » est-il une étiquette ?",
+          "a": "Non, les favoris sont une fonctionnalité distincte."
+        }
+      ]
+    },
+    "features/events": {
+      "title": "Événements et dates clés — fonctionnalités TreeLinker",
+      "description": "Anniversaires, mariages et commémorations enregistrés sur les personnes concernées, les prochains remontant dans l'application.",
+      "h1": "Événements et dates clés",
+      "lead": "Des dates qui appartiennent à une personne, pas à une grille d'agenda.",
+      "answer": "Une date clé est un anniversaire qui revient chaque année — une naissance, un mariage, un décès — enregistré sur le contact concerné. Les dates clés qui approchent apparaissent dans les événements à venir de TreeLinker, vous les voyez donc sans aller les chercher. Les événements sont des choses arrivées une fois, avec une date et les personnes présentes.",
+      "sections": [
+        {
+          "h2": "Rattachées à la personne",
+          "body": [
+            "Comme la date est posée sur le contact, ouvrir cette personne l'affiche à côté du lien, de la chronologie et des souvenirs que vous avez d'elle."
+          ]
+        },
+        {
+          "h2": "Remontées à l'approche",
+          "body": [
+            "Les dates clés proches sont rassemblées dans leur propre section, de sorte que les prochaines semaines se voient d'un coup d'œil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Reçois-je une notification ?",
+          "a": "Pas encore. Les dates proches apparaissent dans l'application ; les notifications push ne sont pas implémentées."
+        },
+        {
+          "q": "Un groupe peut-il porter des dates clés ?",
+          "a": "Oui."
+        }
+      ]
+    },
+    "features/memories": {
+      "title": "Souvenirs — fonctionnalités TreeLinker",
+      "description": "Récits partagés, événements et dates clés avec photos, dates et lieux, rattachés à la personne ou au groupe concerné.",
+      "h1": "Souvenirs",
+      "lead": "Conservés auprès des personnes dont ils parlent.",
+      "answer": "Un souvenir dans TreeLinker est un récit partagé, un événement ou une date clé, rattaché au contact ou au groupe concerné. Il peut porter des photos, une date et un lieu. Comme les souvenirs sont accrochés à une personne plutôt que posés dans un fil, ouvrir un contact montre ce que vous avez de lui — l'inverse d'une chronologie sociale, où seule la chose la plus récente est retrouvable.",
+      "sections": [
+        {
+          "h2": "Trois sortes, parce qu'elles se comportent différemment",
+          "body": [
+            "Les récits restent là où vous les avez mis. Les événements ont eu lieu une fois. Les dates clés reviennent chaque année et remontent d'elles-mêmes."
+          ]
+        },
+        {
+          "h2": "Photos, dates et lieux",
+          "body": [
+            "Un souvenir peut porter les photographies qui lui donnent son sens, la date et le lieu. Ces détails sont ce qui permet de le relier à autre chose des années plus tard."
+          ]
+        },
+        {
+          "h2": "Personnels ou partagés",
+          "body": [
+            "Les souvenirs sur un contact sont les vôtres. Ceux d'un groupe sont visibles de ses membres."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "La vidéo est-elle prise en charge ?",
+          "a": "Non, pas actuellement."
+        },
+        {
+          "q": "Est-ce une sauvegarde de photos ?",
+          "a": "Non. TreeLinker garde les photos qui appartiennent à un souvenir, pas toute votre galerie."
+        }
+      ]
+    },
+    "features/caller-identification": {
+      "title": "Identification d'appel — fonctionnalités TreeLinker",
+      "description": "Une carte montrant le lien de l'appelant avec vous, entièrement construite à partir de vos propres contacts. Aucune base, aucun téléversement, rien pour les inconnus.",
+      "h1": "Identification d'appel",
+      "lead": "Situer, pas identifier.",
+      "answer": "Quand quelqu'un déjà présent dans vos contacts appelle, TreeLinker affiche une carte avec son nom et son lien avec vous — par exemple « Nadia — sœur de Safa ». Tout ce qui y figure est lu depuis votre appareil. Il n'y a pas de base de numéros, rien n'est récupéré pendant la sonnerie, et si l'appelant n'est pas quelqu'un que vous connaissez déjà, aucune carte ne s'affiche.",
+      "sections": [
+        {
+          "h2": "Uniquement des personnes que vous avez déjà",
+          "body": [
+            "TreeLinker ne peut pas nommer un inconnu et n'essaie pas. Un service qui répond à « à qui appartient ce numéro » permet à n'importe qui de parcourir l'espace de numérotation et de moissonner des identités ; c'est pourquoi aucun n'a été construit."
+          ]
+        },
+        {
+          "h2": "La section « nom d'appel »",
+          "body": [
+            "Chaque contact montre exactement ce qui apparaîtra quand cette personne appellera. TreeLinker le recommande depuis vos relations enregistrées ; vous pouvez l'accepter, le modifier ou l'effacer. C'est privé et jamais montré à la personne décrite."
+          ]
+        },
+        {
+          "h2": "Autorisations utilisées",
+          "body": [
+            "Le rôle de filtrage d'appels d'Android, pour que le numéro entrant soit visible, et l'autorisation de s'afficher par-dessus les autres applications. L'accès au journal d'appels n'est jamais demandé."
+          ]
+        },
+        {
+          "h2": "Les appels dans la chronologie",
+          "body": [
+            "Un appel entrant de quelqu'un que vous connaissez est consigné sur sa chronologie, de sorte que l'historique de contact se construit tout seul."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Identifie-t-elle les numéros inconnus ?",
+          "a": "Non, délibérément."
+        },
+        {
+          "q": "Bloque-t-elle le spam ?",
+          "a": "Non."
+        },
+        {
+          "q": "Est-elle disponible sur iPhone ?",
+          "a": "Non. iOS n'a pas de rôle de filtrage d'appels équivalent."
+        }
+      ]
+    },
+    "guides/how-to-know-how-someone-is-related-to-you": {
+      "title": "Comment savoir quel lien de parenté quelqu'un a avec vous",
+      "description": "Vous reconnaissez le nom mais n'arrivez pas à situer la personne. Une méthode concrète pour reconstituer puis enregistrer le lien exact.",
+      "h1": "Comment savoir quel lien de parenté quelqu'un a avec vous",
+      "lead": "Reconnaître un nom n'est pas situer une personne.",
+      "answer": "Partez de quelqu'un dont vous êtes sûr. Si vous savez que Nadia est la sœur de Safa et que Safa est votre belle-mère, alors Nadia est la tante de votre femme : c'est le chemin qui travaille, pas votre mémoire. Enregistrez chaque étape comme une relation dès que vous l'établissez, car si vous avez dû demander, c'est que personne ne l'avait noté la dernière fois. Une fois le chemin présent dans TreeLinker, il est permanent, fonctionne dans les deux sens, et c'est de là que la carte d'identification lit quand cette personne rappellera.",
+      "sections": [
+        {
+          "h2": "Partir d'une personne dont vous êtes certain",
+          "body": [
+            "Presque personne ne vous est relié par un seul maillon inconnu. La liaison passe par quelqu'un que vous connaissez bien — un parent, un frère, votre conjoint. Trouvez la personne la plus proche dont vous êtes sûr et demandez comment l'inconnu s'y rattache.",
+            "Une question impossible devient ainsi deux questions faciles."
+          ]
+        },
+        {
+          "h2": "Poser la question qui donne une réponse utile",
+          "body": [
+            "« Comment sommes-nous parents ? » produit en général une réponse vague. « De quel côté venez-vous, et qui est votre parent ? » produit un chemin.",
+            "Deux étapes suffisent presque toujours. Au-delà, la relation porte un nom que personne n'emploie en conversation."
+          ]
+        },
+        {
+          "h2": "L'écrire tant que vous l'avez",
+          "body": [
+            "C'est la partie qui compte. Vous aviez très probablement déjà reconstitué ce même lien, puis vous l'avez perdu.",
+            "Enregistrez chaque maillon comme sa propre relation — Nadia est la sœur de Safa ; Safa est la mère de votre femme. TreeLinker crée l'inverse de chacune, et le chemin entre vous et Nadia existe, que vous vous en souveniez ou non."
+          ]
+        },
+        {
+          "h2": "Laisser l'application répondre la prochaine fois",
+          "body": [
+            "Une fois les relations enregistrées, l'arbre montre la liaison visuellement, et un appel de cette personne affiche sa place plutôt que son seul nom.",
+            "C'est tout l'objet : reconstituer un lien une fois, pas tous les quelques années."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker donne-t-il le chemin entre deux personnes quelconques ?",
+          "a": "L'arbre montre les liaisons autour d'une personne, donc un chemin court est visible. Une requête directe « montre-moi le chemin entre ces deux-là » n'existe pas encore."
+        },
+        {
+          "q": "Et si la relation n'a pas de nom simple ?",
+          "a": "Enregistrez les maillons qui en ont un — frère, parent, conjoint — et la chaîne décrit la relation avec précision sans qu'un mot unique soit nécessaire."
+        },
+        {
+          "q": "L'autre personne doit-elle utiliser l'application ?",
+          "a": "Non. Vous enregistrez ce que vous savez sur votre propre appareil."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-in-laws": {
+      "title": "Comment s'y retrouver dans la belle-famille",
+      "description": "La famille de votre conjoint est une seconde famille rejointe à l'âge adulte, sans avoir grandi en apprenant qui est qui. Comment la cartographier une fois.",
+      "h1": "Comment s'y retrouver dans la belle-famille",
+      "lead": "Votre famille, vous l'avez apprise en grandissant. Celle de votre conjoint vous a été remise d'un seul coup.",
+      "answer": "Cartographiez la famille de votre conjoint comme sa propre branche plutôt que de la fondre dans la vôtre. Enregistrez d'abord votre conjoint, puis ses parents, puis ses frères et sœurs, et laissez les liens d'alliance découler de ces liaisons au lieu de saisir chacun à la main. Mettez cette branche dans son propre groupe pour qu'elle reste lisible, et enregistrez aussi les conjoints de ses frères et sœurs : ce sont eux dont les noms arrivent en premier et dont la liaison est la plus difficile à retenir.",
+      "sections": [
+        {
+          "h2": "Construire la branche depuis votre conjoint",
+          "body": [
+            "Chaque lien d'alliance que vous avez passe par une seule personne. Enregistrez d'abord votre conjoint, puis ses parents et ses frères et sœurs ; tout le reste découle de ces trois liaisons.",
+            "Vous n'avez jamais à enregistrer « belle-mère » comme tel. Enregistrez qu'elle est la mère de votre conjoint, et le lien avec vous en découle."
+          ]
+        },
+        {
+          "h2": "Lui donner son propre groupe",
+          "body": [
+            "Un groupe nommé par exemple « Famille de ma femme » garde la branche lisible et rend évident qui vous n'avez pas encore ajouté.",
+            "Les groupes sont des espaces partagés, cela devient donc aussi l'endroit naturel où les intéressés se voient."
+          ]
+        },
+        {
+          "h2": "Enregistrer les conjoints des frères et sœurs",
+          "body": [
+            "Beaux-frères et belles-sœurs par alliance sont les plus difficiles à démêler : ni nom de famille commun, ni enfance commune.",
+            "Ce sont aussi ceux qui risquent le plus d'appeler à l'improviste — précisément le moment où une carte consciente du lien prouve son utilité."
+          ]
+        },
+        {
+          "h2": "Ajouter le contexte au fil des rencontres",
+          "body": [
+            "Une date clé pour un anniversaire de mariage, une étiquette pour la ville, une note après une réunion. C'est peu coûteux sur le moment et impossible à reconstituer plus tard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Existe-t-il un type de relation « par alliance » ?",
+          "a": "Non, et ce n'est pas nécessaire. Les liens d'alliance découlent du mariage et des liens de sang, que TreeLinker enregistre directement."
+        },
+        {
+          "q": "Puis-je séparer la famille de mon conjoint de la mienne ?",
+          "a": "L'arbre est un seul graphe, car les familles sont réellement liées par votre mariage. Les groupes permettent de voir et de gérer chaque côté séparément."
+        },
+        {
+          "q": "Et les familles recomposées ?",
+          "a": "Utilisez les types qui s'appliquent — parent, enfant, conjoint, proche — et « autre » là où rien ne convient."
+        }
+      ]
+    },
+    "guides/how-to-remember-distant-relatives": {
+      "title": "Comment se souvenir des parents éloignés",
+      "description": "Cousins issus de germains, grands-tantes et gens que l'on voit deux fois par décennie. Comment noter juste assez pour les reconnaître la fois suivante.",
+      "h1": "Comment se souvenir des parents éloignés",
+      "lead": "Le problème des parents éloignés n'est pas la distance, mais que l'intervalle entre deux rencontres dépasse la mémoire.",
+      "answer": "Pour un parent éloigné, notez trois choses : le chemin qui le relie à vous, un détail auquel vous le reconnaîtrez vraiment, et où vous l'avez vu la dernière fois. Cela suffit. Vous n'avez pas besoin d'un dossier généalogique complet pour quelqu'un que vous voyez tous les quelques années — vous avez besoin de le situer à un mariage sans devoir demander. Enregistrez le chemin via le parent le plus proche que vous connaissez bien, ajoutez une note à sa chronologie, et laissez l'application la garder.",
+      "sections": [
+        {
+          "h2": "Noter le chemin, pas l'étiquette",
+          "body": [
+            "« Cousin issu de germain » est une étiquette que presque personne n'emploie correctement et que personne ne trouve parlante. « La petite-fille du frère de ma grand-mère » est un chemin, et c'est ce que les gens disent vraiment.",
+            "Enregistrez chaque maillon et la liaison est préservée exactement, sans que l'étiquette soit nécessaire."
+          ]
+        },
+        {
+          "h2": "Ajouter un détail reconnaissable",
+          "body": [
+            "Un métier, une ville, avec qui ils viennent d'habitude. Un fait concret sert davantage à la reconnaissance qu'un jeu complet de dates.",
+            "Une étiquette convient bien : une ville, ou une branche de la famille."
+          ]
+        },
+        {
+          "h2": "Noter où vous vous êtes vus la dernière fois",
+          "body": [
+            "Une seule entrée de chronologie — « rencontré au mariage d'Ahmed, juin 2026 » — transforme un inconnu en quelqu'un que vous situez d'un coup d'œil.",
+            "C'est l'entrée qui mérite d'être épinglée, car c'est celle que vous voudrez en premier."
+          ]
+        },
+        {
+          "h2": "Accepter que ce soit un petit enregistrement",
+          "body": [
+            "Les parents éloignés n'ont pas besoin de souvenirs, de photos et de dates clés. Trois lignes chacun est proportionné, et un relevé que vous tiendrez vraiment vaut mieux qu'un relevé exhaustif abandonné."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Jusqu'où aller ?",
+          "a": "Jusqu'aux gens que vous croisez réellement. Ceux que vous ne rencontrerez jamais relèvent d'un service de généalogie."
+        },
+        {
+          "q": "Et si je n'ai pas leur numéro ?",
+          "a": "Un proche peut être ajouté sans numéro de téléphone."
+        },
+        {
+          "q": "L'application me dira-t-elle qui c'est quand ils appellent ?",
+          "a": "Seulement s'ils sont dans vos contacts. TreeLinker n'identifie jamais un numéro que vous n'avez pas déjà."
+        }
+      ]
+    },
+    "guides/how-to-manage-hundreds-of-contacts": {
+      "title": "Comment gérer des centaines de contacts",
+      "description": "Passé quelques centaines d'entrées, un carnet d'adresses cesse d'être une liste et devient un problème de recherche. Une approche concrète pour le rendre de nouveau utilisable.",
+      "h1": "Comment gérer des centaines de contacts",
+      "lead": "Passé quelques centaines de personnes, une liste alphabétique est un classeur sans étiquettes.",
+      "answer": "Un grand carnet d'adresses échoue parce que l'ordre alphabétique n'encode rien de ce dont vous vous souvenez réellement. Corrigez cela en trois gestes : enregistrez des relations pour que les gens soient trouvables les uns par les autres, ajoutez des étiquettes privées pour les quelques attributs sur lesquels vous cherchez vraiment, et cherchez au lieu de faire défiler. N'essayez pas de classer tout le monde : la valeur est dans la cinquantaine de contacts que vous devez retrouver encore et encore.",
+      "sections": [
+        {
+          "h2": "Pourquoi l'alphabet finit par ne plus aider",
+          "body": [
+            "Trier par nom n'aide que si l'on se souvient du nom. Passé une certaine taille, l'échec courant est l'inverse : vous savez que quelqu'un est le voisin de votre oncle, ou l'électricien recommandé par votre frère, mais pas sous quel nom il est enregistré.",
+            "Tout autre schéma d'organisation existe pour ce cas."
+          ]
+        },
+        {
+          "h2": "Les relations rendent les gens trouvables les uns par les autres",
+          "body": [
+            "Une fois les personnes reliées, vous atteignez un contact en partant de quelqu'un dont vous vous souvenez. C'est ainsi que l'on pense réellement aux gens connus par d'autres."
+          ]
+        },
+        {
+          "h2": "N'étiqueter que ce sur quoi vous cherchez",
+          "body": [
+            "Une étiquette mérite sa place quand elle répond à une question que vous avez réellement posée : qui est médecin, qui vit dans cette ville, qui j'appelle en urgence.",
+            "Étiqueter tout le monde avec tout produit un système que personne ne tient. Cinq à dix étiquettes utilisées avec constance valent mieux que cinquante utilisées une fois."
+          ]
+        },
+        {
+          "h2": "Chercher, et laisser les doublons se replier",
+          "body": [
+            "TreeLinker filtre une grande liste contre un index préparé pendant que vous tapez, donc plusieurs milliers de contacts restent rapides.",
+            "La même personne existe souvent sous plusieurs fiches — un contact de l'appareil, un second numéro, une fiche synchronisée. Elles sont repliées partout où une liste est affichée."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Va-t-elle supprimer mes doublons ?",
+          "a": "Non. Elle les replie à l'affichage ; elle ne fusionne pas les fiches du carnet de votre téléphone."
+        },
+        {
+          "q": "Y a-t-il une limite de contacts ?",
+          "a": "Aucune limite pratique. La recherche est indexée plutôt que rescannée."
+        },
+        {
+          "q": "Dois-je tout organiser avant que ce soit utile ?",
+          "a": "Non. Vingt relations et une poignée d'étiquettes changent déjà la trouvabilité de votre carnet."
+        }
+      ]
+    },
+    "guides/how-to-add-tags-to-contacts": {
+      "title": "Comment ajouter des étiquettes aux contacts",
+      "description": "Les étiquettes sont des libellés privés qui traversent les groupes — Médecin, Plombier, une ville. Comment choisir des étiquettes durables et comment fonctionne l'affectation.",
+      "h1": "Comment ajouter des étiquettes aux contacts",
+      "lead": "Une étiquette est un libellé sur lequel vous chercherez plus tard. C'est tout le test.",
+      "answer": "Dans TreeLinker, les étiquettes se créent et se gèrent depuis l'écran Organisation : donnez à une étiquette un nom, une couleur, une icône et une description facultative, puis affectez-lui des contacts depuis sa propre vue de détail. Les étiquettes sont privées et traversent tous les groupes, ce qui en fait le bon endroit pour des libellés comme Médecin, Électricien ou un nom de ville. Avant d'en créer une, appliquez un seul test : chercherez-vous un jour dessus ? Sinon, c'est une note, pas une étiquette.",
+      "sections": [
+        {
+          "h2": "Où vivent les étiquettes",
+          "body": [
+            "Les étiquettes se gèrent à un seul endroit — l'écran Organisation, à côté des groupes — et les contacts sont affectés depuis l'intérieur de l'étiquette, pas depuis la fiche de chaque contact. L'affectation devient ainsi une activité délibérée plutôt qu'une décision rencontrée sur chaque contact ouvert.",
+            "Chaque étiquette affiche son icône sur sa couleur avec le nombre de contacts affectés, et sa vue de détail comporte une recherche."
+          ]
+        },
+        {
+          "h2": "Choisir des étiquettes qui durent",
+          "body": [
+            "Une bonne étiquette répond à une question que vous avez réellement posée à voix haute : qui j'appelle pour une fuite, quels proches sont au Caire, qui figure sur la liste d'urgence.",
+            "Une mauvaise décrit une impression ou un cas unique. Elle est créée, utilisée une fois, et encombre la liste pour toujours."
+          ]
+        },
+        {
+          "h2": "Les étiquettes sont privées ; les groupes non",
+          "body": [
+            "Personne d'autre ne voit jamais vos étiquettes. C'est ce qui les rend utilisables pour des libellés honnêtes que vous ne mettriez jamais dans un espace partagé.",
+            "Si d'autres doivent le voir et y être invités, c'est un groupe qu'il vous faut."
+          ]
+        },
+        {
+          "h2": "Des suggestions, pas de l'automatisme",
+          "body": [
+            "TreeLinker peut proposer des étiquettes d'après ce qu'il voit dans vos contacts. Les suggestions sont calculées sur le moment et jamais enregistrées si vous ne les acceptez pas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je affecter une étiquette depuis la fiche d'un contact ?",
+          "a": "Non. L'affectation se fait depuis la vue de détail de l'étiquette."
+        },
+        {
+          "q": "Deux étiquettes peuvent-elles porter le même nom ?",
+          "a": "Non. Les doublons sont refusés quelle que soit la casse."
+        },
+        {
+          "q": "Combien d'étiquettes un contact peut-il porter ?",
+          "a": "Autant que vous voulez, et il peut appartenir à des groupes en même temps."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-events": {
+      "title": "Comment organiser des événements familiaux",
+      "description": "Les réunions de famille se délitent dans les conversations de groupe. Comment trancher la décision, garder la préparation retrouvable, et consigner ensuite ce qui s'est passé.",
+      "h1": "Comment organiser des événements familiaux",
+      "lead": "La plupart des événements familiaux ne sont pas difficiles à préparer. Ils sont difficiles à décider.",
+      "answer": "Organisez un événement familial en trois temps, chacun à sa place. Tranchez la décision avec un sondage, pour qu'une voix par personne remplace quarante messages. Gardez la préparation dans une discussion nommée, pour pouvoir la rouvrir des mois plus tard. Puis, après l'événement, consignez-le comme un souvenir rattaché aux personnes présentes, afin de ne pas repartir de zéro l'année suivante.",
+      "sections": [
+        {
+          "h2": "Trancher avec un sondage, pas dans un fil",
+          "body": [
+            "« Où mange-t-on ? » est ce qu'un groupe familial a le plus souvent besoin de trancher, et un fil de discussion est un mauvais instrument : les voix se perdent, les gens se répètent, et personne ne voit quand c'est décidé.",
+            "Un sondage donne une voix par membre, permet de changer d'avis sans double comptage, montre qui a choisi quoi, et peut être clos."
+          ]
+        },
+        {
+          "h2": "Préparer dans une discussion nommée",
+          "body": [
+            "Donnez un titre à l'événement — « Dîner de l'Aïd 2026 » — et tout ce qui y est publié y reste. Des mois plus tard, c'est encore une entrée nommée dans la liste du groupe.",
+            "Un sondage peut y être attaché, pour que le débat et son issue vivent au même endroit."
+          ]
+        },
+        {
+          "h2": "Mettre la date clé sur les personnes concernées",
+          "body": [
+            "Une réunion récurrente est une date clé, enregistrée sur les contacts ou le groupe auxquels elle appartient, et elle remontera d'elle-même."
+          ]
+        },
+        {
+          "h2": "Le consigner ensuite",
+          "body": [
+            "Un événement devient un souvenir une fois passé : une note courte, les photographies qui comptent, la date et le lieu, rattachés à ceux qui étaient là.",
+            "C'est ce relevé qui rend l'édition suivante plus facile à préparer."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Tout le groupe peut-il voter ?",
+          "a": "Oui, une voix chacun. Changer de vote remplace le précédent au lieu de s'y ajouter."
+        },
+        {
+          "q": "Puis-je rouvrir une discussion plus tard ?",
+          "a": "Oui. Les discussions restent dans la liste du groupe sous leur titre."
+        },
+        {
+          "q": "Envoie-t-elle des invitations ou suit-elle les présences ?",
+          "a": "Pas aujourd'hui. Les invitations de groupe servent à rejoindre un groupe ; la confirmation de présence par événement n'est pas une fonctionnalité."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-photos-and-memories": {
+      "title": "Comment organiser les photos et souvenirs de famille",
+      "description": "Les photothèques sont organisées par date, la manière la moins utile de retrouver un souvenir familial. Comment organiser par personne à la place.",
+      "h1": "Comment organiser les photos et souvenirs de famille",
+      "lead": "Votre pellicule est triée selon la seule chose dont vous ne vous souvenez jamais : la date exacte.",
+      "answer": "Cessez d'organiser les photos de famille chronologiquement et organisez-les par les personnes qui y figurent. Choisissez le petit nombre de photos qui portent une histoire, rattachez chacune à la personne ou au groupe concerné, et ajoutez la date, le lieu et deux ou trois phrases de contexte. Une photothèque répond à « qu'ai-je pris en juin » ; un souvenir rattaché à une personne répond à « qu'ai-je de ma grand-mère », qui est la question réellement posée.",
+      "sections": [
+        {
+          "h2": "L'ordre par date est le mauvais index",
+          "body": [
+            "Les applications photo trient par date de prise de vue parce que c'est ce que le fichier sait. Mais personne ne cherche son histoire familiale par date : on cherche par personne, et parfois par occasion.",
+            "La solution n'est pas une meilleure recherche sur dix mille photos, mais le choix des quelques dizaines qui signifient quelque chose."
+          ]
+        },
+        {
+          "h2": "Sélectionner sans pitié",
+          "body": [
+            "Un souvenir a besoin d'une à quelques photographies, pas de toute la rafale. La sélection est l'essentiel du travail et de la valeur.",
+            "TreeLinker n'est pas un service de sauvegarde photo et ne cherche pas à l'être."
+          ]
+        },
+        {
+          "h2": "Écrire les deux phrases",
+          "body": [
+            "Une photographie sans contexte se dégrade en visage non identifié en une génération. Deux phrases — qui, où, ce qui se passait — font la différence entre un fichier et un témoignage.",
+            "Ajoutez la date et le lieu tant que vous les connaissez."
+          ]
+        },
+        {
+          "h2": "La rattacher à une personne ou à un groupe",
+          "body": [
+            "Un souvenir sur un contact apparaît quand vous ouvrez cette personne. Un souvenir de groupe garde ce que toute la famille a fait ensemble."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Puis-je joindre plusieurs photos à un souvenir ?",
+          "a": "Oui, avec une date et un lieu."
+        },
+        {
+          "q": "Sauvegarde-t-elle ma photothèque ?",
+          "a": "Non. Elle garde les photographies qui appartiennent à un souvenir, pas toute votre pellicule."
+        },
+        {
+          "q": "La vidéo est-elle prise en charge ?",
+          "a": "Pas actuellement."
+        }
+      ]
+    },
+    "compare/what-is-a-family-relationship-app": {
+      "title": "Qu'est-ce qu'une application de relations familiales ?",
+      "description": "Une explication de la catégorie : ce que fait une application de gestion des relations familiales, en quoi elle diffère d'un service de généalogie, d'un gestionnaire de contacts et d'un identificateur d'appel, et à qui elle s'adresse.",
+      "h1": "Qu'est-ce qu'une application de relations familiales ?",
+      "lead": "Une catégorie située entre trois catégories plus connues, et généralement décrite par ce qu'elle n'est pas.",
+      "answer": "Une application de relations familiales enregistre comment les personnes vivantes de votre carnet d'adresses sont reliées à vous et entre elles, et utilise ces liaisons pour rendre le reste de vos contacts plus utile. Elle diffère d'un service de généalogie, qui recherche des ancêtres dans des registres historiques ; d'un gestionnaire de contacts, qui stocke des informations sur des individus mais rien sur les liens entre eux ; et d'une application d'identification d'appel, qui identifie des inconnus grâce à une base partagée de numéros. Le trait déterminant est la relation elle-même — un champ qu'aucune des trois autres n'enregistre.",
+      "table": {
+        "caption": "Quatre catégories voisines, quatre questions différentes",
+        "head": [
+          "",
+          "Question principale",
+          "Objet",
+          "Enregistre les relations entre contacts"
+        ],
+        "rows": [
+          [
+            "Service de généalogie",
+            "Comment suis-je lié à mes ancêtres ?",
+            "Personnes décédées",
+            "Oui, mais pour les ancêtres"
+          ],
+          [
+            "Gestionnaire de contacts",
+            "Que sais-je de cette personne ?",
+            "Personnes que vous contactez",
+            "Non"
+          ],
+          [
+            "Application d'identification",
+            "À qui appartient ce numéro ?",
+            "Inconnus",
+            "Non"
+          ],
+          [
+            "Application de relations familiales",
+            "Comment cette personne m'est-elle liée ?",
+            "Personnes que vous contactez",
+            "Oui — c'est le trait déterminant"
+          ]
+        ],
+        "note": "Les catégories se recoupent par les fonctionnalités, pas par la finalité. La plupart de ceux qui en veulent une en veulent en fait des morceaux de deux."
+      },
+      "sections": [
+        {
+          "h2": "Ce que fait une telle application",
+          "body": [
+            "Au minimum, elle enregistre les relations entre contacts et les dessine en arbre. En pratique, les relations débloquent tout le reste : regrouper des proches, rattacher un souvenir à tous ceux qui étaient là, déduire une suggestion des liens existants, et décrire un appel entrant comme une place plutôt qu'un nom."
+          ],
+          "list": [
+            "Des relations entre les personnes de votre carnet d'adresses",
+            "Un arbre de personnes vivantes, pas d'ancêtres",
+            "Des groupes et des libellés privés qui les traversent",
+            "Des événements et des dates clés rattachés aux personnes",
+            "Des souvenirs et récits classés par personne plutôt que par date",
+            "Une identification d'appel consciente du lien, à partir de vos seuls contacts"
+          ]
+        },
+        {
+          "h2": "À qui elle s'adresse",
+          "body": [
+            "Aux personnes ayant de grandes familles élargies, où personne n'a écrit comment tout le monde se relie et où un ou deux proches portent tout cela de tête.",
+            "Elle convient mal à qui recherche des ancêtres, et mal à qui a pour problème principal les doublons ou la sauvegarde."
+          ]
+        },
+        {
+          "h2": "Ce qu'elle n'est pas",
+          "body": [
+            "Ce n'est pas un service de généalogie : ni registres historiques ni correspondance ADN. Ce n'est pas un réseau social : rien n'est public et il n'y a pas de fil. Et ce n'est pas une identification d'appel classique : aucune base de numéros, et elle ne peut nommer un inconnu, car elle n'en collecte jamais."
+          ]
+        },
+        {
+          "h2": "Comment savoir s'il vous en faut une",
+          "body": [
+            "Une question tranche. Quand un nom s'affiche, vous arrive-t-il de savoir que vous devriez le reconnaître sans pouvoir situer la personne ? Si la réponse est oui plus qu'occasionnellement, ce qui manque, ce sont les relations — et c'est la catégorie qui les stocke."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Est-ce la même chose qu'un CRM personnel ?",
+          "a": "Non. Un CRM personnel suit vos interactions avec un réseau professionnel. Une application de relations familiales suit comment les gens sont reliés entre eux, ce qu'un CRM n'enregistre pas du tout."
+        },
+        {
+          "q": "En ai-je besoin si j'utilise déjà un service de généalogie ?",
+          "a": "Ils détiennent des moitiés différentes de la même famille — l'une les ancêtres, l'autre les vivants. Beaucoup utilisent les deux à juste titre."
+        },
+        {
+          "q": "Remplace-t-elle mon application de contacts ?",
+          "a": "Elle lit les contacts déjà présents sur votre appareil et ajoute une couche par-dessus. Elle n'écrit pas d'elle-même dans le carnet de votre téléphone."
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1885 @@
+{
+  "chrome": {
+    "nav": {
+      "home": "Ana sayfa",
+      "familyTree": "Soy ağacı",
+      "contacts": "Kişiler",
+      "callerId": "Arayan kimliği",
+      "guides": "Rehberler",
+      "compare": "Karşılaştırmalar",
+      "language": "Dil",
+      "menu": "Menüyü aç",
+      "aria": "Ana gezinme"
+    },
+    "groups": {
+      "home": "Ana sayfa",
+      "solutions": "TreeLinker ne yapar",
+      "guides": "Rehberler",
+      "compare": "Karşılaştırmalar",
+      "features": "Özellikler"
+    },
+    "groupDescriptions": {
+      "guides": "Bir aileyi haritalamak, rehberi düzenlemek ve kimin kim olduğunu hatırlamak için pratik anlatımlar.",
+      "compare": "Soy ağacı uygulamaları, kişi yöneticileri ve arayan kimliği uygulamaları arasında dürüst karşılaştırmalar — TreeLinker'ın yanlış araç olduğu durumlar dâhil.",
+      "features": "TreeLinker'ın her parçası, tek tek anlatılıyor."
+    },
+    "pages": {
+      "relationshipManager": "İlişki yöneticisi",
+      "familyOrganizer": "Aile düzenleyici",
+      "familyMemoryApp": "Aile anıları"
+    },
+    "labels": {
+      "answer": "Kısa yanıt",
+      "faq": "Sık sorulanlar",
+      "related": "İlgili sayfalar",
+      "breadcrumb": "Gezinme yolu"
+    },
+    "cta": {
+      "title": "Zaten sahip olduğunuz kişilerle başlayın",
+      "body": "TreeLinker Google Play'de ücretsiz. Reklam yok, abonelik yok ve rehberiniz telefonunuzdan hiç çıkmıyor.",
+      "play": "Google Play'den edinin",
+      "secondary": "Arayan kimliği nasıl çalışır",
+      "note": "Android. Ücretsiz. Kendi kişilerinize bakmak için hesap gerekmiyor.",
+      "identity": ""
+    },
+    "footer": {
+      "legal": "Yasal",
+      "privacy": "Gizlilik Politikası",
+      "terms": "Kullanım Koşulları",
+      "deleteAccount": "Hesabı sil",
+      "support": "Destek",
+      "rights": "Tüm hakları saklıdır.",
+      "madeWith": "Şununla yapıldı"
+    },
+    "identity": {
+      "category": "bir aile ilişkileri yönetimi uygulaması",
+      "description": "TreeLinker bir aile ilişkileri yönetimi uygulamasıdır: kişi yönetimi, soy ağacı, ilişkiler, gruplar, etiketler, etkinlikler, anılar ve arayan kimliği tek yerde.",
+      "chain": [
+        "kişi yönetimi",
+        "soy ağacı",
+        "ilişkiler",
+        "gruplar",
+        "etiketler",
+        "etkinlikler",
+        "anılar",
+        "arayan kimliği"
+      ],
+      "aria": "TreeLinker nedir"
+    }
+  },
+  "pages": {
+    "": {
+      "title": "TreeLinker — Kişilerinizdeki herkesin birbiriyle bağını bilin",
+      "description": "Bir aile ilişkileri uygulaması. Telefonunuzda zaten duran kişilerden bir soy ağacı kurun, akrabaları gruplara ve etiketlere ayırın, etkinlikleri ve anıları ait oldukları kişilerin yanında tutun ve arayanın sizinle bağını görün. Ücretsiz, Android ve rehberinizi asla yüklemez.",
+      "h1": "Kişilerinizdeki herkesin birbiriyle bağını bilin",
+      "lead": "Telefonunuz zaten herkesin numarasını biliyor. Bu insanların birbirine kim olduğundan hiç haberi yok. TreeLinker eksik katmanı — ilişkileri — ekler ve bunu yaparken rehberinizi cihazınızda bırakır.",
+      "answer": "TreeLinker, Android için bir aile ilişkileri yönetimi uygulamasıdır. Telefonunuzda zaten bulunan kişileri okur, bu kişilerin birbiriyle nasıl akraba olduğunu kaydetmenizi sağlar ve sonucu bir soy ağacı olarak çizer. Bunun etrafına gruplar, etiketler, etkinlikler, anılar ve arayanın sizinle bağını gösteren bir arayan kimliği kartı ekler. Ücretsizdir, reklam içermez ve rehberinizi asla ortak bir veri tabanına yüklemez.",
+      "featuresTitle": "Hayatınızdaki insanlar için tek uygulama",
+      "featuresSubtitle": "Sekiz parça, tek fikir: her şey bir kişiye asılı.",
+      "cards": [
+        {
+          "h3": "Kişilerinizden soy ağacı",
+          "p": "Yüzlerce ismi yeniden yazmak yerine elinizdeki rehberle başlayın. İki kişiyi bağlayın, ters ilişki kendiliğinden oluşsun."
+        },
+        {
+          "h3": "İlişki önerileri",
+          "p": "Ağacınız bir ilişkiyi ima ettiğinde — kardeşinizin oğlu yeğeniniz olur — TreeLinker bunu bir güven puanı ve açıklamayla önerir; kabul edebilir, değiştirebilir ya da yok sayabilirsiniz."
+        },
+        {
+          "h3": "Gruplar ve etiketler",
+          "p": "Gruplar bir aile, mahalle ya da sınıf için ortak alanlardır. Etiketler ise kişiye özel işaretlerdir — Doktor, Tesisatçı, Kahire — ve hepsini keser."
+        },
+        {
+          "h3": "Etkinlikler ve önemli tarihler",
+          "p": "Doğum günleri, düğünler ve yıl dönümleri ait oldukları kişilerin yanında yaşar; yaklaşanlar ana ekranınızda görünür."
+        },
+        {
+          "h3": "Anılar",
+          "p": "Fotoğraf, tarih ve yer içeren hikâyeler, etkinlikler ve önemli tarihler — galeride kaybolmak yerine ilgili kişiye bağlı."
+        },
+        {
+          "h3": "Arayan kimliği",
+          "p": "Kişilerinizden biri aradığında TreeLinker sadece bir ad değil, sizinle olan bağını gösterir. Çevrimiçi hiçbir şey sorgulanmaz, hiçbir şey yayımlanmaz."
+        }
+      ],
+      "stepsTitle": "Dakikalar içinde hazır",
+      "steps": [
+        {
+          "h3": "Kişilerinizi açın",
+          "p": "TreeLinker telefonunuzdaki rehberi okur. Hiçbir şey yüklenmez, hiçbir şey yeniden yazılmaz."
+        },
+        {
+          "h3": "İki kişiyi bağlayın",
+          "p": "Ömer'in kardeşiniz olduğunu söyleyin. Ters ilişki otomatik oluşur ve ağacınız boş olmaktan çıkar."
+        },
+        {
+          "h3": "Bağlamı saklayın",
+          "p": "Grupları, etiketleri, önemli tarihleri ve anıları yol boyunca ekleyin. Ağaç, yalnızca numaraların değil insanların kaydı hâline gelir."
+        }
+      ],
+      "sections": [
+        {
+          "h2": "Sıradan bir rehberin sorunu",
+          "body": [
+            "Kişi listesi bir ad ve bir numara saklar. Gerçekten unuttuğunuz tek şeyi saklamaz: bu kişi size ve listedeki herkese kim oluyor.",
+            "Birkaç bin kişilik bir rehberde bu boşluk pahalıya patlar. Dört kişi aynı adı taşır. İki kez gördüğünüz bir kuzen arar ve yerini koyamazsınız. Biri ölür ve ailenin nasıl bağlı olduğunu kimse söyleyemez. Bilgi vardı — sadece yaşayacağı bir yeri yoktu."
+          ]
+        },
+        {
+          "h2": "TreeLinker neyi ekler",
+          "body": [
+            "TreeLinker rehberi korur ve içindeki insanlar arasındaki ilişkileri ekler. Bunlar var olduğunda gerisi kendiliğinden gelir: ağaç çizilebilir, akrabalar gruplanabilir, arayan yerine oturtulabilir ve bir anı, orada bulunan kişilere bağlanabilir."
+          ],
+          "list": [
+            "Yedi ilişki türü — ebeveyn, çocuk, kardeş, eş, arkadaş, akraba, diğer — her birinin kendi rengi ve simgesi var",
+            "Otomatik karşılıklı ilişkiler: bir yönü kaydedersiniz, diğeri oluşturulur",
+            "Güven puanlı ve sade dille açıklanan ilişki önerileri",
+            "Davetli gruplar, anketler ve adlandırılmış tartışmalar",
+            "Atanmış kişileri, rengi ve simgesi olan etiketler",
+            "Her kişide, gelen aramaları da içeren bir zaman çizelgesi",
+            "Fotoğraf, tarih ve yer içeren hikâyeler, etkinlikler ve önemli tarihler",
+            "Başka bir TreeLinker kullanıcısıyla paylaşabileceğiniz ağaçlar — o kişi aynı insanları kendi rehberindeki adlarla görür"
+          ]
+        },
+        {
+          "h2": "Söz verdiği için değil, öyle kurulduğu için özel",
+          "body": [
+            "TreeLinker önce yerelde çalışır. Kişileriniz, ilişkileriniz ve anılarınız cihazınızda saklanır; bunları hesabınızla eşitlemek varsayılan olarak olan bir şey değil, sizin açtığınız bir şeydir.",
+            "Arayan kimliği bunun en açık örneğidir. TreeLinker'ın telefon numarası veri tabanı yoktur ve bir yabancıyı adlandıramaz, çünkü hiç toplamaz. Gelen numara zaten tanıdığınız birine ait değilse hiçbir şey gösterilmez."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker kişilerimi yüklüyor mu?",
+          "a": "Hayır. Rehberiniz cihazda okunur ve orada kalır. TreeLinker ortak bir numara dizini kurmaz ve bir numaranın kime ait olduğunu kimseye söyleyemez."
+        },
+        {
+          "q": "TreeLinker ücretsiz mi?",
+          "a": "Evet. Google Play'de ücretsiz, reklamsız ve aboneliksiz."
+        },
+        {
+          "q": "iPhone sürümü var mı?",
+          "a": "Henüz yok. TreeLinker bugün yalnızca Android'de."
+        },
+        {
+          "q": "Ailemin de kurması gerekir mi?",
+          "a": "Hayır. Tüm ailenizi tek başınıza haritalayabilirsiniz. Ağacı başka bir kullanıcıyla paylaşmak isteğe bağlı ve tek seferliktir — sonrasında hiçbir şey eşitlenmeye devam etmez."
+        }
+      ]
+    },
+    "family-tree-app": {
+      "title": "Telefon kişilerinizden başlayan soy ağacı uygulaması — TreeLinker",
+      "description": "Çoğu soy ağacı uygulaması her ismi sıfırdan yazmanızı ister. TreeLinker ağacı telefonunuzdaki kişilerden kurar, ters ilişkileri otomatik oluşturur ve ağacınızın ima ettiklerini önerir.",
+      "h1": "Kişilerinizden başlayan bir soy ağacı uygulaması",
+      "lead": "İsimler zaten telefonunuzda. Bir soy ağacı boş bir formla başlamamalı.",
+      "answer": "TreeLinker, ağacı telefonunuzda zaten bulunan kişilerden kuran, Android için bir soy ağacı uygulamasıdır. İki kişi seçer, akrabalıklarını belirtirsiniz ve ters ilişki sizin için oluşturulur. Ağaç büyüdükçe çıkarabildiği ilişkileri önerir — kardeşinizin çocuğu yeğeniniz olur — güven puanı ve açıklamayla. Bir soybilim hizmeti değildir: tarihsel kayıt ve DNA eşleştirmesi yoktur, çünkü rehberinizdeki yaşayan aile için yapılmıştır.",
+      "sections": [
+        {
+          "h2": "Kişilerden başlamak neden önemli",
+          "body": [
+            "Soy ağacı yazılımlarına en sık yöneltilen eleştiri doğruluk değil, emek ve yavaşlıktır: her kişi elle yazılmalıdır ve karşılığı ancak onlarca kayıttan sonra görünür.",
+            "İnsanlar zaten rehberinizdeyse bu adım tümüyle ortadan kalkar. Elinizdekileri bağlarsınız ve bir iki dakika içinde ağacın dalları olur."
+          ]
+        },
+        {
+          "h2": "Sadece kutucuklar değil, ilişkiler",
+          "body": [
+            "TreeLinker yedi ilişki türünü destekler; her birinin rengi ve simgesi vardır, böylece yoğun bir ağaç okunabilir kalır.",
+            "Bir yönü kaydetmek diğerini de kaydeder. Ömer'in kardeşiniz olduğunu söylerseniz, onun kaydında sizin onun kardeşi olduğunuz yazar — iki yarıyı elle sürdürmezsiniz."
+          ]
+        },
+        {
+          "h2": "Reddedebileceğiniz öneriler",
+          "body": [
+            "Mevcut ilişkiler yenisini ima ettiğinde TreeLinker onu yazmak yerine önerir. Her öneri bir güven puanı ve onu hangi ilişkilerin doğurduğunu açıklayan bir cümle taşır; tür belirsizse size sorulur.",
+            "Yazılım tahmin etti diye ağacınıza hiçbir şey girmez. İçindeki her şey oradadır çünkü siz kabul ettiniz."
+          ]
+        },
+        {
+          "h2": "Bilerek yapmadıkları",
+          "body": [
+            "TreeLinker'da tarihsel kayıt koleksiyonu, nüfus sayımı dizinleri ve DNA eşleştirmesi yoktur. Amacınız iki yüz yıl önce doğmuş ataları araştırmaksa doğru araç bir soybilim hizmetidir, TreeLinker değil.",
+            "O, sorunun diğer yarısı için yapılmıştır: gerçekten konuştuğunuz ve ilişkilerini kimsenin hiç yazmadığı yaşayan aile."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Her akrabayı elle girmem gerekir mi?",
+          "a": "Hayır. TreeLinker telefonunuzdaki kişileri okur ve siz orada olanları bağlarsınız. Yalnızca kayıt bulunmayan akrabaları yazarsınız."
+        },
+        {
+          "q": "Ağacı GEDCOM olarak dışa aktarabilir miyim?",
+          "a": "Bugün hayır. GEDCOM içe ve dışa aktarma henüz desteklenmiyor."
+        },
+        {
+          "q": "Tarihsel kayıtlarda arama yapıyor mu?",
+          "a": "Hayır. Kayıt koleksiyonu ve DNA eşleştirmesi yok. TreeLinker rehberinizdeki yaşayan aileyi haritalar."
+        },
+        {
+          "q": "Çevrimdışı çalışıyor mu?",
+          "a": "Evet. Ağaç cihazınızda saklanır, bağlantı olmadan okunup düzenlenebilir."
+        }
+      ]
+    },
+    "family-contact-manager": {
+      "title": "Aile kişi yöneticisi — kişileri akrabalığa göre düzenleyin | TreeLinker",
+      "description": "Kişileri yalnızca ada göre değil, sizinle olan bağına göre düzenleyen bir kişi yöneticisi. Gruplar, etiketler, kişi başına zaman çizelgesi ve önemli tarihler, cihazınızda saklanır.",
+      "h1": "İlişkiye göre düzenlenmiş bir kişi yöneticisi",
+      "lead": "Ad ve numara, telefonunuzdaki insanların en az ilginç yanı.",
+      "answer": "TreeLinker, rehberinizi alfabetik yerine ilişkiye göre düzenleyen, Android için bir kişi yöneticisidir. Her kişi; başka insanlarla ilişkiler, grup üyelikleri, kişiye özel etiketler, aranızda olup bitenlerin zaman çizelgesi, önemli tarihler ve paylaşılan anılar taşıyabilir. Cihazınızdaki kişileri okur, orada bırakır ve sıradan bir rehberin koyacak yeri olmayan bağlamı ekler.",
+      "sections": [
+        {
+          "h2": "Sıradan bir kişi uygulaması neyi saklar",
+          "body": [
+            "Standart bir rehber ad, numara, belki e-posta ve şirket kaydeder. Arama yapmaya yeter, fazlasına yetmez.",
+            "Arayanın eşinizin kuzeni olduğunu, en son haziranda bir düğünde konuştuğunuzu ya da iki yıl önce iyi iş çıkaran elektrikçi olduğunu söyleyemez. Bu bilgi yalnızca kafanızda var."
+          ]
+        },
+        {
+          "h2": "TreeLinker bunun yerine neyi saklar",
+          "body": [
+            "TreeLinker'daki her kişi, listedeki bir satır değil, hayatınızda bir yeri olan bir insandır."
+          ],
+          "list": [
+            "Soy ağacı olarak çizilen, diğer kişilerle ilişkiler",
+            "Gruplar — bir aile, mahalle, sınıf — davetler ve ortak alanlarla",
+            "Doktor, Tesisatçı ya da Kahire gibi, kendi rengi ve simgesi olan özel etiketler",
+            "Notlardan ve gelen aramalardan oluşan, yenisi üstte, önemlisi sabitlenmiş zaman çizelgesi",
+            "Yaklaştıkça beliren önemli tarihler ve etkinlikler",
+            "Fotoğraf, tarih ve yer içeren hikâyeler ve anılar"
+          ]
+        },
+        {
+          "h2": "Adın ötesine geçen arama",
+          "body": [
+            "Kişi listesi yazarken önceden hazırlanmış bir dizine göre süzülür, böylece birkaç bin kişi hızlı kalır. Grupların ve etiketlerin atanmış kişiler üzerinde kendi araması vardır.",
+            "Bir kişi aynı anda birkaç gruba ait olup birkaç etiket taşıyabildiğinden, onu hangi açıdan düşünüyorsanız oradan bulabilirsiniz."
+          ]
+        },
+        {
+          "h2": "Kişileriniz nerede yaşar",
+          "body": [
+            "TreeLinker rehberinizi cihazınızda saklar. Hesabınızla eşitleme isteğe bağlıdır ve başkalarının arayabileceği ortak bir dizin yoktur.",
+            "TreeLinker telefonunuzun rehberine de kendiliğinden hiç yazmaz. Birini kişilerinize eklemek her zaman sizin kararınızdır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Yinelenen kişileri birleştiriyor mu?",
+          "a": "Size bir liste gösterirken onları toplar, böylece aynı kişi bir ağaçta ya da grupta iki kez görünmez. Telefonunuzun rehberindeki kayıtları henüz birleştirmez."
+        },
+        {
+          "q": "Kişilerimi yedekliyor mu?",
+          "a": "Bugün ayrı bir yedekleme özelliği yok. Eşitlemeyi açarsanız kişiler TreeLinker hesabınıza eşitlenir."
+        },
+        {
+          "q": "Hesapsız kullanabilir miyim?",
+          "a": "Eşitlenen ya da paylaşılan her şey için — gruplar ve ağaç paylaşımı gibi — hesap gerekir."
+        },
+        {
+          "q": "Arama kaydıma ihtiyacı var mı?",
+          "a": "Hayır. TreeLinker arama kaydı erişimini hiç istemez. Gelen aramaları Android'in arama tarama rolüyle, teker teker görür."
+        }
+      ]
+    },
+    "relationship-manager": {
+      "title": "İlişki yöneticisi — kimin kim olduğunu takip edin | TreeLinker",
+      "description": "Hayatınızdaki insanların nasıl bağlı olduğunu kaydedin, ikisi arasındaki yolu görün ve her biriyle olup bitenlerin zaman çizelgesini tutun.",
+      "h1": "Gerçekten tanıdığınız insanlar için bir ilişki yöneticisi",
+      "lead": "Kişisel CRM'ler profesyonel ağınızı izler. TreeLinker, zaten anladığınız varsayılan aileyi izler.",
+      "answer": "TreeLinker, Android için bir ilişki yöneticisidir. Rehberinizdeki insanların sizinle ve birbiriyle nasıl bağlı olduğunu kaydeder, bunu ağaç olarak çizer, her kişide bir zaman çizelgesi tutar ve aynı bilgiyi kullanarak arayanın sizinle bağını söyler. Profesyonel bir kişisel CRM'den farklı olarak müşteriler değil aileler etrafında kuruludur ve varsayılan olarak her şeyi cihazınızda saklar.",
+      "sections": [
+        {
+          "h2": "Kimsenin yazmadığı bilgi",
+          "body": [
+            "Aileler çok sayıda belgelenmemiş bilgi taşır: kim kimin eniştesi, hangi kuzen hangi amcaya ait, iki kol neden konuşmuyor. Bunu her ailede bir iki kişi taşır ve onlar gidince o da gider.",
+            "TreeLinker bu bilgiye, birinin hafızası olmayan bir yer verir."
+          ]
+        },
+        {
+          "h2": "Her kişide bir zaman çizelgesi",
+          "body": [
+            "Her kişinin ters kronolojik bir zaman çizelgesi vardır. Notlar eklersiniz — \"mutfak tesisatını yeniledi\", \"açmadı\", \"mükemmel iş, adil fiyat\" — ve gelen aramalar yanlarında belirir.",
+            "Üstte kalmasını istediğiniz kayıtlar sabitlenebilir ve arayan kimliği kartı sabitlenmişlerden okur."
+          ]
+        },
+        {
+          "h2": "Haritaladığınızı paylaşmak",
+          "body": [
+            "Kurduğunuz bir ağacı başka bir TreeLinker kullanıcısına gönderebilirsiniz. O aynı insanları görür ama kendi rehberindeki adlarla — sizin adlarınız onun kişilerine hiç dayatılmaz.",
+            "Aktarım tek seferliktir. Sonrasında hiçbir şey eşitlenmez ve gönderene alıcının ne yaptığı bildirilmez."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "İletişimde kalmam için hatırlatıyor mu?",
+          "a": "Henüz hayır. Önemli tarihler ve yaklaşan etkinlikler kendiliğinden belirir, ama bugün iletişim hatırlatıcısı yok."
+        },
+        {
+          "q": "Bu iş için bir CRM mi?",
+          "a": "Etiketler aracılığıyla iş kişilerini tutabilir, ama satış hunileri değil aile ilişkileri etrafında tasarlanmıştır."
+        },
+        {
+          "q": "Kullanmayı bırakırsam verilerime ne olur?",
+          "a": "Hesabınızı uygulama içinden silebilirsiniz; bu, verilerinizi hem cihazdan hem sunuculardan kaldırır."
+        }
+      ]
+    },
+    "family-organizer": {
+      "title": "Aile düzenleyici — gruplar, etiketler ve ortak kararlar | TreeLinker",
+      "description": "Akrabaları özel gruplara ayırın, kişileri kendi etiketlerinizle işaretleyin ve aile kararlarını, sonradan bulunabilir kalan anketler ve adlandırılmış tartışmalarla çözün.",
+      "h1": "Kararların kaybolmadığı bir aile düzenleyici",
+      "lead": "Grup sohbetleri her şeyi gömer. Anketi iliştirilmiş, adı olan bir tartışma gömmez.",
+      "answer": "TreeLinker rehberinizdeki insanları aynı anda iki şekilde düzenler. Gruplar; bir aile, mahalle ya da sınıf için yalnızca davetle girilen ortak alanlardır ve üyeler anket açıp adlandırılmış tartışmalar yürütebilir. Etiketler ise yalnızca sizin gördüğünüz ve tüm grupları kesen özel işaretlerdir — Doktor, Tesisatçı, Kahire. Bir kişi aynı anda birkaç grupta olabilir ve birkaç etiket taşıyabilir.",
+      "sections": [
+        {
+          "h2": "Gruplar ortak, etiketler sizin",
+          "body": [
+            "Bir grubun üyeleri, kapak fotoğrafı, simgesi ve ayrıntı ekranı vardır; katılım davetle olur. İçeride olan biten tüm üyelerce görülür.",
+            "Bir etiketin adı, rengi, simgesi, isteğe bağlı açıklaması ve atanmış kişi listesi vardır. Etiketlerinizi başka kimse görmez; Doktor ya da Zor gibi işaretler için işe yaramasının nedeni budur."
+          ]
+        },
+        {
+          "h2": "Sürekli yeniden sorulan karar için anketler",
+          "body": [
+            "Herhangi bir üye bir soru ve birkaç seçenekle anket açabilir. Herkesin bir oyu vardır; oyu değiştirmek eskisini ekler değil değiştirir ve kimin ne seçtiği görülür. Açan kişi anketi kapatabilir.",
+            "Var olma nedeni şu: \"nerede yiyelim\" bir aile grubunun en sık çözmesi gereken şeydir ve sohbet dizisi bunun için kötü bir araçtır."
+          ]
+        },
+        {
+          "h2": "Yeniden açılabilen tartışmalar",
+          "body": [
+            "Bir tartışmanın başlığı vardır — \"Bayram Yemeği 2026\" — ve altına yazılan her şey orada kalır. Aylar sonra hâlâ grup listesinde adı olan bir şeydir, dört yüz mesaj yukarıda değil.",
+            "Bir anket iliştirilebilir; böylece tartışma ve sonucu aynı yerde kalır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Başkaları etiketlerimi görüyor mu?",
+          "a": "Hayır. Etiketler hesabınıza özeldir. Gruplar ortaktır; etiketler asla."
+        },
+        {
+          "q": "Biri davetsiz katılabilir mi?",
+          "a": "Hayır. Gruplara yalnızca davetle girilir."
+        },
+        {
+          "q": "Bir kişi birden fazla grupta olabilir mi?",
+          "a": "Evet, ve aynı anda istediğiniz kadar etiket taşıyabilir."
+        }
+      ]
+    },
+    "family-memory-app": {
+      "title": "Aile anıları uygulaması — hikâyeler ve fotoğraflar, ait oldukları kişilerin yanında | TreeLinker",
+      "description": "Aile hikâyelerini, etkinlikleri ve önemli tarihleri, anlattıkları kişilere bağlı olarak fotoğraf, tarih ve yerle saklayın — galeriye dağılmış hâlde değil.",
+      "h1": "İnsanlar etrafında kurulmuş bir anı uygulaması",
+      "lead": "Galerideki bir fotoğraf bir dosyadır. Aynı fotoğraf büyükannenize bağlıysa bir kayıttır.",
+      "answer": "TreeLinker aile anılarını ait oldukları kişilere bağlı tutar. Bir anı; paylaşılan bir hikâye, bir etkinlik ya da önemli bir tarihtir ve fotoğraf, tarih ve yer taşıyabilir. Anılar bir akışta durmak yerine bir kişiye asılı olduğundan, bir kişiyi açtığınızda ona dair elinizdekileri görürsünüz; kaydettiğiniz önemli tarihler ise her yıl yeniden belirir.",
+      "sections": [
+        {
+          "h2": "Üç tür anı",
+          "body": [
+            "Hikâye, olmuş ve yeniden anlatmaya değer bir şeydir. Etkinlik, tarihi olan ve insanların katıldığı bir şeydir. Önemli tarih ise tekrar eden bir yıl dönümüdür — doğum günü, düğün, birinin öldüğü gün.",
+            "Ayrım önemlidir çünkü davranışları farklıdır: önemli tarihler her yıl döner ve yaklaşan etkinliklerinizde görünür; hikâyeler ise koyduğunuz yerde kalır."
+          ]
+        },
+        {
+          "h2": "Bir akışa değil, bir kişiye bağlı",
+          "body": [
+            "Bir kişiyi açmak, onun geçtiği anıları gösterir. Bu, yalnızca en yeninin bulunabildiği sosyal akışın tam tersidir.",
+            "Grupların da kendi anıları vardır; böylece bir aile grubu, tüm ailenin gittiği geziyi tek bir kişinin altına koymak yerine kendisinde tutabilir."
+          ]
+        },
+        {
+          "h2": "Ne değildir",
+          "body": [
+            "TreeLinker bir fotoğraf yedekleme hizmeti değildir ve yerini almaya çalışmaz. Bir anıya anlamını veren fotoğrafları tutar, çektiğiniz her kareyi değil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Video ekleyebilir miyim?",
+          "a": "Şu an hayır. Anılar fotoğraf, tarih ve yer destekler."
+        },
+        {
+          "q": "Anılar otomatik paylaşılıyor mu?",
+          "a": "Hayır. Bir kişiye iliştirdiğiniz anılar sizindir. Grup anılarını o grubun üyeleri görür."
+        },
+        {
+          "q": "Önemli tarihler bana hatırlatıyor mu?",
+          "a": "Yaklaşan önemli tarihler uygulamada belirir. Anlık bildirim henüz yok."
+        }
+      ]
+    },
+    "caller-identification": {
+      "title": "Kişilerinizi asla yüklemeyen arayan kimliği — TreeLinker",
+      "description": "Çoğu arayan kimliği uygulaması herkesin rehberini ortak bir veri tabanına yükleyerek çalışır. TreeLinker'da böyle bir veri tabanı yok. Arayanın sizinle bağını yalnızca telefonunuzdaki kişileri kullanarak gösterir.",
+      "h1": "Kişilerinizi asla yüklemeyen arayan kimliği",
+      "lead": "Alışılmış pazarlık, rehberinizin küresel bir dizinin parçası olmasıdır. TreeLinker bu pazarlığı yapmaz.",
+      "answer": "TreeLinker, kendi kişilerinizden biri aradığında bir kart gösterir ve yalnızca bir ad yerine sizinle bağını söyler — örneğin \"Nadia — Safa'nın kız kardeşi\". Karttaki her şey cihazınızdan gelir. TreeLinker'ın numara veri tabanı yoktur, bilinmeyen bir numaranın kime ait olduğunu söyleyemez ve rehberinizi asla yüklemez. Arayan zaten tanıdığınız biri değilse hiç kart gösterilmez.",
+      "sections": [
+        {
+          "h2": "Sıradan arayan kimliği uygulamaları nasıl çalışır",
+          "body": [
+            "Büyük arayan kimliği hizmetleri yabancıları tanımlayabilir çünkü yüz milyonlarca rehber toplamışlardır. Biri uygulamayı kurup kişilere erişim verdiğinde telefonundaki herkes ortak bir dizine eklenir — hiçbir şey kurmamış ve hiçbir şeye onay vermemiş kişiler dâhil.",
+            "Bilinmeyen bir numarayı adlandırabilmelerinin nedeni budur ve haklarında en sık yapılan şikâyet de budur."
+          ]
+        },
+        {
+          "h2": "TreeLinker bunun yerine nasıl çalışır",
+          "body": [
+            "TreeLinker başka bir soruyu yanıtlar. Toplamayı gerektiren \"bu numara kimin\" sorusunu değil, yalnızca telefonunuzda zaten olanı gerektiren \"bu kişinin benimle bağı ne\" sorusunu.",
+            "Karttaki ad ve ilişki kendi kişilerinizden ve kendi ağacınızdan okunur. Telefon çalarken ağdan hiçbir şey çekilmez ve arama hakkında kimseye hiçbir şey yayımlanmaz."
+          ]
+        },
+        {
+          "h2": "Günlük durum yabancılar değildir",
+          "body": [
+            "Binlerce kişilik bir rehberde sorun genellikle bilinmeyen bir numara değil, yerine koyamadığınız tanıdık bir addır — dört Nadia kayıtlıdır ve bu, bağını unuttuğunuz olandır.",
+            "Kart bunun içindir. Kimlik değil, yer verir."
+          ]
+        },
+        {
+          "h2": "Bir kişideki \"Arayan Adı\" bölümü",
+          "body": [
+            "Her kişide, o kişi aradığında tam olarak ne görüneceğini gösteren bir bölüm vardır. TreeLinker bunu kaydettiğiniz ilişkilerden önerir; kabul edebilir, düzenleyebilir ya da silebilirsiniz.",
+            "Bu özel bir nottur. Tanımladığı kişiye asla gösterilmez, başka kullanıcılara asla gösterilmez ve hiçbir yerde yayımlanmaz."
+          ]
+        }
+      ],
+      "table": {
+        "caption": "TreeLinker geleneksel bir arayan kimliği uygulamasından nasıl ayrılır",
+        "head": [
+          "",
+          "TreeLinker",
+          "Geleneksel arayan kimliği uygulamaları"
+        ],
+        "rows": [
+          [
+            "Bilinmeyen numaraları adlandırır",
+            "Hayır — bilerek",
+            "Evet"
+          ],
+          [
+            "Rehberinizi yükler",
+            "Asla",
+            "Genellikle, dizini kurmak için"
+          ],
+          [
+            "Arayanla bağınızı gösterir",
+            "Evet",
+            "Hayır"
+          ],
+          [
+            "Spam ve dolandırıcılık engelleme",
+            "Hayır",
+            "Evet"
+          ],
+          [
+            "Çalarken bağlantı gerektirir",
+            "Hayır",
+            "Genellikle"
+          ],
+          [
+            "Reklam",
+            "Yok",
+            "Ücretsiz sürümlerde yaygın"
+          ],
+          [
+            "Fiyat",
+            "Ücretsiz",
+            "Ücretsiz katman, ücretli yükseltme"
+          ]
+        ],
+        "note": "Bilinmeyen numaraları tanımlamak ve spam engellemek istiyorsanız doğru araç geleneksel bir arayan kimliği uygulamasıdır — TreeLinker ikisini de yapmaz ve yapmayı düşünmüyor."
+      },
+      "faq": [
+        {
+          "q": "TreeLinker bilinmeyen bir numaranın kime ait olduğunu söyleyebilir mi?",
+          "a": "Hayır. Numaradan ada bir veri tabanı yoktur ve bu soruyu bilerek yanıtlamayı reddeder. Bunu yanıtlayan bir hizmet, herkesin numara uzayını tarayıp kimlik toplamasına izin verir."
+        },
+        {
+          "q": "Spam aramaları engelliyor mu?",
+          "a": "Hayır. TreeLinker'ın spam veri tabanı yok ve arama engellemiyor."
+        },
+        {
+          "q": "Tanımladığı kişi Arayan Adı'nı görüyor mu?",
+          "a": "Hayır. Yalnızca sizin göreceğiniz özel bir nottur; cihazınızda ve hesabınızda."
+        },
+        {
+          "q": "Hangi izinleri istiyor?",
+          "a": "Gelen numarayı görebilmek için Android'in arama tarama rolü ve kartın görünebilmesi için diğer uygulamaların üzerinde gösterme izni. Arama kaydı erişimi hiç istenmez."
+        },
+        {
+          "q": "Arayan kimliği iPhone'da var mı?",
+          "a": "Hayır. Yalnızca Android, çünkü iOS eşdeğer bir arama tarama rolü sunmuyor."
+        }
+      ]
+    },
+    "guides/how-to-create-a-family-tree": {
+      "title": "Telefon kişilerinizden nasıl soy ağacı kurulur",
+      "description": "Pratik bir anlatım: elinizdeki kişilerle başlayın, ilk ilişkiyi bağlayın, tersinin oluşmasına izin verin ve oradan dışa doğru büyüyün.",
+      "h1": "Nasıl soy ağacı kurulur",
+      "lead": "En hızlı soy ağacı, yazmak zorunda olmadığınızdır.",
+      "answer": "Boş bir form yerine telefonunuzda zaten bulunan insanlarla başlayın. Kendinizi seçin, yakın bir akrabayı — anne baba ya da kardeş — bağlayın; ters ilişki otomatik oluşur. Sonra tek tek dışa doğru ilerleyin, biçim doldukça uygulamanın çıkardığı ilişkileri kabul edin. Yirmi kişilik bir ağaç bu yolla birkaç dakika sürer; geleneksel bir soybilim aracında bir saatlik yazmaya karşılık.",
+      "sections": [
+        {
+          "h2": "1. Kendinizle başlayın",
+          "body": [
+            "Kendi kaydınız çıpadır. Her ilişki yolu sonunda ondan ölçülür ve arayan kimliği kartı insanları size göre tanımlar."
+          ]
+        },
+        {
+          "h2": "2. Önce en yakınları bağlayın",
+          "body": [
+            "Anne baba, kardeşler, eş, çocuklar. Sonradan en çok çıkarımı bunlar üretir, çünkü bir ailedeki neredeyse her bağ bunlardan birinden geçer.",
+            "Yalnızca bir yönü kaydedin. Diğeri sizin için oluşturulur."
+          ]
+        },
+        {
+          "h2": "3. Alfabetik değil, aile boyunca ilerleyin",
+          "body": [
+            "Kişi listesini değil aileyi izleyin. Bir ebeveynden kardeşlerini, onlardan çocuklarını ekleyin. Her ekleme sonraki önerileri iyileştirir.",
+            "Bir ilişki belirsizse sizin yerinize seçilmek yerine türü size sorulur."
+          ]
+        },
+        {
+          "h2": "4. Önerileri kabul edin ya da reddedin",
+          "body": [
+            "Yeterli yapı oluştuğunda TreeLinker güven puanı ve açıklamayla ilişkiler önermeye başlar. Doğruları kabul edin, kalanını yok sayın. Siz olmadan hiçbir şey yazılmaz."
+          ]
+        },
+        {
+          "h2": "5. Hatırlarken bağlamı ekleyin",
+          "body": [
+            "Önemli tarihler, bir etiket, zaman çizelgesine bir not. İnsanların erteleyip sonra kaybettiği kısım tam da budur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Yararlı olması için kaç kişi gerekir?",
+          "a": "Ağaç ilk ilişkide boş olmaktan çıkar. Öneriler kabaca on ile on beş kişide işe yaramaya başlar."
+        },
+        {
+          "q": "Bir akraba kişilerimde yoksa?",
+          "a": "Elle ekleyebilirsiniz. Telefon numarası gerekmez."
+        },
+        {
+          "q": "İki kişi bir ağacı paylaşabilir mi?",
+          "a": "Bir ağacı başka bir TreeLinker kullanıcısına gönderebilirsiniz; o ilişkileri kendi ağacına kaydeder. Bu tek seferlik bir aktarımdır, ortak bir belge değil."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-contacts": {
+      "title": "Aile kişileri nasıl düzenlenir",
+      "description": "Büyük bir rehber için bir yöntem: önce ilişkiler, sonra ortak alanlar için gruplar, sonra bunları kesen her şey için özel etiketler.",
+      "h1": "Aile kişileri nasıl düzenlenir",
+      "lead": "On yıldır doldurduğunuz bir rehberde üç geçiş.",
+      "answer": "Üç geçişte düzenleyin. Önce ilişkileri kaydedin ki rehber kimin kime ait olduğunu bilsin. İkinci olarak gerçek ortak alanlar için gruplar kurun — yakın aile, eşinizin ailesi, mahalle. Üçüncü olarak grupları kesen işaretler için özel etiketler ekleyin: Doktor, Tesisatçı ya da bir şehir. Tam bu sırayla: ilişkiler grupları belirginleştirir, gruplar da eksik etiketleri.",
+      "sections": [
+        {
+          "h2": "Birinci geçiş: ilişkiler",
+          "body": [
+            "En çok iletişim kurduğunuz kişilerle başlayın. Ailenin yapısının belirmesi için yirmi ilişki yeter ve diğer iki geçişi hızlandıran da bu geçiştir."
+          ]
+        },
+        {
+          "h2": "İkinci geçiş: gruplar",
+          "body": [
+            "Bir grup gerçek bir şeye karşılık gelmeli — gerçekten toplanan bir aile, bir sokak, bir sınıf. Oraya kimse davet edilmeyecekse o bir etikettir, grup değil.",
+            "Grupların kapak fotoğrafı, simgesi ve üye listesi vardır; katılım davetle olur."
+          ]
+        },
+        {
+          "h2": "Üçüncü geçiş: etiketler",
+          "body": [
+            "Etiketler özeldir ve her şeyi keser: Doktor, Elektrikçi, İş, Üniversite, Acil, bir şehir adı. Her birinin rengi ve simgesi vardır, böylece liste göz atılabilir kalır.",
+            "TreeLinker kişilerinizden çıkarabildiği etiketleri önerir. İlişkilerde olduğu gibi öneriler öneridir — siz olmadan hiçbir şey oluşturulmaz."
+          ]
+        },
+        {
+          "h2": "Neyi atlamalı",
+          "body": [
+            "Herkesi etiketlemeye çalışmayın. Değer, gerçekten yeniden bulmanız gereken yirmi kişidedir; hiç sürdürmeyeceğiniz eksiksiz bir sınıflandırmada değil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Grup mu etiket mi?",
+          "a": "Başkaları görecek ve davet edilecekse grup kullanın. Kendi dosyalamanız için özel bir işaretse etiket kullanın."
+        },
+        {
+          "q": "Bir etiketi sonradan yeniden adlandırabilir miyim?",
+          "a": "Evet. Etiketler Düzenleme ekranından düzenlenip silinebilir."
+        },
+        {
+          "q": "Bir sınır var mı?",
+          "a": "Gruplar, etiketler ya da üyeler için pratik bir sınır yok."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-family-relationships": {
+      "title": "Aile ilişkileri nasıl takip edilir",
+      "description": "Bağları bir kez kaydedin, bakımı karşılıklı ilişkilere ve çıkarıma bırakın ve yalnızca kimin kim olduğunu değil ne olduğunu da hatırlamak için zaman çizelgesi tutun.",
+      "h1": "Aile ilişkileri nasıl takip edilir",
+      "lead": "Sorun kimin kim olduğunu öğrenmek değil, bunu beş yıl sonra hatırlamaktır.",
+      "answer": "Her ilişkiyi bir kez, tek yönde kaydedin ve tersinin otomatik oluşmasına izin verin — bir aile haritasının çürümesini engelleyen budur. Her kuzeni elle girmek yerine, mevcut ilişkilerin ima ettiklerini uygulamanın önermesine izin verin. Sonra önemli kişilerde kısa bir zaman çizelgesi tutun ki yalnızca kimin kiminle akraba olduğunun şeması değil, olanların kaydı da elinizde olsun.",
+      "sections": [
+        {
+          "h2": "Bir kez, tek yönde kaydedin",
+          "body": [
+            "Elle sürdürülen aile haritaları başarısız olur çünkü her bilgi iki kez girilmeli ve sonunda bir yarısı atlanır. Karşılıklı ilişkiler bu hata biçimini tümüyle ortadan kaldırır."
+          ]
+        },
+        {
+          "h2": "Sıkıcı kısmı çıkarıma bırakın",
+          "body": [
+            "Bir ailedeki ilişkilerin çoğu başkaları tarafından ima edilir: kardeşin çocuğu, eşin ebeveyni, ebeveynin kardeşi — temel bağlar varsa bunların hiçbirini girmeye gerek yok.",
+            "TreeLinker bunları güven puanı ve açıklamayla önerir ve tür belirsizse sorar."
+          ]
+        },
+        {
+          "h2": "Yalnızca ağaç değil, zaman çizelgesi tutun",
+          "body": [
+            "Ağaç yapıyı söyler. Zaman çizelgesi tarihi söyler: en son ne zaman konuştunuz, ne söylendi, ne iyi gitti.",
+            "Kayıtlar yeniden eskiye sıralanır ve önemliler sabitlenebilir."
+          ]
+        },
+        {
+          "h2": "Zaten gelen aramalardan yararlanın",
+          "body": [
+            "Tanıdığınız kişilerden gelen aramalar onların zaman çizelgesine kaydedilir, böylece iletişim kaydı kendiliğinden oluşur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir ilişkiyi yanlış kaydedersem?",
+          "a": "İlişkiler düzenlenebilir ya da kaldırılabilir; karşılıklı taraf da onunla güncellenir."
+        },
+        {
+          "q": "Giden aramaları izliyor mu?",
+          "a": "Hayır. TreeLinker arama kaydınızı hiç okumaz. Yalnızca arama tarama rolüyle görülen gelen aramalar kaydedilir."
+        },
+        {
+          "q": "İki kişinin nasıl bağlı olduğunu görebilir miyim?",
+          "a": "Ağaç bir kişinin çevresindeki bağları gösterir. Doğrudan \"herhangi iki kişi arasındaki yol\" sorgusu henüz yok."
+        }
+      ]
+    },
+    "guides/how-to-organize-relatives": {
+      "title": "Akrabalar gruplara nasıl ayrılır",
+      "description": "Geniş bir aileyi kullanışlı kalan gruplara nasıl bölersiniz ve ne zaman özel bir etiket daha iyi bir araçtır.",
+      "h1": "Akrabalar nasıl düzenlenir",
+      "lead": "İçinde doksan kişi olan tek bir \"Aile\" grubu, hiç grup olmamasıyla aynı şeydir.",
+      "answer": "Geniş bir aileyi, gerçek hayatta zaten bölündüğü çizgiler boyunca bölün: yakın aileniz, eşinizin ailesi, her dedenin kolu, tek bir şehirdeki insanlar. Bir grup, insanların makul biçimde davet edilip yazabileceği bir şey olmalı. Aslında bir kişi hakkında özel bir işaret olan şey — mesleği, onu nasıl tanıdığınız, nerede yaşadığı — etikete aittir, çünkü etiketler yalnızca sizindir ve tüm grupları keser.",
+      "sections": [
+        {
+          "h2": "Gerçek bölünmeleri izleyin",
+          "body": [
+            "Ailelerin zaten yapısı vardır: kollar, haneler, bayramda toplananlar ve düğünde görülenler. Gruplar gerçekten olan bir toplanmaya karşılık geldiğinde işe yarar."
+          ]
+        },
+        {
+          "h2": "Grupları kullanılacak kadar küçük tutun",
+          "body": [
+            "Fazla büyük bir grup sessize alınır ve sessize alınmış bir grup hiç olmamış gibidir. İçindeki bir anket üyelerin yarısını ilgilendirmeyecekse bölün."
+          ]
+        },
+        {
+          "h2": "Kesişen bilgiler için etiket kullanın",
+          "body": [
+            "Doktor akrabalar, Kahire'deki akrabalar, yalnızca cenazelerde gördükleriniz. Bunlar tüm kolları keser ve hiçbir ortak alana ait değildir.",
+            "Etiketler özel olduğundan dürüstçe işaretleyebilirsiniz."
+          ]
+        },
+        {
+          "h2": "Soyu ağaç taşısın",
+          "body": [
+            "Soyu grup adlarına kodlamaya çalışmayın. Ağaç zaten taşıyor ve daha iyi taşıyor."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir akraba iki grupta olabilir mi?",
+          "a": "Evet, anlamlı olduğu kadar çok grupta."
+        },
+        {
+          "q": "Grup üyeleri birbirini görüyor mu?",
+          "a": "Evet. Grup ortak bir alandır ve üyeler listeyi görebilir."
+        },
+        {
+          "q": "Birini gruptan çıkarabilir miyim?",
+          "a": "Evet, grubun ayrıntı ekranından."
+        }
+      ]
+    },
+    "guides/how-to-remember-family-birthdays": {
+      "title": "Aile doğum günleri ve önemli tarihler nasıl hatırlanır",
+      "description": "Doğum günlerini ve yıl dönümlerini ait oldukları kişilerde önemli tarih olarak kaydedin ve yaklaşanların kendiliğinden belirmesine izin verin.",
+      "h1": "Aile doğum günleri nasıl hatırlanır",
+      "lead": "Takvimdeki bir tarih kişiden kopuktur. Kişinin üzerindeki bir tarih değildir.",
+      "answer": "Her doğum gününü ya da yıl dönümünü takvim kaydı yerine ait olduğu kişiye bağlı bir önemli tarih olarak kaydedin. Önemli tarihler her yıl tekrarlar ve yaklaşanlar TreeLinker'ın yaklaşan etkinliklerinde belirir. Tarih kişinin üzerinde durduğundan, o kişiyi açtığınızda onu hakkında bildiğiniz her şeyle birlikte görürsünüz — ilişki, paylaşılan anılar ve iletişim geçmişi.",
+      "sections": [
+        {
+          "h2": "Önemli tarihler tekrarlar, etkinlikler tekrarlamaz",
+          "body": [
+            "Önemli tarih her yıl dönen bir yıl dönümüdür — doğum günü, düğün tarihi, birinin öldüğü gün. Etkinlik bir kez olmuştur. Doğru türü seçmek, onun bir daha belirip belirmeyeceğini belirler."
+          ]
+        },
+        {
+          "h2": "Zaten oradayken ekleyin",
+          "body": [
+            "Bir doğum gününü kaydetme anı, kişiye başka bir nedenle baktığınız andır. Veri girişine ayrılmış bir öğleden sonra hiç gelmez."
+          ]
+        },
+        {
+          "h2": "Yaklaşan etkinlikler işi yapsın",
+          "body": [
+            "Yaklaşan önemli tarihler yaklaşan etkinlikler bölümünde belirir, böylece aramadan görürsünüz. Anlık bildirim henüz yok, bu yüzden uygulamayı düzenli açarsanız daha iyi işler."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bildirim gelecek mi?",
+          "a": "Bugün hayır. Yaklaşan tarihler uygulama içinde belirir; anlık hatırlatmalar henüz eklenmedi."
+        },
+        {
+          "q": "Telefon kişilerimden doğum günlerini okuyor mu?",
+          "a": "Kişilerde TreeLinker'ın kullanabileceği bir doğum günü alanı vardır. Kendi eklediğiniz önemli tarihler ayrıdır ve daha zengindir."
+        },
+        {
+          "q": "Önemli bir tarih bir gruba ait olabilir mi?",
+          "a": "Evet. Gruplar önemli tarihler dâhil kendi anılarını tutabilir."
+        }
+      ]
+    },
+    "guides/how-to-document-family-memories": {
+      "title": "Aile anıları nasıl belgelenir",
+      "description": "Hatırlayanlar hâlâ buradayken aile hikâyelerini kaydedin — anlattıkları kişilere bağlı, fotoğraf, tarih ve yerle.",
+      "h1": "Aile anıları nasıl belgelenir",
+      "lead": "Aile tarihinin çoğu zamana değil, kimsenin yazmamasına kurban gider.",
+      "answer": "Her anıyı tarihe göre dosyalamak yerine anlattığı kişiye bağlayın. Yeniden anlatmaya değerse hikâye, insanların bulunduğu ve bir kez olmuşsa etkinlik, tekrarlıyorsa önemli tarih olarak kaydedin. Ona anlam veren fotoğrafları, yeri ve tarihi ekleyin. En yaşlı akrabalardan başlayın, çünkü süresi olan bilgi onlarınki.",
+      "sections": [
+        {
+          "h2": "En çok taşıyanlarla başlayın",
+          "body": [
+            "Her ailede herkesin nasıl bağlı olduğunu ve ne olduğunu bilen bir iki kişi vardır. Önce onların bilgisini kaydedin. Görevin gerçekten acil olan tek kısmı budur."
+          ]
+        },
+        {
+          "h2": "Ait olduğu yere yazın",
+          "body": [
+            "Bir kişiye bağlı anı, o kişi açılarak bulunur. Kronolojik bir akıştaki anı ise yalnızca kaydırarak bulunur.",
+            "Grup anıları, tüm ailenin birlikte yaptığı şeyler için aynı biçimde çalışır."
+          ]
+        },
+        {
+          "h2": "Kısa bir kayıt, hiç kayıt olmamasını yener",
+          "body": [
+            "Üç cümle ve bir fotoğraf tam bir anıdır. Düzgün yapmak için zaman bulmayı beklemek, işin hiç yapılmaması demektir."
+          ]
+        },
+        {
+          "h2": "Onu yerine oturtan ayrıntıları saklayın",
+          "body": [
+            "Bir tarih ve bir yer, anekdotu kayda dönüştürür. Ayrıca yıllar sonra birinin onu bildiği bir şeyle ilişkilendirmesini sağlayan da bunlardır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Birden fazla fotoğraf ekleyebilir miyim?",
+          "a": "Evet. Anılar, tarih ve yerle birlikte fotoğrafları destekler."
+        },
+        {
+          "q": "Ses kaydedebilir miyim?",
+          "a": "Şu an hayır. Anılar metin, fotoğraf, tarih ve yerdir."
+        },
+        {
+          "q": "Bir kişiye eklediğim anıyı kim görür?",
+          "a": "Yalnızca siz; grup anısı değilse, o da grubun üyelerince görülür."
+        }
+      ]
+    },
+    "compare/family-tree-vs-contact-manager": {
+      "title": "Soy ağacı uygulaması mı kişi yöneticisi mi — hangisine ihtiyacınız var?",
+      "description": "Soy ağacı uygulaması soyu haritalar; kişi yöneticisi ayrıntıları saklar. Farklı sorulara yanıt verirler ve birini isteyenlerin çoğu aslında ikisinin parçalarını ister.",
+      "h1": "Soy ağacı uygulaması ile kişi yöneticisi",
+      "lead": "Komşu görünürler, neredeyse zıt sorunları çözerler.",
+      "answer": "Soy ağacı uygulaması, genellikle artık yaşamayan insanlar hakkında \"atalarımla nasıl akrabayım\" sorusuna yanıt verir ve kayıtlar ile soy etrafında kuruludur. Kişi yöneticisi, konuştuğunuz insanlar hakkında \"bu kişi hakkında hangi bilgiye sahibim\" sorusuna yanıt verir ve alanlar ile düzen etrafında kuruludur. Hiçbiri \"bu yaşayan kişi telefonumdaki herkesle nasıl bağlı\" sorusuna yanıt vermez — TreeLinker bunun için yapılmıştır ve iki kategorinin arasında durmasının nedeni budur.",
+      "table": {
+        "caption": "Her tür uygulama gerçekte ne içindir",
+        "head": [
+          "",
+          "Soy ağacı uygulaması",
+          "Kişi yöneticisi",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Ana soru",
+            "Atalarımla nasıl akrabayım?",
+            "Bu kişi hakkında ne biliyorum?",
+            "Bu kişinin benimle bağı ne?"
+          ],
+          [
+            "Tipik konu",
+            "Vefat etmiş kişiler",
+            "İletişimde olduğunuz kişiler",
+            "İletişimde olduğunuz kişiler"
+          ],
+          [
+            "Başlangıç noktası",
+            "Boş bir ağaç",
+            "Rehberiniz",
+            "Rehberiniz"
+          ],
+          [
+            "Tarihsel kayıtlar",
+            "Evet",
+            "Hayır",
+            "Hayır"
+          ],
+          [
+            "DNA eşleştirmesi",
+            "Sıklıkla",
+            "Hayır",
+            "Hayır"
+          ],
+          [
+            "Telefon numaraları",
+            "Nadiren",
+            "Evet",
+            "Evet"
+          ],
+          [
+            "Kişiler arası ilişkiler",
+            "Evet",
+            "Hayır",
+            "Evet"
+          ],
+          [
+            "Gruplar ve işaretler",
+            "Sınırlı",
+            "Evet",
+            "Evet"
+          ],
+          [
+            "Kişilerde etkinlik ve anılar",
+            "Evet",
+            "Sınırlı",
+            "Evet"
+          ],
+          [
+            "Arayan kimliği",
+            "Hayır",
+            "Hayır",
+            "Evet"
+          ],
+          [
+            "Çevrimdışı çalışır",
+            "Nadiren",
+            "Genellikle",
+            "Evet"
+          ]
+        ],
+        "note": "Nesiller önce doğmuş ataları araştırıyorsanız bir soybilim hizmeti kullanın. TreeLinker ise yaşayan aileyi tutar."
+      },
+      "sections": [
+        {
+          "h2": "Soybilim uygulaması seçin eğer",
+          "body": [
+            "Ataları araştırmak, nüfus ve kilise kayıtlarında aramak, DNA eşleşmeleriyle çalışmak ya da ortak bir küresel ağaca katkı vermek istiyorsanız. TreeLinker bunların hiçbirini yapmaz."
+          ]
+        },
+        {
+          "h2": "Kişi yöneticisi seçin eğer",
+          "body": [
+            "Sorununuz yinelenenler, hesaplar arası eşitleme, kartvizitler ya da yedekleme ise. Özel kişi yöneticileri bunu TreeLinker'dan daha iyi yapar."
+          ]
+        },
+        {
+          "h2": "TreeLinker seçin eğer",
+          "body": [
+            "Sorununuz telefonunuzdaki insanların birbiriyle nasıl bağlı olduğunu hatırlayamamak ve bunu herkesi yeniden yazmadan kayda geçirmek istemekse."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Tek bir uygulama ikisini de yapabilir mi?",
+          "a": "Kısmen. TreeLinker soybilimin ilişki yarısını ve kişi yönetiminin düzen yarısını kapsar, ama tarihsel araştırmayı ve kişi yedeklemeyi kapsamaz."
+        },
+        {
+          "q": "Bir soybilim hizmetinden ağaç içe aktarabilir miyim?",
+          "a": "Bugün hayır — GEDCOM içe aktarma desteklenmiyor."
+        }
+      ]
+    },
+    "compare/family-tree-apps": {
+      "title": "Soy ağacı uygulamaları karşılaştırması — gerçekte ne işe yararlar",
+      "description": "Soybilim hizmetleri, ortak ağaçlar ve kişilerden başlayan uygulamalar farklı sorunları çözer. TreeLinker'ın yanlış seçim olduğu durumlar dâhil dürüst bir karşılaştırma.",
+      "h1": "Soy ağacı uygulamaları karşılaştırması",
+      "lead": "Bu kategori aynı adı taşıyan en az üç farklı ürün içeriyor.",
+      "answer": "Soy ağacı uygulamaları üçe ayrılır. Kayıt temelli soybilim hizmetleri çok büyük tarihsel arşivlere ve DNA eşleştirmesine dayanır ve ata araştırmasını hedefler. Ortak ağaçlar, birçok kişinin düzenlediği tek bir küresel ağaca odaklanır. TreeLinker gibi kişilerden başlayan uygulamalar ise telefonunuzda zaten bulunan yaşayan aileyi haritalar ve hiç tarihsel kayıt tutmaz. Doğru seçim, tümüyle önemsediğiniz kişilerin yaşayıp yaşamadığına bağlıdır.",
+      "table": {
+        "caption": "Üç tür soy ağacı uygulaması",
+        "head": [
+          "",
+          "Kayıt temelli soybilim",
+          "Ortak küresel ağaç",
+          "Kişilerden başlayan (TreeLinker)"
+        ],
+        "rows": [
+          [
+            "Şunun için yapıldı",
+            "Ata araştırması",
+            "Birçok kişinin düzenlediği tek ağaç",
+            "Telefonunuzdaki yaşayan aile"
+          ],
+          [
+            "Tarihsel kayıtlar",
+            "Çok büyük koleksiyonlar",
+            "Bir kısmı",
+            "Yok"
+          ],
+          [
+            "DNA eşleştirmesi",
+            "Genellikle",
+            "Hayır",
+            "Hayır"
+          ],
+          [
+            "Başlangıç emeği",
+            "Yüksek — herkesi yazmak",
+            "Yüksek",
+            "Düşük — kişilerinizden başlar"
+          ],
+          [
+            "Telefon kişileri",
+            "Hayır",
+            "Hayır",
+            "Temel"
+          ],
+          [
+            "İlişki önerileri",
+            "Kayıt ipuçları",
+            "Bir kısmı",
+            "Kendi ağacınızdan, güven puanlarıyla"
+          ],
+          [
+            "Arayan kimliği",
+            "Hayır",
+            "Hayır",
+            "Evet"
+          ],
+          [
+            "Fiyat",
+            "Abonelik",
+            "Ücretsiz ya da freemium",
+            "Ücretsiz"
+          ],
+          [
+            "Çevrimdışı kullanım",
+            "Sınırlı",
+            "Sınırlı",
+            "Tam"
+          ]
+        ],
+        "note": "TreeLinker bir soybilim aracı değildir. Kayıt ya da DNA gerekiyorsa size yardımcı olamaz."
+      },
+      "sections": [
+        {
+          "h2": "Kategorideki en yaygın şikâyet",
+          "body": [
+            "Soybilim uygulaması değerlendirmelerinde yinelenen eleştiri doğruluk değil, emek ve hızdır: soy görünümleri yavaş yüklenir, her şey elle girilmelidir ve isimleri hızlıca taramak için sıkışık bir liste görünümü çoğu zaman yoktur."
+          ]
+        },
+        {
+          "h2": "Kişilerden başlayan bir uygulama nerede yardımcı olur",
+          "body": [
+            "Rehberden başlamak, çoğu kişiyi ilk oturumda durduran veri girişini ortadan kaldırır. Karşılığında kayıt alamazsınız; yani bu, bir soybilim hizmetinin yerine değil, tamamlayıcısıdır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "En iyi soy ağacı uygulaması hangisi?",
+          "a": "Konu ettiğiniz kişilerin yaşayıp yaşamadığına bağlı. Atalar için kayıt temelli bir soybilim hizmeti. Rehberdeki yaşayan aile için kişilerden başlayan bir uygulama."
+        },
+        {
+          "q": "İkisini birden kullanabilir miyim?",
+          "a": "Evet ve çoğu kişi kullanmalı. Aynı ailenin farklı yarılarını tutuyorlar."
+        }
+      ]
+    },
+    "compare/contact-management-apps": {
+      "title": "Kişi yönetimi uygulamaları karşılaştırması — düzen, CRM ve ilişkiler",
+      "description": "Eşitleme ve temizleme araçları, kişisel CRM'ler ve ilişki odaklı uygulamalar farklı kişi sorunlarını çözer. Her biri nereye uyar ve TreeLinker nereye uymaz.",
+      "h1": "Kişi yönetimi uygulamaları karşılaştırması",
+      "lead": "Üç farklı ürün, tek kategori adı.",
+      "answer": "Kişi uygulamaları üç gruba ayrılır. Eşitleme ve temizleme araçları yinelenenleri birleştirmeye, yedeklemeye ve birden çok hesabı tutarlı tutmaya odaklanır. Kişisel CRM'ler takip hatırlatmalarına, notlara ve profesyonel ağı sıcak tutmaya odaklanır. TreeLinker gibi ilişki odaklı uygulamalar ise rehberinizdeki insanların sizinle ve birbiriyle nasıl bağlı olduğuna odaklanır. TreeLinker üçüncüsünü iyi yapar, ilk ikisine hiç girişmez.",
+      "table": {
+        "caption": "Her tür kişi uygulaması ne içindir",
+        "head": [
+          "",
+          "Eşitle ve temizle",
+          "Kişisel CRM",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Ana iş",
+            "Derli toplu tek rehber",
+            "Bir ağı sıcak tutmak",
+            "Kimin kim olduğunu bilmek"
+          ],
+          [
+            "Yinelenenleri birleştirme",
+            "Evet",
+            "Evet",
+            "Yalnızca listelerde toplama"
+          ],
+          [
+            "Yedekleme ve geri yükleme",
+            "Evet",
+            "Evet",
+            "Henüz yok"
+          ],
+          [
+            "Hesaplar arası eşitleme",
+            "Evet",
+            "Evet",
+            "Yalnızca kendi hesabınız"
+          ],
+          [
+            "Takip hatırlatmaları",
+            "Bazen",
+            "Evet",
+            "Henüz yok"
+          ],
+          [
+            "Kişi başına notlar",
+            "Evet",
+            "Evet",
+            "Evet, zaman çizelgesi olarak"
+          ],
+          [
+            "Kartvizit tarama",
+            "Sıklıkla",
+            "Sıklıkla",
+            "Hayır"
+          ],
+          [
+            "Kişiler arası ilişkiler",
+            "Hayır",
+            "Hayır",
+            "Evet"
+          ],
+          [
+            "Soy ağacı",
+            "Hayır",
+            "Hayır",
+            "Evet"
+          ],
+          [
+            "Gruplar ve özel etiketler",
+            "İşaretler",
+            "Kısmen",
+            "Evet"
+          ],
+          [
+            "Arayan kimliği",
+            "Hayır",
+            "Hayır",
+            "Evet, yalnızca kendi kişileriniz"
+          ],
+          [
+            "Fiyat",
+            "Freemium",
+            "Abonelik",
+            "Ücretsiz"
+          ]
+        ],
+        "note": "Sorununuz yinelenenler ve yedekleme ise bugün size bir eşitleme ve temizleme aracı daha iyi hizmet eder."
+      },
+      "sections": [
+        {
+          "h2": "Kişi uygulaması kullanıcıları en çok neyi istiyor",
+          "body": [
+            "Bu kategorideki değişmeyen istekler şunlar: yinelenenleri bulup birleştirme, güvenilir yedekleme, doğum günü ve takip hatırlatmaları ve hesaplar arasında tutarlı kalan tek bir rehber. TreeLinker bugün bunların hiçbirini doğrudan karşılamıyor; kurmadan önce bilmekte fayda var."
+          ]
+        },
+        {
+          "h2": "TreeLinker'ın eklediği, diğerlerinde olmayan şey",
+          "body": [
+            "Yaygın kullanılan hiçbir kişi yöneticisi iki kişinin birbiriyle nasıl akraba olduğunu kaydetmez. Eksik olan bu tek alan; soy ağacının, ilişkiye duyarlı arayan kimliğinin ve ilişki önerilerinin tümünün temelidir."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kişi yöneticimi TreeLinker ile değiştirmeli miyim?",
+          "a": "Yalnızca sorununuz ilişkilerse. Sorun yinelenenler, yedekleme ve eşitleme ise elinizdeki aracı koruyun."
+        },
+        {
+          "q": "TreeLinker telefonumun rehberini değiştiriyor mu?",
+          "a": "Hayır. Kendiliğinden ona hiç yazmaz."
+        }
+      ]
+    },
+    "features/family-tree": {
+      "title": "Soy ağacı — TreeLinker özellikleri",
+      "description": "Yakınlaştırıp kaydırabileceğiniz, kişilerinizden kurulmuş, renk kodlu ilişki türleri ve otomatik karşılıklı bağlar içeren etkileşimli bir soy ağacı.",
+      "h1": "Soy ağacı",
+      "lead": "Kaydettiğiniz ilişkiler, çizilmiş hâliyle.",
+      "answer": "TreeLinker kaydettiğiniz ilişkileri, yakınlaştırıp kaydırabileceğiniz etkileşimli bir soy ağacı olarak çizer. Her ilişki türünün — ebeveyn, çocuk, kardeş, eş, arkadaş, akraba, diğer — kendi rengi ve simgesi vardır, böylece yoğun bir ağaç okunabilir kalır. İçindeki insanlar telefonunuzdaki kişilerden gelir ve ilişkinin bir yönünü kaydetmek tersini otomatik oluşturur.",
+      "sections": [
+        {
+          "h2": "Formlardan değil, kişilerden kuruldu",
+          "body": [
+            "Ağaçtaki her kişi elinizde zaten olan bir kişi olabilir. Telefon kaydı olmayan akrabalar elle eklenebilir."
+          ]
+        },
+        {
+          "h2": "Bir bakışta okunur",
+          "body": [
+            "Her ilişki türüne renk ve simge, yakınlaştırma ve kaydırmayla birlikte; böylece yapı her etiketi okumadan görülür."
+          ]
+        },
+        {
+          "h2": "Kendi koşullarınızla paylaşılır",
+          "body": [
+            "Bir ağaç başka bir TreeLinker kullanıcısına gönderilebilir. O aynı insanları kendi rehberindeki adlarla görür ve neyi kaydedeceğini kendisi seçer."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir ağaç ne kadar büyük olabilir?",
+          "a": "Kişi ya da ilişki sayısında belirlenmiş bir sınır yok."
+        },
+        {
+          "q": "Çevrimdışı çalışıyor mu?",
+          "a": "Evet, tamamen."
+        }
+      ]
+    },
+    "features/contacts": {
+      "title": "Kişiler — TreeLinker özellikleri",
+      "description": "Telefonunuzun rehberi, cihazda okunan, aranabilir ve ilişkiler, gruplar, etiketler, zaman çizelgeleri ve anılarla genişletilmiş hâliyle.",
+      "h1": "Kişiler",
+      "lead": "Zaten sahip olduğunuz rehber, bildiklerinizi koyacak bir yerle.",
+      "answer": "TreeLinker cihazınızdaki kişileri okur ve orada bırakır. Liste, yazarken önceden hazırlanmış bir dizine göre süzülür, böylece büyük bir rehber hızlı kalır. Her kişi ilişkiler, grup üyelikleri, özel etiketler, bir zaman çizelgesi ve anılar kazanır. TreeLinker telefonunuzun rehberine kendiliğinden hiç yazmaz ve onu hiç yüklemez.",
+      "sections": [
+        {
+          "h2": "Büyük rehberde hızlı",
+          "body": [
+            "Arama, her tuş vuruşunda yeniden taramak yerine liste başına bir kez kurulan bir dizine göre süzer; böylece birkaç bin kişi yanıt vermeye devam eder."
+          ]
+        },
+        {
+          "h2": "Yinelenenler listelerde toplanır",
+          "body": [
+            "Aynı kişi çoğu zaman birkaç kayıt olarak bulunur — bir cihaz kişisi, eşitlemeden gelen bir taslak, ikinci bir numara. TreeLinker bir liste gösterdiği her yerde bunları katlar, böylece kimse bir ağaçta ya da grupta iki kez görünmez."
+          ]
+        },
+        {
+          "h2": "Dışa aktarma değil, zenginleştirme",
+          "body": [
+            "Bir kişi aynı zamanda TreeLinker kullanıcısıysa profil fotoğrafı gösterilebilir. Eşleştirme özetlenmiş telefon numaraları karşılaştırılarak yapılır ve ad alışverişi olmaz."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker telefon kişilerimi düzenliyor mu?",
+          "a": "Hayır. Rehberinizdeki her değişikliği bilerek siz yaparsınız."
+        },
+        {
+          "q": "Yinelenenleri kalıcı olarak birleştiriyor mu?",
+          "a": "Henüz hayır. Yalnızca görüntüleme için topluyor."
+        }
+      ]
+    },
+    "features/relationships": {
+      "title": "İlişkiler — TreeLinker özellikleri",
+      "description": "Yedi ilişki türü, otomatik karşılıklı bağlar ve güven puanları ile sade dilde açıklamalar içeren öneriler.",
+      "h1": "İlişkiler",
+      "lead": "Diğer bütün kişi uygulamalarında eksik olan alan.",
+      "answer": "TreeLinker iki kişinin nasıl akraba olduğunu yedi tür kullanarak kaydeder: ebeveyn, çocuk, kardeş, eş, arkadaş, akraba ve diğer. Bir yönü kaydetmek tersini otomatik oluşturur. Ağaç büyüdükçe uygulama, mevcut ilişkilerin ima ettiklerini önerir; her birinde bir güven puanı ve hangi bağların onu doğurduğuna dair açıklama vardır, tür belirsizse türü sorar.",
+      "sections": [
+        {
+          "h2": "Kuruluşu gereği karşılıklı",
+          "body": [
+            "Bir ilişkinin iki yarısını asla ayrı ayrı sürdürmezsiniz. Bir aile haritasının yıllar süren düzenlemelerle çürümesini engelleyen budur."
+          ]
+        },
+        {
+          "h2": "Sessiz yazma değil, öneri",
+          "body": [
+            "Çıkarılan ilişkiler önerilerdir. Her biri bir güven puanı ve açıklayıcı bir cümle taşır ve sizin kabulünüz olmadan ağacınıza hiçbir şey girmez."
+          ]
+        },
+        {
+          "h2": "İlişkiler neyi açar",
+          "body": [
+            "İlişkiler var olduğunda ağaç çizilebilir, arayan yerine oturtulabilir, etiketler önerilebilir ve ağaç, başka birinin telefonunda da aynı anlama gelecek biçimde paylaşılabilir."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kendi ilişki türümü tanımlayabilir miyim?",
+          "a": "Uymayan her şey için \"diğer\" dâhil yedi yerleşik tür var."
+        },
+        {
+          "q": "Güven puanı ne anlama geliyor?",
+          "a": "Mevcut ilişkilerinizin önerilen ilişkiyi ne kadar güçlü ima ettiğini. Kendiniz yargılayabilesiniz diye gerekçesiyle birlikte gösterilir."
+        }
+      ]
+    },
+    "features/groups": {
+      "title": "Gruplar — TreeLinker özellikleri",
+      "description": "Bir aile, mahalle ya da sınıf için yalnızca davetle girilen özel ortak alanlar; anketler, adlandırılmış tartışmalar ve paylaşılan anılarla.",
+      "h1": "Gruplar",
+      "lead": "İnsanların davet edildiği ortak alanlar.",
+      "answer": "Grup, bir insan topluluğu için — bir aile, mahalle, sınıf — yalnızca davetle girilen özel bir alandır. Adı, simgesi, kapak fotoğrafı ve üye listesi vardır; üyeler anket açabilir, adlandırılmış tartışmalar yürütebilir ve paylaşılan anılar tutabilir. Gruplar, TreeLinker'ın başkalarının içine bakabildiği tek parçasıdır ve kimse davetsiz giremez.",
+      "sections": [
+        {
+          "h2": "Anketler",
+          "body": [
+            "Üye başına bir oy, değiştirilebilir, sonuçlar görünür ve açan kişi kapatabilir. Bir aile grubunun sürekli yeniden sorduğu karar için yapıldı."
+          ]
+        },
+        {
+          "h2": "Tartışmalar",
+          "body": [
+            "Sohbet kaydırmasında gömülmek yerine aylar sonra da bulunabilen, adı olan bir konu. Ona bir anket iliştirilebilir."
+          ]
+        },
+        {
+          "h2": "Paylaşılan anılar",
+          "body": [
+            "Bir grup kendi anılarını tutabilir; böylece herkesin gittiği bir gezi tek bir kişinin değil, grubun altına konur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Biri grubumu bulabilir mi?",
+          "a": "Hayır. Gruplara yalnızca davetle girilir ve keşfedilemezler."
+        },
+        {
+          "q": "Bir gruptan ayrılabilir miyim?",
+          "a": "Evet, istediğiniz zaman."
+        }
+      ]
+    },
+    "features/tags": {
+      "title": "Etiketler — TreeLinker özellikleri",
+      "description": "Rengi, simgesi ve atanmış kişi listesi olan özel işaretler. Başka kimse onları hiç görmez.",
+      "h1": "Etiketler",
+      "lead": "Tüm grupları kesen özel işaretler.",
+      "answer": "Etiket, kişilere atadığınız özel bir işarettir — Doktor, Tesisatçı, İş, bir şehir. Adı, rengi, simgesi, isteğe bağlı açıklaması ve aranabilir bir atanmış kişi listesi vardır. Etiketleri yalnızca siz görürsünüz; ortak bir alana asla koymayacağınız işaretler için kullanışlı olmasının nedeni budur. TreeLinker kişilerinizden etiket önerebilir, ama siz olmadan asla oluşturmaz.",
+      "sections": [
+        {
+          "h2": "Gruplardan farklı olarak özel",
+          "body": [
+            "Gruplar üyeleri olan ortak alanlardır. Etiketler ise sizin kendi dosyalama sisteminizdir ve kimseye açılmaz."
+          ]
+        },
+        {
+          "h2": "Göz atmak için düzenlenmiş",
+          "body": [
+            "Her etiket kartı, simgesini kendi renginin üzerinde ve atanmış kişi sayısıyla gösterir; liste alfabetik sıralıdır ve atanmış kişiler üzerinde arama vardır."
+          ]
+        },
+        {
+          "h2": "Dayatılmış değil, önerilmiş",
+          "body": [
+            "TreeLinker kişilerinizde gördüklerine dayanarak etiket önerebilir. Öneriler o anda hesaplanır ve siz kabul etmedikçe hiç saklanmaz."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "İki etiket aynı adı taşıyabilir mi?",
+          "a": "Hayır. Yinelenen adlar büyük küçük harf ayrımı gözetilmeden reddedilir."
+        },
+        {
+          "q": "\"Favori\" bir etiket mi?",
+          "a": "Hayır, favoriler ayrı bir özelliktir."
+        }
+      ]
+    },
+    "features/events": {
+      "title": "Etkinlikler ve önemli tarihler — TreeLinker özellikleri",
+      "description": "Doğum günleri, düğünler ve yıl dönümleri ait oldukları kişilerde kayıtlı; yaklaşanlar uygulamada beliriyor.",
+      "h1": "Etkinlikler ve önemli tarihler",
+      "lead": "Bir takvim kutusuna değil, bir kişiye ait tarihler.",
+      "answer": "Önemli tarih, her yıl tekrarlayan bir yıl dönümüdür — doğum günü, düğün, birinin öldüğü gün — ve ait olduğu kişide kayıtlıdır. Yaklaşan önemli tarihler TreeLinker'ın yaklaşan etkinliklerinde belirir, böylece aramadan görürsünüz. Etkinlikler ise bir kez olmuş şeylerdir; tarihi ve orada bulunanlarıyla.",
+      "sections": [
+        {
+          "h2": "Kişiye bağlı",
+          "body": [
+            "Tarih kişinin üzerinde durduğundan, o kişiyi açmak onu ilişki, zaman çizelgesi ve ona dair anılarla yan yana gösterir."
+          ]
+        },
+        {
+          "h2": "Yaklaştıkça beliren",
+          "body": [
+            "Yaklaşan önemli tarihler kendi bölümünde toplanır, böylece önümüzdeki birkaç hafta bir bakışta görünür."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bildirim alır mıyım?",
+          "a": "Henüz hayır. Yaklaşan tarihler uygulamada belirir; anlık hatırlatmalar eklenmedi."
+        },
+        {
+          "q": "Bir grup önemli tarih tutabilir mi?",
+          "a": "Evet."
+        }
+      ]
+    },
+    "features/memories": {
+      "title": "Anılar — TreeLinker özellikleri",
+      "description": "Fotoğraf, tarih ve yer içeren paylaşılan hikâyeler, etkinlikler ve önemli tarihler; ait oldukları kişiye ya da gruba bağlı.",
+      "h1": "Anılar",
+      "lead": "Anlattıkları kişilerin yanında saklanır.",
+      "answer": "TreeLinker'da bir anı; paylaşılan bir hikâye, bir etkinlik ya da önemli bir tarihtir ve ait olduğu kişiye veya gruba bağlanır. Fotoğraf, tarih ve yer taşıyabilir. Anılar bir akışta durmak yerine bir kişiye asılı olduğundan, bir kişiyi açtığınızda ona dair elinizdekini görürsünüz — yalnızca en yeninin bulunabildiği sosyal zaman çizelgesinin tersi.",
+      "sections": [
+        {
+          "h2": "Üç tür, çünkü davranışları farklı",
+          "body": [
+            "Hikâyeler koyduğunuz yerde kalır. Etkinlikler bir kez olmuştur. Önemli tarihler her yıl tekrarlar ve kendiliğinden yeniden belirir."
+          ]
+        },
+        {
+          "h2": "Fotoğraflar, tarihler ve yerler",
+          "body": [
+            "Bir anı ona anlamını veren fotoğrafları, olduğu tarihi ve yeri taşıyabilir. Yıllar sonra onu başka bir şeyle ilişkilendirmeyi sağlayan da bu ayrıntılardır."
+          ]
+        },
+        {
+          "h2": "Kişisel ya da paylaşılan",
+          "body": [
+            "Bir kişideki anılar sizindir. Bir gruptaki anıları o grubun üyeleri görür."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Video desteği var mı?",
+          "a": "Hayır, şu an yok."
+        },
+        {
+          "q": "Bu bir fotoğraf yedeklemesi mi?",
+          "a": "Hayır. TreeLinker bir anıya ait fotoğrafları tutar, tüm galerinizi değil."
+        }
+      ]
+    },
+    "features/caller-identification": {
+      "title": "Arayan kimliği — TreeLinker özellikleri",
+      "description": "Gelen arayanın sizinle bağını gösteren, tümüyle kendi kişilerinizden kurulmuş bir kart. Veri tabanı yok, yükleme yok, yabancılar için hiçbir şey yok.",
+      "h1": "Arayan kimliği",
+      "lead": "Kimlik saptama değil, yerine oturtma.",
+      "answer": "Kişilerinizde zaten bulunan biri aradığında TreeLinker, adı ve sizinle bağını içeren bir kart gösterir — örneğin \"Nadia — Safa'nın kız kardeşi\". Hepsi kendi cihazınızdan okunur. Numara veri tabanı yoktur, telefon çalarken hiçbir şey çekilmez ve arayan zaten tanıdığınız biri değilse hiç kart gösterilmez.",
+      "sections": [
+        {
+          "h2": "Yalnızca zaten sahip olduğunuz kişiler",
+          "body": [
+            "TreeLinker bir yabancıyı adlandıramaz ve denemez. \"Bu numara kimin\" sorusunu yanıtlayan bir hizmet, herkesin numara uzayında gezinip kimlik toplamasına izin verir; bu yüzden hiç kurulmadı."
+          ]
+        },
+        {
+          "h2": "Arayan Adı bölümü",
+          "body": [
+            "Her kişi, o kişi aradığında tam olarak ne görüneceğini gösterir. TreeLinker bunu kaydettiğiniz ilişkilerden önerir; kabul edebilir, düzenleyebilir ya da silebilirsiniz. Özeldir ve tanımladığı kişiye hiç gösterilmez."
+          ]
+        },
+        {
+          "h2": "Kullandığı izinler",
+          "body": [
+            "Gelen numaranın görünebilmesi için Android'in arama tarama rolü ve kartın belirebilmesi için diğer uygulamaların üzerinde gösterme izni. Arama kaydı erişimi hiç istenmez."
+          ]
+        },
+        {
+          "h2": "Zaman çizelgesindeki aramalar",
+          "body": [
+            "Tanıdığınız birinden gelen arama, o kişinin zaman çizelgesine kaydedilir; böylece iletişim geçmişi kendiliğinden oluşur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bilinmeyen numaraları tanımlıyor mu?",
+          "a": "Hayır, bilerek."
+        },
+        {
+          "q": "Spam engelliyor mu?",
+          "a": "Hayır."
+        },
+        {
+          "q": "iPhone'da var mı?",
+          "a": "Hayır. iOS'ta eşdeğer bir arama tarama rolü yok."
+        }
+      ]
+    },
+    "guides/how-to-know-how-someone-is-related-to-you": {
+      "title": "Birinin sizinle akrabalığını nasıl anlarsınız",
+      "description": "Adı tanıyorsunuz ama kişiyi yerine koyamıyorsunuz. Kişilerinizdeki birinin sizinle bağını çıkarmanın ve sonra kaydetmenin pratik yolu.",
+      "h1": "Birinin sizinle akrabalığını nasıl anlarsınız",
+      "lead": "Bir adı tanımak, kişiyi yerine koymakla aynı şey değildir.",
+      "answer": "Emin olduğunuz birinden dışa doğru ilerleyin. Nadia'nın Safa'nın kız kardeşi, Safa'nın da kayınvalideniz olduğunu biliyorsanız, Nadia eşinizin teyzesidir — işi yapan zincir, hafızanız değil. Her adımı kurar kurmaz bir ilişki olarak kaydedin; zaten sormak zorunda kalmanızın nedeni geçen sefer kimsenin yazmamış olması. Zincir TreeLinker'da bir kez oluştuğunda kalıcıdır, iki yönde de çalışır ve o kişi bir daha aradığında arayan kimliği kartının okuduğu şey odur.",
+      "sections": [
+        {
+          "h2": "Emin olduğunuz biriyle başlayın",
+          "body": [
+            "Neredeyse hiç kimse size tek bir bilinmeyen halkayla bağlı değildir. Bağlantı iyi tanıdığınız birinden geçer — bir ebeveyn, bir kardeş, eşiniz. Emin olduğunuz en yakın kişiyi bulun ve bilinmeyen kişinin ona nasıl bağlandığını sorun.",
+            "Böylece imkânsız bir soru iki kolay soruya dönüşür."
+          ]
+        },
+        {
+          "h2": "İşe yarar yanıt veren soruyu sorun",
+          "body": [
+            "«Nasıl akrabayız?» genellikle belirsiz bir yanıt üretir. «Hangi taraftansın ve annen baban kim?» bir zincir üretir.",
+            "İki adım neredeyse her zaman yeter. Ötesinde ilişkinin zaten kimsenin konuşurken kullanmadığı bir adı vardır."
+          ]
+        },
+        {
+          "h2": "Elinizdeyken yazın",
+          "body": [
+            "Önemli olan kısım budur. Bu aynı akrabalığı neredeyse kesinlikle daha önce de çıkarmış ve sonra kaybetmişsinizdir.",
+            "Her halkayı kendi ilişkisi olarak kaydedin — Nadia, Safa'nın kız kardeşi; Safa, eşinizin annesi. TreeLinker her birinin tersini oluşturur ve sizinle Nadia arasındaki zincir, hatırlasanız da hatırlamasanız da var olur."
+          ]
+        },
+        {
+          "h2": "Bir dahakine uygulama yanıtlasın",
+          "body": [
+            "İlişkiler kaydedildikten sonra soy ağacı bağlantıyı görsel olarak gösterir ve o kişiden gelen arama, yalnızca adı değil konumunu gösterir.",
+            "Mesele tam olarak bu: bir akrabalığı bir kez çıkarmanız gerekir, birkaç yılda bir değil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker herhangi iki kişi arasındaki zinciri söyler mi?",
+          "a": "Ağaç bir kişinin çevresindeki bağları gösterir, dolayısıyla kısa bir zincir görünür. Doğrudan «şu ikisi arasındaki yolu göster» sorgusu henüz yok."
+        },
+        {
+          "q": "Ya ilişkinin basit bir adı yoksa?",
+          "a": "Adı olan halkaları kaydedin — kardeş, ebeveyn, eş — ve zincir, tek bir kelimeye gerek kalmadan ilişkiyi tam olarak anlatır."
+        },
+        {
+          "q": "Karşı tarafın uygulamayı kullanması gerekir mi?",
+          "a": "Hayır. Bildiğinizi kendi cihazınıza kaydedersiniz."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-in-laws": {
+      "title": "Eş tarafı akrabaları nasıl takip edersiniz",
+      "description": "Eşinizin ailesi, kimin kim olduğunu büyürken öğrenmeden yetişkinken katıldığınız ikinci bir ailedir. Onu bir kerede nasıl haritalarsınız.",
+      "h1": "Eş tarafı akrabaları nasıl takip edersiniz",
+      "lead": "Kendi ailenizi büyürken öğrendiniz. Eşinizinki size tek seferde teslim edildi.",
+      "answer": "Eşinizin ailesini kendinizinkine karıştırmak yerine kendi dalı olarak haritalayın. Önce eşinizi, sonra onun anne babasını, sonra kardeşlerini kaydedin ve hısımlık ilişkilerinin tek tek girilmesi yerine bu bağlardan türemesine izin verin. O dalı okunur kalsın diye kendi grubuna koyun ve kardeşlerinin eşlerini de kaydedin: adları ilk gelen ve bağlantısı en zor tutulan kişiler onlardır.",
+      "sections": [
+        {
+          "h2": "Dalı eşinizden dışa doğru kurun",
+          "body": [
+            "Sahip olduğunuz her hısımlık ilişkisi tek bir kişiden geçer. Önce eşinizi, sonra onun anne babasını ve kardeşlerini kaydedin; kalan her şey bu üç bağa asılıdır.",
+            "«Kayınvalide»yi bir tür olarak kaydetmeniz hiç gerekmez. Onun eşinizin annesi olduğunu kaydedin, sizinle ilişkisi buradan çıkar."
+          ]
+        },
+        {
+          "h2": "Ona kendi grubunu verin",
+          "body": [
+            "Örneğin «Eşimin ailesi» adlı bir grup dalı okunur tutar ve kimi henüz eklemediğinizi açıkça gösterir.",
+            "Gruplar ortak alanlardır, dolayısıyla bu aynı zamanda içindekilerin birbirini gördüğü doğal yer olur."
+          ]
+        },
+        {
+          "h2": "Kardeşlerin eşlerini kaydedin",
+          "body": [
+            "Evlilik yoluyla bacanak ve eltiler, ne ortak soyadı ne ortak çocukluk olduğundan ayırt edilmesi en zor gruptur.",
+            "Aynı zamanda habersiz arama ihtimali en yüksek olanlardır — ilişkiyi bilen bir kartın değerini tam da o anda gösterdiği yer."
+          ]
+        },
+        {
+          "h2": "İnsanlarla tanıştıkça bağlamı ekleyin",
+          "body": [
+            "Evlilik yıl dönümü için bir önemli tarih, yaşadığı şehir için bir etiket, bir buluşmadan sonra bir not. O an ucuzdur, sonradan yeniden kurulması imkânsızdır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "«Hısım» diye bir ilişki türü var mı?",
+          "a": "Hayır ve gerekmiyor. Hısımlık ilişkileri evlilik ile kan bağından türer; TreeLinker da doğrudan bunları kaydeder."
+        },
+        {
+          "q": "Eşimin ailesini kendiminkinden ayırabilir miyim?",
+          "a": "Ağaç tek bir çizgedir, çünkü aileler evliliğiniz üzerinden gerçekten bağlıdır. Her iki tarafı ayrı görmeyi ve yönetmeyi sağlayan şey gruplardır."
+        },
+        {
+          "q": "Peki üvey aileler?",
+          "a": "Uygun türleri kullanın — ebeveyn, çocuk, eş, akraba — ve hiçbiri uymuyorsa «diğer»i."
+        }
+      ]
+    },
+    "guides/how-to-remember-distant-relatives": {
+      "title": "Uzak akrabaları nasıl hatırlarsınız",
+      "description": "İkinci dereceden kuzenler, büyük teyzeler ve on yılda iki kez gördüğünüz insanlar. Bir dahakine tanımaya yetecek kadarını nasıl kaydedersiniz.",
+      "h1": "Uzak akrabaları nasıl hatırlarsınız",
+      "lead": "Uzak akrabaların sorunu uzaklık değil, buluşmalar arasındaki aralığın hafızadan uzun olmasıdır.",
+      "answer": "Uzak bir akraba için üç şey kaydedin: onu size bağlayan zincir, gerçekten tanımanızı sağlayacak tek bir ayrıntı ve onu en son nerede gördüğünüz. Bu kadarı yeter. Birkaç yılda bir gördüğünüz biri için tam bir soy kaydına ihtiyacınız yok — bir düğünde sormadan yerine koyabilmeye ihtiyacınız var. Zinciri iyi tanıdığınız en yakın akraba üzerinden kaydedin, zaman çizelgesine bir not ekleyin ve tutmayı uygulamaya bırakın.",
+      "sections": [
+        {
+          "h2": "Etiketi değil zinciri kaydedin",
+          "body": [
+            "«İkinci dereceden kuzen» neredeyse kimsenin doğru kullanmadığı ve kimseye bir şey ifade etmeyen bir etikettir. «Anneannemin ağabeyinin torunu» ise bir zincirdir ve insanların gerçekten söylediği şey budur.",
+            "O zincirin her halkasını kaydedin; bağlantı, kimsenin etikete ihtiyacı olmadan tam olarak korunur."
+          ]
+        },
+        {
+          "h2": "Tanınabilir tek bir ayrıntı ekleyin",
+          "body": [
+            "Bir meslek, bir şehir, genellikle kiminle geldiği. Somut tek bir olgu, tanımak için tam bir tarih setinden daha çok işe yarar.",
+            "Bunun için etiket iyi çalışır: bir şehir ya da ailenin bir kolu."
+          ]
+        },
+        {
+          "h2": "En son nerede buluştuğunuzu not edin",
+          "body": [
+            "Tek bir zaman çizelgesi kaydı — «Ahmed'in düğününde tanıştık, Haziran 2026» — bir yabancıyı, bir dahakine tek bakışta yerine koyacağınız birine dönüştürür.",
+            "Sabitlenmeye değer kayıt budur, çünkü ilk isteyeceğiniz odur."
+          ]
+        },
+        {
+          "h2": "Bunun küçük bir kayıt olduğunu kabul edin",
+          "body": [
+            "Uzak akrabaların anılara, fotoğraflara ve önemli tarihlere ihtiyacı yok. Kişi başına üç satır orantılıdır ve gerçekten sürdüreceğiniz bir kayıt, bırakacağınız kapsamlı bir kaydı yener."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Ne kadar uzağa gitmeliyim?",
+          "a": "Gerçekten karşılaştığınız insanlar kadar. Hiç görmeyecekseniz, bir soybilim hizmeti daha doğru araçtır."
+        },
+        {
+          "q": "Numarasını bilmiyorsam?",
+          "a": "Bir akraba telefon numarası olmadan eklenebilir."
+        },
+        {
+          "q": "Aradığında uygulama kim olduğunu söyler mi?",
+          "a": "Yalnızca kişilerinizdeyse. TreeLinker sizde zaten olmayan numaraları asla tanımlamaz."
+        }
+      ]
+    },
+    "guides/how-to-manage-hundreds-of-contacts": {
+      "title": "Yüzlerce kişiyi nasıl yönetirsiniz",
+      "description": "Birkaç yüz kaydı geçtikten sonra rehber bir liste olmaktan çıkar ve bir arama sorununa döner. Büyük bir kişi listesini yeniden kullanılabilir kılmanın pratik yolu.",
+      "h1": "Yüzlerce kişiyi nasıl yönetirsiniz",
+      "lead": "Birkaç yüz kişiyi geçtikten sonra alfabetik liste, etiketsiz bir dosya dolabıdır.",
+      "answer": "Büyük bir rehber başarısız olur çünkü alfabetik sıra, gerçekten hatırladığınız hiçbir şeyi kodlamaz. Üç hamlede düzeltin: insanların birbirleri üzerinden bulunabilmesi için ilişkileri kaydedin, gerçekten aradığınız birkaç nitelik için özel etiketler ekleyin ve kaydırmak yerine arayın. Herkesi sınıflandırmaya kalkmayın — değer, tekrar tekrar bulmanız gereken elli kadar kişidedir.",
+      "sections": [
+        {
+          "h2": "Alfabetik sıra neden bir noktadan sonra işe yaramaz",
+          "body": [
+            "Ada göre sıralamak yalnızca adı hatırladığınızda yardımcı olur. Belirli bir büyüklükten sonra yaygın başarısızlık tam tersidir: birinin amcanızın komşusu ya da kardeşinizin önerdiği elektrikçi olduğunu hatırlarsınız, hangi adla kayıtlı olduğunu değil.",
+            "Diğer bütün düzenleme şemaları tam da bu durumu kapatmak için vardır."
+          ]
+        },
+        {
+          "h2": "İlişkiler insanları birbirleri üzerinden bulunur kılar",
+          "body": [
+            "İnsanlar bağlandıktan sonra, hatırladığınız birinden ilerleyerek bir kişiye ulaşabilirsiniz. Başkaları aracılığıyla tanıdığınız insanları zaten böyle düşünürsünüz."
+          ]
+        },
+        {
+          "h2": "Yalnızca aradığınız şeye etiket koyun",
+          "body": [
+            "Bir etiket, gerçekten sorduğunuz bir soruya yanıt verdiğinde yerini hak eder: kim doktor, kim bu şehirde yaşıyor, acil durumda kimi ararım.",
+            "Herkese her şeyi etiketlemek, kimsenin sürdürmediği bir sistem üretir. Tutarlı kullanılan beş on etiket, bir kez kullanılan elliyi yener."
+          ]
+        },
+        {
+          "h2": "Arayın ve yinelenenlerin toplanmasına izin verin",
+          "body": [
+            "TreeLinker siz yazarken büyük listeyi önceden hazırlanmış bir dizine göre süzer, böylece birkaç bin kişi hızlı kalır.",
+            "Aynı kişi çoğu zaman birkaç kayıt olarak bulunur — bir cihaz kişisi, ikinci bir numara, eşitlemeden gelen bir taslak. Bunlar bir liste gösterilen her yerde katlanır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Yinelenen kişilerimi siler mi?",
+          "a": "Hayır. Listeleri gösterirken onları toplar; telefonunuzun rehberindeki kayıtları birleştirmez."
+        },
+        {
+          "q": "Kişi sayısında sınır var mı?",
+          "a": "Pratik bir sınır yok. Arama yeniden taramak yerine dizinlidir."
+        },
+        {
+          "q": "Faydalı olmadan önce her şeyi düzenlemeli miyim?",
+          "a": "Hayır. Yirmi ilişki ve bir avuç etiket, rehberinizin bulunabilirliğini şimdiden değiştirir."
+        }
+      ]
+    },
+    "guides/how-to-add-tags-to-contacts": {
+      "title": "Kişilere nasıl etiket eklersiniz",
+      "description": "Etiketler grupları kesen özel işaretlerdir — Doktor, Tesisatçı, bir şehir. Kullanışlı kalan etiketleri nasıl seçersiniz ve atama nasıl çalışır.",
+      "h1": "Kişilere nasıl etiket eklersiniz",
+      "lead": "Etiket, sonradan arayacağınız bir işarettir. Bütün sınav bu.",
+      "answer": "TreeLinker'da etiketler Düzenleme ekranından oluşturulur ve yönetilir: etikete bir ad, renk, simge ve isteğe bağlı açıklama verirsiniz, sonra kişileri etiketin kendi ayrıntı ekranından atarsınız. Etiketler size özeldir ve her grubu keser; bu da onları Doktor, Elektrikçi ya da bir şehir adı gibi işaretler için doğru yer yapar. Bir tane oluşturmadan önce tek bir sınav uygulayın: hiç ona göre arayacak mısınız? Aramayacaksanız o bir nottur, etiket değil.",
+      "sections": [
+        {
+          "h2": "Etiketler nerede yaşar",
+          "body": [
+            "Etiketler tek bir yerde yönetilir — gruplarla birlikte Düzenleme ekranında — ve kişiler her kişinin profilinden değil, etiketin içinden atanır. Bu, atamayı açtığınız her kişide karşınıza çıkan bir karar olmaktan çıkarıp tek bir bilinçli etkinliğe dönüştürür.",
+            "Her etiket, simgesini kendi renginin üzerinde atanmış kişi sayısıyla gösterir ve ayrıntı ekranında bu kişiler üzerinde arama vardır."
+          ]
+        },
+        {
+          "h2": "Ayakta kalacak etiketleri seçmek",
+          "body": [
+            "İyi etiketler gerçekten yüksek sesle sorduğunuz bir soruyu yanıtlar: su kaçağı için kimi ararım, hangi akrabalar Kahire'de, acil listesinde kim var.",
+            "Kötü etiketler bir hissi ya da tek seferlik bir durumu anlatır. Oluşturulur, bir kez kullanılır ve listeyi sonsuza dek doldurur."
+          ]
+        },
+        {
+          "h2": "Etiketler özeldir; gruplar değil",
+          "body": [
+            "Etiketlerinizi başka kimse görmez. Ortak bir alana asla yazmayacağınız dürüst işaretler için kullanışlı olmasının nedeni budur.",
+            "Başkaları görecek ve davet edilecekse, istediğiniz şey bir gruptur."
+          ]
+        },
+        {
+          "h2": "Otomasyon değil, öneri",
+          "body": [
+            "TreeLinker kişilerinizde gördüklerine dayanarak etiket önerebilir. Öneriler o anda hesaplanır ve siz kabul etmedikçe asla saklanmaz."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir etiketi kişi profilinden atayabilir miyim?",
+          "a": "Hayır. Atama etiketin ayrıntı ekranından yapılır."
+        },
+        {
+          "q": "İki etiket aynı adı taşıyabilir mi?",
+          "a": "Hayır. Yinelenen adlar büyük küçük harf ayrımı gözetilmeden reddedilir."
+        },
+        {
+          "q": "Bir kişi kaç etiket taşıyabilir?",
+          "a": "İstediğiniz kadar; aynı anda gruplara da ait olabilir."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-events": {
+      "title": "Aile etkinliklerini nasıl düzenlersiniz",
+      "description": "Aile buluşmaları grup sohbetlerinde dağılır. Kararı nasıl bağlarsınız, planlamayı nasıl bulunabilir tutarsınız ve sonrasında olanı nasıl kaydedersiniz.",
+      "h1": "Aile etkinliklerini nasıl düzenlersiniz",
+      "lead": "Aile etkinliklerinin çoğu planlaması zor değildir. Karar vermesi zordur.",
+      "answer": "Bir aile etkinliğini üç aşamada, her birini kendi yerinde düzenleyin. Kararı bir anketle bağlayın; böylece kişi başına tek oy kırk mesajın yerini alsın. Planlamayı adlandırılmış bir tartışmada tutun; böylece aylar sonra yeniden açılabilsin. Sonra etkinliğin ardından onu, orada bulunanlara bağlı bir anı olarak kaydedin; böylece gelecek yıl sıfırdan başlamayın.",
+      "sections": [
+        {
+          "h2": "Utasla değil anketle karar verin",
+          "body": [
+            "«Nerede yiyelim?» bir aile grubunun en sık çözmesi gereken şeydir ve sohbet dizisi bunun için kötü bir araçtır: oylar gömülür, insanlar birbirini tekrarlar ve kimse ne zaman karara bağlandığını anlamaz.",
+            "Anket üye başına tek oy verir, iki kez sayılmadan fikir değiştirmeye izin verir, kimin ne seçtiğini gösterir ve kapatılabilir."
+          ]
+        },
+        {
+          "h2": "Adlandırılmış bir tartışmada planlayın",
+          "body": [
+            "Etkinliğe bir başlık verin — «Bayram Yemeği 2026» — ve altına yazılan her şey orada kalsın. Aylar sonra hâlâ grup listesinde adı olan bir kayıttır.",
+            "Bir anket iliştirilebilir; böylece tartışma ve sonucu aynı yerde yaşar."
+          ]
+        },
+        {
+          "h2": "Önemli tarihi ait olduğu kişilere koyun",
+          "body": [
+            "Tekrarlayan bir buluşma bir önemli tarihtir; ait olduğu kişilere ya da gruba kaydedilir ve yaklaştıkça kendiliğinden yeniden belirir."
+          ]
+        },
+        {
+          "h2": "Sonrasında kaydedin",
+          "body": [
+            "Bir etkinlik gerçekleştikten sonra anıya dönüşür: kısa bir not, önemli fotoğraflar, tarih ve yer, orada bulunanlara bağlı.",
+            "Gelecek yılki halini planlamayı kolaylaştıran ve hatırlanmaya değer kılan şey bu kayıttır."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Gruptaki herkes oy verebilir mi?",
+          "a": "Evet, her biri bir oy. Oyu değiştirmek öncekini ekler değil değiştirir."
+        },
+        {
+          "q": "Bir tartışmayı sonradan yeniden açabilir miyim?",
+          "a": "Evet. Tartışmalar başlıklarıyla grup listesinde kalır."
+        },
+        {
+          "q": "Davetiye gönderiyor ya da katılımı izliyor mu?",
+          "a": "Bugün hayır. Grup davetleri bir gruba katılmak içindir; etkinlik başına katılım bildirimi bir özellik değil."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-photos-and-memories": {
+      "title": "Aile fotoğraflarını ve anılarını nasıl düzenlersiniz",
+      "description": "Fotoğraf kitaplıkları tarihe göre düzenlenir; bu da bir aile anısını bulmanın en işe yaramaz yoludur. Bunun yerine kişilere göre nasıl düzenlersiniz.",
+      "h1": "Aile fotoğraflarını ve anılarını nasıl düzenlersiniz",
+      "lead": "Galeriniz, asla hatırlamadığınız tek şeye göre sıralı: tam tarihe.",
+      "answer": "Aile fotoğraflarını kronolojik olarak düzenlemeyi bırakın ve içindeki kişilere göre düzenleyin. Bir hikâye taşıyan az sayıdaki fotoğrafı seçin, her birini ilgili kişiye ya da gruba bağlayın ve tarihi, yeri ve iki üç cümlelik bağlamı ekleyin. Bir fotoğraf kitaplığı «haziranda ne çektim» sorusunu yanıtlar; bir kişiye bağlı anı ise «anneannemden neyim var» sorusunu yanıtlar ve gerçekten sorulan soru budur.",
+      "sections": [
+        {
+          "h2": "Tarih sırası yanlış dizindir",
+          "body": [
+            "Fotoğraf uygulamaları çekim tarihine göre sıralar, çünkü dosyanın bildiği budur. Ama kimse aile tarihini tarihe göre aramaz; kişiye göre, bazen de olaya göre arar.",
+            "Çözüm on bin fotoğraf üzerinde daha iyi arama değil, bir şey ifade eden birkaç düzinesini seçmektir."
+          ]
+        },
+        {
+          "h2": "Acımasızca seçin",
+          "body": [
+            "Bir anı bir ila birkaç fotoğrafa ihtiyaç duyar, tüm seriye değil. Seçim, işin ve değerin büyük kısmıdır.",
+            "TreeLinker bir fotoğraf yedekleme hizmeti değildir ve olmaya da çalışmaz."
+          ]
+        },
+        {
+          "h2": "İki cümleyi yazın",
+          "body": [
+            "Bağlamsız bir fotoğraf tek bir kuşakta tanımlanamayan bir yüze dönüşür. İki cümle — kim, nerede, ne oluyordu — bir dosya ile bir kayıt arasındaki farktır.",
+            "Tarihi ve yeri hâlâ biliyorken ekleyin."
+          ]
+        },
+        {
+          "h2": "Bir kişiye ya da gruba bağlayın",
+          "body": [
+            "Bir kişideki anı, o kişiyi açtığınızda görünür. Grup anısı ise tüm ailenin birlikte yaptığını tutar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bir anıya birden fazla fotoğraf ekleyebilir miyim?",
+          "a": "Evet, tarih ve yerle birlikte."
+        },
+        {
+          "q": "Fotoğraf kitaplığımı yedekler mi?",
+          "a": "Hayır. Bir anıya ait fotoğrafları tutar, tüm galerinizi değil."
+        },
+        {
+          "q": "Video destekleniyor mu?",
+          "a": "Şu an hayır."
+        }
+      ]
+    },
+    "compare/what-is-a-family-relationship-app": {
+      "title": "Aile ilişkileri uygulaması nedir?",
+      "description": "Kategori açıklaması: bir aile ilişkileri yönetimi uygulaması ne yapar, soybilim hizmetinden, kişi yöneticisinden ve arayan kimliği uygulamasından nasıl ayrılır ve kimin içindir.",
+      "h1": "Aile ilişkileri uygulaması nedir?",
+      "lead": "Daha bilinen üç kategorinin arasında duran ve genellikle ne olmadığıyla anlatılan bir kategori.",
+      "answer": "Aile ilişkileri uygulaması, rehberinizdeki yaşayan insanların sizinle ve birbiriyle nasıl bağlı olduğunu kaydeder ve bu bağları kullanarak kişilerinizin geri kalanını daha kullanışlı hâle getirir. Tarihsel kayıtlar üzerinden ataları araştıran soybilim hizmetinden; kişiler hakkında ayrıntı saklayan ama aralarındaki bağlar hakkında hiçbir şey saklamayan kişi yöneticisinden; ve ortak bir numara veri tabanıyla yabancıları tanımlayan arayan kimliği uygulamasından ayrılır. Belirleyici özellik ilişkinin kendisidir — diğer üçünün hiçbirinin kaydetmediği bir alan.",
+      "table": {
+        "caption": "Dört komşu kategori, dört farklı soru",
+        "head": [
+          "",
+          "Ana soru",
+          "Konu",
+          "Kişiler arası ilişkileri kaydeder"
+        ],
+        "rows": [
+          [
+            "Soybilim hizmeti",
+            "Atalarımla nasıl akrabayım?",
+            "Vefat etmiş kişiler",
+            "Evet, ama atalar için"
+          ],
+          [
+            "Kişi yöneticisi",
+            "Bu kişi hakkında ne biliyorum?",
+            "İletişimde olduğunuz kişiler",
+            "Hayır"
+          ],
+          [
+            "Arayan kimliği uygulaması",
+            "Bu numara kimin?",
+            "Yabancılar",
+            "Hayır"
+          ],
+          [
+            "Aile ilişkileri uygulaması",
+            "Bu kişinin benimle bağı ne?",
+            "İletişimde olduğunuz kişiler",
+            "Evet — belirleyici özellik budur"
+          ]
+        ],
+        "note": "Kategoriler özelliklerde örtüşür, amaçta değil. Birini isteyenlerin çoğu aslında ikisinin parçalarını ister."
+      },
+      "sections": [
+        {
+          "h2": "Böyle bir uygulama ne yapar",
+          "body": [
+            "En azından kişiler arası ilişkileri kaydeder ve onları bir ağaç olarak çizer. Uygulamada ilişkiler geri kalan her şeyi açar: akrabalar gruplanabilir, bir anı orada bulunan herkese bağlanabilir, mevcut bağlardan bir öneri çıkarılabilir ve gelen bir arama ad yerine bir konum olarak anlatılabilir."
+          ],
+          "list": [
+            "Rehberinizdeki insanlar arasındaki ilişkiler",
+            "Ataların değil, yaşayanların soy ağacı",
+            "Bunları kesen gruplar ve özel işaretler",
+            "Kişilere bağlı etkinlikler ve önemli tarihler",
+            "Tarihe göre değil kişiye göre dosyalanmış anılar ve hikâyeler",
+            "Yalnızca kendi kişilerinizi kullanan, ilişkiye duyarlı arayan kimliği"
+          ]
+        },
+        {
+          "h2": "Kimin için",
+          "body": [
+            "Kimsenin herkesin nasıl bağlandığını yazmadığı ve bir iki akrabanın bunu kafasında taşıdığı büyük geniş ailesi olan insanlar için.",
+            "Ata araştıranlara kötü uyar; asıl sorunu yinelenen kişiler ya da yedekleme olanlara da kötü uyar."
+          ]
+        },
+        {
+          "h2": "Ne değildir",
+          "body": [
+            "Soybilim hizmeti değildir: tarihsel kayıt yok, DNA eşleştirmesi yok. Sosyal ağ değildir: hiçbir şey herkese açık değil, akış yok. Ve geleneksel bir arayan kimliği uygulaması değildir: numara veri tabanı yoktur ve bir yabancıyı adlandıramaz, çünkü hiç toplamaz."
+          ]
+        },
+        {
+          "h2": "İhtiyacınız olup olmadığını nasıl anlarsınız",
+          "body": [
+            "Tek bir soru belirler. Ekranınızda bir ad belirdiğinde, bazen onu tanımanız gerektiğini bilip kişiyi yerine koyamıyor musunuz? Yanıt ara sıradan fazlaysa, eksik olan ilişkilerdir ve onları saklayan kategori budur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Kişisel CRM ile aynı şey mi?",
+          "a": "Hayır. Kişisel CRM profesyonel bir ağla etkileşimlerinizi izler. Aile ilişkileri uygulaması insanların birbiriyle nasıl bağlı olduğunu izler; CRM bunu hiç kaydetmez."
+        },
+        {
+          "q": "Zaten soybilim hizmeti kullanıyorsam gerekir mi?",
+          "a": "Aynı ailenin farklı yarılarını tutuyorlar — biri ataları, diğeri yaşayanları. Birçok kişi haklı olarak ikisini birden kullanıyor."
+        },
+        {
+          "q": "Kişiler uygulamamın yerini alır mı?",
+          "a": "Cihazınızdaki kişileri okur ve üzerine bir katman ekler. Telefonunuzun rehberine kendiliğinden yazmaz."
+        }
+      ]
+    }
+  }
+}

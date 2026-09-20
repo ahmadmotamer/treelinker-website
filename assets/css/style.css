@@ -766,3 +766,292 @@ textarea { resize: vertical; min-height: 8rem; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { transition: none !important; animation: none !important; }
 }
+
+/* ---------- Toast ("Coming soon") ---------- */
+.toast {
+  position: fixed;
+  left: 50%;
+  bottom: 1.5rem;
+  transform: translate(-50%, 1rem);
+  max-width: calc(100% - 2rem);
+  padding: .75rem 1.25rem;
+  border-radius: var(--radius-lg);
+  background: var(--color-ink);
+  color: var(--color-cream);
+  font-size: .95rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-lg);
+  opacity: 0;
+  transition: opacity .25s, transform .25s;
+  z-index: 1000;
+}
+
+.toast.show {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .toast { transition: none; }
+}
+
+/* =========================================================================
+   Generated content pages
+   -------------------------------------------------------------------------
+   Everything below styles the page types emitted by build-pages.js: the
+   landing, guide, comparison and feature pages, plus the identity strip that
+   repeats on all of them. It reuses the existing tokens so the generated pages
+   are the same site, not a second one bolted on.
+   ========================================================================= */
+
+/* ---------- Compact hero for interior pages ---------- */
+.hero-compact { padding-block: 3.25rem 2rem; }
+.hero-compact h1 { font-size: clamp(1.75rem, 4.2vw, 2.65rem); }
+.hero-compact p  { max-width: 44rem; margin-inline: auto; }
+
+/* ---------- Breadcrumb ---------- */
+.breadcrumb {
+  padding-block: 1rem 0;
+  font-size: .82rem;
+  color: var(--color-text-muted);
+}
+.breadcrumb a { color: var(--color-primary); text-decoration: none; }
+.breadcrumb a:hover { text-decoration: underline; }
+.breadcrumb [aria-current="page"] { color: var(--color-text-muted); }
+.chain-sep { margin-inline: .5rem; color: var(--color-stone); opacity: .7; }
+
+/* ---------- Direct-answer block ----------
+   Deliberately the first substantial thing on the page: the summary a reader
+   (or a generative engine reading the page) needs before anything else. */
+.answer-block { padding-block: 1.5rem 0; }
+.answer-heading {
+  font-family: var(--font-serif);
+  font-size: .78rem;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+  color: var(--color-primary);
+  margin-bottom: .6rem;
+}
+.answer-body {
+  font-size: 1.06rem;
+  line-height: 1.75;
+  color: var(--color-text);
+  padding: 1.15rem 1.35rem;
+  background: var(--color-accent-soft);
+  border-inline-start: 3px solid var(--color-primary);
+  border-radius: var(--radius);
+}
+
+/* ---------- Long-form prose ---------- */
+.prose h2 {
+  font-family: var(--font-serif);
+  font-size: 1.32rem;
+  font-weight: 700;
+  margin-top: 2.35rem;
+  margin-bottom: .7rem;
+  color: var(--color-primary-dk);
+}
+.prose h2:first-child { margin-top: 0; }
+.prose p {
+  color: var(--color-text-muted);
+  line-height: 1.82;
+  margin-bottom: .95rem;
+  font-size: .975rem;
+}
+.prose-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: .6rem;
+  margin: .3rem 0 1rem;
+}
+.prose-list li {
+  position: relative;
+  padding-inline-start: 1.35rem;
+  color: var(--color-text);
+  font-size: .945rem;
+  line-height: 1.7;
+}
+.prose-list li::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 0;
+  top: .62em;
+  width: .42rem;
+  height: .42rem;
+  border-radius: 50%;
+  background: var(--color-primary);
+}
+
+/* ---------- Comparison tables ---------- */
+.table-wrap { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .9rem;
+  background: var(--color-card);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  min-width: 34rem;
+}
+.compare-table th,
+.compare-table td {
+  padding: .72rem .9rem;
+  text-align: start;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+.compare-table thead th {
+  background: var(--color-accent-soft);
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--color-primary-dk);
+  font-size: .85rem;
+}
+.compare-table tbody th {
+  font-weight: 600;
+  color: var(--color-text);
+  white-space: normal;
+}
+.compare-table td { color: var(--color-text-muted); }
+.compare-table tbody tr:last-child th,
+.compare-table tbody tr:last-child td { border-bottom: 0; }
+.table-note {
+  margin-top: .9rem;
+  font-size: .85rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+  line-height: 1.7;
+}
+
+/* ---------- FAQ ---------- */
+.faq-list { display: flex; flex-direction: column; gap: 1.05rem; }
+.faq-item {
+  padding: 1.1rem 1.25rem;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+}
+.faq-item h3 {
+  font-family: var(--font-serif);
+  font-size: 1.01rem;
+  font-weight: 700;
+  margin-bottom: .4rem;
+  color: var(--color-primary-dk);
+}
+.faq-item p { color: var(--color-text-muted); font-size: .935rem; line-height: 1.75; }
+
+/* ---------- Identity strip ----------
+   The same eight concepts, in the same order, on every page. It is here so a
+   reader landing on any single page learns what the product is, and so the
+   internal link graph reinforces one consistent description of it. */
+.identity-strip {
+  padding-block: 2rem;
+  border-block: 1px solid var(--color-border);
+  background: var(--color-surface);
+}
+.identity-lede {
+  font-size: .95rem;
+  color: var(--color-text);
+  margin-bottom: .75rem;
+}
+.identity-lede strong { color: var(--color-primary-dk); font-family: var(--font-serif); }
+.identity-chain {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: .15rem .1rem;
+  font-size: .845rem;
+}
+.identity-chain a {
+  color: var(--color-primary);
+  text-decoration: none;
+  padding: .18rem .1rem;
+}
+.identity-chain a:hover { text-decoration: underline; }
+
+/* ---------- Related pages ---------- */
+.related-card {
+  display: block;
+  text-decoration: none;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.related-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
+.related-card h3 {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 1.02rem;
+  margin-bottom: .4rem;
+  color: var(--color-primary-dk);
+}
+.related-card p { color: var(--color-text-muted); font-size: .88rem; line-height: 1.65; }
+
+/* ---------- Steps (home) ---------- */
+.step { text-align: center; padding: 1rem 1.5rem; }
+.step-n {
+  font-family: var(--font-serif);
+  font-size: 3rem;
+  font-weight: 900;
+  font-style: italic;
+  color: var(--color-primary);
+  opacity: .5;
+  line-height: 1;
+  margin-bottom: .625rem;
+}
+.step h3 { font-family: var(--font-serif); font-weight: 700; margin-bottom: .5rem; }
+.step p { color: var(--color-text-muted); font-size: .925rem; line-height: 1.7; }
+
+/* ---------- Call to action ---------- */
+.cta-band { padding-block: 3rem; }
+.cta-note {
+  margin-top: 1rem;
+  font-size: .82rem;
+  color: var(--color-text-muted);
+}
+
+/* ---------- Language picker ---------- */
+.nav-lang { position: relative; }
+.nav-lang-menu {
+  display: none;
+  position: absolute;
+  inset-inline-end: 0;
+  top: 100%;
+  min-width: 10rem;
+  background: var(--color-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-lg);
+  padding: .35rem;
+  z-index: 40;
+}
+.nav-lang:hover .nav-lang-menu,
+.nav-lang:focus-within .nav-lang-menu { display: block; }
+.nav-lang-menu li { display: block; }
+.nav-lang-menu a {
+  display: block;
+  padding: .4rem .6rem;
+  border-radius: calc(var(--radius) - 2px);
+  font-size: .875rem;
+}
+.nav-lang-menu a:hover { background: var(--color-accent-soft); }
+.nav-lang-menu a[aria-current="true"] { font-weight: 700; color: var(--color-primary-dk); }
+
+@media (max-width: 860px) {
+  .nav-lang-menu {
+    display: block;
+    position: static;
+    box-shadow: none;
+    border: 0;
+    padding: 0 0 0 .75rem;
+    min-width: 0;
+  }
+}
+
+/* ---------- Right-to-left ----------
+   Logical properties carry most of it. These are the few places that still
+   need an explicit flip. */
+[dir="rtl"] .answer-body { border-inline-start: 3px solid var(--color-primary); }
+[dir="rtl"] .identity-chain,
+[dir="rtl"] .breadcrumb .container { direction: rtl; }
+[dir="rtl"] .step-n { font-style: normal; }

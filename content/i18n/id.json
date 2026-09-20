@@ -1,0 +1,1885 @@
+{
+  "chrome": {
+    "nav": {
+      "home": "Beranda",
+      "familyTree": "Pohon keluarga",
+      "contacts": "Kontak",
+      "callerId": "Identifikasi penelepon",
+      "guides": "Panduan",
+      "compare": "Perbandingan",
+      "language": "Bahasa",
+      "menu": "Buka menu",
+      "aria": "Navigasi utama"
+    },
+    "groups": {
+      "home": "Beranda",
+      "solutions": "Apa yang dilakukan TreeLinker",
+      "guides": "Panduan",
+      "compare": "Perbandingan",
+      "features": "Fitur"
+    },
+    "groupDescriptions": {
+      "guides": "Panduan praktis untuk memetakan keluarga, merapikan buku alamat, dan mengingat siapa itu siapa.",
+      "compare": "Perbandingan jujur antara aplikasi pohon keluarga, pengelola kontak, dan identifikasi penelepon — termasuk kasus ketika TreeLinker bukan alat yang tepat.",
+      "features": "Setiap bagian TreeLinker, dijelaskan satu per satu."
+    },
+    "pages": {
+      "relationshipManager": "Pengelola hubungan",
+      "familyOrganizer": "Penata keluarga",
+      "familyMemoryApp": "Kenangan keluarga"
+    },
+    "labels": {
+      "answer": "Jawaban singkat",
+      "faq": "Pertanyaan umum",
+      "related": "Halaman terkait",
+      "breadcrumb": "Jalur navigasi"
+    },
+    "cta": {
+      "title": "Mulai dari kontak yang sudah Anda miliki",
+      "body": "TreeLinker gratis di Google Play. Tanpa iklan, tanpa langganan, dan buku alamat Anda tidak pernah keluar dari ponsel.",
+      "play": "Dapatkan di Google Play",
+      "secondary": "Lihat cara kerja identifikasi penelepon",
+      "note": "Android. Gratis. Tidak perlu akun untuk menelusuri kontak Anda sendiri.",
+      "identity": ""
+    },
+    "footer": {
+      "legal": "Hukum",
+      "privacy": "Kebijakan Privasi",
+      "terms": "Ketentuan Layanan",
+      "deleteAccount": "Hapus akun",
+      "support": "Dukungan",
+      "rights": "Seluruh hak dilindungi.",
+      "madeWith": "Dibuat dengan"
+    },
+    "identity": {
+      "category": "aplikasi pengelolaan hubungan keluarga",
+      "description": "TreeLinker adalah aplikasi pengelolaan hubungan keluarga: pengelolaan kontak, pohon keluarga, hubungan, grup, tag, acara, kenangan, dan identifikasi penelepon dalam satu tempat.",
+      "chain": [
+        "pengelolaan kontak",
+        "pohon keluarga",
+        "hubungan",
+        "grup",
+        "tag",
+        "acara",
+        "kenangan",
+        "identifikasi penelepon"
+      ],
+      "aria": "Apa itu TreeLinker"
+    }
+  },
+  "pages": {
+    "": {
+      "title": "TreeLinker — Tahu bagaimana semua kontak Anda saling berhubungan",
+      "description": "Aplikasi hubungan keluarga. Bangun pohon keluarga dari kontak yang sudah ada di ponsel, tata kerabat ke dalam grup dan tag, simpan acara dan kenangan bersama orangnya, dan lihat hubungan penelepon dengan Anda. Gratis, Android, dan tidak pernah mengunggah buku alamat Anda.",
+      "h1": "Tahu bagaimana semua kontak Anda saling berhubungan",
+      "lead": "Ponsel Anda sudah tahu nomor semua orang. Ia sama sekali tidak tahu siapa mereka satu sama lain. TreeLinker menambahkan lapisan yang hilang — hubungan — dan tetap menyimpan buku alamat di perangkat Anda.",
+      "answer": "TreeLinker adalah aplikasi pengelolaan hubungan keluarga untuk Android. Ia membaca kontak yang sudah ada di ponsel Anda, memungkinkan Anda mencatat bagaimana orang-orang itu berhubungan, lalu menggambarkannya sebagai pohon keluarga. Di sekitarnya ada grup, tag, acara, kenangan, dan kartu identifikasi penelepon yang menunjukkan hubungan penelepon dengan Anda. Aplikasinya gratis, tanpa iklan, dan tidak pernah mengunggah buku alamat Anda ke basis data bersama.",
+      "featuresTitle": "Satu aplikasi untuk orang-orang dalam hidup Anda",
+      "featuresSubtitle": "Delapan bagian, satu gagasan: semuanya bergantung pada seseorang.",
+      "cards": [
+        {
+          "h3": "Pohon keluarga dari kontak Anda",
+          "p": "Mulai dari buku alamat yang sudah ada, bukan mengetik ratusan nama lagi. Hubungkan dua orang dan hubungan kebalikannya dibuat otomatis."
+        },
+        {
+          "h3": "Saran hubungan",
+          "p": "Saat pohon Anda menyiratkan suatu hubungan — anak saudara laki-laki Anda adalah keponakan Anda — TreeLinker mengusulkannya dengan skor keyakinan dan penjelasan yang bisa Anda terima, ubah, atau abaikan."
+        },
+        {
+          "h3": "Grup dan tag",
+          "p": "Grup adalah ruang bersama untuk keluarga, lingkungan, atau angkatan. Tag adalah label pribadi — Dokter, Tukang ledeng, Kairo — yang memotong semuanya."
+        },
+        {
+          "h3": "Acara dan tanggal penting",
+          "p": "Ulang tahun, pernikahan, dan peringatan tersimpan pada orangnya, dan yang terdekat muncul di layar beranda Anda."
+        },
+        {
+          "h3": "Kenangan",
+          "p": "Cerita, acara, dan tanggal penting dengan foto, tanggal, dan tempat, melekat pada orang yang bersangkutan alih-alih hilang di galeri."
+        },
+        {
+          "h3": "Identifikasi penelepon",
+          "p": "Saat seseorang dari kontak Anda menelepon, TreeLinker menampilkan hubungannya dengan Anda, bukan sekadar nama. Tidak ada yang dicari daring dan tidak ada yang dipublikasikan."
+        }
+      ],
+      "stepsTitle": "Siap dalam hitungan menit",
+      "steps": [
+        {
+          "h3": "Buka kontak Anda",
+          "p": "TreeLinker membaca buku alamat yang sudah ada di ponsel. Tidak ada yang diunggah dan tidak ada yang diketik ulang."
+        },
+        {
+          "h3": "Hubungkan dua orang",
+          "p": "Katakan bahwa Omar adalah saudara Anda. Hubungan kebalikannya dibuat otomatis, dan pohon Anda tidak lagi kosong."
+        },
+        {
+          "h3": "Simpan konteksnya",
+          "p": "Tambahkan grup, tag, tanggal penting, dan kenangan sambil jalan. Pohon itu menjadi catatan tentang orang, bukan sekadar nomor."
+        }
+      ],
+      "sections": [
+        {
+          "h2": "Masalah buku alamat biasa",
+          "body": [
+            "Daftar kontak menyimpan nama dan nomor. Ia tidak menyimpan satu hal yang benar-benar Anda lupakan: siapa orang ini bagi Anda, dan bagi semua orang lain dalam daftar.",
+            "Dalam buku alamat berisi beberapa ribu nama, celah itu mahal. Empat orang memakai nama depan yang sama. Sepupu yang baru dua kali Anda temui menelepon dan Anda tidak bisa menempatkannya. Seseorang meninggal dan tak ada yang bisa menjelaskan bagaimana keluarga itu terhubung. Informasinya ada — hanya saja tidak punya tempat untuk tinggal."
+          ]
+        },
+        {
+          "h2": "Apa yang ditambahkan TreeLinker",
+          "body": [
+            "TreeLinker mempertahankan buku alamat dan menambahkan hubungan antar orang di dalamnya. Begitu hubungan itu ada, sisanya mengikuti: pohon bisa digambar, kerabat bisa dikelompokkan, penelepon bisa ditempatkan, dan sebuah kenangan bisa dilekatkan pada orang-orang yang hadir."
+          ],
+          "list": [
+            "Tujuh jenis hubungan — orang tua, anak, saudara, pasangan, teman, kerabat, lainnya — masing-masing dengan warna dan ikonnya",
+            "Hubungan timbal balik otomatis — catat satu arah, arah lainnya dibuat",
+            "Saran hubungan dengan skor keyakinan dan penjelasan berbahasa sederhana",
+            "Grup dengan undangan, jajak pendapat, dan diskusi bernama",
+            "Tag dengan kontak yang ditetapkan, warna, dan ikon",
+            "Linimasa pada setiap kontak, termasuk panggilan masuk",
+            "Cerita, acara, dan tanggal penting dengan foto, tanggal, dan tempat",
+            "Pohon keluarga yang bisa dibagikan ke pengguna TreeLinker lain, yang melihat orang yang sama dengan nama dari buku alamatnya sendiri"
+          ]
+        },
+        {
+          "h2": "Privat karena rancangannya, bukan karena janji",
+          "body": [
+            "TreeLinker bekerja lokal terlebih dahulu. Kontak, hubungan, dan kenangan Anda tersimpan di perangkat, dan menyinkronkannya ke akun adalah sesuatu yang Anda aktifkan, bukan yang terjadi secara bawaan.",
+            "Identifikasi penelepon adalah contoh paling jelas. TreeLinker tidak punya basis data nomor telepon dan tidak bisa menyebut nama orang asing, karena memang tidak pernah mengumpulkannya. Jika nomor masuk bukan milik orang yang sudah Anda kenal, tidak ada apa pun yang ditampilkan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah TreeLinker mengunggah kontak saya?",
+          "a": "Tidak. Buku alamat Anda dibaca di perangkat dan tetap di sana. TreeLinker tidak membangun direktori nomor bersama dan tidak bisa memberi tahu siapa pun pemilik sebuah nomor."
+        },
+        {
+          "q": "Apakah TreeLinker gratis?",
+          "a": "Ya. Gratis di Google Play, tanpa iklan dan tanpa langganan."
+        },
+        {
+          "q": "Apakah ada versi iPhone?",
+          "a": "Belum. Saat ini TreeLinker hanya untuk Android."
+        },
+        {
+          "q": "Apakah keluarga saya harus ikut memasangnya?",
+          "a": "Tidak. Anda bisa memetakan seluruh keluarga sendiri. Membagikan pohon ke pengguna lain bersifat opsional dan sekali jalan — tidak ada sinkronisasi yang berlanjut setelahnya."
+        }
+      ]
+    },
+    "family-tree-app": {
+      "title": "Aplikasi pohon keluarga yang mulai dari kontak ponsel — TreeLinker",
+      "description": "Kebanyakan aplikasi pohon keluarga menuntut Anda mengetik setiap nama dari nol. TreeLinker membangun pohon dari kontak yang sudah ada di ponsel, membuat hubungan kebalikan otomatis, dan menyarankan yang disiratkan pohon Anda.",
+      "h1": "Aplikasi pohon keluarga yang mulai dari kontak Anda",
+      "lead": "Nama-namanya sudah ada di ponsel. Pohon keluarga tidak seharusnya dimulai dari formulir kosong.",
+      "answer": "TreeLinker adalah aplikasi pohon keluarga untuk Android yang membangun pohon dari kontak yang sudah ada di ponsel Anda. Anda memilih dua orang, menyatakan hubungannya, dan hubungan kebalikannya dibuat untuk Anda. Seiring pohon tumbuh, aplikasi mengusulkan hubungan yang bisa disimpulkan — anak saudara Anda adalah keponakan Anda — dengan skor keyakinan dan penjelasan. Ini bukan layanan silsilah: tidak ada arsip sejarah dan tidak ada pencocokan DNA, karena aplikasi ini dibuat untuk keluarga yang masih hidup di buku alamat Anda.",
+      "sections": [
+        {
+          "h2": "Mengapa memulai dari kontak itu penting",
+          "body": [
+            "Keluhan paling umum tentang perangkat lunak pohon keluarga bukan soal akurasi, melainkan tenaga dan kecepatan: setiap orang harus diketik, dan hasilnya baru terasa setelah puluhan entri.",
+            "Jika orang-orangnya sudah ada di buku alamat, seluruh langkah itu hilang. Anda tinggal menghubungkan yang ada, dan pohon punya cabang dalam satu dua menit."
+          ]
+        },
+        {
+          "h2": "Hubungan, bukan sekadar kotak",
+          "body": [
+            "TreeLinker mendukung tujuh jenis hubungan, masing-masing dengan warna dan ikon, agar pohon yang padat tetap terbaca.",
+            "Mencatat satu arah mencatat arah lainnya. Jika Anda menyatakan Omar saudara Anda, catatan Omar menyatakan Anda saudaranya — Anda tidak pernah merawat dua sisi secara manual."
+          ]
+        },
+        {
+          "h2": "Saran yang boleh Anda tolak",
+          "body": [
+            "Ketika hubungan yang ada menyiratkan hubungan baru, TreeLinker mengusulkannya alih-alih menuliskannya. Tiap saran membawa skor keyakinan dan kalimat yang menjelaskan hubungan mana yang menghasilkannya, dan bila jenisnya ambigu Anda ditanya.",
+            "Tidak ada yang masuk ke pohon Anda karena perangkat lunak menebak. Semua yang ada di sana ada karena Anda menerimanya."
+          ]
+        },
+        {
+          "h2": "Yang sengaja tidak dilakukannya",
+          "body": [
+            "TreeLinker tidak punya koleksi arsip sejarah, indeks sensus, atau pencocokan DNA. Jika tujuan Anda meneliti leluhur yang lahir dua ratus tahun lalu, layanan silsilah adalah alat yang tepat, bukan TreeLinker.",
+            "Aplikasi ini dibuat untuk separuh masalah lainnya: keluarga yang masih hidup, yang benar-benar Anda ajak bicara, dan yang hubungannya tak pernah dituliskan siapa pun."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Haruskah saya mengetik setiap kerabat secara manual?",
+          "a": "Tidak. TreeLinker membaca kontak yang sudah ada di ponsel dan Anda menghubungkan yang sudah tersedia. Anda hanya mengetik kerabat yang belum punya catatan kontak."
+        },
+        {
+          "q": "Bisakah mengekspor pohon sebagai GEDCOM?",
+          "a": "Belum. Impor dan ekspor GEDCOM belum didukung."
+        },
+        {
+          "q": "Apakah ia mencari arsip sejarah?",
+          "a": "Tidak. Tidak ada koleksi arsip maupun pencocokan DNA. TreeLinker memetakan keluarga yang hidup di buku alamat Anda."
+        },
+        {
+          "q": "Apakah bisa dipakai luring?",
+          "a": "Ya. Pohon disimpan di perangkat dan bisa dibaca serta disunting tanpa koneksi."
+        }
+      ]
+    },
+    "family-contact-manager": {
+      "title": "Pengelola kontak keluarga — tata kontak berdasarkan hubungan | TreeLinker",
+      "description": "Pengelola kontak yang menata orang berdasarkan hubungannya dengan Anda, bukan sekadar nama. Grup, tag, linimasa per kontak, dan tanggal penting, tersimpan di perangkat Anda.",
+      "h1": "Pengelola kontak yang ditata berdasarkan hubungan",
+      "lead": "Nama dan nomor adalah hal paling tidak menarik dari orang-orang di ponsel Anda.",
+      "answer": "TreeLinker adalah pengelola kontak untuk Android yang menata buku alamat berdasarkan hubungan, bukan abjad. Setiap kontak dapat membawa hubungan dengan orang lain, keanggotaan grup, tag pribadi, linimasa tentang apa yang terjadi di antara Anda, tanggal penting, dan kenangan bersama. Ia membaca kontak yang sudah ada di perangkat, membiarkannya tetap di sana, dan menambahkan konteks yang tidak punya tempat di buku alamat biasa.",
+      "sections": [
+        {
+          "h2": "Apa yang disimpan aplikasi kontak biasa",
+          "body": [
+            "Buku alamat standar mencatat nama, nomor, mungkin surel dan perusahaan. Cukup untuk menelepon dan tidak banyak lagi.",
+            "Ia tidak bisa memberi tahu bahwa penelepon adalah sepupu istri Anda, bahwa terakhir kali Anda bicara di sebuah pernikahan pada bulan Juni, atau bahwa dia tukang listrik yang kerjanya bagus dua tahun lalu. Informasi itu ada di kepala Anda dan tidak di tempat lain."
+          ]
+        },
+        {
+          "h2": "Apa yang disimpan TreeLinker",
+          "body": [
+            "Setiap kontak di TreeLinker adalah orang dengan posisi dalam hidup Anda, bukan baris dalam daftar."
+          ],
+          "list": [
+            "Hubungan dengan kontak lain, digambar sebagai pohon keluarga",
+            "Grup — keluarga, lingkungan, angkatan — dengan undangan dan ruang bersama",
+            "Tag seperti Dokter, Tukang ledeng, atau Kairo, pribadi, dengan warna dan ikon",
+            "Linimasa berisi catatan dan panggilan masuk, terbaru lebih dulu, yang penting disematkan",
+            "Tanggal penting dan acara yang muncul saat mendekat",
+            "Cerita dan kenangan dengan foto, tanggal, dan tempat"
+          ]
+        },
+        {
+          "h2": "Pencarian yang melampaui nama",
+          "body": [
+            "Daftar kontak menyaring saat Anda mengetik terhadap indeks yang sudah disiapkan, sehingga beberapa ribu kontak tetap cepat. Grup dan tag masing-masing punya pencarian atas kontak yang ditetapkan.",
+            "Karena satu orang bisa berada di beberapa grup dan membawa beberapa tag sekaligus, ia tetap terjangkau dari sudut mana pun Anda memikirkannya."
+          ]
+        },
+        {
+          "h2": "Di mana kontak Anda tinggal",
+          "body": [
+            "TreeLinker menyimpan buku alamat di perangkat Anda. Sinkronisasi ke akun bersifat opsional, dan tidak ada direktori bersama yang bisa ditelusuri pengguna lain.",
+            "TreeLinker juga tidak pernah menulis ke buku alamat ponsel atas inisiatif sendiri. Menambahkan seseorang ke kontak selalu tindakan Anda."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ia menggabungkan kontak ganda?",
+          "a": "Ia menyatukannya saat menampilkan daftar, agar satu orang tidak muncul dua kali di pohon atau grup. Ia belum menggabungkan catatan di buku alamat ponsel Anda."
+        },
+        {
+          "q": "Apakah ia mencadangkan kontak saya?",
+          "a": "Belum sebagai fitur tersendiri. Kontak disinkronkan ke akun TreeLinker jika Anda mengaktifkan sinkronisasi."
+        },
+        {
+          "q": "Bisakah dipakai tanpa akun?",
+          "a": "Anda perlu akun untuk apa pun yang disinkronkan atau dibagikan, seperti grup dan berbagi pohon."
+        },
+        {
+          "q": "Apakah ia butuh log panggilan?",
+          "a": "Tidak. TreeLinker tidak pernah meminta akses log panggilan. Panggilan masuk terlihat lewat peran penyaringan panggilan Android, satu per satu."
+        }
+      ]
+    },
+    "relationship-manager": {
+      "title": "Pengelola hubungan — ingat siapa itu siapa | TreeLinker",
+      "description": "Catat bagaimana orang-orang dalam hidup Anda terhubung, lihat jalur di antara mereka, dan simpan linimasa tentang apa yang terjadi dengan masing-masing.",
+      "h1": "Pengelola hubungan untuk orang yang benar-benar Anda kenal",
+      "lead": "CRM pribadi melacak jaringan profesional Anda. TreeLinker melacak keluarga yang seharusnya sudah Anda pahami.",
+      "answer": "TreeLinker adalah pengelola hubungan untuk Android. Ia mencatat bagaimana orang-orang di buku alamat terhubung dengan Anda dan satu sama lain, menggambarkannya sebagai pohon, menyimpan linimasa pada setiap kontak, dan memakai informasi yang sama untuk memberi tahu hubungan penelepon dengan Anda. Berbeda dari CRM pribadi profesional, ia dibangun di sekitar keluarga, bukan klien, dan menyimpan semuanya di perangkat secara bawaan.",
+      "sections": [
+        {
+          "h2": "Pengetahuan yang tak pernah dituliskan",
+          "body": [
+            "Keluarga menyimpan banyak pengetahuan tak terdokumentasi: siapa ipar siapa, sepupu mana milik paman mana, mengapa dua cabang tidak saling bicara. Satu dua orang per keluarga yang memegangnya, dan ketika mereka pergi pengetahuan itu ikut hilang.",
+            "TreeLinker memberi pengetahuan itu tempat tinggal selain ingatan seseorang."
+          ]
+        },
+        {
+          "h2": "Linimasa pada setiap orang",
+          "body": [
+            "Setiap kontak punya linimasa terbalik. Anda menambahkan catatan — \"ganti kabel dapur\", \"tidak menjawab\", \"kerjanya bagus, harga wajar\" — dan panggilan masuk muncul di sampingnya.",
+            "Entri yang ingin tetap di atas bisa disematkan, dan yang disematkan itulah yang dibaca kartu identifikasi penelepon."
+          ]
+        },
+        {
+          "h2": "Membagikan yang telah Anda petakan",
+          "body": [
+            "Pohon yang Anda bangun bisa dikirim ke pengguna TreeLinker lain. Mereka melihat orang yang sama, tetapi dengan nama dari buku alamat mereka sendiri — nama Anda tidak pernah dipaksakan.",
+            "Pengirimannya sekali jalan. Tidak ada sinkronisasi lanjutan, dan pengirim tidak diberi tahu apa pun tentang apa yang dilakukan penerima."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ia mengingatkan saya untuk menghubungi?",
+          "a": "Belum. Tanggal penting dan acara mendatang muncul sendiri, tetapi saat ini belum ada pengingat menjaga hubungan."
+        },
+        {
+          "q": "Apakah ini CRM untuk kerja?",
+          "a": "Ia bisa menyimpan kontak kerja lewat tag, tetapi dirancang di sekitar hubungan keluarga, bukan corong penjualan."
+        },
+        {
+          "q": "Apa yang terjadi pada data saya jika berhenti memakainya?",
+          "a": "Anda bisa menghapus akun dari dalam aplikasi, yang menghapus data Anda dari perangkat dan server."
+        }
+      ]
+    },
+    "family-organizer": {
+      "title": "Penata keluarga — grup, tag, dan keputusan bersama | TreeLinker",
+      "description": "Tata kerabat ke dalam grup privat, beri label kontak dengan tag Anda sendiri, dan selesaikan keputusan keluarga lewat jajak pendapat dan diskusi bernama yang tetap mudah ditemukan.",
+      "h1": "Penata keluarga yang menjaga keputusan tetap mudah ditemukan",
+      "lead": "Obrolan grup mengubur segalanya. Diskusi bernama dengan jajak pendapat tidak.",
+      "answer": "TreeLinker menata orang-orang di buku alamat Anda dengan dua cara sekaligus. Grup adalah ruang bersama khusus undangan untuk keluarga, lingkungan, atau angkatan, tempat anggota bisa membuat jajak pendapat dan diskusi bernama. Tag adalah label pribadi — Dokter, Tukang ledeng, Kairo — yang hanya Anda lihat dan memotong semua grup. Satu orang bisa berada di beberapa grup dan membawa beberapa tag sekaligus.",
+      "sections": [
+        {
+          "h2": "Grup itu bersama; tag itu milik Anda",
+          "body": [
+            "Grup punya anggota, foto sampul, ikon, dan layar detail, dan orang bergabung lewat undangan. Apa yang terjadi di dalamnya terlihat oleh semua anggota.",
+            "Tag punya nama, warna, ikon, deskripsi opsional, dan daftar kontak yang ditetapkan. Tak seorang pun melihat tag Anda, dan itulah yang membuatnya berguna untuk label seperti Dokter atau Sulit."
+          ]
+        },
+        {
+          "h2": "Jajak pendapat, untuk keputusan yang selalu ditanyakan ulang",
+          "body": [
+            "Anggota mana pun bisa membuat jajak pendapat dengan satu pertanyaan dan beberapa pilihan. Setiap orang punya satu suara; mengubah suara menggantikan yang lama, bukan menambah, dan terlihat siapa memilih apa. Pembuatnya bisa menutupnya.",
+            "Fitur ini ada karena \"makan di mana\" adalah hal yang paling sering perlu diputuskan grup keluarga, dan utas obrolan adalah alat yang buruk untuk itu."
+          ]
+        },
+        {
+          "h2": "Diskusi yang bisa dibuka kembali",
+          "body": [
+            "Diskusi punya judul — \"Makan Malam Idul Fitri 2026\" — dan semua yang diposting tetap di bawahnya. Berbulan-bulan kemudian ia masih berupa hal bernama dalam daftar grup, bukan empat ratus pesan di atas.",
+            "Jajak pendapat bisa dilampirkan, sehingga perdebatan dan hasilnya berada di tempat yang sama."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah orang lain melihat tag saya?",
+          "a": "Tidak. Tag bersifat pribadi bagi akun Anda. Grup dibagikan; tag tidak pernah."
+        },
+        {
+          "q": "Bisakah seseorang bergabung tanpa undangan?",
+          "a": "Tidak. Grup hanya lewat undangan."
+        },
+        {
+          "q": "Bisakah satu kontak berada di lebih dari satu grup?",
+          "a": "Bisa, dan membawa tag sebanyak yang Anda mau sekaligus."
+        }
+      ]
+    },
+    "family-memory-app": {
+      "title": "Aplikasi kenangan keluarga — cerita dan foto bersama orangnya | TreeLinker",
+      "description": "Simpan cerita keluarga, acara, dan tanggal penting yang melekat pada orang yang bersangkutan, dengan foto, tanggal, dan tempat — bukan berserak di galeri.",
+      "h1": "Aplikasi kenangan yang dibangun di sekitar orang",
+      "lead": "Foto di galeri adalah berkas. Foto yang sama yang melekat pada nenek Anda adalah catatan.",
+      "answer": "TreeLinker menyimpan kenangan keluarga melekat pada orang yang bersangkutan. Sebuah kenangan bisa berupa cerita bersama, acara, atau tanggal penting, dan dapat membawa foto, tanggal, serta tempat. Karena kenangan bergantung pada kontak alih-alih berada dalam umpan, membuka seseorang menampilkan apa yang Anda miliki tentangnya, dan tanggal penting yang Anda catat muncul lagi setiap tahun.",
+      "sections": [
+        {
+          "h2": "Tiga jenis kenangan",
+          "body": [
+            "Cerita adalah sesuatu yang terjadi dan layak diceritakan ulang. Acara adalah sesuatu bertanggal yang dihadiri orang. Tanggal penting adalah peringatan yang berulang — ulang tahun, pernikahan, hari seseorang meninggal.",
+            "Pembedaan itu penting karena perilakunya berbeda. Tanggal penting kembali setiap tahun dan muncul di acara mendatang; cerita hanya tinggal di tempat Anda meletakkannya."
+          ]
+        },
+        {
+          "h2": "Melekat pada orang, bukan linimasa",
+          "body": [
+            "Membuka kontak menampilkan kenangan yang melibatkannya. Itu kebalikan dari umpan sosial, tempat hanya hal terbaru yang bisa ditemukan.",
+            "Grup juga punya kenangan sendiri, sehingga grup keluarga bisa menyimpan perjalanan yang diikuti seluruh keluarga alih-alih menaruhnya di bawah satu orang."
+          ]
+        },
+        {
+          "h2": "Apa yang bukan",
+          "body": [
+            "TreeLinker bukan layanan cadangan foto dan tidak berusaha menggantikannya. Ia menyimpan foto yang memberi makna pada sebuah kenangan, bukan setiap gambar yang pernah Anda ambil."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah menambahkan video?",
+          "a": "Saat ini tidak. Kenangan mendukung foto, tanggal, dan tempat."
+        },
+        {
+          "q": "Apakah kenangan dibagikan otomatis?",
+          "a": "Tidak. Kenangan yang Anda lekatkan pada kontak adalah milik Anda. Kenangan grup terlihat oleh anggotanya."
+        },
+        {
+          "q": "Apakah tanggal penting mengingatkan saya?",
+          "a": "Tanggal penting yang mendekat muncul di aplikasi. Notifikasi dorong belum ada."
+        }
+      ]
+    },
+    "caller-identification": {
+      "title": "Identifikasi penelepon yang tidak pernah mengunggah kontak Anda — TreeLinker",
+      "description": "Kebanyakan aplikasi identifikasi penelepon bekerja dengan mengunggah buku alamat semua orang ke basis data bersama. TreeLinker tidak punya satu pun. Ia menunjukkan hubungan penelepon dengan Anda hanya dari kontak yang sudah ada di ponsel.",
+      "h1": "Identifikasi penelepon yang tidak pernah mengunggah kontak Anda",
+      "lead": "Tawaran biasanya: buku alamat Anda menjadi bagian dari direktori global. TreeLinker tidak mengambil tawaran itu.",
+      "answer": "TreeLinker menampilkan kartu saat seseorang dari kontak Anda sendiri menelepon, menyebutkan hubungannya dengan Anda — misalnya \"Nadia — saudari Safa\" — alih-alih sekadar nama. Semua yang ada di kartu itu berasal dari perangkat Anda. TreeLinker tidak punya basis data nomor, tidak bisa memberi tahu pemilik nomor tak dikenal, dan tidak pernah mengunggah buku alamat Anda. Jika penelepon bukan orang yang sudah Anda kenal, tidak ada kartu yang muncul.",
+      "sections": [
+        {
+          "h2": "Cara kerja aplikasi identifikasi penelepon biasa",
+          "body": [
+            "Layanan identifikasi besar bisa mengenali orang asing karena telah mengumpulkan ratusan juta buku alamat. Ketika seseorang memasang aplikasi dan memberi izin akses kontak, semua orang di ponselnya masuk ke direktori bersama — termasuk orang yang tidak pernah memasang apa pun dan tidak pernah menyetujuinya.",
+            "Itulah sebabnya aplikasi semacam itu bisa menyebut nomor tak dikenal, dan itu pula keluhan yang paling sering dilontarkan terhadapnya."
+          ]
+        },
+        {
+          "h2": "Cara TreeLinker bekerja",
+          "body": [
+            "TreeLinker menjawab pertanyaan berbeda. Bukan \"siapa pemilik nomor ini\", yang memerlukan pengumpulan, melainkan \"bagaimana orang ini terhubung dengan saya\", yang hanya memerlukan apa yang sudah ada di ponsel Anda.",
+            "Nama dan hubungan pada kartu dibaca dari kontak dan pohon keluarga Anda sendiri. Tidak ada yang diambil lewat jaringan saat ponsel berdering, dan tidak ada apa pun tentang panggilan itu yang dipublikasikan."
+          ]
+        },
+        {
+          "h2": "Kasus sehari-hari bukan orang asing",
+          "body": [
+            "Dalam buku alamat berisi ribuan nama, masalahnya biasanya bukan nomor tak dikenal, melainkan nama dikenal yang tak bisa Anda tempatkan — ada empat Nadia tersimpan dan ini yang hubungannya Anda lupakan.",
+            "Untuk itulah kartu ini ada. Ia memberi penempatan, bukan identifikasi."
+          ]
+        },
+        {
+          "h2": "Bagian Nama Penelepon pada kontak",
+          "body": [
+            "Setiap kontak punya bagian yang menampilkan persis apa yang akan muncul saat orang itu menelepon. TreeLinker merekomendasikannya dari hubungan yang sudah Anda catat, dan Anda bisa menerima, menyunting, atau menghapusnya.",
+            "Ini catatan pribadi. Tidak pernah ditampilkan kepada orang yang digambarkannya, tidak kepada pengguna lain, dan tidak dipublikasikan di mana pun."
+          ]
+        }
+      ],
+      "table": {
+        "caption": "Perbedaan TreeLinker dengan aplikasi identifikasi penelepon konvensional",
+        "head": [
+          "",
+          "TreeLinker",
+          "Aplikasi identifikasi konvensional"
+        ],
+        "rows": [
+          [
+            "Menyebut nomor tak dikenal",
+            "Tidak — disengaja",
+            "Ya"
+          ],
+          [
+            "Mengunggah buku alamat Anda",
+            "Tidak pernah",
+            "Biasanya, untuk membangun direktori"
+          ],
+          [
+            "Menunjukkan hubungan dengan penelepon",
+            "Ya",
+            "Tidak"
+          ],
+          [
+            "Pemblokiran spam dan penipuan",
+            "Tidak",
+            "Ya"
+          ],
+          [
+            "Perlu koneksi saat berdering",
+            "Tidak",
+            "Biasanya"
+          ],
+          [
+            "Iklan",
+            "Tidak ada",
+            "Umum di versi gratis"
+          ],
+          [
+            "Harga",
+            "Gratis",
+            "Gratis dengan peningkatan berbayar"
+          ]
+        ],
+        "note": "Jika yang Anda butuhkan adalah mengenali nomor tak dikenal dan memblokir spam, aplikasi identifikasi konvensional adalah alat yang tepat — TreeLinker tidak melakukan keduanya dan memang tidak berniat."
+      },
+      "faq": [
+        {
+          "q": "Bisakah TreeLinker memberi tahu pemilik nomor tak dikenal?",
+          "a": "Tidak. Ia tidak punya basis data nomor-ke-nama dan sengaja menolak menjawab pertanyaan itu. Layanan yang menjawabnya memungkinkan siapa pun menelusuri ruang nomor dan memanen identitas."
+        },
+        {
+          "q": "Apakah ia memblokir panggilan spam?",
+          "a": "Tidak. TreeLinker tidak punya basis data spam dan tidak memblokir panggilan."
+        },
+        {
+          "q": "Apakah orang yang digambarkan melihat Nama Penelepon saya?",
+          "a": "Tidak. Itu catatan pribadi yang hanya terlihat oleh Anda, di perangkat dan akun Anda."
+        },
+        {
+          "q": "Izin apa yang dibutuhkan?",
+          "a": "Peran penyaringan panggilan Android, agar nomor masuk terlihat, dan izin tampil di atas aplikasi lain agar kartunya muncul. Ia tidak pernah meminta akses log panggilan."
+        },
+        {
+          "q": "Apakah tersedia di iPhone?",
+          "a": "Tidak. Hanya Android, karena iOS tidak menyediakan peran penyaringan panggilan yang setara."
+        }
+      ]
+    },
+    "guides/how-to-create-a-family-tree": {
+      "title": "Cara membuat pohon keluarga dari kontak ponsel",
+      "description": "Panduan praktis: mulai dari kontak yang sudah ada, hubungkan relasi pertama, biarkan kebalikannya dibuat, lalu tumbuh ke luar dari sana.",
+      "h1": "Cara membuat pohon keluarga",
+      "lead": "Pohon keluarga tercepat adalah yang tidak perlu Anda ketik.",
+      "answer": "Mulailah dari orang-orang yang sudah ada di ponsel, bukan dari formulir kosong. Pilih diri Anda, hubungkan satu kerabat dekat — orang tua atau saudara — dan hubungan kebalikannya dibuat otomatis. Lalu bergerak ke luar satu orang demi satu, menerima hubungan yang disimpulkan aplikasi seiring bentuknya terisi. Pohon berisi dua puluh orang butuh beberapa menit dengan cara ini, dibanding satu jam mengetik di perkakas silsilah tradisional.",
+      "sections": [
+        {
+          "h2": "1. Mulai dari diri sendiri",
+          "body": [
+            "Catatan Anda sendiri adalah jangkarnya. Setiap jalur hubungan pada akhirnya diukur dari sana, dan kartu identifikasi penelepon menggambarkan orang relatif terhadap Anda."
+          ]
+        },
+        {
+          "h2": "2. Hubungkan yang terdekat lebih dulu",
+          "body": [
+            "Orang tua, saudara, pasangan, anak. Hubungan-hubungan ini menghasilkan paling banyak kesimpulan nantinya, karena hampir semua koneksi lain dalam keluarga melewati salah satunya.",
+            "Catat satu arah saja. Arah lainnya dibuat untuk Anda."
+          ]
+        },
+        {
+          "h2": "3. Bergerak ke luar, bukan menurut abjad",
+          "body": [
+            "Ikuti keluarganya, bukan daftar kontak. Dari satu orang tua, tambahkan saudaranya; dari mereka, anak-anak mereka. Setiap penambahan memperbaiki saran berikutnya.",
+            "Bila hubungan ambigu, Anda ditanya jenisnya alih-alih dipilihkan."
+          ]
+        },
+        {
+          "h2": "4. Terima atau tolak sarannya",
+          "body": [
+            "Begitu struktur cukup terbentuk, TreeLinker mulai mengusulkan hubungan dengan skor keyakinan dan penjelasan. Terima yang benar, abaikan sisanya. Tidak ada yang ditulis tanpa Anda."
+          ]
+        },
+        {
+          "h2": "5. Tambahkan konteks selagi Anda ingat",
+          "body": [
+            "Tanggal penting, sebuah tag, catatan di linimasa. Inilah bagian yang orang tunda lalu hilang."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Berapa banyak orang sebelum terasa berguna?",
+          "a": "Pohon berhenti kosong pada hubungan pertama. Saran mulai berguna pada sekitar sepuluh sampai lima belas orang."
+        },
+        {
+          "q": "Bagaimana jika kerabat tidak ada di kontak saya?",
+          "a": "Anda bisa menambahkannya manual. Nomor telepon tidak diperlukan."
+        },
+        {
+          "q": "Bisakah dua orang berbagi satu pohon?",
+          "a": "Anda bisa mengirim pohon ke pengguna TreeLinker lain, yang menyimpan hubungannya ke pohonnya sendiri. Ini pengiriman sekali jalan, bukan dokumen bersama."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-contacts": {
+      "title": "Cara menata kontak keluarga",
+      "description": "Metode untuk buku alamat besar: hubungan dulu, lalu grup untuk ruang bersama, lalu tag pribadi untuk semua yang memotong keduanya.",
+      "h1": "Cara menata kontak keluarga",
+      "lead": "Tiga putaran atas buku alamat yang sudah sepuluh tahun Anda isi.",
+      "answer": "Tata dalam tiga putaran. Pertama catat hubungan, agar buku alamat tahu siapa milik siapa. Kedua, buat grup untuk ruang bersama yang nyata — keluarga inti, keluarga pasangan, lingkungan. Ketiga, tambahkan tag pribadi untuk label yang memotong grup, seperti Dokter, Tukang ledeng, atau nama kota. Dalam urutan itu: hubungan membuat grup menjadi jelas, dan grup membuat tag yang hilang menjadi jelas.",
+      "sections": [
+        {
+          "h2": "Putaran pertama: hubungan",
+          "body": [
+            "Mulailah dari orang yang paling sering Anda hubungi. Dua puluh hubungan cukup untuk memunculkan struktur keluarga, dan inilah putaran yang membuat dua lainnya cepat."
+          ]
+        },
+        {
+          "h2": "Putaran kedua: grup",
+          "body": [
+            "Grup sebaiknya mewakili sesuatu yang nyata — keluarga yang benar-benar berkumpul, satu jalan, satu angkatan. Jika tak seorang pun akan diundang ke dalamnya, itu tag, bukan grup.",
+            "Grup punya foto sampul, ikon, dan daftar anggota, dan orang bergabung lewat undangan."
+          ]
+        },
+        {
+          "h2": "Putaran ketiga: tag",
+          "body": [
+            "Tag bersifat pribadi dan memotong segalanya: Dokter, Tukang listrik, Kerja, Kampus, Darurat, nama kota. Masing-masing punya warna dan ikon agar daftar tetap mudah dipindai.",
+            "TreeLinker akan menyarankan tag yang bisa disimpulkan dari kontak Anda. Seperti hubungan, saran tetaplah usulan — tidak ada yang dibuat tanpa Anda."
+          ]
+        },
+        {
+          "h2": "Apa yang bisa dilewati",
+          "body": [
+            "Jangan berusaha memberi tag pada semua orang. Nilainya ada pada dua puluh kontak yang benar-benar perlu Anda temukan lagi, bukan pada taksonomi lengkap yang tak akan pernah Anda rawat."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Grup atau tag?",
+          "a": "Jika orang lain perlu melihatnya dan diundang, gunakan grup. Jika itu label pribadi untuk pengarsipan Anda sendiri, gunakan tag."
+        },
+        {
+          "q": "Bisakah mengganti nama tag nanti?",
+          "a": "Bisa. Tag dapat disunting atau dihapus dari layar Organisasi."
+        },
+        {
+          "q": "Apakah ada batas?",
+          "a": "Tidak ada batas praktis untuk grup, tag, maupun anggota."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-family-relationships": {
+      "title": "Cara melacak hubungan keluarga",
+      "description": "Catat koneksi sekali, biarkan hubungan timbal balik dan penyimpulan yang merawatnya, dan simpan linimasa agar Anda ingat apa yang terjadi, bukan hanya siapa itu siapa.",
+      "h1": "Cara melacak hubungan keluarga",
+      "lead": "Masalahnya bukan mempelajari siapa itu siapa, melainkan mengingatnya lima tahun kemudian.",
+      "answer": "Catat setiap hubungan sekali, dalam satu arah, dan biarkan kebalikannya dibuat otomatis — itulah yang mencegah peta keluarga membusuk. Biarkan aplikasi mengusulkan hubungan yang disiratkan hubungan yang ada alih-alih memasukkan setiap sepupu secara manual. Lalu simpan linimasa singkat pada orang-orang yang penting, agar Anda punya catatan tentang apa yang terjadi, bukan sekadar diagram siapa berkerabat dengan siapa.",
+      "sections": [
+        {
+          "h2": "Catat sekali, dalam satu arah",
+          "body": [
+            "Peta keluarga yang dirawat manual gagal karena setiap fakta harus dimasukkan dua kali dan akhirnya satu sisi terlewat. Hubungan timbal balik menghapus mode kegagalan itu sepenuhnya."
+          ]
+        },
+        {
+          "h2": "Biarkan penyimpulan mengerjakan bagian yang melelahkan",
+          "body": [
+            "Sebagian besar hubungan dalam keluarga disiratkan oleh yang lain: anak saudara, orang tua pasangan, saudara orang tua — tak satu pun perlu dimasukkan bila tautan dasarnya ada.",
+            "TreeLinker mengusulkannya dengan skor keyakinan dan penjelasan, dan bertanya bila jenisnya ambigu."
+          ]
+        },
+        {
+          "h2": "Simpan linimasa, bukan hanya pohon",
+          "body": [
+            "Pohon memberi tahu strukturnya. Linimasa memberi tahu riwayatnya: kapan terakhir bicara, apa yang dikatakan, apa yang berjalan baik.",
+            "Entri diurutkan terbaru lebih dulu dan yang penting bisa disematkan."
+          ]
+        },
+        {
+          "h2": "Manfaatkan panggilan yang sudah masuk",
+          "body": [
+            "Panggilan masuk dari orang yang Anda kenal dicatat di linimasanya, sehingga riwayat kontak terbangun sendiri."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bagaimana jika saya salah mencatat hubungan?",
+          "a": "Hubungan bisa disunting atau dihapus, dan sisi timbal baliknya ikut diperbarui."
+        },
+        {
+          "q": "Apakah ia melacak panggilan keluar?",
+          "a": "Tidak. TreeLinker tidak pernah membaca log panggilan Anda. Hanya panggilan masuk lewat peran penyaringan yang dicatat."
+        },
+        {
+          "q": "Bisakah saya melihat hubungan antara dua orang?",
+          "a": "Pohon menampilkan koneksi di sekitar satu orang. Kueri langsung \"jalur antara dua orang mana pun\" belum tersedia."
+        }
+      ]
+    },
+    "guides/how-to-organize-relatives": {
+      "title": "Cara menata kerabat ke dalam grup",
+      "description": "Cara membagi keluarga besar menjadi grup yang tetap berguna, dan kapan tag pribadi adalah alat yang lebih tepat.",
+      "h1": "Cara menata kerabat",
+      "lead": "Satu grup bernama \"Keluarga\" berisi sembilan puluh orang sama saja dengan tidak punya grup.",
+      "answer": "Bagi keluarga besar mengikuti garis yang sudah membelahnya di dunia nyata: keluarga inti Anda, keluarga pasangan, cabang tiap kakek-nenek, orang-orang di satu kota. Grup sebaiknya sesuatu yang masuk akal untuk mengundang orang dan memposting di dalamnya. Apa pun yang sebenarnya label pribadi tentang seseorang — profesinya, bagaimana Anda mengenalnya, tempat tinggalnya — masuk ke tag, karena tag hanya milik Anda dan memotong semua grup.",
+      "sections": [
+        {
+          "h2": "Ikuti pembagian yang nyata",
+          "body": [
+            "Keluarga sudah punya struktur: cabang, rumah tangga, mereka yang berkumpul saat lebaran dan mereka yang hanya bertemu di pernikahan. Grup berhasil bila cocok dengan perkumpulan yang benar-benar terjadi."
+          ]
+        },
+        {
+          "h2": "Jaga grup cukup kecil agar dipakai",
+          "body": [
+            "Grup yang terlalu besar akan dibisukan, dan grup yang dibisukan sama saja tidak ada. Jika jajak pendapat di dalamnya tak relevan bagi separuh anggota, pecahlah."
+          ]
+        },
+        {
+          "h2": "Gunakan tag untuk hal yang memotong",
+          "body": [
+            "Kerabat yang dokter, kerabat di Kairo, kerabat yang hanya ditemui saat pemakaman. Ini memotong semua cabang dan tidak termasuk ruang bersama mana pun.",
+            "Tag bersifat pribadi, jadi Anda bisa memberi label dengan jujur."
+          ]
+        },
+        {
+          "h2": "Biarkan pohon memikul silsilahnya",
+          "body": [
+            "Jangan mencoba menyandikan keturunan ke dalam nama grup. Pohon sudah memuatnya, dan memuatnya lebih baik."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah seorang kerabat berada di dua grup?",
+          "a": "Bisa, sebanyak yang masuk akal."
+        },
+        {
+          "q": "Apakah anggota grup saling melihat?",
+          "a": "Ya. Grup adalah ruang bersama dan anggota bisa melihat daftar anggota."
+        },
+        {
+          "q": "Bisakah saya mengeluarkan seseorang dari grup?",
+          "a": "Bisa, dari layar detail grup."
+        }
+      ]
+    },
+    "guides/how-to-remember-family-birthdays": {
+      "title": "Cara mengingat ulang tahun dan tanggal penting keluarga",
+      "description": "Catat ulang tahun dan peringatan sebagai tanggal penting pada orangnya, lalu biarkan yang mendekat muncul sendiri.",
+      "h1": "Cara mengingat ulang tahun keluarga",
+      "lead": "Tanggal di kalender terlepas dari orangnya. Tanggal pada orangnya tidak.",
+      "answer": "Catat setiap ulang tahun atau peringatan sebagai tanggal penting yang melekat pada kontaknya, bukan sebagai entri kalender. Tanggal penting berulang setiap tahun, dan yang mendekat muncul di acara mendatang TreeLinker. Karena tanggalnya berada pada orangnya, membuka kontak itu menampilkannya bersama semua yang Anda ketahui tentangnya — hubungan, kenangan bersama, dan riwayat kontak.",
+      "sections": [
+        {
+          "h2": "Tanggal penting berulang; acara tidak",
+          "body": [
+            "Tanggal penting adalah peringatan yang kembali setiap tahun — ulang tahun, tanggal pernikahan, hari seseorang meninggal. Acara terjadi sekali. Memilih jenis yang tepat menentukan apakah ia akan muncul lagi."
+          ]
+        },
+        {
+          "h2": "Tambahkan saat Anda memang sedang di sana",
+          "body": [
+            "Waktu untuk mencatat ulang tahun adalah ketika Anda sedang membuka kontaknya karena alasan lain. Sore hari khusus untuk memasukkan data tidak pernah terjadi."
+          ]
+        },
+        {
+          "h2": "Biarkan acara mendatang yang memunculkannya",
+          "body": [
+            "Tanggal penting yang mendekat muncul di bagian acara mendatang, jadi Anda melihatnya tanpa mencari. Notifikasi dorong belum ada, jadi ini paling efektif bila Anda membuka aplikasi secara rutin."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah akan ada notifikasi?",
+          "a": "Belum. Tanggal mendatang muncul di dalam aplikasi; notifikasi dorong belum diterapkan."
+        },
+        {
+          "q": "Apakah ia membaca ulang tahun dari kontak ponsel saya?",
+          "a": "Kontak memiliki bidang ulang tahun yang bisa dipakai TreeLinker. Tanggal penting yang Anda tambahkan sendiri terpisah dan lebih kaya."
+        },
+        {
+          "q": "Bisakah tanggal penting dimiliki grup?",
+          "a": "Bisa. Grup dapat menyimpan kenangannya sendiri, termasuk tanggal penting."
+        }
+      ]
+    },
+    "guides/how-to-document-family-memories": {
+      "title": "Cara mendokumentasikan kenangan keluarga",
+      "description": "Catat cerita keluarga selagi orang yang mengingatnya masih ada — melekat pada orang yang bersangkutan, dengan foto, tanggal, dan tempat.",
+      "h1": "Cara mendokumentasikan kenangan keluarga",
+      "lead": "Sebagian besar sejarah keluarga hilang bukan karena waktu, melainkan karena tak ada yang menuliskannya.",
+      "answer": "Lekatkan setiap kenangan pada orang yang bersangkutan alih-alih mengarsipkannya menurut tanggal. Catat sebagai cerita bila layak diceritakan ulang, sebagai acara bila terjadi sekali dengan orang yang hadir, atau sebagai tanggal penting bila berulang. Tambahkan foto yang memberinya makna, tempatnya, dan tanggalnya. Mulailah dari kerabat tertua, karena pengetahuan merekalah yang punya tenggat.",
+      "sections": [
+        {
+          "h2": "Mulai dari yang paling banyak menyimpan",
+          "body": [
+            "Setiap keluarga punya satu dua orang yang tahu bagaimana semua orang terhubung dan apa yang terjadi. Catat pengetahuan mereka lebih dulu. Hanya bagian inilah yang benar-benar mendesak."
+          ]
+        },
+        {
+          "h2": "Tulis di tempat yang semestinya",
+          "body": [
+            "Kenangan yang melekat pada seseorang bisa ditemukan dengan membuka orang itu. Kenangan dalam umpan kronologis hanya bisa ditemukan dengan menggulir.",
+            "Kenangan grup bekerja sama untuk hal yang dilakukan seluruh keluarga bersama."
+          ]
+        },
+        {
+          "h2": "Catatan singkat lebih baik daripada tidak ada",
+          "body": [
+            "Tiga kalimat dan satu foto sudah kenangan yang lengkap. Menunggu sampai punya waktu untuk melakukannya dengan benar adalah cara agar hal itu tidak pernah dilakukan."
+          ]
+        },
+        {
+          "h2": "Simpan detail yang menempatkannya",
+          "body": [
+            "Tanggal dan tempat mengubah anekdot menjadi catatan. Keduanya juga yang memungkinkan orang lain, bertahun-tahun kemudian, menghubungkannya dengan sesuatu yang mereka tahu."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah melampirkan lebih dari satu foto?",
+          "a": "Bisa. Kenangan mendukung foto beserta tanggal dan tempat."
+        },
+        {
+          "q": "Bisakah merekam audio?",
+          "a": "Saat ini tidak. Kenangan berupa teks, foto, tanggal, dan tempat."
+        },
+        {
+          "q": "Siapa yang melihat kenangan yang saya tambahkan ke kontak?",
+          "a": "Hanya Anda, kecuali itu kenangan grup, yang dilihat anggotanya."
+        }
+      ]
+    },
+    "compare/family-tree-vs-contact-manager": {
+      "title": "Aplikasi pohon keluarga vs pengelola kontak — mana yang Anda butuhkan?",
+      "description": "Aplikasi pohon keluarga memetakan garis keturunan; pengelola kontak menyimpan detail. Keduanya menjawab pertanyaan berbeda, dan kebanyakan orang yang menginginkan salah satunya sebenarnya menginginkan bagian dari keduanya.",
+      "h1": "Pohon keluarga vs pengelola kontak",
+      "lead": "Terlihat bertetangga, padahal menyelesaikan masalah yang hampir berlawanan.",
+      "answer": "Aplikasi pohon keluarga menjawab \"bagaimana saya berkerabat dengan leluhur saya\", biasanya tentang orang yang sudah tiada, dan dibangun di sekitar arsip dan garis keturunan. Pengelola kontak menjawab \"informasi apa yang saya punya tentang orang ini\", tentang orang yang Anda ajak bicara, dan dibangun di sekitar bidang isian dan penataan. Tak satu pun menjawab \"bagaimana orang yang masih hidup ini terhubung dengan semua orang lain di ponsel saya\" — pertanyaan yang menjadi alasan TreeLinker dibuat, dan sebabnya ia berada di antara dua kategori.",
+      "table": {
+        "caption": "Untuk apa sebenarnya tiap jenis aplikasi",
+        "head": [
+          "",
+          "Aplikasi pohon keluarga",
+          "Pengelola kontak",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Pertanyaan utama",
+            "Bagaimana saya berkerabat dengan leluhur?",
+            "Apa yang saya tahu tentang orang ini?",
+            "Bagaimana orang ini terhubung dengan saya?"
+          ],
+          [
+            "Subjek umum",
+            "Orang yang sudah meninggal",
+            "Orang yang Anda hubungi",
+            "Orang yang Anda hubungi"
+          ],
+          [
+            "Titik awal",
+            "Pohon kosong",
+            "Buku alamat Anda",
+            "Buku alamat Anda"
+          ],
+          [
+            "Arsip sejarah",
+            "Ya",
+            "Tidak",
+            "Tidak"
+          ],
+          [
+            "Pencocokan DNA",
+            "Sering",
+            "Tidak",
+            "Tidak"
+          ],
+          [
+            "Nomor telepon",
+            "Jarang",
+            "Ya",
+            "Ya"
+          ],
+          [
+            "Hubungan antar kontak",
+            "Ya",
+            "Tidak",
+            "Ya"
+          ],
+          [
+            "Grup dan label",
+            "Terbatas",
+            "Ya",
+            "Ya"
+          ],
+          [
+            "Acara dan kenangan pada orang",
+            "Ya",
+            "Terbatas",
+            "Ya"
+          ],
+          [
+            "Identifikasi penelepon",
+            "Tidak",
+            "Tidak",
+            "Ya"
+          ],
+          [
+            "Berfungsi luring",
+            "Jarang",
+            "Biasanya",
+            "Ya"
+          ]
+        ],
+        "note": "Jika Anda meneliti leluhur yang lahir beberapa generasi lalu, gunakan layanan silsilah. TreeLinker justru menyimpan keluarga yang masih hidup."
+      },
+      "sections": [
+        {
+          "h2": "Pilih aplikasi silsilah jika",
+          "body": [
+            "Anda ingin meneliti leluhur, menelusuri arsip sensus dan catatan paroki, bekerja dengan kecocokan DNA, atau berkolaborasi pada pohon global bersama. TreeLinker tidak melakukan satu pun."
+          ]
+        },
+        {
+          "h2": "Pilih pengelola kontak jika",
+          "body": [
+            "Masalah Anda adalah duplikat, sinkronisasi lintas akun, kartu nama, atau pencadangan. Pengelola kontak khusus melakukannya lebih baik daripada TreeLinker."
+          ]
+        },
+        {
+          "h2": "Pilih TreeLinker jika",
+          "body": [
+            "Masalah Anda adalah tidak ingat bagaimana orang-orang di ponsel Anda saling terhubung, dan Anda ingin itu tertulis tanpa mengetik ulang semuanya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah satu aplikasi melakukan keduanya?",
+          "a": "Sebagian. TreeLinker mencakup separuh hubungan dari silsilah dan separuh penataan dari pengelolaan kontak, tetapi bukan penelitian sejarah dan bukan pencadangan kontak."
+        },
+        {
+          "q": "Bisakah mengimpor pohon dari layanan silsilah?",
+          "a": "Belum — impor GEDCOM tidak didukung."
+        }
+      ]
+    },
+    "compare/family-tree-apps": {
+      "title": "Perbandingan aplikasi pohon keluarga — untuk apa sebenarnya masing-masing",
+      "description": "Layanan silsilah, pohon kolaboratif, dan aplikasi berbasis kontak menyelesaikan masalah berbeda. Perbandingan jujur, termasuk kapan TreeLinker adalah pilihan yang salah.",
+      "h1": "Perbandingan aplikasi pohon keluarga",
+      "lead": "Kategori ini memuat setidaknya tiga produk berbeda dengan nama yang sama.",
+      "answer": "Aplikasi pohon keluarga terbagi tiga. Layanan silsilah berbasis arsip bersandar pada arsip sejarah yang sangat besar dan pencocokan DNA, ditujukan untuk meneliti leluhur. Pohon kolaboratif berfokus pada satu pohon global bersama yang disunting banyak orang. Aplikasi berbasis kontak, seperti TreeLinker, memetakan keluarga yang masih hidup di ponsel Anda dan sama sekali tidak menyimpan arsip sejarah. Pilihan yang tepat sepenuhnya bergantung pada apakah orang yang Anda pedulikan masih hidup.",
+      "table": {
+        "caption": "Tiga jenis aplikasi pohon keluarga",
+        "head": [
+          "",
+          "Silsilah berbasis arsip",
+          "Pohon global kolaboratif",
+          "Berbasis kontak (TreeLinker)"
+        ],
+        "rows": [
+          [
+            "Dibuat untuk",
+            "Meneliti leluhur",
+            "Satu pohon yang disunting banyak orang",
+            "Keluarga hidup di ponsel Anda"
+          ],
+          [
+            "Arsip sejarah",
+            "Koleksi sangat besar",
+            "Sebagian",
+            "Tidak ada"
+          ],
+          [
+            "Pencocokan DNA",
+            "Biasanya",
+            "Tidak",
+            "Tidak"
+          ],
+          [
+            "Usaha awal",
+            "Tinggi — ketik semuanya",
+            "Tinggi",
+            "Rendah — mulai dari kontak Anda"
+          ],
+          [
+            "Kontak ponsel",
+            "Tidak",
+            "Tidak",
+            "Inti"
+          ],
+          [
+            "Saran hubungan",
+            "Petunjuk arsip",
+            "Sebagian",
+            "Dari pohon Anda sendiri, dengan skor keyakinan"
+          ],
+          [
+            "Identifikasi penelepon",
+            "Tidak",
+            "Tidak",
+            "Ya"
+          ],
+          [
+            "Harga",
+            "Langganan",
+            "Gratis atau freemium",
+            "Gratis"
+          ],
+          [
+            "Pemakaian luring",
+            "Terbatas",
+            "Terbatas",
+            "Penuh"
+          ]
+        ],
+        "note": "TreeLinker bukan perkakas silsilah. Jika Anda butuh arsip atau DNA, ia tidak bisa membantu."
+      },
+      "sections": [
+        {
+          "h2": "Keluhan paling umum dalam kategori ini",
+          "body": [
+            "Dalam ulasan aplikasi silsilah, kritik yang berulang bukan akurasi melainkan tenaga dan kecepatan: tampilan silsilah lambat dimuat, semuanya harus dimasukkan manual, dan sering tidak ada tampilan daftar ringkas untuk memindai nama dengan cepat."
+          ]
+        },
+        {
+          "h2": "Di mana aplikasi berbasis kontak membantu",
+          "body": [
+            "Memulai dari buku alamat menghapus pemasukan data yang membuat kebanyakan orang berhenti di sesi pertama. Konsekuensinya, Anda tidak mendapat arsip, jadi ia pelengkap layanan silsilah, bukan penggantinya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Aplikasi pohon keluarga mana yang terbaik?",
+          "a": "Tergantung apakah subjek Anda masih hidup atau tidak. Untuk leluhur, layanan silsilah berbasis arsip. Untuk keluarga hidup di buku alamat, aplikasi berbasis kontak."
+        },
+        {
+          "q": "Bisakah memakai keduanya?",
+          "a": "Bisa, dan banyak orang sebaiknya begitu. Keduanya memuat separuh berbeda dari keluarga yang sama."
+        }
+      ]
+    },
+    "compare/contact-management-apps": {
+      "title": "Perbandingan aplikasi pengelolaan kontak — penataan, CRM, dan hubungan",
+      "description": "Perkakas sinkronisasi dan pembersihan, CRM pribadi, dan aplikasi berbasis hubungan menyelesaikan masalah kontak yang berbeda. Di mana masing-masing cocok, dan di mana TreeLinker tidak.",
+      "h1": "Perbandingan aplikasi pengelolaan kontak",
+      "lead": "Tiga produk berbeda, satu nama kategori.",
+      "answer": "Aplikasi kontak terbagi tiga kelompok. Perkakas sinkronisasi dan pembersihan berfokus pada penggabungan duplikat, pencadangan, dan menjaga beberapa akun tetap konsisten. CRM pribadi berfokus pada pengingat tindak lanjut, catatan, dan menjaga jaringan profesional tetap hangat. Aplikasi berbasis hubungan, seperti TreeLinker, berfokus pada bagaimana orang di buku alamat terhubung dengan Anda dan satu sama lain. TreeLinker melakukan yang ketiga dengan baik dan tidak mencoba dua yang pertama.",
+      "table": {
+        "caption": "Untuk apa tiap jenis aplikasi kontak",
+        "head": [
+          "",
+          "Sinkron & bersihkan",
+          "CRM pribadi",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Tugas utama",
+            "Satu buku alamat rapi",
+            "Menjaga jaringan tetap hangat",
+            "Tahu siapa itu siapa"
+          ],
+          [
+            "Penggabungan duplikat",
+            "Ya",
+            "Ya",
+            "Hanya disatukan dalam daftar"
+          ],
+          [
+            "Pencadangan dan pemulihan",
+            "Ya",
+            "Ya",
+            "Belum"
+          ],
+          [
+            "Sinkronisasi lintas akun",
+            "Ya",
+            "Ya",
+            "Hanya akun sendiri"
+          ],
+          [
+            "Pengingat tindak lanjut",
+            "Kadang",
+            "Ya",
+            "Belum"
+          ],
+          [
+            "Catatan per kontak",
+            "Ya",
+            "Ya",
+            "Ya, sebagai linimasa"
+          ],
+          [
+            "Pemindaian kartu nama",
+            "Sering",
+            "Sering",
+            "Tidak"
+          ],
+          [
+            "Hubungan antar kontak",
+            "Tidak",
+            "Tidak",
+            "Ya"
+          ],
+          [
+            "Pohon keluarga",
+            "Tidak",
+            "Tidak",
+            "Ya"
+          ],
+          [
+            "Grup dan tag pribadi",
+            "Label",
+            "Sebagian",
+            "Ya"
+          ],
+          [
+            "Identifikasi penelepon",
+            "Tidak",
+            "Tidak",
+            "Ya, hanya kontak Anda"
+          ],
+          [
+            "Harga",
+            "Freemium",
+            "Langganan",
+            "Gratis"
+          ]
+        ],
+        "note": "Jika duplikat dan pencadangan adalah masalah Anda, perkakas sinkronisasi dan pembersihan akan lebih membantu saat ini."
+      },
+      "sections": [
+        {
+          "h2": "Apa yang paling diminta pengguna aplikasi kontak",
+          "body": [
+            "Permintaan yang konsisten dalam kategori ini adalah deteksi dan penggabungan duplikat, pencadangan andal, pengingat ulang tahun dan tindak lanjut, serta satu buku alamat yang konsisten di semua akun. Saat ini TreeLinker tidak menangani satu pun secara langsung, dan itu layak diketahui sebelum memasangnya."
+          ]
+        },
+        {
+          "h2": "Apa yang ditambahkan TreeLinker dan tidak dimiliki yang lain",
+          "body": [
+            "Tidak ada pengelola kontak arus utama yang mencatat bagaimana dua kontak saling berkerabat. Satu bidang yang hilang itulah dasar dari pohon keluarga, identifikasi penelepon yang sadar hubungan, dan saran hubungan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Haruskah saya mengganti pengelola kontak saya dengan TreeLinker?",
+          "a": "Hanya jika hubungan adalah masalah Anda. Jika masalahnya duplikat, pencadangan, dan sinkronisasi, pertahankan perkakas yang Anda punya."
+        },
+        {
+          "q": "Apakah TreeLinker mengubah buku alamat ponsel saya?",
+          "a": "Tidak. Ia tidak pernah menulis ke dalamnya atas inisiatif sendiri."
+        }
+      ]
+    },
+    "features/family-tree": {
+      "title": "Pohon keluarga — fitur TreeLinker",
+      "description": "Pohon keluarga interaktif dengan zum dan geser, dibangun dari kontak Anda, dengan jenis hubungan berkode warna dan tautan timbal balik otomatis.",
+      "h1": "Pohon keluarga",
+      "lead": "Hubungan yang Anda catat, digambar.",
+      "answer": "TreeLinker menggambar hubungan yang Anda catat sebagai pohon keluarga interaktif yang bisa dizum dan digeser. Setiap jenis hubungan — orang tua, anak, saudara, pasangan, teman, kerabat, lainnya — punya warna dan ikon sendiri, sehingga pohon yang padat tetap terbaca. Orang-orang di dalamnya berasal dari kontak yang sudah ada di ponsel Anda, dan mencatat satu arah hubungan membuat kebalikannya secara otomatis.",
+      "sections": [
+        {
+          "h2": "Dibangun dari kontak, bukan formulir",
+          "body": [
+            "Setiap orang dalam pohon bisa berupa kontak yang sudah Anda miliki. Kerabat tanpa catatan telepon bisa ditambahkan manual."
+          ]
+        },
+        {
+          "h2": "Terbaca sekilas",
+          "body": [
+            "Warna dan ikon per jenis hubungan, dengan zum dan geser, sehingga strukturnya terlihat tanpa membaca setiap label."
+          ]
+        },
+        {
+          "h2": "Bisa dibagikan sesuai syarat Anda",
+          "body": [
+            "Pohon bisa dikirim ke pengguna TreeLinker lain. Mereka melihat orang yang sama dengan nama dari buku alamatnya sendiri, dan memilih apa yang disimpan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Seberapa besar pohonnya bisa?",
+          "a": "Tidak ada batas tetap untuk jumlah orang atau hubungan."
+        },
+        {
+          "q": "Apakah bisa luring?",
+          "a": "Ya, sepenuhnya."
+        }
+      ]
+    },
+    "features/contacts": {
+      "title": "Kontak — fitur TreeLinker",
+      "description": "Buku alamat ponsel Anda, dibaca di perangkat, bisa dicari, dan diperluas dengan hubungan, grup, tag, linimasa, dan kenangan.",
+      "h1": "Kontak",
+      "lead": "Buku alamat yang sudah Anda miliki, dengan tempat untuk apa yang Anda ketahui.",
+      "answer": "TreeLinker membaca kontak yang sudah ada di perangkat Anda dan membiarkannya di sana. Daftar menyaring saat Anda mengetik terhadap indeks yang sudah disiapkan, sehingga buku alamat besar tetap cepat. Setiap kontak memperoleh hubungan, keanggotaan grup, tag pribadi, linimasa, dan kenangan. TreeLinker tidak pernah menulis ke buku alamat ponsel atas inisiatif sendiri, dan tidak pernah mengunggahnya.",
+      "sections": [
+        {
+          "h2": "Cepat pada buku alamat besar",
+          "body": [
+            "Pencarian menyaring terhadap indeks yang dibangun sekali per daftar alih-alih memindai ulang setiap ketukan, sehingga beberapa ribu kontak tetap responsif."
+          ]
+        },
+        {
+          "h2": "Duplikat disatukan dalam daftar",
+          "body": [
+            "Orang yang sama sering ada sebagai beberapa catatan — kontak perangkat, entri hasil sinkronisasi, nomor kedua. TreeLinker melipatnya di setiap daftar yang ditampilkan, sehingga tak seorang pun muncul dua kali dalam pohon atau grup."
+          ]
+        },
+        {
+          "h2": "Diperkaya, bukan diekspor",
+          "body": [
+            "Bila kontak juga pengguna TreeLinker, foto profilnya bisa ditampilkan. Pencocokan dilakukan dengan membandingkan hash nomor telepon, dan tidak ada nama yang dipertukarkan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah TreeLinker menyunting kontak ponsel saya?",
+          "a": "Tidak. Perubahan apa pun pada buku alamat Anda dilakukan dengan sengaja oleh Anda."
+        },
+        {
+          "q": "Apakah ia menggabungkan duplikat secara permanen?",
+          "a": "Belum. Ia hanya menyatukannya untuk tampilan."
+        }
+      ]
+    },
+    "features/relationships": {
+      "title": "Hubungan — fitur TreeLinker",
+      "description": "Tujuh jenis hubungan, tautan timbal balik otomatis, dan saran dengan skor keyakinan serta penjelasan berbahasa sederhana.",
+      "h1": "Hubungan",
+      "lead": "Bidang yang tidak dimiliki aplikasi kontak lain.",
+      "answer": "TreeLinker mencatat hubungan antara dua kontak dengan tujuh jenis: orang tua, anak, saudara, pasangan, teman, kerabat, dan lainnya. Mencatat satu arah membuat kebalikannya otomatis. Seiring pohon tumbuh, aplikasi mengusulkan hubungan yang disiratkan hubungan yang ada, masing-masing dengan skor keyakinan dan penjelasan tautan mana yang menghasilkannya — dan menanyakan jenisnya bila ambigu.",
+      "sections": [
+        {
+          "h2": "Timbal balik secara bawaan",
+          "body": [
+            "Anda tidak pernah merawat dua sisi sebuah hubungan. Inilah yang mencegah peta keluarga membusuk setelah bertahun-tahun disunting."
+          ]
+        },
+        {
+          "h2": "Saran, bukan penulisan diam-diam",
+          "body": [
+            "Hubungan yang disimpulkan adalah usulan. Masing-masing membawa skor keyakinan dan kalimat penjelas, dan tidak ada yang masuk ke pohon tanpa persetujuan Anda."
+          ]
+        },
+        {
+          "h2": "Apa yang dibuka oleh hubungan",
+          "body": [
+            "Begitu hubungan ada, pohon bisa digambar, penelepon bisa ditempatkan, tag bisa disarankan, dan pohon bisa dibagikan dengan makna yang sama di ponsel orang lain."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya membuat jenis hubungan sendiri?",
+          "a": "Ada tujuh jenis bawaan, termasuk \"lainnya\" untuk apa pun yang tidak cocok."
+        },
+        {
+          "q": "Apa arti skor keyakinan?",
+          "a": "Seberapa kuat hubungan yang sudah ada menyiratkan yang disarankan. Skor ditampilkan bersama alasannya agar Anda bisa menilai sendiri."
+        }
+      ]
+    },
+    "features/groups": {
+      "title": "Grup — fitur TreeLinker",
+      "description": "Ruang bersama yang privat dan hanya lewat undangan untuk keluarga, lingkungan, atau angkatan, dengan jajak pendapat, diskusi bernama, dan kenangan bersama.",
+      "h1": "Grup",
+      "lead": "Ruang bersama yang orang diundang ke dalamnya.",
+      "answer": "Grup adalah ruang privat, hanya lewat undangan, untuk sekelompok orang — keluarga, lingkungan, angkatan. Ia punya nama, ikon, foto sampul, dan daftar anggota, dan anggota bisa membuat jajak pendapat, mengadakan diskusi bernama, dan menyimpan kenangan bersama. Grup adalah satu-satunya bagian TreeLinker yang bisa dilihat orang lain, dan tak seorang pun masuk tanpa undangan.",
+      "sections": [
+        {
+          "h2": "Jajak pendapat",
+          "body": [
+            "Satu suara per anggota, bisa diubah, dengan hasil terlihat dan opsi penutupan oleh pembuatnya. Dibuat untuk keputusan yang terus ditanyakan ulang oleh grup keluarga."
+          ]
+        },
+        {
+          "h2": "Diskusi",
+          "body": [
+            "Topik bernama yang tetap mudah ditemukan berbulan-bulan kemudian, alih-alih terkubur dalam gulungan obrolan. Jajak pendapat bisa dilampirkan."
+          ]
+        },
+        {
+          "h2": "Kenangan bersama",
+          "body": [
+            "Grup bisa menyimpan kenangannya sendiri, sehingga perjalanan yang diikuti semua orang diarsipkan di bawah grup, bukan satu orang."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah orang menemukan grup saya?",
+          "a": "Tidak. Grup hanya lewat undangan dan tidak bisa ditemukan."
+        },
+        {
+          "q": "Bisakah saya meninggalkan grup?",
+          "a": "Bisa, kapan saja."
+        }
+      ]
+    },
+    "features/tags": {
+      "title": "Tag — fitur TreeLinker",
+      "description": "Label pribadi dengan warna, ikon, dan daftar kontak yang ditetapkan. Tak seorang pun melihatnya.",
+      "h1": "Tag",
+      "lead": "Label pribadi yang memotong semua grup.",
+      "answer": "Tag adalah label pribadi yang Anda tetapkan pada kontak — Dokter, Tukang ledeng, Kerja, sebuah kota. Ia punya nama, warna, ikon, deskripsi opsional, dan daftar kontak yang bisa dicari. Tag hanya terlihat oleh Anda, dan itulah yang membuatnya berguna untuk label yang tak akan pernah Anda taruh di ruang bersama. TreeLinker bisa menyarankan tag dari kontak Anda, tetapi tidak pernah membuatnya tanpa Anda.",
+      "sections": [
+        {
+          "h2": "Pribadi, tidak seperti grup",
+          "body": [
+            "Grup adalah ruang bersama dengan anggota. Tag adalah sistem pengarsipan Anda sendiri dan tidak pernah diperlihatkan kepada siapa pun."
+          ]
+        },
+        {
+          "h2": "Ditata untuk dipindai",
+          "body": [
+            "Setiap kartu tag menampilkan ikonnya di atas warnanya beserta jumlah kontak yang ditetapkan, dan daftarnya diurutkan menurut abjad dengan pencarian atas kontak tersebut."
+          ]
+        },
+        {
+          "h2": "Disarankan, bukan dipaksakan",
+          "body": [
+            "TreeLinker bisa mengusulkan tag berdasarkan apa yang dilihatnya di kontak Anda. Saran dihitung saat itu juga dan tidak pernah disimpan kecuali Anda menerimanya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah dua tag bernama sama?",
+          "a": "Tidak. Nama ganda ditolak tanpa memandang huruf besar-kecil."
+        },
+        {
+          "q": "Apakah Favorit itu tag?",
+          "a": "Bukan, favorit adalah fitur terpisah."
+        }
+      ]
+    },
+    "features/events": {
+      "title": "Acara dan tanggal penting — fitur TreeLinker",
+      "description": "Ulang tahun, pernikahan, dan peringatan dicatat pada orangnya, dengan yang mendekat dimunculkan di aplikasi.",
+      "h1": "Acara dan tanggal penting",
+      "lead": "Tanggal yang milik seseorang, bukan kotak di kalender.",
+      "answer": "Tanggal penting adalah peringatan yang berulang setiap tahun — ulang tahun, pernikahan, hari seseorang meninggal — dicatat pada kontak yang bersangkutan. Tanggal penting yang mendekat muncul di acara mendatang TreeLinker, jadi Anda melihatnya tanpa mencari. Acara adalah hal yang terjadi sekali, dengan tanggal dan orang-orang yang hadir.",
+      "sections": [
+        {
+          "h2": "Melekat pada orangnya",
+          "body": [
+            "Karena tanggalnya berada pada kontak, membuka orang itu menampilkannya di samping hubungan, linimasa, dan kenangan apa pun yang Anda miliki tentangnya."
+          ]
+        },
+        {
+          "h2": "Dimunculkan saat mendekat",
+          "body": [
+            "Tanggal penting yang mendekat dikumpulkan di bagiannya sendiri, sehingga beberapa pekan ke depan terlihat sekilas."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah saya dapat notifikasi?",
+          "a": "Belum. Tanggal mendatang muncul di aplikasi; notifikasi dorong belum diterapkan."
+        },
+        {
+          "q": "Bisakah grup menyimpan tanggal penting?",
+          "a": "Bisa."
+        }
+      ]
+    },
+    "features/memories": {
+      "title": "Kenangan — fitur TreeLinker",
+      "description": "Cerita bersama, acara, dan tanggal penting dengan foto, tanggal, dan tempat, melekat pada orang atau grup yang bersangkutan.",
+      "h1": "Kenangan",
+      "lead": "Disimpan bersama orang yang bersangkutan.",
+      "answer": "Kenangan di TreeLinker adalah cerita bersama, acara, atau tanggal penting, yang melekat pada kontak atau grup yang bersangkutan. Ia bisa membawa foto, tanggal, dan tempat. Karena kenangan bergantung pada seseorang alih-alih berada dalam umpan, membuka kontak menampilkan apa yang Anda miliki tentangnya — kebalikan dari linimasa sosial, tempat hanya hal terbaru yang bisa ditemukan.",
+      "sections": [
+        {
+          "h2": "Tiga jenis, karena perilakunya berbeda",
+          "body": [
+            "Cerita tinggal di tempat Anda meletakkannya. Acara terjadi sekali. Tanggal penting berulang setiap tahun dan muncul lagi dengan sendirinya."
+          ]
+        },
+        {
+          "h2": "Foto, tanggal, dan tempat",
+          "body": [
+            "Kenangan bisa membawa foto yang memberinya makna, tanggal kejadian, dan tempatnya. Detail itulah yang memungkinkan seseorang menghubungkannya dengan hal lain bertahun-tahun kemudian."
+          ]
+        },
+        {
+          "h2": "Pribadi atau bersama",
+          "body": [
+            "Kenangan pada kontak adalah milik Anda. Kenangan dalam grup terlihat oleh anggotanya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ada dukungan video?",
+          "a": "Tidak, saat ini belum."
+        },
+        {
+          "q": "Apakah ini pencadangan foto?",
+          "a": "Bukan. TreeLinker menyimpan foto yang termasuk dalam sebuah kenangan, bukan seluruh galeri Anda."
+        }
+      ]
+    },
+    "features/caller-identification": {
+      "title": "Identifikasi penelepon — fitur TreeLinker",
+      "description": "Kartu yang menunjukkan hubungan penelepon masuk dengan Anda, dibangun sepenuhnya dari kontak Anda sendiri. Tanpa basis data, tanpa unggahan, tidak ada apa pun untuk orang asing.",
+      "h1": "Identifikasi penelepon",
+      "lead": "Penempatan, bukan identifikasi.",
+      "answer": "Ketika seseorang yang sudah ada di kontak Anda menelepon, TreeLinker menampilkan kartu berisi namanya dan hubungannya dengan Anda — misalnya \"Nadia — saudari Safa\". Semuanya dibaca dari perangkat Anda sendiri. Tidak ada basis data nomor, tidak ada yang diambil saat ponsel berdering, dan bila penelepon bukan orang yang sudah Anda kenal, tidak ada kartu yang muncul.",
+      "sections": [
+        {
+          "h2": "Hanya orang yang sudah Anda miliki",
+          "body": [
+            "TreeLinker tidak bisa menyebut nama orang asing dan tidak mencobanya. Layanan yang menjawab \"siapa pemilik nomor ini\" memungkinkan siapa pun menelusuri ruang nomor dan memanen identitas, jadi TreeLinker tidak pernah membangunnya."
+          ]
+        },
+        {
+          "h2": "Bagian Nama Penelepon",
+          "body": [
+            "Setiap kontak menampilkan persis apa yang akan muncul saat orang itu menelepon. TreeLinker merekomendasikannya dari hubungan yang Anda catat; Anda bisa menerima, menyunting, atau menghapusnya. Ini bersifat pribadi dan tidak pernah ditampilkan kepada orang yang digambarkannya."
+          ]
+        },
+        {
+          "h2": "Izin yang dipakainya",
+          "body": [
+            "Peran penyaringan panggilan Android, agar nomor masuk terlihat, dan izin tampil di atas aplikasi lain agar kartunya muncul. Ia tidak pernah meminta akses log panggilan."
+          ]
+        },
+        {
+          "h2": "Panggilan pada linimasa",
+          "body": [
+            "Panggilan masuk dari orang yang Anda kenal dicatat di linimasanya, sehingga riwayat kontak terbangun sendiri."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ia mengenali nomor tak dikenal?",
+          "a": "Tidak, secara sengaja."
+        },
+        {
+          "q": "Apakah ia memblokir spam?",
+          "a": "Tidak."
+        },
+        {
+          "q": "Apakah tersedia di iPhone?",
+          "a": "Tidak. iOS tidak punya peran penyaringan panggilan yang setara."
+        }
+      ]
+    },
+    "guides/how-to-know-how-someone-is-related-to-you": {
+      "title": "Cara mengetahui hubungan seseorang dengan Anda",
+      "description": "Anda mengenali namanya tetapi tidak bisa menempatkan orangnya. Cara praktis menelusuri lalu mencatat persis bagaimana seseorang di kontak Anda terhubung dengan Anda.",
+      "h1": "Cara mengetahui hubungan seseorang dengan Anda",
+      "lead": "Mengenali nama tidak sama dengan menempatkan orangnya.",
+      "answer": "Bergeraklah keluar dari seseorang yang Anda yakini. Jika Anda tahu Nadia adalah saudari Safa dan Safa adalah ibu mertua Anda, maka Nadia adalah bibi istri Anda — jalurnya yang bekerja, bukan ingatan Anda. Catat setiap langkah sebagai hubungan begitu Anda memastikannya, sebab alasan Anda harus bertanya adalah tidak ada yang menuliskannya terakhir kali. Begitu jalur itu ada di TreeLinker, ia permanen, berlaku dua arah, dan itulah yang dibaca kartu identifikasi penelepon saat orang itu menelepon lagi.",
+      "sections": [
+        {
+          "h2": "Mulai dari orang yang Anda yakini",
+          "body": [
+            "Hampir tidak ada orang yang terhubung dengan Anda lewat satu mata rantai asing. Hubungannya melewati seseorang yang Anda kenal baik — orang tua, saudara, pasangan. Cari orang terdekat yang Anda yakini, lalu tanyakan bagaimana orang yang tak dikenal itu terkait dengannya.",
+            "Satu pertanyaan mustahil berubah menjadi dua pertanyaan mudah."
+          ]
+        },
+        {
+          "h2": "Ajukan pertanyaan yang menghasilkan jawaban berguna",
+          "body": [
+            "«Kita ini saudara apa?» biasanya menghasilkan jawaban kabur. «Kamu dari pihak siapa, dan siapa orang tuamu?» menghasilkan sebuah jalur.",
+            "Dua langkah hampir selalu cukup. Lebih jauh dari itu, hubungannya punya sebutan yang toh tak dipakai orang dalam percakapan."
+          ]
+        },
+        {
+          "h2": "Tuliskan selagi Anda memilikinya",
+          "body": [
+            "Inilah bagian yang penting. Hampir pasti Anda sudah pernah menelusuri hubungan yang sama ini lalu kehilangannya.",
+            "Catat setiap mata rantai sebagai hubungan tersendiri — Nadia saudari Safa; Safa ibu istri Anda. TreeLinker membuat kebalikan masing-masing, dan jalur antara Anda dan Nadia kini ada, ingat atau tidak."
+          ]
+        },
+        {
+          "h2": "Biarkan ia menjawab lain kali",
+          "body": [
+            "Setelah hubungan tercatat, pohon keluarga menampilkan koneksinya secara visual, dan panggilan masuk dari orang itu menampilkan penempatannya, bukan sekadar namanya.",
+            "Itulah intinya: hubungan cukup ditelusuri sekali, bukan setiap beberapa tahun."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah TreeLinker menunjukkan jalur antara dua orang mana pun?",
+          "a": "Pohon keluarga menampilkan koneksi di sekitar seseorang, sehingga jalur pendek terlihat. Kueri langsung «tunjukkan jalur antara keduanya» belum tersedia."
+        },
+        {
+          "q": "Bagaimana jika hubungannya tak punya sebutan sederhana?",
+          "a": "Catat mata rantai yang punya sebutan — saudara, orang tua, pasangan — dan rangkaiannya menggambarkan hubungan itu dengan tepat tanpa perlu satu kata khusus."
+        },
+        {
+          "q": "Apakah orang lain perlu memakai aplikasinya?",
+          "a": "Tidak. Anda mencatat apa yang Anda ketahui di perangkat sendiri."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-in-laws": {
+      "title": "Cara mengingat keluarga besan",
+      "description": "Keluarga pasangan adalah keluarga kedua yang Anda masuki saat dewasa, tanpa tumbuh sambil belajar siapa itu siapa. Cara memetakannya sekali saja.",
+      "h1": "Cara mengingat keluarga besan",
+      "lead": "Keluarga sendiri Anda pelajari sambil tumbuh. Keluarga pasangan diserahkan sekaligus.",
+      "answer": "Petakan keluarga pasangan sebagai cabangnya sendiri alih-alih meleburnya ke keluarga Anda. Mulai dengan mencatat pasangan, lalu orang tuanya, lalu saudaranya, dan biarkan hubungan besan mengikuti dari tautan itu, bukan memasukkan satu per satu. Letakkan cabang itu dalam grupnya sendiri agar tetap mudah dipindai, dan catat juga pasangan dari saudara-saudaranya — merekalah yang namanya muncul lebih dulu dan koneksinya paling sulit dipegang.",
+      "sections": [
+        {
+          "h2": "Bangun cabangnya dari pasangan ke luar",
+          "body": [
+            "Setiap hubungan besan yang Anda punya melewati satu orang. Catat pasangan lebih dulu, lalu orang tua dan saudaranya; sisanya menggantung pada tiga tautan itu.",
+            "Anda tak perlu mencatat «ibu mertua» sebagai jenis. Catat bahwa dia ibu pasangan Anda, dan hubungannya dengan Anda mengikuti."
+          ]
+        },
+        {
+          "h2": "Beri grup tersendiri",
+          "body": [
+            "Grup bernama misalnya «Keluarga istri» menjaga cabang tetap terbaca dan memperjelas siapa yang belum Anda tambahkan.",
+            "Grup adalah ruang bersama, jadi ini sekaligus menjadi tempat alami bagi anggotanya untuk saling melihat."
+          ]
+        },
+        {
+          "h2": "Catat pasangan para saudara",
+          "body": [
+            "Ipar karena pernikahan adalah kelompok paling sulit diingat, karena tak ada marga bersama dan tak ada masa kecil bersama.",
+            "Mereka juga yang paling mungkin menelepon tiba-tiba — persis saat kartu yang memahami hubungan membuktikan gunanya."
+          ]
+        },
+        {
+          "h2": "Tambahkan konteks sambil berkenalan",
+          "body": [
+            "Tanggal penting untuk ulang tahun pernikahan, tag untuk kota tempat tinggal, catatan setelah pertemuan. Murah saat itu, mustahil disusun ulang nanti."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ada jenis hubungan «besan»?",
+          "a": "Tidak, dan memang tak perlu. Hubungan besan diturunkan dari pernikahan ditambah hubungan darah, yang dicatat TreeLinker secara langsung."
+        },
+        {
+          "q": "Bisakah keluarga pasangan dipisah dari keluarga saya?",
+          "a": "Pohonnya satu graf, karena kedua keluarga memang terhubung lewat pernikahan Anda. Grup adalah yang memungkinkan tiap sisi dilihat dan dikelola terpisah."
+        },
+        {
+          "q": "Bagaimana dengan keluarga tiri?",
+          "a": "Gunakan jenis yang sesuai — orang tua, anak, pasangan, kerabat — dan «lainnya» bila tak ada yang cocok."
+        }
+      ]
+    },
+    "guides/how-to-remember-distant-relatives": {
+      "title": "Cara mengingat kerabat jauh",
+      "description": "Sepupu kedua, nenek buyut, dan orang yang Anda temui dua kali dalam satu dasawarsa. Cara mencatat secukupnya agar mengenali mereka lain kali.",
+      "h1": "Cara mengingat kerabat jauh",
+      "lead": "Masalah kerabat jauh bukan jaraknya, melainkan jeda antarpertemuan yang lebih panjang daripada ingatan.",
+      "answer": "Untuk kerabat jauh, catat tiga hal: jalur yang menghubungkannya dengan Anda, satu detail yang benar-benar membuat Anda mengenalinya, dan di mana terakhir bertemu. Itu sudah cukup. Anda tidak butuh catatan silsilah lengkap untuk orang yang ditemui beberapa tahun sekali — Anda butuh bisa menempatkannya di sebuah pernikahan tanpa harus bertanya. Catat jalurnya lewat kerabat terdekat yang Anda kenal baik, tambahkan catatan ke linimasanya, dan biarkan aplikasi menyimpannya.",
+      "sections": [
+        {
+          "h2": "Catat jalurnya, bukan sebutannya",
+          "body": [
+            "«Sepupu kedua sekali terpisah» adalah sebutan yang nyaris tak ada yang memakainya dengan benar dan tak terasa bermakna. «Cucu dari kakak nenek saya» adalah sebuah jalur, dan itulah yang benar-benar diucapkan orang.",
+            "Catat setiap mata rantai jalur itu dan koneksinya terjaga persis, tanpa siapa pun perlu sebutannya."
+          ]
+        },
+        {
+          "h2": "Tambahkan satu detail pengenal",
+          "body": [
+            "Profesi, kota, atau dengan siapa mereka biasanya datang. Satu fakta konkret lebih menolong pengenalan daripada sekumpulan tanggal.",
+            "Tag cocok untuk ini: sebuah kota, atau cabang keluarga."
+          ]
+        },
+        {
+          "h2": "Catat di mana terakhir bertemu",
+          "body": [
+            "Satu entri linimasa — «bertemu di pernikahan Ahmed, Juni 2026» — mengubah orang asing menjadi orang yang bisa Anda tempatkan sekali lihat.",
+            "Entri inilah yang layak disematkan, karena inilah yang pertama Anda inginkan."
+          ]
+        },
+        {
+          "h2": "Terimalah bahwa ini catatan kecil",
+          "body": [
+            "Kerabat jauh tak butuh kenangan, foto, dan tanggal penting. Tiga baris untuk masing-masing sudah sepadan, dan catatan yang benar-benar Anda jaga mengalahkan catatan lengkap yang Anda tinggalkan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sejauh apa saya perlu menelusuri?",
+          "a": "Sejauh orang yang benar-benar Anda temui. Jika tak akan pernah bertemu, layanan silsilah adalah alat yang lebih tepat."
+        },
+        {
+          "q": "Bagaimana jika saya tak punya nomornya?",
+          "a": "Kerabat bisa ditambahkan tanpa nomor telepon."
+        },
+        {
+          "q": "Apakah aplikasi memberi tahu siapa dia saat menelepon?",
+          "a": "Hanya jika dia ada di kontak Anda. TreeLinker tidak pernah mengenali nomor yang belum Anda miliki."
+        }
+      ]
+    },
+    "guides/how-to-manage-hundreds-of-contacts": {
+      "title": "Cara mengelola ratusan kontak",
+      "description": "Melewati beberapa ratus entri, buku alamat berhenti menjadi daftar dan berubah jadi masalah pencarian. Pendekatan praktis agar daftar besar kembali berguna.",
+      "h1": "Cara mengelola ratusan kontak",
+      "lead": "Melewati beberapa ratus orang, daftar berabjad adalah lemari arsip tanpa label.",
+      "answer": "Buku alamat besar gagal karena urutan abjad tidak menyandikan apa pun yang benar-benar Anda ingat. Perbaiki dengan tiga langkah: catat hubungan agar orang bisa ditemukan lewat orang lain, tambahkan tag pribadi untuk segelintir atribut yang benar-benar Anda cari, dan gunakan pencarian alih-alih menggulir. Jangan mencoba mengklasifikasi semua orang — nilainya ada pada sekitar lima puluh kontak yang berulang kali perlu Anda temukan lagi.",
+      "sections": [
+        {
+          "h2": "Mengapa abjad berhenti berguna",
+          "body": [
+            "Mengurutkan menurut nama hanya menolong kalau Anda ingat namanya. Melewati ukuran tertentu, kegagalan yang lazim justru kebalikannya: Anda ingat bahwa seseorang adalah tetangga paman Anda, atau tukang listrik yang direkomendasikan kakak Anda, tetapi tidak ingat disimpan dengan nama apa.",
+            "Setiap skema penataan lain ada untuk menutup kasus itu."
+          ]
+        },
+        {
+          "h2": "Hubungan membuat orang dapat ditemukan lewat orang lain",
+          "body": [
+            "Begitu orang-orang terhubung, Anda bisa mencapai satu kontak dengan bergerak dari orang yang Anda ingat. Begitulah cara Anda benar-benar memikirkan orang yang dikenal lewat orang lain."
+          ]
+        },
+        {
+          "h2": "Beri tag hanya untuk yang Anda cari",
+          "body": [
+            "Tag layak ada ketika ia menjawab pertanyaan yang benar-benar pernah Anda ajukan: siapa dokternya, siapa yang tinggal di kota ini, siapa yang saya hubungi saat darurat.",
+            "Memberi tag semua orang untuk segala hal menghasilkan sistem yang tak dirawat siapa pun. Lima sampai sepuluh tag yang dipakai konsisten mengalahkan lima puluh yang dipakai sekali."
+          ]
+        },
+        {
+          "h2": "Cari, dan biarkan duplikat menyatu",
+          "body": [
+            "TreeLinker menyaring daftar besar terhadap indeks yang sudah disiapkan sambil Anda mengetik, sehingga beberapa ribu kontak tetap cepat.",
+            "Orang yang sama kerap ada sebagai beberapa catatan — kontak perangkat, nomor kedua, entri hasil sinkronisasi. Semua itu dilipat di mana pun daftar ditampilkan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah ia akan menghapus kontak ganda saya?",
+          "a": "Tidak. Ia melipatnya saat menampilkan daftar; catatan di buku alamat ponsel tidak digabungkan."
+        },
+        {
+          "q": "Apakah ada batas jumlah kontak?",
+          "a": "Tidak ada batas praktis. Pencarian memakai indeks alih-alih memindai ulang."
+        },
+        {
+          "q": "Apakah semuanya harus ditata dulu sebelum berguna?",
+          "a": "Tidak. Dua puluh hubungan dan segelintir tag sudah mengubah seberapa mudah buku alamat Anda ditemukan isinya."
+        }
+      ]
+    },
+    "guides/how-to-add-tags-to-contacts": {
+      "title": "Cara menambahkan tag ke kontak",
+      "description": "Tag adalah label pribadi yang memotong grup — Dokter, Tukang ledeng, sebuah kota. Cara memilih tag yang tetap berguna dan bagaimana penetapan bekerja.",
+      "h1": "Cara menambahkan tag ke kontak",
+      "lead": "Tag adalah label yang nanti akan Anda cari. Itu saja ujiannya.",
+      "answer": "Di TreeLinker, tag dibuat dan dikelola dari layar Organisasi: beri tag sebuah nama, warna, ikon, dan deskripsi opsional, lalu tetapkan kontak kepadanya dari layar detail tag itu sendiri. Tag bersifat pribadi dan memotong setiap grup, sehingga cocok untuk label seperti Dokter, Tukang listrik, atau nama kota. Sebelum membuatnya, terapkan satu ujian: akankah Anda pernah mencarinya? Jika tidak, itu catatan, bukan tag.",
+      "sections": [
+        {
+          "h2": "Di mana tag berada",
+          "body": [
+            "Tag dikelola di satu tempat — layar Organisasi, bersama grup — dan kontak ditetapkan dari dalam tag, bukan dari profil tiap kontak. Ini menjadikan penetapan satu kegiatan yang disengaja alih-alih keputusan yang Anda hadapi di setiap kontak yang dibuka.",
+            "Tiap tag menampilkan ikonnya di atas warnanya beserta jumlah kontak yang ditetapkan, dan layar detailnya punya pencarian atas kontak tersebut."
+          ]
+        },
+        {
+          "h2": "Memilih tag yang bertahan",
+          "body": [
+            "Tag yang baik menjawab pertanyaan yang benar-benar pernah Anda ucapkan: siapa yang dihubungi kalau ada kebocoran, kerabat mana yang di Kairo, siapa yang ada di daftar darurat.",
+            "Tag yang buruk menggambarkan perasaan atau kejadian sekali. Dibuat, dipakai sekali, lalu memenuhi daftar selamanya."
+          ]
+        },
+        {
+          "h2": "Tag bersifat pribadi; grup tidak",
+          "body": [
+            "Tidak ada orang lain yang pernah melihat tag Anda. Itulah yang membuatnya berguna untuk label jujur yang tak akan pernah Anda taruh di ruang bersama.",
+            "Jika orang lain harus melihatnya dan diundang ke dalamnya, yang Anda butuhkan adalah grup."
+          ]
+        },
+        {
+          "h2": "Saran, bukan otomatisasi",
+          "body": [
+            "TreeLinker dapat mengusulkan tag berdasarkan apa yang dilihatnya di kontak Anda. Saran dihitung saat itu juga dan tidak pernah disimpan kecuali Anda menerimanya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah saya menetapkan tag dari profil kontak?",
+          "a": "Tidak. Penetapan dikelola dari layar detail tag."
+        },
+        {
+          "q": "Bisakah dua tag bernama sama?",
+          "a": "Tidak. Nama ganda ditolak tanpa memandang huruf besar-kecil."
+        },
+        {
+          "q": "Berapa banyak tag yang bisa dimiliki satu kontak?",
+          "a": "Sebanyak yang Anda mau, dan kontak itu bisa masuk grup pada saat bersamaan."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-events": {
+      "title": "Cara menata acara keluarga",
+      "description": "Kumpul keluarga berantakan di obrolan grup. Cara menuntaskan keputusan, menjaga pembahasan tetap mudah ditemukan, dan mencatat apa yang terjadi sesudahnya.",
+      "h1": "Cara menata acara keluarga",
+      "lead": "Kebanyakan acara keluarga tidak sulit direncanakan. Sulitnya memutuskan.",
+      "answer": "Tata acara keluarga dalam tiga tahap, masing-masing di tempatnya. Tuntaskan keputusan dengan jajak pendapat, agar satu suara per orang menggantikan empat puluh pesan. Simpan perencanaan dalam diskusi bernama, agar bisa dibuka lagi berbulan-bulan kemudian. Lalu setelah acara, catat sebagai kenangan yang melekat pada orang-orang yang hadir, supaya tahun depan Anda tidak mulai dari nol.",
+      "sections": [
+        {
+          "h2": "Putuskan dengan jajak pendapat, bukan utas",
+          "body": [
+            "«Makan di mana?» adalah hal yang paling sering perlu diselesaikan grup keluarga, dan utas obrolan adalah alat yang buruk untuk itu: suara terkubur, orang mengulang, dan tak ada yang tahu kapan sudah diputuskan.",
+            "Jajak pendapat memberi satu suara per anggota, memungkinkan berubah pikiran tanpa dihitung dua kali, menampilkan siapa memilih apa, dan bisa ditutup."
+          ]
+        },
+        {
+          "h2": "Rencanakan dalam diskusi bernama",
+          "body": [
+            "Beri acara itu judul — «Makan Malam Idul Fitri 2026» — dan semua yang diposting tetap di bawahnya. Berbulan-bulan kemudian ia masih entri bernama dalam daftar grup.",
+            "Jajak pendapat bisa dilampirkan agar perdebatan dan hasilnya berada di tempat yang sama."
+          ]
+        },
+        {
+          "h2": "Letakkan tanggal penting pada orang yang bersangkutan",
+          "body": [
+            "Pertemuan berulang adalah tanggal penting, dicatat pada kontak atau grup yang bersangkutan, dan akan muncul lagi dengan sendirinya."
+          ]
+        },
+        {
+          "h2": "Catat sesudahnya",
+          "body": [
+            "Sebuah acara menjadi kenangan setelah terjadi: catatan singkat, foto yang berarti, tanggal dan tempat, melekat pada mereka yang hadir.",
+            "Catatan itulah yang membuat versi tahun depan lebih mudah direncanakan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah semua anggota grup bisa memilih?",
+          "a": "Ya, satu suara masing-masing. Mengubah suara menggantikan yang lama, bukan menambah."
+        },
+        {
+          "q": "Bisakah saya membuka lagi diskusi nanti?",
+          "a": "Bisa. Diskusi tetap ada di daftar grup dengan judulnya."
+        },
+        {
+          "q": "Apakah ia mengirim undangan atau mencatat kehadiran?",
+          "a": "Belum. Undangan grup untuk bergabung ke grup; konfirmasi kehadiran per acara bukan fitur."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-photos-and-memories": {
+      "title": "Cara menata foto dan kenangan keluarga",
+      "description": "Pustaka foto ditata menurut tanggal, cara paling tidak berguna untuk menemukan kenangan keluarga. Cara menatanya menurut orang.",
+      "h1": "Cara menata foto dan kenangan keluarga",
+      "lead": "Galeri Anda diurutkan menurut satu-satunya hal yang tak pernah Anda ingat: tanggal persisnya.",
+      "answer": "Berhentilah menata foto keluarga secara kronologis dan tatalah menurut orang-orang di dalamnya. Pilih sedikit foto yang membawa cerita, lekatkan masing-masing pada orang atau grup yang bersangkutan, dan tambahkan tanggal, tempat, serta dua tiga kalimat konteks. Pustaka foto menjawab «apa yang saya ambil pada Juni»; kenangan yang melekat pada orang menjawab «apa yang saya punya tentang nenek saya», dan itulah pertanyaan yang benar-benar ditanyakan.",
+      "sections": [
+        {
+          "h2": "Urutan tanggal adalah indeks yang keliru",
+          "body": [
+            "Aplikasi foto mengurutkan menurut tanggal pengambilan karena itulah yang diketahui berkas. Tapi tak ada yang menelusuri sejarah keluarganya menurut tanggal — orang menelusuri menurut orang, dan sesekali menurut acara.",
+            "Solusinya bukan pencarian yang lebih baik atas sepuluh ribu foto, melainkan memilih beberapa lusin yang berarti."
+          ]
+        },
+        {
+          "h2": "Pilih tanpa ampun",
+          "body": [
+            "Sebuah kenangan butuh satu sampai beberapa foto, bukan seluruh rentetan. Pemilihan itulah sebagian besar pekerjaan dan nilainya.",
+            "TreeLinker bukan layanan cadangan foto dan tidak berusaha menjadi itu."
+          ]
+        },
+        {
+          "h2": "Tulis dua kalimatnya",
+          "body": [
+            "Foto tanpa konteks merosot menjadi wajah tak dikenal dalam satu generasi. Dua kalimat — siapa, di mana, sedang apa — adalah beda antara berkas dan catatan.",
+            "Tambahkan tanggal dan tempat selagi Anda masih tahu."
+          ]
+        },
+        {
+          "h2": "Lekatkan pada orang atau grup",
+          "body": [
+            "Kenangan pada kontak muncul saat Anda membuka orang itu. Kenangan grup menyimpan apa yang dilakukan seluruh keluarga bersama."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bisakah melampirkan beberapa foto ke satu kenangan?",
+          "a": "Bisa, beserta tanggal dan tempat."
+        },
+        {
+          "q": "Apakah ia mencadangkan pustaka foto saya?",
+          "a": "Tidak. Ia menyimpan foto yang termasuk dalam sebuah kenangan, bukan seluruh galeri."
+        },
+        {
+          "q": "Apakah video didukung?",
+          "a": "Saat ini tidak."
+        }
+      ]
+    },
+    "compare/what-is-a-family-relationship-app": {
+      "title": "Apa itu aplikasi hubungan keluarga?",
+      "description": "Penjelasan kategori: apa yang dilakukan aplikasi pengelolaan hubungan keluarga, bedanya dengan layanan silsilah, pengelola kontak, dan aplikasi identifikasi penelepon, serta untuk siapa.",
+      "h1": "Apa itu aplikasi hubungan keluarga?",
+      "lead": "Kategori yang berada di antara tiga kategori yang lebih dikenal, dan biasanya dijelaskan lewat apa yang bukan dirinya.",
+      "answer": "Aplikasi hubungan keluarga mencatat bagaimana orang-orang yang masih hidup di buku alamat Anda terhubung dengan Anda dan satu sama lain, lalu memakai koneksi itu untuk membuat sisa kontak Anda lebih berguna. Ia berbeda dari layanan silsilah yang meneliti leluhur lewat arsip sejarah; dari pengelola kontak yang menyimpan detail perorangan tetapi tidak menyimpan apa pun tentang tautan di antara mereka; dan dari aplikasi identifikasi penelepon yang mengenali orang asing lewat basis data nomor bersama. Ciri penentunya adalah hubungan itu sendiri — sebuah bidang yang tidak dicatat ketiganya.",
+      "table": {
+        "caption": "Empat kategori bertetangga, empat pertanyaan berbeda",
+        "head": [
+          "",
+          "Pertanyaan utama",
+          "Subjek",
+          "Mencatat hubungan antar kontak"
+        ],
+        "rows": [
+          [
+            "Layanan silsilah",
+            "Bagaimana saya berkerabat dengan leluhur?",
+            "Orang yang sudah meninggal",
+            "Ya, tetapi untuk leluhur"
+          ],
+          [
+            "Pengelola kontak",
+            "Apa yang saya tahu tentang orang ini?",
+            "Orang yang Anda hubungi",
+            "Tidak"
+          ],
+          [
+            "Aplikasi identifikasi penelepon",
+            "Siapa pemilik nomor ini?",
+            "Orang asing",
+            "Tidak"
+          ],
+          [
+            "Aplikasi hubungan keluarga",
+            "Bagaimana orang ini terhubung dengan saya?",
+            "Orang yang Anda hubungi",
+            "Ya — inilah ciri penentunya"
+          ]
+        ],
+        "note": "Kategori-kategori ini tumpang tindih dalam fitur, bukan dalam tujuan. Kebanyakan orang yang menginginkan salah satunya sebenarnya menginginkan bagian dari dua."
+      },
+      "sections": [
+        {
+          "h2": "Apa yang dilakukan aplikasi semacam itu",
+          "body": [
+            "Paling tidak ia mencatat hubungan antar kontak dan menggambarnya sebagai pohon. Dalam praktiknya hubungan itulah yang membuka segalanya: kerabat bisa dikelompokkan, kenangan bisa dilekatkan pada semua yang hadir, saran bisa disimpulkan dari tautan yang ada, dan panggilan masuk bisa digambarkan sebagai penempatan, bukan nama."
+          ],
+          "list": [
+            "Hubungan antar orang di buku alamat Anda",
+            "Pohon keluarga orang yang masih hidup, bukan leluhur",
+            "Grup dan label pribadi yang memotongnya",
+            "Acara dan tanggal penting yang melekat pada orang",
+            "Kenangan dan cerita yang diarsipkan menurut orang, bukan tanggal",
+            "Identifikasi penelepon yang memahami hubungan, hanya dari kontak Anda sendiri"
+          ]
+        },
+        {
+          "h2": "Untuk siapa",
+          "body": [
+            "Untuk orang dengan keluarga besar yang luas, di mana tak ada yang menuliskan bagaimana semua orang terhubung dan satu dua kerabat memegang semuanya di kepala.",
+            "Ia kurang cocok bagi yang meneliti leluhur, dan kurang cocok bagi yang masalah utamanya kontak ganda atau pencadangan."
+          ]
+        },
+        {
+          "h2": "Apa yang bukan dirinya",
+          "body": [
+            "Ia bukan layanan silsilah: tanpa arsip sejarah, tanpa pencocokan DNA. Ia bukan jejaring sosial: tak ada yang publik dan tak ada umpan. Dan ia bukan aplikasi identifikasi penelepon konvensional: tak punya basis data nomor dan tak bisa menyebut nama orang asing, karena memang tak pernah mengumpulkannya."
+          ]
+        },
+        {
+          "h2": "Cara tahu Anda membutuhkannya",
+          "body": [
+            "Satu pertanyaan menentukannya. Ketika sebuah nama muncul di layar, apakah kadang Anda tahu seharusnya mengenalinya tetapi tak bisa menempatkan orangnya? Jika jawabannya lebih dari sesekali ya, yang hilang adalah hubungan — dan inilah kategori yang menyimpannya."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah sama dengan CRM pribadi?",
+          "a": "Tidak. CRM pribadi melacak interaksi Anda dengan jaringan profesional. Aplikasi hubungan keluarga melacak bagaimana orang terhubung satu sama lain, yang sama sekali tidak dicatat CRM."
+        },
+        {
+          "q": "Apakah saya butuh ini jika sudah memakai layanan silsilah?",
+          "a": "Keduanya memegang separuh berbeda dari keluarga yang sama — satu leluhur, satu yang masih hidup. Banyak orang wajar memakai keduanya."
+        },
+        {
+          "q": "Apakah ia menggantikan aplikasi kontak saya?",
+          "a": "Ia membaca kontak yang sudah ada di perangkat dan menambahkan lapisan di atasnya. Ia tidak menulis ke buku alamat ponsel atas inisiatif sendiri."
+        }
+      ]
+    }
+  }
+}

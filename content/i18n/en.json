@@ -1,0 +1,1885 @@
+{
+  "chrome": {
+    "nav": {
+      "home": "Home",
+      "familyTree": "Family tree",
+      "contacts": "Contacts",
+      "callerId": "Caller ID",
+      "guides": "Guides",
+      "compare": "Compare",
+      "language": "Language",
+      "menu": "Toggle menu",
+      "aria": "Main navigation"
+    },
+    "groups": {
+      "home": "Home",
+      "solutions": "What TreeLinker does",
+      "guides": "Guides",
+      "compare": "Comparisons",
+      "features": "Features"
+    },
+    "groupDescriptions": {
+      "guides": "Practical walkthroughs for mapping a family, organising an address book, and keeping track of who is who.",
+      "compare": "Honest comparisons between family tree apps, contact managers and caller ID apps — including where TreeLinker is the wrong tool.",
+      "features": "Every part of TreeLinker, explained one at a time."
+    },
+    "pages": {
+      "relationshipManager": "Relationship manager",
+      "familyOrganizer": "Family organiser",
+      "familyMemoryApp": "Family memory app"
+    },
+    "labels": {
+      "answer": "Short answer",
+      "faq": "Frequently asked questions",
+      "related": "Related pages",
+      "breadcrumb": "Breadcrumb"
+    },
+    "cta": {
+      "title": "Start with the contacts you already have",
+      "body": "TreeLinker is free on Google Play. No ads, no subscription, and your address book never leaves your phone.",
+      "play": "Get it on Google Play",
+      "secondary": "See how caller ID works",
+      "note": "Android. Free. No account required to browse your own contacts.",
+      "identity": ""
+    },
+    "footer": {
+      "legal": "Legal",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "deleteAccount": "Delete account",
+      "support": "Support",
+      "rights": "All rights reserved.",
+      "madeWith": "Made with"
+    },
+    "identity": {
+      "category": "a family relationship management app",
+      "description": "TreeLinker is a family relationship management app: contact management, family tree, relationships, groups, tags, events, memories and caller identification, in one place.",
+      "chain": [
+        "contact management",
+        "family tree",
+        "relationships",
+        "groups",
+        "tags",
+        "events",
+        "memories",
+        "caller identification"
+      ],
+      "aria": "What TreeLinker is"
+    }
+  },
+  "pages": {
+    "": {
+      "title": "TreeLinker — Know how everyone in your contacts is related",
+      "description": "A family relationship management app. Build a family tree from the contacts already on your phone, organise relatives into groups and tags, keep events and memories with the people they belong to, and see how a caller is related to you. Free, Android, and it never uploads your address book.",
+      "h1": "Know how everyone in your contacts is related",
+      "lead": "Your phone already knows everyone's number. It has no idea who they are to each other. TreeLinker adds the missing layer — the relationships — and keeps your address book on your device while it does.",
+      "answer": "TreeLinker is a family relationship management app for Android. It reads the contacts already on your phone, lets you record how those people are related, and draws the result as a family tree. Around that it adds groups, tags, events, memories and a caller identification card that tells you how an incoming caller is connected to you. It is free, has no ads, and never uploads your address book to a shared database.",
+      "featuresTitle": "One app for the people in your life",
+      "featuresSubtitle": "Eight parts, one idea: everything hangs off a person.",
+      "cards": [
+        {
+          "h3": "Family tree from your contacts",
+          "p": "Start from the address book you already have instead of typing hundreds of names again. Link two people and the reverse relationship is created for you."
+        },
+        {
+          "h3": "Relationship suggestions",
+          "p": "When your tree implies a relationship — your brother's son is your nephew — TreeLinker proposes it with a confidence score and an explanation you can accept, change or ignore."
+        },
+        {
+          "h3": "Groups and tags",
+          "p": "Groups are shared spaces for a family, a neighbourhood or a class. Tags are private labels — Doctor, Plumber, Cairo — that cut across all of them."
+        },
+        {
+          "h3": "Events and key dates",
+          "p": "Birthdays, weddings and anniversaries live on the people they belong to, and the ones coming up surface on your home screen."
+        },
+        {
+          "h3": "Memories",
+          "p": "Stories, events and key dates with photos, dates and places, attached to the person they are about rather than lost in a camera roll."
+        },
+        {
+          "h3": "Caller identification",
+          "p": "When someone in your contacts calls, TreeLinker shows how they are related to you — not just a name. Nothing is looked up online and nothing is published."
+        }
+      ],
+      "stepsTitle": "Up and running in minutes",
+      "steps": [
+        {
+          "h3": "Open your contacts",
+          "p": "TreeLinker reads the address book already on your phone. Nothing is uploaded and nothing is re-typed."
+        },
+        {
+          "h3": "Link two people",
+          "p": "Say that Omar is your brother. The reverse relationship is created automatically, and your tree stops being empty."
+        },
+        {
+          "h3": "Keep the context",
+          "p": "Add groups, tags, key dates and memories as you go. The tree becomes a record of the people, not just their numbers."
+        }
+      ],
+      "sections": [
+        {
+          "h2": "The problem with an ordinary address book",
+          "body": [
+            "A contact list stores a name and a number. It does not store the one thing you actually forget: who this person is to you, and to everyone else in the list.",
+            "In an address book of a few thousand people that gap gets expensive. Four people share a first name. A cousin you met twice calls and you cannot place them. Someone dies and nobody can say how the family was connected. The information existed — it just never had anywhere to live."
+          ]
+        },
+        {
+          "h2": "What TreeLinker adds",
+          "body": [
+            "TreeLinker keeps the address book and adds the relationships between the people in it. Once those exist, everything else follows: the tree can be drawn, relatives can be grouped, a caller can be placed, and a memory can be attached to the people who were there."
+          ],
+          "list": [
+            "Parent, child, sibling, spouse, friend, relative and other relationship types, each with its own colour and icon",
+            "Automatic reciprocal relationships — record one direction and the other is created",
+            "Relationship suggestions with a confidence score and a plain-language explanation",
+            "Groups with invitations, polls and named discussions",
+            "Tags with assigned contacts, colours and icons",
+            "A timeline on every contact, including incoming calls",
+            "Shared stories, events and key dates with photos, dates and places",
+            "Family trees you can share with another TreeLinker user, who sees the same people under their own names"
+          ]
+        },
+        {
+          "h2": "Private because of how it is built, not because of a promise",
+          "body": [
+            "TreeLinker is local-first. Your contacts, relationships and memories are stored on your device, and syncing them to your account is something you turn on rather than something that happens by default.",
+            "The caller identification is the clearest case. TreeLinker has no database of phone numbers and no way to name a stranger, because it never collects one. If an incoming number is not already someone you know, it shows nothing at all."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does TreeLinker upload my contacts?",
+          "a": "No. Your address book is read on your device and stays there. TreeLinker does not build a shared directory of phone numbers and cannot tell anyone who owns a number."
+        },
+        {
+          "q": "Is TreeLinker free?",
+          "a": "Yes. It is free on Google Play, with no ads and no subscription."
+        },
+        {
+          "q": "Is there an iPhone version?",
+          "a": "Not yet. TreeLinker is Android only today."
+        },
+        {
+          "q": "Do I need my family to install it too?",
+          "a": "No. You can map your whole family on your own. Sharing a tree with another TreeLinker user is optional and one-time — nothing keeps syncing afterwards."
+        }
+      ]
+    },
+    "family-tree-app": {
+      "title": "Family tree app that starts from your phone contacts — TreeLinker",
+      "description": "Most family tree apps make you type every name from scratch. TreeLinker builds the tree out of the contacts already on your phone, creates reverse relationships automatically, and suggests the ones your tree implies.",
+      "h1": "A family tree app that starts from your contacts",
+      "lead": "The names are already in your phone. A family tree should not begin with a blank form.",
+      "answer": "TreeLinker is a family tree app for Android that builds the tree from the contacts already on your phone. You pick two people, say how they are related, and the reverse relationship is created for you. As the tree grows it proposes the relationships it can infer — your sibling's child is your niece or nephew — with a confidence score and an explanation. It is not a genealogy service: there are no historical records and no DNA matching, because it is built for the living family in your address book.",
+      "sections": [
+        {
+          "h2": "Why starting from contacts matters",
+          "body": [
+            "The most common complaint about family tree software is that it is slow to get started and fiddly to keep going. Every person has to be typed in, and the payoff only arrives once dozens of them exist.",
+            "If the people are already in your address book, that entire step disappears. You link the ones you have, and the tree has branches in it within a minute or two."
+          ]
+        },
+        {
+          "h2": "Relationships, not just boxes",
+          "body": [
+            "TreeLinker supports parent, child, sibling, spouse, friend, relative and other, each with its own colour and icon so a dense tree stays readable.",
+            "Recording one direction records the other. If you say that Omar is your brother, Omar's record says you are his — you never maintain both halves by hand."
+          ]
+        },
+        {
+          "h2": "Suggestions you can refuse",
+          "body": [
+            "When the existing relationships imply a new one, TreeLinker proposes it rather than writing it. Each suggestion carries a confidence score and a sentence explaining which existing relationships produced it, and where a link is ambiguous you are asked which type it should be.",
+            "Nothing is added to your tree because software guessed. Everything in it is there because you accepted it."
+          ]
+        },
+        {
+          "h2": "What it deliberately does not do",
+          "body": [
+            "TreeLinker has no historical record collection, no census indexes and no DNA matching. If your goal is to research ancestors born two hundred years ago, a genealogy service is the right tool and TreeLinker is not.",
+            "It is built for the other half of the problem: the living family you actually speak to, whose relationships nobody has ever written down."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I have to type every relative in by hand?",
+          "a": "No. TreeLinker reads the contacts already on your phone and you link the people who are already there. You only type in relatives you have no contact record for."
+        },
+        {
+          "q": "Can I export the tree as a GEDCOM file?",
+          "a": "Not today. GEDCOM import and export are not supported yet."
+        },
+        {
+          "q": "Does it search historical records?",
+          "a": "No. There is no record collection and no DNA matching. TreeLinker maps the living family in your address book."
+        },
+        {
+          "q": "Does it work offline?",
+          "a": "Yes. The tree is stored on your device and can be read and edited with no connection."
+        }
+      ]
+    },
+    "family-contact-manager": {
+      "title": "Family contact manager — organise contacts by relationship | TreeLinker",
+      "description": "A contact manager that organises people by how they are related to you, not just by name. Groups, tags, per-contact timelines and key dates, stored on your device.",
+      "h1": "A contact manager organised by relationship",
+      "lead": "Names and numbers are the least interesting thing about the people in your phone.",
+      "answer": "TreeLinker is a contact manager for Android that organises your address book by relationship rather than alphabetically. Every contact can carry relationships to other people, group memberships, private tags, a timeline of what has happened between you, key dates, and shared memories. It reads the contacts already on your device, keeps them there, and adds the context an ordinary address book has nowhere to put.",
+      "sections": [
+        {
+          "h2": "What an ordinary contact app stores",
+          "body": [
+            "A standard address book records a name, a number, maybe an email and a company. That is enough to place a call and not much else.",
+            "It cannot tell you that the person calling is your wife's cousin, that you last spoke at a wedding in June, or that they are the electrician who did good work two years ago. That information exists in your head and nowhere else."
+          ]
+        },
+        {
+          "h2": "What TreeLinker stores instead",
+          "body": [
+            "Each contact in TreeLinker is a person with a position in your life rather than a row in a list."
+          ],
+          "list": [
+            "Relationships to other contacts, drawn as a family tree",
+            "Groups — a family, a neighbourhood, a class — with invitations and shared spaces",
+            "Tags such as Doctor, Plumber or Cairo, private to you, with their own colour and icon",
+            "A timeline of notes and incoming calls, newest first, with the entries that matter pinned",
+            "Key dates and events that surface as they approach",
+            "Stories and memories with photos, dates and places"
+          ]
+        },
+        {
+          "h2": "Search that reaches past the name",
+          "body": [
+            "The contact list filters as you type against a prebuilt index, so a few thousand contacts stay fast. Groups and tags each have their own search over their assigned contacts.",
+            "Because a person can belong to several groups and carry several tags at once, the same contact is reachable from however you happen to be thinking about them."
+          ]
+        },
+        {
+          "h2": "Where your contacts live",
+          "body": [
+            "TreeLinker stores your address book on your device. Syncing to your TreeLinker account is optional, and there is no shared directory that other users can search.",
+            "TreeLinker never writes to your phone's address book on its own either. Adding someone to your contacts is always something you do deliberately."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does it merge duplicate contacts?",
+          "a": "It collapses duplicates when it shows you a list, so the same person does not appear twice in a tree or a group. It does not yet merge the underlying records in your phone's address book."
+        },
+        {
+          "q": "Does it back up my contacts?",
+          "a": "Not as a standalone backup feature today. Contacts sync to your TreeLinker account when you enable syncing."
+        },
+        {
+          "q": "Can I use it without an account?",
+          "a": "You need an account for anything that syncs or is shared, such as groups and tree sharing."
+        },
+        {
+          "q": "Does it need my call log?",
+          "a": "No. TreeLinker never requests call log access. Incoming calls are seen through Android's call screening role, one call at a time."
+        }
+      ]
+    },
+    "relationship-manager": {
+      "title": "Relationship manager — keep track of who is who | TreeLinker",
+      "description": "Record how the people in your life are connected, see the path between any two of them, and keep a timeline of what has happened with each one.",
+      "h1": "A relationship manager for the people you actually know",
+      "lead": "Personal CRMs track your professional network. TreeLinker tracks the family you are expected to already understand.",
+      "answer": "TreeLinker is a relationship manager for Android. It records how the people in your address book are connected to you and to each other, draws those connections as a tree, keeps a timeline on every contact, and uses the same information to tell you how an incoming caller is related to you. Unlike a professional personal CRM, it is built around families rather than clients, and it stores everything on your device by default.",
+      "sections": [
+        {
+          "h2": "The information nobody writes down",
+          "body": [
+            "Families carry a large amount of undocumented knowledge: who is whose in-law, which cousin belongs to which uncle, why two branches do not speak. It is held by one or two people per family, and when they are gone it goes with them.",
+            "TreeLinker gives that knowledge a place to live that is not somebody's memory."
+          ]
+        },
+        {
+          "h2": "A timeline on every person",
+          "body": [
+            "Each contact has a timeline in reverse chronological order. You add notes — \"replaced the kitchen wiring\", \"did not answer\", \"excellent work, fair price\" — and incoming calls appear alongside them.",
+            "Entries you want kept at the top can be pinned, and the pinned ones are what the caller identification card reads from."
+          ]
+        },
+        {
+          "h2": "Sharing what you have mapped",
+          "body": [
+            "A tree you have built can be sent to another TreeLinker user. They see the same people, but under the names in their own address book — your names are never imposed on their contacts.",
+            "The transfer is one-time. Nothing keeps syncing afterwards, and the sender is told nothing about what the recipient does with it."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does it remind me to stay in touch?",
+          "a": "Not yet. Key dates and upcoming events surface on their own, but there are no keep-in-touch reminders today."
+        },
+        {
+          "q": "Is this a CRM for work?",
+          "a": "It can hold work contacts through tags, but it is designed around family relationships rather than sales pipelines."
+        },
+        {
+          "q": "What happens to my data if I stop using it?",
+          "a": "You can delete your account from inside the app, which removes your data from your device and from the servers."
+        }
+      ]
+    },
+    "family-organizer": {
+      "title": "Family organiser — groups, tags and shared decisions | TreeLinker",
+      "description": "Organise relatives into private groups, label contacts with your own tags, and settle family decisions with polls and named discussions that stay findable.",
+      "h1": "A family organiser that keeps decisions findable",
+      "lead": "Group chats bury everything. A named discussion with a poll attached does not.",
+      "answer": "TreeLinker organises the people in your address book two ways at once. Groups are shared, invitation-only spaces for a family, a neighbourhood or a class, where members can run polls and hold named discussions. Tags are private labels — Doctor, Plumber, Cairo — that only you see and that cut across every group. A person can be in several groups and carry several tags at the same time.",
+      "sections": [
+        {
+          "h2": "Groups are shared; tags are yours",
+          "body": [
+            "A group has members, a cover photo, an icon and a details screen, and people join by invitation. What happens inside it is visible to everyone in it.",
+            "A tag has a name, a colour, an icon, an optional description and a list of assigned contacts. Nobody else ever sees your tags, which is what makes them useful for labels like Doctor or Difficult."
+          ]
+        },
+        {
+          "h2": "Polls, for the decision everyone keeps re-asking",
+          "body": [
+            "Any member can create a poll with a question and a few options. Everyone gets one vote, changing your vote replaces the old one rather than adding to it, and you can see who picked what. The creator can close it when it is settled.",
+            "It exists because \"where should we eat\" is the single most common thing a family group needs to resolve, and a chat thread is a bad instrument for it."
+          ]
+        },
+        {
+          "h2": "Discussions that can be reopened",
+          "body": [
+            "A discussion has a title — \"Eid Dinner 2026\" — and everything posted under it stays under it. Months later it is still a named thing in the group's list rather than four hundred messages back in a scroll.",
+            "A poll can be attached to a discussion, so the argument and its outcome stay in the same place."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can other people see my tags?",
+          "a": "No. Tags are private to your account. Groups are shared; tags never are."
+        },
+        {
+          "q": "Can someone join a group without being invited?",
+          "a": "No. Groups are invitation-only."
+        },
+        {
+          "q": "Can a contact be in more than one group?",
+          "a": "Yes, and they can carry any number of tags at the same time."
+        }
+      ]
+    },
+    "family-memory-app": {
+      "title": "Family memory app — stories and photos kept with the people in them | TreeLinker",
+      "description": "Keep family stories, events and key dates attached to the people they are about, with photos, dates and places — not scattered through a camera roll.",
+      "h1": "A family memory app built around people",
+      "lead": "A photo in a camera roll is a file. The same photo attached to your grandmother is a record.",
+      "answer": "TreeLinker keeps family memories attached to the people they belong to. A memory is a shared story, an event or a key date, and it can carry photos, a date and a place. Because memories hang off a contact rather than sitting in a feed, opening a person shows what you have of them, and the key dates you record surface again as they come round each year.",
+      "sections": [
+        {
+          "h2": "Three kinds of memory",
+          "body": [
+            "A story is something that happened and is worth retelling. An event is something with a date that people attended. A key date is an anniversary that recurs — a birthday, a wedding, the day someone died.",
+            "The distinction matters because they behave differently. Key dates come back every year and appear in your upcoming events; stories simply stay where you put them."
+          ]
+        },
+        {
+          "h2": "Attached to a person, not a timeline",
+          "body": [
+            "Opening a contact shows the memories that involve them. That is the opposite of a social feed, where the most recent thing is the only thing you can find.",
+            "Groups have memories of their own too, so a family group can hold the trip that the whole family went on rather than filing it under one person."
+          ]
+        },
+        {
+          "h2": "What it is not",
+          "body": [
+            "TreeLinker is not a photo backup service and does not try to replace one. It holds the photos that give a memory its meaning, not every picture you have ever taken."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I add video?",
+          "a": "Not currently. Memories support photos, dates and places."
+        },
+        {
+          "q": "Are memories shared automatically?",
+          "a": "No. Memories you attach to a contact are yours. Group memories are visible to that group's members."
+        },
+        {
+          "q": "Do key dates remind me?",
+          "a": "Upcoming key dates surface in the app as they approach. There are no push reminders yet."
+        }
+      ]
+    },
+    "caller-identification": {
+      "title": "Caller ID that never uploads your contacts — TreeLinker",
+      "description": "Most caller ID apps work by uploading everyone's address book into a shared database. TreeLinker does not have one. It shows how a caller is related to you, using only the contacts already on your phone.",
+      "h1": "Caller ID that never uploads your contacts",
+      "lead": "The usual bargain is that your address book becomes part of a global directory. TreeLinker does not make that trade.",
+      "answer": "TreeLinker shows a card when someone in your own contacts calls you, telling you how they are related to you — for example \"Nadia — sibling of Safa\" — rather than just showing a name. Everything on that card comes from your own device. TreeLinker has no database of phone numbers, cannot tell you who owns an unknown number, and never uploads your address book. If a caller is not already someone you know, no card is shown at all.",
+      "sections": [
+        {
+          "h2": "How ordinary caller ID apps work",
+          "body": [
+            "The large caller ID services identify strangers because they have collected hundreds of millions of address books. When someone installs the app and grants contacts access, everyone in their phone is added to a shared directory — including people who never installed anything and never agreed to it.",
+            "That is why those apps can name an unknown number, and it is also the most common complaint made about them."
+          ]
+        },
+        {
+          "h2": "How TreeLinker works instead",
+          "body": [
+            "TreeLinker answers a different question. Not \"who owns this number\", which requires harvesting, but \"how is this person connected to me\", which requires only what is already on your phone.",
+            "The name and the relationship on the card are read from your own contacts and your own family tree. Nothing is fetched over the network while your phone is ringing, and nothing about the call is published to anyone."
+          ]
+        },
+        {
+          "h2": "The everyday case is not strangers",
+          "body": [
+            "In an address book of thousands, the problem usually is not an unknown number. It is a known name you cannot place — four people are saved as Nadia and this is the one whose connection you have forgotten.",
+            "That is what the card is for. It gives a placement, not an identification."
+          ]
+        },
+        {
+          "h2": "The Caller Name on a contact",
+          "body": [
+            "Each contact has a Caller Name section showing exactly what will appear when that person calls. TreeLinker recommends it from the relationships you have already recorded, and you can accept it, edit it or clear it.",
+            "It is a private note. It is never shown to the person it describes, never shown to other users, and never published anywhere."
+          ]
+        }
+      ],
+      "table": {
+        "caption": "How TreeLinker differs from a conventional caller ID app",
+        "head": [
+          "",
+          "TreeLinker",
+          "Conventional caller ID apps"
+        ],
+        "rows": [
+          [
+            "Names unknown numbers",
+            "No — by design",
+            "Yes"
+          ],
+          [
+            "Uploads your address book",
+            "Never",
+            "Usually, to build the directory"
+          ],
+          [
+            "Shows how the caller is related to you",
+            "Yes",
+            "No"
+          ],
+          [
+            "Spam and scam blocking",
+            "No",
+            "Yes"
+          ],
+          [
+            "Needs a network connection while ringing",
+            "No",
+            "Usually"
+          ],
+          [
+            "Ads",
+            "None",
+            "Common in free tiers"
+          ],
+          [
+            "Price",
+            "Free",
+            "Free tier with paid upgrade"
+          ]
+        ],
+        "note": "If identifying unknown numbers and blocking spam is what you need, a conventional caller ID app is the right tool — TreeLinker does neither and does not intend to."
+      },
+      "faq": [
+        {
+          "q": "Can TreeLinker tell me who an unknown number belongs to?",
+          "a": "No. It has no number-to-name database and deliberately refuses to answer that question. A service that answers it lets anyone work through the number space and harvest identities."
+        },
+        {
+          "q": "Does it block spam calls?",
+          "a": "No. TreeLinker has no spam database and does not block calls."
+        },
+        {
+          "q": "Is my Caller Name visible to the person it describes?",
+          "a": "No. It is a private note visible only to you, on your device and your account."
+        },
+        {
+          "q": "Which permissions does it need?",
+          "a": "Android's call screening role, so it can see the incoming number, and permission to display over other apps so the card can appear. It never requests call log access."
+        },
+        {
+          "q": "Is caller identification available on iPhone?",
+          "a": "No. It is Android only, because iOS does not offer an equivalent call screening role."
+        }
+      ]
+    },
+    "guides/how-to-create-a-family-tree": {
+      "title": "How to create a family tree from your phone contacts",
+      "description": "A practical walkthrough: start from the contacts you already have, link the first relationship, let the reverse one be created, and grow outward from there.",
+      "h1": "How to create a family tree",
+      "lead": "The fastest family tree is the one you do not have to type.",
+      "answer": "Start from the people already in your phone rather than a blank form. Pick yourself, link one close relative — a parent or a sibling — and the reverse relationship is created automatically. Then work outward one person at a time, accepting the relationships the app infers as the shape fills in. A tree with twenty people in it takes a few minutes this way, against an hour of typing in a traditional genealogy tool.",
+      "sections": [
+        {
+          "h2": "1. Start with yourself",
+          "body": [
+            "Your own record is the anchor. Every relationship path is eventually measured from it, and the caller identification card describes people relative to you."
+          ]
+        },
+        {
+          "h2": "2. Link the closest people first",
+          "body": [
+            "Parents, siblings, spouse, children. These are the relationships that generate the most inferences later, because almost every other connection in a family runs through one of them.",
+            "Record one direction only. The reverse is created for you."
+          ]
+        },
+        {
+          "h2": "3. Work outward, not alphabetically",
+          "body": [
+            "Follow the family, not the contact list. From a parent, add their siblings; from those, their children. Each addition makes the next set of suggestions better.",
+            "Where a relationship is ambiguous you are asked which type it is rather than having one chosen for you."
+          ]
+        },
+        {
+          "h2": "4. Accept or refuse the suggestions",
+          "body": [
+            "Once there is enough structure, TreeLinker starts proposing relationships with a confidence score and an explanation of which existing links produced it. Accept the right ones; ignore the rest. Nothing is written without you."
+          ]
+        },
+        {
+          "h2": "5. Add the context while you remember it",
+          "body": [
+            "Key dates, a tag, a note on the timeline. This is the part people postpone and then lose."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How many people do I need before it is useful?",
+          "a": "The tree stops being empty at the first relationship. Suggestions start being useful at roughly ten to fifteen people."
+        },
+        {
+          "q": "What if a relative is not in my contacts?",
+          "a": "You can add them manually. They do not need a phone number."
+        },
+        {
+          "q": "Can two people share a tree?",
+          "a": "You can send a tree to another TreeLinker user, who saves the relationships into their own. It is a one-time transfer, not a shared document."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-contacts": {
+      "title": "How to organise family contacts",
+      "description": "A method for a large address book: relationships first, then groups for the shared spaces, then private tags for everything that cuts across them.",
+      "h1": "How to organise family contacts",
+      "lead": "Three passes over an address book you have been adding to for ten years.",
+      "answer": "Organise in three passes. First record relationships, so the address book knows who belongs to whom. Second, create groups for the real shared spaces — immediate family, your spouse's family, the neighbourhood. Third, add private tags for the labels that cut across groups, such as Doctor, Plumber or a city. Do them in that order: relationships make the groups obvious, and groups make the missing tags obvious.",
+      "sections": [
+        {
+          "h2": "Pass one: relationships",
+          "body": [
+            "Start with the people you contact most. Twenty relationships is enough for the structure of the family to appear, and it is the pass that makes the other two quick."
+          ]
+        },
+        {
+          "h2": "Pass two: groups",
+          "body": [
+            "A group should correspond to something real — a family that actually gathers, a street, a class. If nobody would ever be invited into it, it is a tag, not a group.",
+            "Groups carry a cover photo, an icon and a member list, and people join by invitation."
+          ]
+        },
+        {
+          "h2": "Pass three: tags",
+          "body": [
+            "Tags are private and cut across everything: Doctor, Electrician, Work, University, Emergency, a city name. Each has a colour and an icon so the list stays scannable.",
+            "TreeLinker will suggest tags it can infer from your contacts. As with relationships, suggestions are proposals — nothing is created without you."
+          ]
+        },
+        {
+          "h2": "What to skip",
+          "body": [
+            "Do not try to tag everybody. The value is in the twenty contacts you actually need to find again, not in a complete taxonomy you will never maintain."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Groups or tags — which should I use?",
+          "a": "If other people should see it and be invited into it, use a group. If it is a private label for your own filing, use a tag."
+        },
+        {
+          "q": "Can I rename a tag later?",
+          "a": "Yes. Tags can be edited or deleted from the Organization screen."
+        },
+        {
+          "q": "Is there a limit?",
+          "a": "No practical limit on groups, tags or members."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-family-relationships": {
+      "title": "How to keep track of family relationships",
+      "description": "Record the connections once, let reciprocal relationships and inference do the maintenance, and keep a timeline so you remember what happened as well as who is who.",
+      "h1": "How to keep track of family relationships",
+      "lead": "The problem is not learning who is who. It is remembering it five years later.",
+      "answer": "Record each relationship once, in one direction, and let the reverse be created automatically — that is what stops a family map from rotting. Let the app propose the relationships your existing ones imply rather than entering every cousin by hand. Then keep a short timeline on the people who matter, so you have a record of what happened and not only a diagram of who is related to whom.",
+      "sections": [
+        {
+          "h2": "Record once, in one direction",
+          "body": [
+            "Hand-maintained family maps fail because every fact has to be entered twice and eventually one half is missed. Reciprocal relationships remove that failure mode entirely."
+          ]
+        },
+        {
+          "h2": "Let inference do the tedious part",
+          "body": [
+            "Most relationships in a family are implied by others. Your sibling's child, your spouse's parent, your parent's sibling — none of these need to be entered if the underlying links exist.",
+            "TreeLinker proposes them with a confidence score and an explanation, and asks you when the type is ambiguous."
+          ]
+        },
+        {
+          "h2": "Keep a timeline, not just a tree",
+          "body": [
+            "A tree tells you the structure. A timeline tells you the history: when you last spoke, what was said, what went well.",
+            "Entries are newest-first and the important ones can be pinned so they stay at the top."
+          ]
+        },
+        {
+          "h2": "Use the calls you already get",
+          "body": [
+            "Incoming calls from people you know are recorded on their timeline, so the record of contact builds itself without you writing anything down."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "What if I record a relationship wrongly?",
+          "a": "Relationships can be edited or removed, and the reciprocal side is updated with them."
+        },
+        {
+          "q": "Does it track outgoing calls?",
+          "a": "No. TreeLinker never reads your call log. Only incoming calls seen through the call screening role are recorded."
+        },
+        {
+          "q": "Can I see how two people are connected?",
+          "a": "The tree shows the connections around a person. A direct \"path between any two people\" query is not available yet."
+        }
+      ]
+    },
+    "guides/how-to-organize-relatives": {
+      "title": "How to organise relatives into groups",
+      "description": "How to split an extended family into groups that stay useful, and when a private tag is the better tool.",
+      "h1": "How to organise relatives",
+      "lead": "One group called \"Family\" with ninety people in it is the same as no groups at all.",
+      "answer": "Split an extended family along the lines it already splits along in real life: your immediate family, your spouse's family, each grandparent's branch, the people in one city. A group should be something people could plausibly be invited into and post in. Anything that is really a private label about a person — their profession, how you know them, where they live — belongs in a tag instead, because tags are yours alone and cut across every group.",
+      "sections": [
+        {
+          "h2": "Follow the real divisions",
+          "body": [
+            "Families already have structure: branches, households, the ones who gather at Eid and the ones you see at weddings. Groups work when they match a gathering that actually happens."
+          ]
+        },
+        {
+          "h2": "Keep groups small enough to be used",
+          "body": [
+            "A group that is too large gets muted, and a muted group might as well not exist. If a poll in it would be irrelevant to half the members, split it."
+          ]
+        },
+        {
+          "h2": "Use tags for the crosscutting facts",
+          "body": [
+            "Relatives who are doctors, relatives in Cairo, relatives you only see at funerals. These cut across every branch and none of them belong to a shared space.",
+            "Tags are private, so you can label honestly."
+          ]
+        },
+        {
+          "h2": "Let the tree carry the genealogy",
+          "body": [
+            "Do not try to encode descent in group names. The tree already holds it, and it holds it better."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can a relative be in two groups?",
+          "a": "Yes, in as many as make sense."
+        },
+        {
+          "q": "Do group members see each other?",
+          "a": "Yes. A group is a shared space and members can see the member list."
+        },
+        {
+          "q": "Can I remove someone from a group?",
+          "a": "Yes, from the group's details screen."
+        }
+      ]
+    },
+    "guides/how-to-remember-family-birthdays": {
+      "title": "How to remember family birthdays and key dates",
+      "description": "Record birthdays and anniversaries as key dates on the people they belong to, and let the ones coming up surface on their own.",
+      "h1": "How to remember family birthdays",
+      "lead": "A date in a calendar is detached from the person. A date on the person is not.",
+      "answer": "Record each birthday or anniversary as a key date attached to the contact it belongs to, rather than as a calendar entry. Key dates recur every year, and the ones approaching appear in TreeLinker's upcoming events. Because the date sits on the person, opening that contact shows it alongside everything else you know about them — the relationship, the shared memories and the history of contact.",
+      "sections": [
+        {
+          "h2": "Key dates recur; events do not",
+          "body": [
+            "A key date is an anniversary that comes back every year — a birthday, a wedding date, the day someone died. An event happened once. Recording the right kind determines whether it ever surfaces again."
+          ]
+        },
+        {
+          "h2": "Add them while you are already there",
+          "body": [
+            "The moment to record a birthday is when you are looking at the person's contact for some other reason. A dedicated afternoon of data entry never happens."
+          ]
+        },
+        {
+          "h2": "Let upcoming events do the surfacing",
+          "body": [
+            "Key dates that are approaching appear in the upcoming events section, so you see them without having to go looking. There are no push reminders yet, so this works best if you open the app regularly."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will it send me a notification?",
+          "a": "Not today. Upcoming key dates surface inside the app; push reminders are not implemented yet."
+        },
+        {
+          "q": "Does it read birthdays from my phone contacts?",
+          "a": "Contacts carry a birthday field that TreeLinker can use. Key dates you add yourself are separate and richer."
+        },
+        {
+          "q": "Can a key date belong to a group?",
+          "a": "Yes. Groups can hold their own memories, including key dates."
+        }
+      ]
+    },
+    "guides/how-to-document-family-memories": {
+      "title": "How to document family memories",
+      "description": "Record family stories while the people who remember them are still here — attached to the people they are about, with photos, dates and places.",
+      "h1": "How to document family memories",
+      "lead": "Most family history is lost not to time but to nobody writing it down.",
+      "answer": "Attach each memory to the person it is about rather than filing it by date. Record it as a story if it is something worth retelling, an event if it happened once with people present, or a key date if it recurs. Add the photos that give it meaning, the place, and the date. Start with the oldest relatives, because theirs is the knowledge with a deadline.",
+      "sections": [
+        {
+          "h2": "Start with the people who hold the most",
+          "body": [
+            "Every family has one or two people who know how everyone is connected and what happened. Record their knowledge first. This is the only part of the task that is genuinely urgent."
+          ]
+        },
+        {
+          "h2": "Write it where it belongs",
+          "body": [
+            "A memory attached to a person is findable by opening that person. A memory in a chronological feed is findable only by scrolling.",
+            "Group memories work the same way for things the whole family did together."
+          ]
+        },
+        {
+          "h2": "A short record beats no record",
+          "body": [
+            "Three sentences and one photograph is a complete memory. Waiting until you have time to do it properly is how it ends up not being done at all."
+          ]
+        },
+        {
+          "h2": "Keep the details that locate it",
+          "body": [
+            "A date and a place turn an anecdote into a record. They are also what lets someone else, years later, connect it to something they know."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I attach more than one photo?",
+          "a": "Yes. Memories support photos along with a date and a place."
+        },
+        {
+          "q": "Can I record audio?",
+          "a": "Not currently. Memories are text, photos, dates and places."
+        },
+        {
+          "q": "Who can see a memory I add to a contact?",
+          "a": "Only you, unless it is a group memory, which the group's members can see."
+        }
+      ]
+    },
+    "compare/family-tree-vs-contact-manager": {
+      "title": "Family tree app vs contact manager — which do you need?",
+      "description": "A family tree app maps ancestry. A contact manager stores details. They answer different questions, and most people who want one actually want parts of both.",
+      "h1": "Family tree app vs contact manager",
+      "lead": "They look adjacent and solve almost opposite problems.",
+      "answer": "A family tree app answers \"how is this person related to my family\", usually about people who are no longer alive, and is built around records and ancestry. A contact manager answers \"what information do I have about this person\", about people you speak to, and is built around fields and organisation. Neither answers \"how is this living person connected to everyone else in my phone\" — which is the question TreeLinker is built for, and the reason it sits between the two categories.",
+      "table": {
+        "caption": "What each kind of app is actually for",
+        "head": [
+          "",
+          "Family tree app",
+          "Contact manager",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Main question",
+            "How am I related to my ancestors?",
+            "What do I know about this person?",
+            "How is this person connected to me?"
+          ],
+          [
+            "Typical subject",
+            "People who have died",
+            "People you contact",
+            "People you contact"
+          ],
+          [
+            "Starts from",
+            "A blank tree",
+            "Your address book",
+            "Your address book"
+          ],
+          [
+            "Historical records",
+            "Yes",
+            "No",
+            "No"
+          ],
+          [
+            "DNA matching",
+            "Often",
+            "No",
+            "No"
+          ],
+          [
+            "Phone numbers",
+            "Rarely",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Relationships between contacts",
+            "Yes",
+            "No",
+            "Yes"
+          ],
+          [
+            "Groups and labels",
+            "Limited",
+            "Yes",
+            "Yes"
+          ],
+          [
+            "Events and memories on people",
+            "Yes",
+            "Limited",
+            "Yes"
+          ],
+          [
+            "Caller identification",
+            "No",
+            "No",
+            "Yes"
+          ],
+          [
+            "Works offline",
+            "Rarely",
+            "Usually",
+            "Yes"
+          ]
+        ],
+        "note": "If you are researching ancestors born generations ago, use a genealogy service. TreeLinker holds the living family instead."
+      },
+      "sections": [
+        {
+          "h2": "Choose a genealogy app if",
+          "body": [
+            "You want to research ancestors, search census and parish records, work with DNA matches, or collaborate on a shared global tree. TreeLinker does none of these."
+          ]
+        },
+        {
+          "h2": "Choose a contact manager if",
+          "body": [
+            "Your problem is duplicates, syncing across accounts, business cards or backup. Dedicated contact managers do those better than TreeLinker does."
+          ]
+        },
+        {
+          "h2": "Choose TreeLinker if",
+          "body": [
+            "Your problem is that you cannot remember how the people in your phone are connected to each other, and you want that written down without typing everyone in again."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can one app do both?",
+          "a": "Partly. TreeLinker covers the relationship half of genealogy and the organisation half of contact management, but not historical research and not contact backup."
+        },
+        {
+          "q": "Can I import a tree from a genealogy service?",
+          "a": "Not today — GEDCOM import is not supported."
+        }
+      ]
+    },
+    "compare/family-tree-apps": {
+      "title": "Family tree apps compared — what each one is really for",
+      "description": "Genealogy services, collaborative trees and contact-first apps solve different problems. An honest comparison, including where TreeLinker is the wrong choice.",
+      "h1": "Family tree apps compared",
+      "lead": "The category contains at least three different products wearing the same name.",
+      "answer": "Family tree apps split into three kinds. Record-driven genealogy services are built on very large historical archives and DNA matching, and are aimed at researching ancestors. Collaborative trees focus on one shared global tree that many people edit. Contact-first apps, such as TreeLinker, map the living family already in your phone and hold no historical records at all. The right choice depends entirely on whether the people you care about are alive.",
+      "table": {
+        "caption": "Three kinds of family tree app",
+        "head": [
+          "",
+          "Record-driven genealogy",
+          "Collaborative global tree",
+          "Contact-first (TreeLinker)"
+        ],
+        "rows": [
+          [
+            "Built for",
+            "Researching ancestors",
+            "One shared tree many people edit",
+            "The living family in your phone"
+          ],
+          [
+            "Historical records",
+            "Very large collections",
+            "Some",
+            "None"
+          ],
+          [
+            "DNA matching",
+            "Usually",
+            "No",
+            "No"
+          ],
+          [
+            "Starting effort",
+            "High — type everyone in",
+            "High",
+            "Low — starts from your contacts"
+          ],
+          [
+            "Phone contacts",
+            "No",
+            "No",
+            "Core"
+          ],
+          [
+            "Relationship suggestions",
+            "Record hints",
+            "Some",
+            "From your own tree, with confidence scores"
+          ],
+          [
+            "Caller identification",
+            "No",
+            "No",
+            "Yes"
+          ],
+          [
+            "Price",
+            "Subscription",
+            "Free or freemium",
+            "Free"
+          ],
+          [
+            "Offline use",
+            "Limited",
+            "Limited",
+            "Full"
+          ]
+        ],
+        "note": "TreeLinker is not a genealogy tool. If you need records or DNA, it cannot help you."
+      },
+      "sections": [
+        {
+          "h2": "The most common complaint in the category",
+          "body": [
+            "Across reviews of genealogy apps, the recurring criticism is not accuracy — it is effort and speed. Pedigree views load slowly, everything has to be entered by hand, and there is often no compact list view for scanning names quickly."
+          ]
+        },
+        {
+          "h2": "Where a contact-first app helps",
+          "body": [
+            "Starting from the address book removes the data entry that stalls most people in the first session. The trade is that you get no records, so it is a complement to a genealogy service rather than a replacement for one."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Which family tree app is best?",
+          "a": "It depends on whether your subjects are living or dead. For ancestors, a record-driven genealogy service. For the living family in your address book, a contact-first app."
+        },
+        {
+          "q": "Can I use both?",
+          "a": "Yes, and many people should. They hold different halves of the same family."
+        }
+      ]
+    },
+    "compare/contact-management-apps": {
+      "title": "Contact management apps compared — organisation, CRM and relationships",
+      "description": "Sync-and-dedupe tools, personal CRMs and relationship-first apps solve different contact problems. Where each one fits, and where TreeLinker does not.",
+      "h1": "Contact management apps compared",
+      "lead": "Three different products, one category name.",
+      "answer": "Contact apps fall into three groups. Sync-and-clean tools focus on merging duplicates, backing up and keeping several accounts consistent. Personal CRMs focus on follow-up reminders, notes and keeping a professional network warm. Relationship-first apps, such as TreeLinker, focus on how the people in your address book are connected to you and to each other. TreeLinker does the third well and does not attempt the first two.",
+      "table": {
+        "caption": "What each kind of contact app is for",
+        "head": [
+          "",
+          "Sync & clean",
+          "Personal CRM",
+          "TreeLinker"
+        ],
+        "rows": [
+          [
+            "Main job",
+            "One tidy address book",
+            "Keep a network warm",
+            "Know who is who"
+          ],
+          [
+            "Duplicate merging",
+            "Yes",
+            "Yes",
+            "Collapses in lists only"
+          ],
+          [
+            "Backup and restore",
+            "Yes",
+            "Yes",
+            "Not yet"
+          ],
+          [
+            "Cross-account sync",
+            "Yes",
+            "Yes",
+            "Own account only"
+          ],
+          [
+            "Follow-up reminders",
+            "Sometimes",
+            "Yes",
+            "Not yet"
+          ],
+          [
+            "Notes per contact",
+            "Yes",
+            "Yes",
+            "Yes, as a timeline"
+          ],
+          [
+            "Business card scanning",
+            "Often",
+            "Often",
+            "No"
+          ],
+          [
+            "Relationships between contacts",
+            "No",
+            "No",
+            "Yes"
+          ],
+          [
+            "Family tree",
+            "No",
+            "No",
+            "Yes"
+          ],
+          [
+            "Groups and private tags",
+            "Labels",
+            "Some",
+            "Yes"
+          ],
+          [
+            "Caller identification",
+            "No",
+            "No",
+            "Yes, contacts only"
+          ],
+          [
+            "Price",
+            "Freemium",
+            "Subscription",
+            "Free"
+          ]
+        ],
+        "note": "If duplicates and backup are your problem, a sync-and-clean tool will serve you better today."
+      },
+      "sections": [
+        {
+          "h2": "What users of contact apps ask for most",
+          "body": [
+            "The consistent requests across this category are duplicate detection and merging, reliable backup, birthday and follow-up reminders, and one address book that stays consistent across accounts. TreeLinker currently addresses none of these directly, which is worth knowing before you install it."
+          ]
+        },
+        {
+          "h2": "What TreeLinker adds that the others do not",
+          "body": [
+            "No mainstream contact manager records how two contacts are related to each other. That single missing field is what a family tree, relationship-aware caller identification and relationship suggestions are all built from."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Should I replace my contact manager with TreeLinker?",
+          "a": "Only if relationships are your problem. If duplicates, backup and syncing are your problem, keep the tool you have."
+        },
+        {
+          "q": "Does TreeLinker change my phone's address book?",
+          "a": "No. It never writes to your address book on its own."
+        }
+      ]
+    },
+    "features/family-tree": {
+      "title": "Family tree — TreeLinker features",
+      "description": "An interactive family tree you can zoom and pan, built from your contacts, with colour-coded relationship types and automatic reciprocal links.",
+      "h1": "Family tree",
+      "lead": "The relationships you record, drawn.",
+      "answer": "TreeLinker draws your recorded relationships as an interactive family tree you can zoom and pan. Each relationship type — parent, child, sibling, spouse, friend, relative, other — has its own colour and icon, so a dense tree stays readable. The people in it come from the contacts already on your phone, and recording one direction of a relationship creates the reverse automatically.",
+      "sections": [
+        {
+          "h2": "Built from contacts, not forms",
+          "body": [
+            "Every person in the tree can be a contact you already have. Relatives with no phone record can be added manually."
+          ]
+        },
+        {
+          "h2": "Readable at a glance",
+          "body": [
+            "Colour and icon per relationship type, with zoom and pan, so the structure is visible without reading every label."
+          ]
+        },
+        {
+          "h2": "Shareable, on your terms",
+          "body": [
+            "A tree can be sent to another TreeLinker user. They see the same people under the names in their own address book, and choose what to save."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How large can a tree be?",
+          "a": "There is no set limit on the number of people or relationships."
+        },
+        {
+          "q": "Does it work offline?",
+          "a": "Yes, fully."
+        }
+      ]
+    },
+    "features/contacts": {
+      "title": "Contacts — TreeLinker features",
+      "description": "Your phone's address book, read on device, searchable, and extended with relationships, groups, tags, timelines and memories.",
+      "h1": "Contacts",
+      "lead": "The address book you already have, with somewhere to put what you know.",
+      "answer": "TreeLinker reads the contacts already on your device and keeps them there. The list filters as you type against a prebuilt index so a large address book stays fast. Each contact gains relationships, group memberships, private tags, a timeline and memories. TreeLinker never writes to your phone's address book on its own, and never uploads it.",
+      "sections": [
+        {
+          "h2": "Fast on a large address book",
+          "body": [
+            "Search filters against an index built once per list rather than re-scanning on every keystroke, so several thousand contacts stay responsive."
+          ]
+        },
+        {
+          "h2": "Duplicates collapsed in lists",
+          "body": [
+            "The same person often exists as several records — a device contact, a synced stub, a second number. TreeLinker folds them together wherever it shows a list, so nobody appears twice in a tree or a group."
+          ]
+        },
+        {
+          "h2": "Enriched, not exported",
+          "body": [
+            "Where a contact is also a TreeLinker user, their profile picture can be shown. Matching is done by comparing hashed phone numbers, and no names are exchanged."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does TreeLinker edit my phone contacts?",
+          "a": "No. Any change to your address book is something you make deliberately."
+        },
+        {
+          "q": "Does it merge duplicates permanently?",
+          "a": "Not yet. It collapses them for display only."
+        }
+      ]
+    },
+    "features/relationships": {
+      "title": "Relationships — TreeLinker features",
+      "description": "Seven relationship types, automatic reciprocal links, and suggestions with confidence scores and plain-language explanations.",
+      "h1": "Relationships",
+      "lead": "The field every other contact app is missing.",
+      "answer": "TreeLinker records how two contacts are related using seven types: parent, child, sibling, spouse, friend, relative and other. Recording one direction creates the reverse automatically. As the tree grows, the app proposes relationships the existing ones imply, each with a confidence score and an explanation of which links produced it — and asks you to pick the type when it is ambiguous.",
+      "sections": [
+        {
+          "h2": "Reciprocal by construction",
+          "body": [
+            "You never maintain both halves of a relationship. This is what keeps a family map from rotting over years of edits."
+          ]
+        },
+        {
+          "h2": "Suggestions, never silent writes",
+          "body": [
+            "Inferred relationships are proposals. Each carries a confidence score and a sentence explaining the reasoning, and nothing enters your tree without your acceptance."
+          ]
+        },
+        {
+          "h2": "What relationships unlock",
+          "body": [
+            "Once relationships exist, the tree can be drawn, a caller can be placed, tags can be suggested, and a tree can be shared in a way that means the same thing on someone else's phone."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I define a custom relationship type?",
+          "a": "There are seven built-in types, including 'other' for anything that does not fit."
+        },
+        {
+          "q": "What does the confidence score mean?",
+          "a": "How strongly your existing relationships imply the suggested one. It is shown alongside the reasoning so you can judge it yourself."
+        }
+      ]
+    },
+    "features/groups": {
+      "title": "Groups — TreeLinker features",
+      "description": "Private, invitation-only shared spaces for a family, a neighbourhood or a class, with polls, named discussions and shared memories.",
+      "h1": "Groups",
+      "lead": "Shared spaces that people are invited into.",
+      "answer": "A group is a private, invitation-only space for a set of people — a family, a neighbourhood, a class. It has a name, an icon, a cover photo and a member list, and members can run polls, hold named discussions and keep shared memories. Groups are the only part of TreeLinker that other people can see into, and nobody enters one without an invitation.",
+      "sections": [
+        {
+          "h2": "Polls",
+          "body": [
+            "One vote per member, changeable, with visible results and the option for the creator to close it. Built for the decision a family group keeps re-asking."
+          ]
+        },
+        {
+          "h2": "Discussions",
+          "body": [
+            "A named topic that stays findable months later, instead of a conversation buried in a chat scroll. A poll can be attached to one."
+          ]
+        },
+        {
+          "h2": "Shared memories",
+          "body": [
+            "A group can hold its own memories, so a trip everyone went on is filed under the group rather than one person."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can anyone find my group?",
+          "a": "No. Groups are invitation-only and not discoverable."
+        },
+        {
+          "q": "Can I leave a group?",
+          "a": "Yes, at any time."
+        }
+      ]
+    },
+    "features/tags": {
+      "title": "Tags — TreeLinker features",
+      "description": "Private labels with a colour, an icon and a list of assigned contacts. Nobody else ever sees them.",
+      "h1": "Tags",
+      "lead": "Private labels that cut across every group.",
+      "answer": "A tag is a private label you assign to contacts — Doctor, Plumber, Work, a city. It has a name, a colour, an icon, an optional description and a searchable list of assigned contacts. Tags are visible only to you, which is what makes them useful for labels you would never put in a shared space. TreeLinker can suggest tags from your contacts, but never creates one without you.",
+      "sections": [
+        {
+          "h2": "Private, unlike groups",
+          "body": [
+            "Groups are shared spaces with members. Tags are your own filing system and are never exposed to anyone."
+          ]
+        },
+        {
+          "h2": "Organised for scanning",
+          "body": [
+            "Each tag card shows its icon on its colour with the number of contacts assigned, and the list is sorted alphabetically with a search over the assigned contacts."
+          ]
+        },
+        {
+          "h2": "Suggested, not imposed",
+          "body": [
+            "TreeLinker can propose tags based on what it sees in your contacts. Suggestions are computed in the moment and never stored unless you accept them."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can two tags have the same name?",
+          "a": "No. Duplicate names are rejected regardless of capitalisation."
+        },
+        {
+          "q": "Is Favourite a tag?",
+          "a": "No, favourites are a separate feature."
+        }
+      ]
+    },
+    "features/events": {
+      "title": "Events and key dates — TreeLinker features",
+      "description": "Birthdays, weddings and anniversaries recorded on the people they belong to, with the ones approaching surfaced in the app.",
+      "h1": "Events and key dates",
+      "lead": "Dates that belong to a person, not to a calendar grid.",
+      "answer": "A key date is an anniversary that recurs every year — a birthday, a wedding, the day someone died — recorded on the contact it belongs to. Key dates that are approaching appear in TreeLinker's upcoming events, so you see them without going to look. Events are things that happened once, with a date and the people who were there.",
+      "sections": [
+        {
+          "h2": "Attached to the person",
+          "body": [
+            "Because the date sits on the contact, opening that person shows it next to the relationship, the timeline and whatever memories you have of them."
+          ]
+        },
+        {
+          "h2": "Surfaced as they approach",
+          "body": [
+            "Upcoming key dates are collected into their own section, so the next few weeks are visible at a glance."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Do I get a notification?",
+          "a": "Not yet. Upcoming dates surface inside the app; push reminders are not implemented."
+        },
+        {
+          "q": "Can a group hold key dates?",
+          "a": "Yes."
+        }
+      ]
+    },
+    "features/memories": {
+      "title": "Memories — TreeLinker features",
+      "description": "Shared stories, events and key dates with photos, dates and places, attached to the person or group they belong to.",
+      "h1": "Memories",
+      "lead": "Kept with the people they are about.",
+      "answer": "A memory in TreeLinker is a shared story, an event or a key date, attached to the contact or group it belongs to. It can carry photos, a date and a place. Because memories hang off a person rather than sitting in a feed, opening a contact shows what you have of them — which is the opposite of a social timeline, where only the most recent thing is findable.",
+      "sections": [
+        {
+          "h2": "Three kinds, because they behave differently",
+          "body": [
+            "Stories stay where you put them. Events happened once. Key dates recur every year and resurface on their own."
+          ]
+        },
+        {
+          "h2": "Photos, dates and places",
+          "body": [
+            "A memory can carry the photographs that give it meaning, the date it happened and where it was. Those details are what let someone connect it to something else years later."
+          ]
+        },
+        {
+          "h2": "Personal or shared",
+          "body": [
+            "Memories on a contact are yours. Memories in a group are visible to that group's members."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is there video support?",
+          "a": "No, not currently."
+        },
+        {
+          "q": "Is this a photo backup?",
+          "a": "No. TreeLinker holds the photos that belong to a memory, not your whole camera roll."
+        }
+      ]
+    },
+    "features/caller-identification": {
+      "title": "Caller identification — TreeLinker features",
+      "description": "A card that shows how an incoming caller is related to you, built entirely from your own contacts. No database, no uploads, nothing shown for strangers.",
+      "h1": "Caller identification",
+      "lead": "Placement, not identification.",
+      "answer": "When someone already in your contacts calls, TreeLinker shows a card with their name and how they are connected to you — for example \"Nadia — sibling of Safa\". Everything on it is read from your own device. There is no phone-number database, nothing is fetched while the phone rings, and if the caller is not someone you already know, no card is shown at all.",
+      "sections": [
+        {
+          "h2": "Only people you already have",
+          "body": [
+            "TreeLinker cannot name a stranger and does not try. A service that answers \"who owns this number\" lets anyone walk the number space and harvest identities, so TreeLinker never built one."
+          ]
+        },
+        {
+          "h2": "The Caller Name section",
+          "body": [
+            "Each contact shows exactly what will appear when that person calls. TreeLinker recommends it from your recorded relationships; you can accept, edit or clear it. It is private, and never shown to the person it describes."
+          ]
+        },
+        {
+          "h2": "Permissions it uses",
+          "body": [
+            "Android's call screening role, so the incoming number is visible, and permission to display over other apps so the card can appear. TreeLinker never requests call log access."
+          ]
+        },
+        {
+          "h2": "Calls on the timeline",
+          "body": [
+            "An incoming call from someone you know is recorded on that contact's timeline, so the history of contact builds itself."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does it identify unknown numbers?",
+          "a": "No, deliberately."
+        },
+        {
+          "q": "Does it block spam?",
+          "a": "No."
+        },
+        {
+          "q": "Is it available on iPhone?",
+          "a": "No. iOS has no equivalent call screening role."
+        }
+      ]
+    },
+    "guides/how-to-know-how-someone-is-related-to-you": {
+      "title": "How to know how someone is related to you",
+      "description": "You recognise the name but cannot place the person. A practical method for working out and then recording exactly how someone in your contacts is connected to you.",
+      "h1": "How to know how someone is related to you",
+      "lead": "Recognising a name is not the same as placing a person.",
+      "answer": "Work outward from someone you are certain about. If you know that Nadia is Safa's sister and Safa is your mother-in-law, then Nadia is your wife's aunt — the path does the work, not your memory. Record each step as a relationship the moment you establish it, because the reason you had to ask is that nobody wrote it down last time. Once the path exists in TreeLinker it is permanent, it works in both directions, and it is what the caller identification card reads from when that person next rings.",
+      "sections": [
+        {
+          "h2": "Start from a person you are sure of",
+          "body": [
+            "Almost nobody is connected to you directly by one unknown link. They are connected through someone you know well — a parent, a sibling, a spouse. Find the nearest person you are certain about and ask how the unknown person relates to them.",
+            "That turns one impossible question into two easy ones."
+          ]
+        },
+        {
+          "h2": "Ask the question that gets a useful answer",
+          "body": [
+            "\"How are we related?\" usually produces a vague answer. \"Whose side are you on, and who is your parent?\" produces a path.",
+            "Two steps are almost always enough. Beyond two steps the relationship has a name nobody uses in conversation anyway."
+          ]
+        },
+        {
+          "h2": "Write it down while you have it",
+          "body": [
+            "This is the part that matters. You have almost certainly worked this same relationship out before and then lost it.",
+            "Record each link as its own relationship — Nadia is Safa's sister; Safa is your wife's mother. TreeLinker creates the reverse of each one, and the path between you and Nadia now exists whether or not you remember it."
+          ]
+        },
+        {
+          "h2": "Let it answer the question next time",
+          "body": [
+            "Once the relationships are recorded, the family tree shows the connection visually, and an incoming call from that person shows their placement rather than just their name.",
+            "That is the whole point: you should have to work a relationship out once, not every few years."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can TreeLinker tell me the path between any two people?",
+          "a": "The family tree shows the connections around a person, so a short path is visible. A direct \"show me the path between these two\" query is not available yet."
+        },
+        {
+          "q": "What if the relationship has no simple name?",
+          "a": "Record the links that do have names — sibling, parent, spouse — and the chain between them describes the relationship precisely without needing a single word for it."
+        },
+        {
+          "q": "Do I need the other person to use the app?",
+          "a": "No. You record what you know on your own device."
+        }
+      ]
+    },
+    "guides/how-to-keep-track-of-in-laws": {
+      "title": "How to keep track of in-laws",
+      "description": "A spouse's family is a second family you joined as an adult, without growing up learning who is who. How to map it once so you stop guessing.",
+      "h1": "How to keep track of in-laws",
+      "lead": "You grew up learning your own family. Your spouse's family you were handed all at once.",
+      "answer": "Map your spouse's family as its own branch rather than trying to merge it into yours. Start by recording your spouse, then their parents, then their siblings, and let the in-law relationships follow from those links instead of entering each one by hand. Put that branch in its own group so it stays scannable, and record the spouses of their siblings too — those are the people whose names go first and whose connection is hardest to hold on to.",
+      "sections": [
+        {
+          "h2": "Build the branch from your spouse outward",
+          "body": [
+            "Every in-law relationship you have runs through one person. Record your spouse first, then their parents and siblings; everything else hangs off those three links.",
+            "You never need to record \"mother-in-law\" as such. Record that she is your spouse's mother, and the relationship to you follows."
+          ]
+        },
+        {
+          "h2": "Give it its own group",
+          "body": [
+            "A group called something like \"Wife's family\" keeps the branch legible and makes it obvious who you have not yet added.",
+            "Groups are shared spaces, so this also becomes the natural place for the people in it to see each other."
+          ]
+        },
+        {
+          "h2": "Record the siblings' spouses",
+          "body": [
+            "Brothers-in-law and sisters-in-law by marriage are the hardest group to keep straight, because they carry no shared surname and no shared childhood.",
+            "They are also the ones most likely to ring you out of the blue, which is exactly when a relationship-aware caller card earns its keep."
+          ]
+        },
+        {
+          "h2": "Add the context as you meet people",
+          "body": [
+            "A key date for a wedding anniversary, a tag for the city they live in, a note after a gathering. These are cheap at the time and impossible to reconstruct later."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is there an \"in-law\" relationship type?",
+          "a": "No, and there does not need to be. In-law relationships are derived from marriage plus blood relationships, which TreeLinker records directly."
+        },
+        {
+          "q": "Can I keep my spouse's family separate from mine?",
+          "a": "The tree is one graph, since the families really are connected through your marriage. Groups are what let you view and manage each side separately."
+        },
+        {
+          "q": "What about step-families?",
+          "a": "Use the relationship types that apply — parent, child, spouse, relative — and the 'other' type where nothing fits."
+        }
+      ]
+    },
+    "guides/how-to-remember-distant-relatives": {
+      "title": "How to remember distant relatives",
+      "description": "Second cousins, great-aunts and the people you see twice a decade. How to record enough that you recognise them next time without building a full genealogy.",
+      "h1": "How to remember distant relatives",
+      "lead": "The problem with distant relatives is not distance. It is that the gaps between meetings are longer than memory.",
+      "answer": "For a distant relative, record three things: the path that connects them to you, one detail you will actually recognise them by, and where you last saw them. That is enough. You do not need a full genealogical record of someone you see every few years — you need to place them at a wedding and not have to ask. Record the path through the nearest relative you know well, add a note to their timeline, and let the app hold it.",
+      "sections": [
+        {
+          "h2": "Record the path, not the label",
+          "body": [
+            "\"Second cousin once removed\" is a label almost nobody uses correctly and nobody finds meaningful. \"My grandmother's brother's granddaughter\" is a path, and it is what people actually say.",
+            "Record each link in that path and the connection is preserved exactly, without anyone needing the label."
+          ]
+        },
+        {
+          "h2": "Add one recognisable detail",
+          "body": [
+            "A profession, a city, who they usually come with. One concrete fact does more for recognition than a full set of dates.",
+            "A tag works well for this: a city, or a branch of the family."
+          ]
+        },
+        {
+          "h2": "Note where you last met",
+          "body": [
+            "A single timeline entry — \"met at Ahmed's wedding, June 2026\" — turns a stranger into someone you can place in one glance next time.",
+            "This is the entry that is worth pinning, because it is the one you will want first."
+          ]
+        },
+        {
+          "h2": "Accept that this is a small record",
+          "body": [
+            "Distant relatives do not need memories, photos and key dates. Three lines each is proportionate, and a record you will actually keep beats a thorough one you abandon."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How far out should I go?",
+          "a": "As far as the people you actually encounter. If you will never meet them, a genealogy service is the better tool."
+        },
+        {
+          "q": "What if I do not know their number?",
+          "a": "A relative can be added without a phone number."
+        },
+        {
+          "q": "Will the app tell me who they are when they call?",
+          "a": "Only if they are in your contacts. TreeLinker never identifies numbers you do not already have."
+        }
+      ]
+    },
+    "guides/how-to-manage-hundreds-of-contacts": {
+      "title": "How to manage hundreds of contacts",
+      "description": "An address book past a few hundred entries stops being a list and becomes a search problem. A practical approach to making a large contact list usable again.",
+      "h1": "How to manage hundreds of contacts",
+      "lead": "Past a few hundred people, an alphabetical list is a filing cabinet with no labels.",
+      "answer": "A large address book fails because alphabetical order encodes nothing you actually remember. Fix it in three moves: record relationships so people can be found through each other, add private tags for the handful of attributes you genuinely search by, and use search rather than scrolling. Do not attempt to classify everyone — the value sits in the fifty or so contacts you repeatedly need to find again, not in a complete taxonomy you will abandon by next month.",
+      "sections": [
+        {
+          "h2": "Why alphabetical stops working",
+          "body": [
+            "Sorting by name only helps when you remember the name. Past a certain size, the common failure is the opposite: you remember that someone is your uncle's neighbour, or the electrician your brother recommended, and not what they are saved as.",
+            "Every other organising scheme exists to cover that case."
+          ]
+        },
+        {
+          "h2": "Relationships make people findable through each other",
+          "body": [
+            "Once people are connected, you can reach a contact by navigating from someone you do remember. That is how you actually think about people you know through other people."
+          ]
+        },
+        {
+          "h2": "Tag only what you search by",
+          "body": [
+            "Tags earn their place when they answer a question you have actually asked: who is a doctor, who lives in this city, who do I call in an emergency.",
+            "Tagging everyone with everything produces a system nobody maintains. Five to ten tags used consistently beats fifty used once."
+          ]
+        },
+        {
+          "h2": "Search, and let duplicates collapse",
+          "body": [
+            "TreeLinker filters a large list against a prebuilt index as you type, so several thousand contacts stay fast.",
+            "The same person often exists as several records — a device contact, a second number, a synced stub. Those are folded together wherever a list is shown, so a crowded address book does not become a crowded tree."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Will it delete my duplicate contacts?",
+          "a": "No. It collapses duplicates when displaying lists; it does not merge the underlying records in your phone's address book."
+        },
+        {
+          "q": "Is there a limit on contacts?",
+          "a": "No practical limit. Search is indexed rather than re-scanned, so large lists stay responsive."
+        },
+        {
+          "q": "Do I have to organise everything before it is useful?",
+          "a": "No. Twenty relationships and a handful of tags already change how findable your address book is."
+        }
+      ]
+    },
+    "guides/how-to-add-tags-to-contacts": {
+      "title": "How to add tags to contacts",
+      "description": "Tags are private labels that cut across groups — Doctor, Plumber, a city. How to choose tags that stay useful and how assignment works in TreeLinker.",
+      "h1": "How to add tags to contacts",
+      "lead": "A tag is a label you will search by later. That is the whole test.",
+      "answer": "In TreeLinker, tags are created and managed from the Organization screen: give a tag a name, a colour, an icon and an optional description, then assign contacts to it from the tag's own detail view. Tags are private to you and cut across every group, which makes them the right place for labels like Doctor, Electrician or a city name. Before creating one, apply a single test: will you ever search by it? If not, it is a note, not a tag.",
+      "sections": [
+        {
+          "h2": "Where tags live",
+          "body": [
+            "Tags are managed in one place — the Organization screen, alongside groups — and contacts are assigned from inside a tag rather than from each contact's profile. That keeps assignment a single deliberate activity instead of a decision you face on every contact you open.",
+            "Each tag shows its icon on its colour along with the number of contacts assigned, and its detail view has a search over those contacts."
+          ]
+        },
+        {
+          "h2": "Choosing tags that survive",
+          "body": [
+            "Good tags answer a question you have actually asked out loud: who do I call about a leak, which relatives are in Cairo, who is on the emergency list.",
+            "Bad tags describe a feeling or a one-off. They get created, used once, and clutter the list forever."
+          ]
+        },
+        {
+          "h2": "Tags are private; groups are not",
+          "body": [
+            "Nobody else ever sees your tags. That is what makes them usable for honest labels you would never put in a shared space.",
+            "If other people should see it and be invited into it, you want a group instead."
+          ]
+        },
+        {
+          "h2": "Suggestions, not automation",
+          "body": [
+            "TreeLinker can propose tags based on what it sees in your contacts. Suggestions are computed in the moment and never stored unless you accept them, so the list stays yours."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I assign a tag from a contact's profile?",
+          "a": "No. Assignment is managed from the tag's detail view, which keeps it one deliberate activity."
+        },
+        {
+          "q": "Can two tags share a name?",
+          "a": "No. Duplicate names are rejected regardless of capitalisation."
+        },
+        {
+          "q": "How many tags can a contact have?",
+          "a": "As many as you like, and the contact can belong to groups at the same time."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-events": {
+      "title": "How to organize family events",
+      "description": "Family gatherings fall apart in group chats. How to settle the decision, keep the discussion findable, and record what happened afterwards.",
+      "h1": "How to organize family events",
+      "lead": "Most family events are not hard to plan. They are hard to decide.",
+      "answer": "Organise a family event in three stages, each in its own place. Settle the decision with a poll, so one vote per person replaces forty messages. Keep the planning in a named discussion, so it can be reopened months later instead of scrolling back through a chat. Then, after the event, record it as a memory attached to the people who were there, so next year you are not starting from nothing.",
+      "sections": [
+        {
+          "h2": "Decide with a poll, not a thread",
+          "body": [
+            "\"Where should we eat?\" is the single most common thing a family group needs to resolve, and a chat thread is a poor instrument for it: votes get buried, people repeat each other, and nobody can tell when it is settled.",
+            "A poll gives one vote per member, lets people change their mind without double-counting, shows who chose what, and can be closed when it is decided."
+          ]
+        },
+        {
+          "h2": "Plan in a named discussion",
+          "body": [
+            "Give the event a title — \"Eid Dinner 2026\" — and everything posted under it stays under it. Months later it is still a named entry in the group's list rather than four hundred messages back.",
+            "A poll can be attached to the discussion, so the argument and its outcome live in the same place."
+          ]
+        },
+        {
+          "h2": "Put the key date on the people it belongs to",
+          "body": [
+            "A recurring gathering is a key date, recorded on the contacts or the group it belongs to, and it will surface again on its own as it approaches."
+          ]
+        },
+        {
+          "h2": "Record it afterwards",
+          "body": [
+            "An event becomes a memory once it has happened: a short note, the photographs that matter, the date and the place, attached to the people who were there.",
+            "That record is what makes next year's version easier to plan and worth remembering."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can everyone in the group vote?",
+          "a": "Yes, one vote each. Changing a vote replaces the previous one rather than adding to it."
+        },
+        {
+          "q": "Can I reopen a discussion later?",
+          "a": "Yes. Discussions stay in the group's list under their title and can be reopened at any time."
+        },
+        {
+          "q": "Does it send invitations or track attendance?",
+          "a": "Not today. Group invitations exist for joining a group; per-event RSVP is not a feature."
+        }
+      ]
+    },
+    "guides/how-to-organize-family-photos-and-memories": {
+      "title": "How to organize family photos and memories",
+      "description": "Photo libraries are organised by date, which is the least useful way to find a family memory. How to organise by person instead.",
+      "h1": "How to organize family photos and memories",
+      "lead": "Your camera roll is sorted by the one thing you never remember: the exact date.",
+      "answer": "Stop organising family photographs chronologically and organise them by the people in them. Pick the small number of photographs that carry a story, attach each to the person or group it is about, and add the date, the place and two or three sentences of context. A photo library answers \"what did I take in June\"; a memory attached to a person answers \"what do I have of my grandmother\", which is the question anyone actually asks.",
+      "sections": [
+        {
+          "h2": "Date order is the wrong index",
+          "body": [
+            "Photo apps sort by capture date because that is what the file knows. But nobody searches their family history by date — they search by person, and occasionally by occasion.",
+            "The fix is not better search over ten thousand photos. It is picking the few dozen that mean something and filing them by who they are about."
+          ]
+        },
+        {
+          "h2": "Select ruthlessly",
+          "body": [
+            "A memory needs one to a handful of photographs, not the whole burst. The selection is most of the work and most of the value.",
+            "TreeLinker is not a photo backup service and does not try to be. Keep your backup where it is; put the meaningful images where they will be found."
+          ]
+        },
+        {
+          "h2": "Write the two sentences",
+          "body": [
+            "A photograph without context degrades into an unidentified face within one generation. Two sentences — who, where, what was happening — is the difference between a file and a record.",
+            "Add the date and the place while you still know them."
+          ]
+        },
+        {
+          "h2": "Attach it to a person or a group",
+          "body": [
+            "A memory on a contact shows up when you open that person. A group memory holds the things the whole family did together, so a trip everyone went on is not filed under one person arbitrarily."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Can I attach several photos to one memory?",
+          "a": "Yes, along with a date and a place."
+        },
+        {
+          "q": "Does it back up my photo library?",
+          "a": "No. It holds the photographs that belong to a memory, not your whole camera roll."
+        },
+        {
+          "q": "Is video supported?",
+          "a": "Not currently."
+        }
+      ]
+    },
+    "compare/what-is-a-family-relationship-app": {
+      "title": "What is a family relationship app?",
+      "description": "A category explainer: what a family relationship management app does, how it differs from a genealogy service, a contact manager and a caller ID app, and who it is for.",
+      "h1": "What is a family relationship app?",
+      "lead": "A category that sits between three better-known ones, and is usually described in terms of what it is not.",
+      "answer": "A family relationship app records how the living people in your address book are connected to you and to each other, and uses those connections to make the rest of your contacts more useful. It differs from a genealogy service, which researches ancestors through historical records; from a contact manager, which stores details about individuals but nothing about the links between them; and from a caller ID app, which identifies strangers using a shared database of phone numbers. The defining feature is the relationship itself — a field none of the other three record.",
+      "table": {
+        "caption": "Four adjacent categories, four different questions",
+        "head": [
+          "",
+          "Main question",
+          "Subject",
+          "Records relationships between contacts"
+        ],
+        "rows": [
+          [
+            "Genealogy service",
+            "How am I related to my ancestors?",
+            "People who have died",
+            "Yes, but for ancestors"
+          ],
+          [
+            "Contact manager",
+            "What do I know about this person?",
+            "People you contact",
+            "No"
+          ],
+          [
+            "Caller ID app",
+            "Who owns this number?",
+            "Strangers",
+            "No"
+          ],
+          [
+            "Family relationship app",
+            "How is this person connected to me?",
+            "People you contact",
+            "Yes — this is the defining feature"
+          ]
+        ],
+        "note": "The categories overlap in features but not in purpose. Most people who want one of them want parts of two."
+      },
+      "sections": [
+        {
+          "h2": "What such an app does",
+          "body": [
+            "At minimum it records relationships between contacts and draws them as a tree. In practice the relationships unlock everything else: relatives can be grouped, a memory can be attached to everyone who was there, a suggestion can be inferred from the links that already exist, and an incoming call can be described as a placement rather than a name."
+          ],
+          "list": [
+            "Relationships between the people in your address book",
+            "A family tree of living people, not ancestors",
+            "Groups and private labels that cut across them",
+            "Events and key dates attached to people",
+            "Memories and stories filed by person rather than by date",
+            "Relationship-aware caller identification, using only your own contacts"
+          ]
+        },
+        {
+          "h2": "Who it is for",
+          "body": [
+            "People with large extended families, where nobody has written down how everyone connects and one or two relatives hold all of it in their heads.",
+            "It is a poor fit for someone researching ancestors, and a poor fit for someone whose main problem is duplicate contacts or backup."
+          ]
+        },
+        {
+          "h2": "What it is not",
+          "body": [
+            "It is not a genealogy service: no historical records, no DNA matching. It is not a social network: nothing is public and there is no feed. And it is not a conventional caller ID app: it has no database of phone numbers and cannot name a stranger, because it never collects one."
+          ]
+        },
+        {
+          "h2": "How to tell if you need one",
+          "body": [
+            "One question settles it. When a name appears on your screen, do you sometimes know you should recognise it and cannot place the person? If the answer is yes more than occasionally, the missing information is relationships, and this is the category that stores them."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Is a family relationship app the same as a personal CRM?",
+          "a": "No. A personal CRM tracks your interactions with a professional network. A family relationship app tracks how people are connected to each other, which a CRM does not record at all."
+        },
+        {
+          "q": "Do I need one if I already use a genealogy service?",
+          "a": "They hold different halves of the same family — one the ancestors, the other the living. Many people reasonably use both."
+        },
+        {
+          "q": "Does it replace my contacts app?",
+          "a": "It reads the contacts already on your device and adds a layer on top. It does not write to your phone's address book on its own."
+        }
+      ]
+    }
+  }
+}
