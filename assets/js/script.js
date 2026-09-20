@@ -40,6 +40,23 @@
     }
   });
 
+  // ---------- App Store: not released yet ----------
+  const appStoreBtn = document.getElementById('app-store-btn');
+  const storeToast  = document.getElementById('store-toast');
+
+  if (appStoreBtn && storeToast) {
+    let hideTimer;
+    appStoreBtn.addEventListener('click', () => {
+      clearTimeout(hideTimer);
+      storeToast.hidden = false;
+      requestAnimationFrame(() => storeToast.classList.add('show'));
+      hideTimer = setTimeout(() => {
+        storeToast.classList.remove('show');
+        hideTimer = setTimeout(() => { storeToast.hidden = true; }, 250);
+      }, 2500);
+    });
+  }
+
   // ---------- Utility ----------
   function showAlert(el, type, message) {
     if (!el) return;
