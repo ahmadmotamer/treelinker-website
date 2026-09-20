@@ -737,7 +737,8 @@ ${footerHtml(loc.code, tt)}
   // compares exact contents, so these must NOT go through the head injector that
   // the other hand-written pages use.
   for (const f of fs.readdirSync(ROOT)) {
-    if (/^google[0-9a-f]+\.html$/.test(f) || /^BingSiteAuth\.xml$/.test(f)) {
+    if (/^google[0-9a-f]+\.html$/.test(f) || /^BingSiteAuth\.xml$/.test(f) ||
+        /^[0-9a-f]{8,128}\.txt$/.test(f)) {
       write(path.join(DIST, f), fs.readFileSync(path.join(ROOT, f), 'utf8'));
       console.log(`  verification file: ${f}`);
     }
