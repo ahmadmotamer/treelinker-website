@@ -1,5 +1,10 @@
 {
   "dependencies": {
     "neo4j-driver": "^6.2.0"
+  },
+  "scripts": {
+    "build": "./build.sh",
+    "deploy": "./build.sh && wrangler deploy",
+    "indexnow": "node submit-indexnow.js"
   }
 }
