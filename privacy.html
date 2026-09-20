@@ -45,7 +45,7 @@
     <header class="page-header">
       <div class="container">
         <h1>Privacy Policy</h1>
-        <p>Effective date: August 28, 2026</p>
+        <p>Effective date: September 13, 2026</p>
       </div>
     </header>
 
@@ -92,7 +92,7 @@
               <ul>
                 <li><strong>On-device storage is primary.</strong> Your family tree, contacts, memories, and photos are stored in a local database on your device. Every read operation hits local storage first, and the app remains fully usable while offline — anything you create while disconnected is saved locally and sent when a connection returns.</li>
                 <li><strong>Your data is saved to your account.</strong> The family connections, tags, memories, timeline entries, group membership and favourites you create are stored in our cloud database, so they can be restored if you reinstall the app or sign in on another device. There is currently no setting that turns this off. If you would prefer we did not hold your data, you can <a href="delete-account.html">delete your account</a>, which erases it.</li>
-                <li><strong>Your data is private to you.</strong> What you store is kept under your own account and is not visible to other users, unless you choose to share it — by adding a memory to a group, or by inviting someone to one.</li>
+                <li><strong>Your data is private to you.</strong> What you store is kept under your own account and is not visible to other users, unless you choose to share it — by adding a memory to a group, by inviting someone to one, or by sending a family tree or a tag to another user.</li>
                 <li><strong>You own your data.</strong> You can delete your data at any time. Account deletion permanently erases all of your information from both local storage and our remote servers.</li>
               </ul>
             </section>
@@ -117,7 +117,14 @@
               Photos are stored securely on your device. If cloud synchronization is enabled, photos are securely transmitted over encrypted connections and stored in our cloud database to keep your memories available across your devices.</p>
 
               <p><strong>Family Member Information</strong><br>
-              TreeLinker allows you to create family profiles for relatives and other individuals. You are responsible for ensuring that you have the right to store and share information about these individuals. Information about family members is only shared when you explicitly choose to invite other users or share a group.</p>
+              TreeLinker allows you to create family profiles for relatives and other individuals. You are responsible for ensuring that you have the right to store and share information about these individuals. Information about family members and other people in your contacts is only shared when you explicitly choose to invite other users, share a group, or send a family tree or a tag to another user.</p>
+
+              <p><strong>Caller Identification (Android only)</strong><br>
+              If you turn on Caller Identification in Settings, TreeLinker requests two Android permissions: <em>call screening</em>, so it can see an incoming call's number before you answer, and <em>display over other apps</em>, so it can show a card over your call screen. Both are optional, requested only when you enable the feature, and can be revoked at any time in your device's settings.</p>
+
+              <p>Matching happens entirely on your device: the incoming number is compared against your own saved contacts, and is never sent to our servers to identify who is calling. When it matches a contact you already hold, a card appears showing how you know them &mdash; a short phrase we suggest (for example "your cousin" or "Safa's sister") or one you have written yourself, any groups or tags you have given them, their birthday, and your most recent note about them. Because that note can appear on the ringing screen, anyone near your phone at that moment can read it. A caller who does not match a contact you already hold gets no card, and nothing about them is looked up, stored, or sent anywhere.</p>
+
+              <p>If you write your own phrase for how a contact appears (their "Caller Name"), it is stored on your account the same as any other note, so it is restored if you reinstall the app or sign in elsewhere. The phrases TreeLinker suggests for you are computed on your device and are not stored anywhere unless you keep one by editing it. Every identified call is also recorded as an entry on that contact's timeline, kept on your account like the rest of your timeline. None of this &mdash; the card, the Caller Name, or the call record &mdash; is ever visible to the caller or to any other TreeLinker user.</p>
 
               <p><strong>Push Notification Tokens</strong><br>
               To send you real-time alerts about group invitations and shared memories, we collect your device's Firebase Cloud Messaging (FCM) token. You can disable push notifications at any time in your device's system settings or in TreeLinker's Settings screen.</p>
@@ -161,6 +168,14 @@
                       <td>Location</td>
                       <td>Only when you choose to attach a location to a memory or use optional location-based features.</td>
                     </tr>
+                    <tr>
+                      <td>Call Screening (Android)</td>
+                      <td>Only if you enable Caller Identification in Settings. Lets TreeLinker see an incoming call's number before you answer, on your device, so it can show you how you know the caller. TreeLinker does not read your call history and cannot see who you have called.</td>
+                    </tr>
+                    <tr>
+                      <td>Display Over Other Apps (Android)</td>
+                      <td>Only if you enable Caller Identification in Settings. Lets the caller-identification card appear over your incoming-call screen.</td>
+                    </tr>
                   </tbody>
                 </table>
               </div>
@@ -199,6 +214,17 @@
               <p>The name and number are included so the person receiving the tree can recognise who is in it, and can add someone to their own contacts if they choose. They are used only for that. They are never added to our records of the people concerned, are never shown to anyone outside the share you sent, and never replace a name the recipient has saved themselves — the recipient always sees people under the names in their own address book.</p>
               <p>Nothing else about those people travels: no photo, notes, addresses, email addresses, events, organisations, memories or timeline entries. Someone with no phone number saved cannot be included in a shared tree at all.</p>
               <p>Please be aware that this means information you have saved about other people — including their phone numbers — is disclosed to the person you share with. Share only with people you would be comfortable giving that information to directly.</p>
+
+              <p><strong>Sharing a Tag</strong><br>
+              You can send another TreeLinker user one of your tags. This is always something you start deliberately, and you choose exactly who receives it.</p>
+              <p>When you do, the following is sent to the people you chose, and to nobody else:</p>
+              <ul>
+                <li>the tag's name, colour and icon. The tag's name also appears in the notification the recipient receives (for example, "Ahmed has sent you a Work tag");</li>
+                <li>for each person you have given that tag, <strong>the name and phone number you have saved for them</strong>.</li>
+              </ul>
+              <p><strong>The people in a tag do not have to be family.</strong> A shared family tree only ever contains people in that family, but a tag can hold colleagues, neighbours, or anyone else in your address book. Sharing a tag therefore discloses the names and phone numbers you have saved for people who are not part of any family tree you have recorded, and the fact that you grouped them together under that tag.</p>
+              <p>When the recipient chooses to save the tag, their app adds everyone in it to the recipient's own device address book, creating a new contact, under the name and number you saved, for anyone the recipient does not already have. It then gives the tag to all of them. People the recipient already has are not duplicated and keep the recipient's own names. The names and numbers you sent are not added to our records of the people concerned. Nothing else about those people travels: no photo, notes, addresses, email addresses, events, memories or timeline entries. Someone with no phone number saved cannot be included in a shared tag, and the app tells you how many people were left out.</p>
+              <p>Please be aware that this discloses information you have saved about other people — including their phone numbers — to the person you share with, and that it can end up in that person's address book. Share only with people you would be comfortable giving that information to directly.</p>
 
               <p><strong>Legal Requirements</strong><br>
               We may disclose your information if required by law, court order, or governmental authority, or to protect the rights, property, or safety of TreeLinker, our users, or the public.</p>
@@ -248,6 +274,7 @@
                 <li><strong>Push tokens</strong> — removed from our systems when you log out or delete your account.</li>
                 <li><strong>Group invitation records</strong> — retained for as long as the associated group exists.</li>
                 <li><strong>Shared family trees</strong> — the names and phone numbers included in a shared tree are held for <strong>30 days from the moment you send it</strong>, and are then permanently deleted, whether or not the recipient ever opened it. After that the share can no longer be opened. Relationships the recipient has already saved become part of their own records and remain, as any relationship they entered themselves would.</li>
+                <li><strong>Shared tags</strong> — the tag's name, and the names and phone numbers included in a shared tag, are held for <strong>30 days from the moment you send it</strong>, and are then permanently deleted, whether or not the recipient ever opened it. After that the share can no longer be saved. Contacts and tags the recipient has already saved become part of their own address book and records, and remain.</li>
               </ul>
               <p>If cloud synchronization is enabled, encrypted backup copies of synchronized data may temporarily exist as part of our disaster recovery procedures. These backups are retained only as long as necessary to ensure service reliability and are automatically removed according to our retention policies.</p>
               <p>You can initiate complete deletion of all your data at any time through <strong>Settings → Delete Account</strong> in the app.</p>
