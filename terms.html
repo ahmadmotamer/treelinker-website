@@ -11,27 +11,9 @@
 </head>
 <body>
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="container">
-      <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
-      <ul class="nav-links" role="list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-            <li><a href="child_safety_standards.html">Child Safety</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6"  x2="21" y2="6" />
-          <line x1="3" y1="12" x2="21" y2="12" />
-          <line x1="3" y1="18" x2="21" y2="18" />
-        </svg>
-      </button>
-    </div>
-  </nav>
+<!-- chrome:nav -->
 
-  <main>
+  <main id="main" tabindex="-1">
     <header class="page-header">
       <div class="container">
         <h1>Terms of Service</h1>
@@ -54,7 +36,7 @@
           </ul>
 
           <h2>2. The Service</h2>
-          <p>TreeLinker is a private, local-first family tree and memories mobile application available on iOS and Android. The app allows you to:</p>
+          <p>TreeLinker is a private, local-first family tree and memories mobile application available on Android. The app allows you to:</p>
           <ul>
             <li>Build and visualize a family relationship graph.</li>
             <li>Attach memories (photos, notes, dates, locations) to people in your tree.</li>
@@ -149,35 +131,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
-          <p>A private, local-first family tree and memories app for iOS and Android.</p>
-        </div>
-        <div class="footer-col">
-          <h4>App</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="delete-account.html">Delete Account</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>&copy; <span id="year"></span> TreeLinker. All rights reserved.</span>
-      </div>
-    </div>
-  </footer>
+<!-- chrome:footer -->
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="assets/js/script.js"></script>

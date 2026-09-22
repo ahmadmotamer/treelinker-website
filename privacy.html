@@ -15,33 +15,15 @@
     .priv-toc-list { list-style: none; border-left: 1px solid var(--color-border); }
     .priv-toc-list a { display: block; padding: .45rem 0 .45rem .9rem; font-size: .8rem; color: var(--color-text-muted); text-decoration: none; border-left: 2px solid transparent; margin-left: -1px; line-height: 1.4; transition: color .15s, border-color .15s; }
     .priv-toc-list a:hover, .priv-toc-list a.active { color: var(--color-primary); border-left-color: var(--color-primary); }
-    .priv-doc { padding-top: 3rem; padding-bottom: 5rem; max-width: 68ch; }
+    .priv-doc { padding-top: 3rem; padding-bottom: 5rem; max-width: 68ch; min-width: 0; }
     @media (max-width: 820px) { .priv-layout { grid-template-columns: 1fr; } .priv-toc { display: none; } }
   </style>
 </head>
 <body>
 
-  <nav class="site-nav" aria-label="Main navigation">
-    <div class="container">
-      <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
-      <ul class="nav-links" role="list">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="support.html">Support</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="privacy.html">Privacy</a></li>
-            <li><a href="child_safety_standards.html">Child Safety</a></li>
-      </ul>
-      <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
-        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <line x1="3" y1="6"  x2="21" y2="6" />
-          <line x1="3" y1="12" x2="21" y2="12" />
-          <line x1="3" y1="18" x2="21" y2="18" />
-        </svg>
-      </button>
-    </div>
-  </nav>
+<!-- chrome:nav -->
 
-  <main>
+  <main id="main" tabindex="-1">
     <header class="page-header">
       <div class="container">
         <h1>Privacy Policy</h1>
@@ -140,7 +122,7 @@
               <h2>4. App Permissions</h2>
               <p>TreeLinker requests access only to the permissions necessary to provide its features. You can grant or revoke these permissions at any time through your device settings.</p>
               <div style="overflow-x:auto;">
-                <table class="rights-table">
+                <div class="table-wrap"><table class="rights-table">
                   <thead>
                     <tr>
                       <th>Permission</th>
@@ -177,7 +159,7 @@
                       <td>Only if you enable Caller Identification in Settings. Lets the caller-identification card appear over your incoming-call screen.</td>
                     </tr>
                   </tbody>
-                </table>
+                </table></div>
               </div>
             </section>
 
@@ -237,7 +219,7 @@
               <h2>7. Third-Party Services</h2>
               <p>TreeLinker uses trusted third-party providers to operate certain features. These providers act only on our instructions and are not permitted to use your data for their own purposes.</p>
               <div style="overflow-x:auto;">
-                <table class="rights-table">
+                <div class="table-wrap"><table class="rights-table">
                   <thead>
                     <tr>
                       <th>Provider</th>
@@ -254,7 +236,7 @@
                       <td>Delivery of push notifications. Firebase processes your FCM token solely to route notifications to your device. We do not use any other Firebase product.</td>
                     </tr>
                   </tbody>
-                </table>
+                </table></div>
               </div>
             </section>
 
@@ -285,7 +267,7 @@
               <p>You have meaningful control over your data:</p>
 
               <div style="overflow-x:auto;">
-                <table class="rights-table">
+                <div class="table-wrap"><table class="rights-table">
                   <thead>
                     <tr>
                       <th>Right</th>
@@ -301,7 +283,7 @@
                     <tr><td>Restriction</td><td>Limit how we process your data in certain circumstances</td><td>Email treelinkerapp@gmail.com</td></tr>
                     <tr><td>Objection</td><td>Object to processing based on legitimate interests</td><td>Email treelinkerapp@gmail.com</td></tr>
                   </tbody>
-                </table>
+                </table></div>
               </div>
 
               <p><strong>California Residents (CCPA)</strong><br>
@@ -320,7 +302,7 @@
               <ul>
                 <li>Passwords are securely hashed using bcrypt before storage. We never hold your password in readable form.</li>
                 <li>All communication with cloud services is encrypted using HTTPS/TLS.</li>
-                <li>Session tokens are securely stored using the platform's secure storage mechanisms (iOS Keychain / Android Keystore).</li>
+                <li>Session tokens are securely stored using the platform's secure storage mechanism (Android Keystore).</li>
                 <li>Access to cloud infrastructure is restricted to authorized personnel only.</li>
                 <li>Password reset codes automatically expire after 24 hours and become invalid after repeated failed attempts.</li>
                 <li>Sessions expire automatically after 30 days of inactivity.</li>
@@ -365,35 +347,7 @@
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a href="index.html" class="nav-logo"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
-          <p>A private, local-first family tree and memories app for iOS and Android.</p>
-        </div>
-        <div class="footer-col">
-          <h4>App</h4>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="support.html">Support</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Legal</h4>
-          <ul>
-            <li><a href="privacy.html">Privacy Policy</a></li>
-            <li><a href="terms.html">Terms of Service</a></li>
-            <li><a href="delete-account.html">Delete Account</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>&copy; <span id="year"></span> TreeLinker. All rights reserved.</span>
-      </div>
-    </div>
-  </footer>
+<!-- chrome:footer -->
 
   <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
   <script src="assets/js/script.js"></script>

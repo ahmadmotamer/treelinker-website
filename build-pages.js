@@ -21,7 +21,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { BASE_URL, LOCALES, DEFAULT_LOCALE, PLAY_URL, PAGES, STATIC_PAGES } =
+const { BASE_URL, LOCALES, DEFAULT_LOCALE, PLAY_URL, SHOTS, PAGES, STATIC_PAGES } =
   require('./content/site.js');
 
 const ROOT = __dirname;
@@ -77,6 +77,31 @@ function alternates(slug) {
   return links.join('\n');
 }
 
+// One typeface, three weights. DM Sans is the app's own UI face (AppTextStyles)
+// and its variable axis reaches 800, so the display weight comes from the same
+// family rather than a second one — Lato was a whole extra font download buying
+// a heading weight this one already had.
+const FONTS_HREF =
+  'https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght' +
+  '@0,9..40,400;0,9..40,600;0,9..40,800;1,9..40,400&display=swap';
+
+/**
+ * The head tags every page needs and none of them carried consistently.
+ *
+ * The fonts were being pulled by an @import at the top of style.css, which
+ * serialises HTML -> CSS -> font CSS -> font files. Loading them here, behind a
+ * preconnect, starts the fetch with the document.
+ */
+const COMMON_HEAD = `  <meta name="theme-color" content="#FAFAF5" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#131C0C" media="(prefers-color-scheme: dark)" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="${FONTS_HREF}" />
+  <link rel="stylesheet" href="/assets/css/style.css" />
+  <link rel="manifest" href="/manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32.png" />
+  <link rel="apple-touch-icon" href="/assets/icons/apple-touch-icon.png" />`;
+
 function openGraph({ title, description, url, locale, type = 'website' }) {
   const ogLocale = locale === 'en' ? 'en_US' : locale;
   return [
@@ -86,11 +111,14 @@ function openGraph({ title, description, url, locale, type = 'website' }) {
     `  <meta property="og:description" content="${esc(description)}" />`,
     `  <meta property="og:url" content="${url}" />`,
     `  <meta property="og:locale" content="${ogLocale}" />`,
-    `  <meta property="og:image" content="${BASE_URL}/assets/icons/logo.png" />`,
+    `  <meta property="og:image" content="${BASE_URL}/assets/icons/og.jpg" />`,
+    `  <meta property="og:image:width" content="1200" />`,
+    `  <meta property="og:image:height" content="630" />`,
+    `  <meta property="og:image:alt" content="TreeLinker" />`,
     `  <meta name="twitter:card" content="summary_large_image" />`,
     `  <meta name="twitter:title" content="${esc(title)}" />`,
     `  <meta name="twitter:description" content="${esc(description)}" />`,
-    `  <meta name="twitter:image" content="${BASE_URL}/assets/icons/logo.png" />`,
+    `  <meta name="twitter:image" content="${BASE_URL}/assets/icons/og.jpg" />`,
   ].join('\n');
 }
 
@@ -130,7 +158,7 @@ function structuredData(page, locale, t, copy) {
       '@id': `${BASE_URL}/#org`,
       name: 'TreeLinker',
       url: BASE_URL,
-      logo: `${BASE_URL}/assets/icons/logo.png`,
+      logo: `${BASE_URL}/assets/icons/icon-512.png`,
     },
     {
       '@type': 'WebSite',
@@ -231,8 +259,11 @@ function navHtml(locale, t, currentSlug) {
       <ul class="nav-links" role="list">
 ${links}
           <li class="nav-lang">
-            <a href="#lang" class="nav-lang-toggle" aria-haspopup="true" aria-expanded="false">${esc(t.chrome.nav.language)}</a>
-            <ul class="nav-lang-menu" role="list">
+            <button type="button" class="nav-lang-toggle" aria-expanded="false" aria-controls="lang-menu">
+              ${esc(t.chrome.nav.language)}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <ul class="nav-lang-menu" id="lang-menu" role="list">
 ${picker}
             </ul>
           </li>
@@ -278,19 +309,21 @@ function identityStrip(locale, t) {
 
 function footerHtml(locale, t) {
   const col = (heading, items) => `        <div class="footer-col">
-          <h4>${esc(heading)}</h4>
+          <h2>${esc(heading)}</h2>
           <ul>
 ${items.map(([slug, label]) => `            <li><a href="${hrefFor(locale, slug)}">${esc(label)}</a></li>`).join('\n')}
           </ul>
         </div>`;
 
   const legal = `        <div class="footer-col">
-          <h4>${esc(t.chrome.footer.legal)}</h4>
+          <h2>${esc(t.chrome.footer.legal)}</h2>
           <ul>
             <li><a href="/privacy">${esc(t.chrome.footer.privacy)}</a></li>
             <li><a href="/terms">${esc(t.chrome.footer.terms)}</a></li>
             <li><a href="/delete-account">${esc(t.chrome.footer.deleteAccount)}</a></li>
             <li><a href="/support">${esc(t.chrome.footer.support)}</a></li>
+            <li><a href="/contact">${esc(t.chrome.footer.contact)}</a></li>
+            <li><a href="/child_safety_standards">${esc(t.chrome.footer.childSafety)}</a></li>
           </ul>
         </div>`;
 
@@ -309,8 +342,13 @@ ${col(t.chrome.groups.solutions, [
     ['family-memory-app', t.chrome.pages.familyMemoryApp],
     ['caller-identification', t.chrome.nav.callerId],
   ])}
-${col(t.chrome.groups.guides, PAGES.filter(p => p.group === 'guides')
-    .map(p => [p.slug, t.pages[p.slug].h1]))}
+${col(t.chrome.groups.guides, [
+    // Six, then the index. The footer listed every guide, which was fine at ten
+    // and is a wall at sixteen; the column is a sample plus a way into the rest.
+    ...PAGES.filter(p => p.group === 'guides').slice(0, 6)
+      .map(p => [p.slug, t.pages[p.slug].h1]),
+    ['guides', t.chrome.labels.allGuides],
+  ])}
 ${legal}
       </div>
       <div class="footer-bottom">
@@ -323,10 +361,10 @@ ${legal}
 
 function ctaHtml(locale, t, copy) {
   return `    <section class="section cta-band" id="download">
-      <div class="container" style="max-width:40rem;text-align:center;">
+      <div class="container is-centered">
         <h2 class="section-title">${esc(copy.ctaTitle || t.chrome.cta.title)}</h2>
         <p class="section-subtitle">${esc(copy.ctaBody || t.chrome.cta.body)}</p>
-        <div class="hero-actions" style="justify-content:center;">
+        <div class="hero-actions">
           <a href="${PLAY_URL}" class="btn btn-primary" target="_blank" rel="noopener">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M3.18 23.72c.35.2.74.28 1.14.24L15.88 12 12 8.12 3.18 23.72zm18.29-11.01L18.56 11l-3.12 1.75 3.13 3.13 2.9-1.63c.65-.38.65-1.16 0-1.54zM2.15 1.12a1.5 1.5 0 0 0-.21.72v20.28c0 .27.07.52.21.72L14.01 12 2.15 1.12z"/></svg>
             ${esc(t.chrome.cta.play)}
@@ -342,7 +380,7 @@ function ctaHtml(locale, t, copy) {
 function answerHtml(t, copy) {
   if (!copy.answer) return '';
   return `    <section class="section answer-block" aria-labelledby="direct-answer">
-      <div class="container" style="max-width:48rem;">
+      <div class="container is-narrow">
         <h2 id="direct-answer" class="answer-heading">${esc(t.chrome.labels.answer)}</h2>
         <p class="answer-body">${esc(copy.answer)}</p>
       </div>
@@ -359,7 +397,7 @@ function bodyHtml(copy) {
     return `        <h2>${esc(s.h2)}</h2>\n${paras}\n${list}`;
   }).join('\n');
   return `    <section class="section">
-      <div class="container prose" style="max-width:48rem;">
+      <div class="container prose is-narrow">
 ${blocks}
       </div>
     </section>`;
@@ -372,7 +410,7 @@ function tableHtml(copy) {
     `          <tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map(c => `<td>${esc(c)}</td>`).join('')}</tr>`
   ).join('\n');
   return `    <section class="section section-alt">
-      <div class="container" style="max-width:52rem;">
+      <div class="container is-narrow">
         <h2 class="section-title">${esc(copy.table.caption)}</h2>
         <div class="table-wrap">
         <table class="compare-table">
@@ -394,7 +432,7 @@ function faqHtml(t, copy) {
             <p>${esc(f.a)}</p>
           </div>`).join('\n');
   return `    <section class="section">
-      <div class="container" style="max-width:48rem;">
+      <div class="container is-narrow">
         <h2 class="section-title">${esc(t.chrome.labels.faq)}</h2>
         <div class="faq-list">
 ${items}
@@ -413,7 +451,7 @@ function relatedHtml(locale, t, page) {
             <p>${esc(c.description)}</p>
           </a>`;
   }).join('\n');
-  return `    <section class="section section-alt">
+  return `    <section class="section">
       <div class="container">
         <h2 class="section-title">${esc(t.chrome.labels.related)}</h2>
         <div class="grid-3">
@@ -438,17 +476,50 @@ function breadcrumbHtml(locale, t, page, copy) {
 
 // ------------------------------------------------------------- templates ----
 
-function homeExtras(locale, t, copy) {
+/**
+ * The home page's middle: a showcase of three screens with the text beside
+ * them, then the feature list, then the three steps.
+ *
+ * The showcase rows alternate side to side. That rhythm is the only thing
+ * telling a reader they have moved from one idea to the next — there is no
+ * card, no border and no shadow doing it.
+ */
+function homeExtras(page, locale, t, copy) {
+  const shots = page.showcaseShots || [];
+  const rows = (copy.showcase || []).map((row, i) => {
+    const media = deviceSingle(shots[i], t, { h1: row.h2 });
+    const reversed = i % 2 === 1 ? ' is-reversed' : '';
+    return `        <div class="feature-row${reversed}">
+          <div class="feature-copy">
+            <h2>${esc(row.h2)}</h2>
+            <p>${esc(row.p)}</p>
+          </div>
+          <div class="feature-media">
+${media}
+          </div>
+        </div>`;
+  }).join('\n');
+
+  const showcase = rows ? `    <section class="section" id="showcase">
+      <div class="container">
+${rows}
+      </div>
+    </section>` : '';
+
   const cards = (copy.cards || []).map(c => `          <div class="card">
             <h3>${esc(c.h3)}</h3>
             <p>${esc(c.p)}</p>
           </div>`).join('\n');
-  const steps = (copy.steps || []).map((s, i) => `          <div class="step">
-            <div class="step-n" aria-hidden="true">${i + 1}</div>
-            <h3>${esc(s.h3)}</h3>
-            <p>${esc(s.p)}</p>
+
+  const steps = (copy.steps || []).map((s2, i) => `          <div class="step">
+            <div class="step-n" aria-hidden="true">0${i + 1}</div>
+            <h3>${esc(s2.h3)}</h3>
+            <p>${esc(s2.p)}</p>
           </div>`).join('\n');
-  return `    <section class="section section-alt" id="features">
+
+  return `${showcase}
+
+    <section class="section section-alt" id="features">
       <div class="container">
         <h2 class="section-title">${esc(copy.featuresTitle)}</h2>
         <p class="section-subtitle">${esc(copy.featuresSubtitle)}</p>
@@ -461,11 +532,52 @@ ${cards}
     <section class="section" id="how-it-works">
       <div class="container">
         <h2 class="section-title">${esc(copy.stepsTitle)}</h2>
-        <div class="grid-3">
+        <div class="grid-3 steps">
 ${steps}
         </div>
       </div>
     </section>`;
+}
+
+/**
+ * A phone screenshot.
+ *
+ * The alt text is built from the locale's template and the page's own h1, so
+ * eleven translations do not each need a caption written by hand — and no
+ * English caption is smuggled into a Ukrainian page. Intrinsic width and height
+ * come from the registry, which is what stops the image reserving the wrong box
+ * and shoving the heading down as it loads.
+ */
+function shotImg(shotKey, t, copy, { eager = false, decorative = false } = {}) {
+  const shot = SHOTS[shotKey];
+  if (!shot) return '';
+  const alt = decorative
+    ? '' : String(t.chrome.labels.shotAlt || '%s').replace('%s', copy.h1);
+  const loading = eager
+    ? ' fetchpriority="high" decoding="async"'
+    : ' loading="lazy" decoding="async"';
+  return `<figure class="device"><img src="/assets/images/app/${shot.file}.png" ` +
+    `alt="${esc(alt)}" width="${shot.w}" height="${shot.h}"${loading} /></figure>`;
+}
+
+/** One phone beside a block of text. */
+function deviceSingle(shotKey, t, copy, opts) {
+  const img = shotImg(shotKey, t, copy, opts);
+  return img ? `        <div class="device-single">${img}</div>` : '';
+}
+
+/**
+ * Two phones, angled, for the home hero.
+ *
+ * Only the first carries alt text. The pair is one picture of one app, and
+ * giving the second phone the same sentence would make a screen reader read
+ * the headline twice for no added information.
+ */
+function devicePair(a, b, t, copy) {
+  const first = shotImg(a, t, copy, { eager: true });
+  const second = shotImg(b, t, copy, { eager: true, decorative: true });
+  if (!first) return '';
+  return `        <div class="device-pair">${first}${second}</div>`;
 }
 
 function renderPage(page, locale, t) {
@@ -488,31 +600,58 @@ ${openGraph({
     title: copy.title, description: copy.description, url, locale: loc.hreflang,
     type: page.kind === 'guide' || page.kind === 'compare' ? 'article' : 'website',
   })}
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="manifest" href="/manifest.webmanifest" />
-  <link rel="icon" type="image/png" href="/assets/icons/logo.png" />
+${COMMON_HEAD}
   <script type="application/ld+json">
 ${structuredData(page, locale, t, copy)}
   </script>
 </head>
-<body class="page-${page.kind}">`;
+<body class="page-${page.kind}">
+  <a class="skip-link" href="#main">${esc(t.chrome.labels.skip)}</a>`;
 
-  const hero = `    <section class="hero${page.slug ? ' hero-compact' : ''}">
+  // The opening band. Home gets the asymmetric split with two phones; every
+  // other page gets the same band, shorter, with one phone where the registry
+  // names a screen for it and nothing where it does not.
+  const heroActions = `          <div class="hero-actions">
+            <a href="${PLAY_URL}" class="btn btn-primary" target="_blank" rel="noopener">${esc(t.chrome.cta.play)}</a>
+            <a href="${hrefFor(locale, 'caller-identification')}" class="btn btn-outline">${esc(t.chrome.cta.secondary)}</a>
+          </div>`;
+
+  let hero;
+  if (!page.slug) {
+    hero = `    <section class="hero">
+      <div class="container hero-split">
+        <div>
+          <h1>${esc(copy.h1)}</h1>
+          <p>${esc(copy.lead)}</p>
+${heroActions}
+        </div>
+${devicePair(page.shot, page.shotB, t, copy)}
+      </div>
+    </section>`;
+  } else if (page.shot) {
+    hero = `    <section class="hero hero-compact">
+      <div class="container hero-split">
+        <div>
+          <h1>${esc(copy.h1)}</h1>
+          <p>${esc(copy.lead)}</p>
+        </div>
+${deviceSingle(page.shot, t, copy, { eager: true })}
+      </div>
+    </section>`;
+  } else {
+    hero = `    <section class="hero hero-compact">
       <div class="container">
         <h1>${esc(copy.h1)}</h1>
         <p>${esc(copy.lead)}</p>
-        ${page.slug ? '' : `<div class="hero-actions">
-          <a href="${PLAY_URL}" class="btn btn-primary" target="_blank" rel="noopener">${esc(t.chrome.cta.play)}</a>
-          <a href="${hrefFor(locale, 'caller-identification')}" class="btn btn-outline brand-text">${esc(t.chrome.cta.secondary)}</a>
-        </div>`}
       </div>
     </section>`;
+  }
 
   const main = [
     breadcrumbHtml(locale, t, page, copy),
     hero,
     answerHtml(t, copy),
-    page.kind === 'home' ? homeExtras(locale, t, copy) : '',
+    page.kind === 'home' ? homeExtras(page, locale, t, copy) : '',
     bodyHtml(copy),
     tableHtml(copy),
     faqHtml(t, copy),
@@ -525,7 +664,7 @@ ${structuredData(page, locale, t, copy)}
 
 ${navHtml(locale, t, page.slug)}
 
-  <main>
+  <main id="main" tabindex="-1">
 ${main}
   </main>
 
@@ -541,30 +680,114 @@ ${footerHtml(locale, t)}
 // ------------------------------------------- hand-written page head patch ---
 
 /**
- * The legal/support pages keep their hand-written bodies. They only gain the
- * head tags they never had: canonical, Open Graph, and an en/x-default hreflang
- * pair (they are English-only by an existing product decision).
+ * The legal/support pages keep their hand-written bodies — and nothing else.
+ *
+ * They used to carry their own <nav> and <footer>, which is exactly the drift
+ * this generator exists to prevent: three different footers, two different
+ * navs, no language picker, and "for iOS and Android" on a page whose own CTA
+ * says Android only. The chrome now comes from the same functions the
+ * generated pages use, spliced in at two required markers.
+ *
+ * The picker points at each locale's home rather than a translated copy of the
+ * page, because these pages are English-only. The hreflang tags still say so.
  */
-function patchStaticPage(file) {
+function patchStaticPage(file, t) {
   const src = fs.readFileSync(path.join(ROOT, file), 'utf8');
   // Cloudflare's asset handling serves `foo.html` at `/foo` and 307s the `.html`
   // form to it. A canonical pointing at the redirecting URL is a self-inflicted
   // wound, so every URL this build emits names the extensionless form.
-  const url = `${BASE_URL}/${file.replace(/\.html$/, '')}`;
+  const slug = file.replace(/\.html$/, '');
+  const url = `${BASE_URL}/${slug}`;
   const titleMatch = src.match(/<title>([\s\S]*?)<\/title>/i);
   const descMatch = src.match(/<meta\s+name="description"\s+content="([^"]*)"/i);
   const title = titleMatch ? titleMatch[1].trim() : 'TreeLinker';
   const description = descMatch ? descMatch[1] : '';
 
+  let out = src;
+
+  for (const marker of ['chrome:nav', 'chrome:footer']) {
+    if (!out.includes(`<!-- ${marker} -->`)) {
+      throw new Error(`${file}: missing <!-- ${marker} --> marker`);
+    }
+  }
+
+  out = out
+    .replace('<!-- chrome:nav -->',
+      `<a class="skip-link" href="#main">${esc(t.chrome.labels.skip)}</a>\n` +
+      staticNavHtml(t, slug))
+    .replace('<!-- chrome:footer -->', footerHtml(DEFAULT_LOCALE, t));
+
+  // Every internal link in the hand-written bodies still named the `.html`
+  // form, so every one of them cost a redirect and defeated the active-nav
+  // check. Rewrite them to the URLs the canonicals already claim.
+  out = out.replace(/(href|src)="(?!https?:|mailto:|#|\/)([a-z0-9_./-]+?)(\.html)?((?:#[^"]*)?)"/gi,
+    (m, attr, name, ext, hash) => {
+      if (!ext) return `${attr}="/${name}${hash}"`;          // assets/js/script.js
+      if (name === 'index') return `${attr}="/${hash}"`;      // index.html -> /
+      return `${attr}="/${name}${hash}"`;
+    });
+
+  // Idempotent: never inject twice if the source already carries a canonical.
+  if (/rel="canonical"/.test(out)) return out;
+
   const inject = `  <link rel="canonical" href="${url}" />
   <link rel="alternate" hreflang="en" href="${url}" />
   <link rel="alternate" hreflang="x-default" href="${url}" />
 ${openGraph({ title, description, url, locale: 'en' })}
+${COMMON_HEAD}
 `;
 
-  // Idempotent: never inject twice if the source already carries a canonical.
-  if (/rel="canonical"/.test(src)) return src;
-  return src.replace(/<\/head>/i, `${inject}</head>`);
+  // The hand-written heads carried their own stylesheet/manifest/icon tags;
+  // COMMON_HEAD is now the single source for them.
+  out = out.replace(/^[ \t]*<link rel="(?:stylesheet|manifest|icon|apple-touch-icon)"[^>]*>\r?\n/gim, '');
+
+  return out.replace(/<\/head>/i, `${inject}</head>`);
+}
+
+/**
+ * The static pages get the product nav, so a reader crossing from / to /privacy
+ * does not lose it. The language picker links to each locale's home.
+ */
+function staticNavHtml(t, currentSlug) {
+  const items = [
+    ['', t.chrome.nav.home],
+    ['family-tree-app', t.chrome.nav.familyTree],
+    ['family-contact-manager', t.chrome.nav.contacts],
+    ['caller-identification', t.chrome.nav.callerId],
+    ['guides', t.chrome.nav.guides],
+    ['compare', t.chrome.nav.compare],
+  ];
+  const links = items.map(([slug, label]) =>
+    `          <li><a href="${hrefFor(DEFAULT_LOCALE, slug)}">${esc(label)}</a></li>`
+  ).join('\n');
+
+  const picker = LOCALES.map(l =>
+    `            <li><a href="${hrefFor(l.code, '')}" hreflang="${l.hreflang}"${
+      l.code === DEFAULT_LOCALE ? ' aria-current="true"' : ''}>${esc(l.name)}</a></li>`
+  ).join('\n');
+
+  return `  <nav class="site-nav" aria-label="${esc(t.chrome.nav.aria)}">
+    <div class="container">
+      <a href="/" class="nav-logo" aria-label="TreeLinker"><span class="nav-logo-img" aria-hidden="true"></span> TreeLinker</a>
+      <ul class="nav-links" role="list">
+${links}
+          <li class="nav-lang">
+            <button type="button" class="nav-lang-toggle" aria-expanded="false" aria-controls="lang-menu">
+              ${esc(t.chrome.nav.language)}
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><polyline points="6 9 12 15 18 9"/></svg>
+            </button>
+            <ul class="nav-lang-menu" id="lang-menu" role="list">
+${picker}
+            </ul>
+          </li>
+      </ul>
+      <button class="nav-toggle" aria-label="${esc(t.chrome.nav.menu)}" aria-expanded="false">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="3" y1="6"  x2="21" y2="6" /><line x1="3" y1="12" x2="21" y2="12" /><line x1="3" y1="18" x2="21" y2="18" />
+        </svg>
+      </button>
+    </div>
+  </nav>`;
 }
 
 // -------------------------------------------------------------- sitemap -----
@@ -683,7 +906,7 @@ function main() {
       const members = PAGES.filter(p => p.group === group);
       const tt = t[loc.code];
       const cards = members.map(p => `          <a class="card related-card" href="${hrefFor(loc.code, p.slug)}">
-            <h3>${esc(tt.pages[p.slug].h1)}</h3>
+            <h2>${esc(tt.pages[p.slug].h1)}</h2>
             <p>${esc(tt.pages[p.slug].description)}</p>
           </a>`).join('\n');
       const url = urlFor(loc.code, group);
@@ -697,12 +920,12 @@ function main() {
   <link rel="canonical" href="${url}" />
 ${alternates(group)}
 ${openGraph({ title: `${tt.chrome.groups[group]} — TreeLinker`, description: tt.chrome.groupDescriptions[group], url, locale: loc.hreflang })}
-  <link rel="stylesheet" href="/assets/css/style.css" />
-  <link rel="icon" type="image/png" href="/assets/icons/logo.png" />
+${COMMON_HEAD}
 </head>
 <body class="page-index">
+  <a class="skip-link" href="#main">${esc(tt.chrome.labels.skip)}</a>
 ${navHtml(loc.code, tt, group)}
-  <main>
+  <main id="main" tabindex="-1">
     <section class="hero hero-compact">
       <div class="container">
         <h1>${esc(tt.chrome.groups[group])}</h1>
@@ -730,7 +953,7 @@ ${footerHtml(loc.code, tt)}
   }
 
   for (const s of STATIC_PAGES) {
-    write(path.join(DIST, s.file), patchStaticPage(s.file));
+    write(path.join(DIST, s.file), patchStaticPage(s.file, t[DEFAULT_LOCALE]));
     count++;
   }
   // Search-engine site verification files. Copied byte-for-byte: the verifier
@@ -744,7 +967,9 @@ ${footerHtml(loc.code, tt)}
     }
   }
 
-  write(path.join(DIST, '404.html'), fs.readFileSync(path.join(ROOT, '404.html'), 'utf8'));
+  // The 404 is served for arbitrary paths, so every URL in it must be
+  // site-absolute — a relative asset path resolves against the missing page.
+  write(path.join(DIST, '404.html'), patchStaticPage('404.html', t[DEFAULT_LOCALE]));
   write(path.join(DIST, 'manifest.webmanifest'), fs.readFileSync(path.join(ROOT, 'manifest.webmanifest'), 'utf8'));
   write(path.join(DIST, 'sitemap.xml'), sitemap());
   write(path.join(DIST, 'robots.txt'), robots());

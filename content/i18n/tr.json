@@ -32,7 +32,10 @@
       "answer": "Kısa yanıt",
       "faq": "Sık sorulanlar",
       "related": "İlgili sayfalar",
-      "breadcrumb": "Gezinme yolu"
+      "breadcrumb": "Gezinme yolu",
+      "skip": "İçeriğe geç",
+      "shotAlt": "%s — TreeLinker Android uygulamasında",
+      "allGuides": "Tüm rehberler"
     },
     "cta": {
       "title": "Zaten sahip olduğunuz kişilerle başlayın",
@@ -49,7 +52,9 @@
       "deleteAccount": "Hesabı sil",
       "support": "Destek",
       "rights": "Tüm hakları saklıdır.",
-      "madeWith": "Şununla yapıldı"
+      "madeWith": "Şununla yapıldı",
+      "contact": "İletişim",
+      "childSafety": "Çocuk güvenliği"
     },
     "identity": {
       "category": "bir aile ilişkileri yönetimi uygulaması",
@@ -165,6 +170,20 @@
         {
           "q": "Ailemin de kurması gerekir mi?",
           "a": "Hayır. Tüm ailenizi tek başınıza haritalayabilirsiniz. Ağacı başka bir kullanıcıyla paylaşmak isteğe bağlı ve tek seferliktir — sonrasında hiçbir şey eşitlenmeye devam etmez."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "Ağaç kendini çiziyor",
+          "p": "İki kişiyi bir kez bağlayın, ters yöndeki ilişki sizin için oluşturulsun. Dışa doğru devam edin — eş, kardeş, çocuk — ve ailenin biçimi ortaya çıksın; iki kez doldurduğunuz bir formdan değil, telefonunuzda zaten duran kişilerden kurulmuş olarak."
+        },
+        {
+          "h2": "Ağacınızın zaten ima ettiğini öneriyor",
+          "p": "Kardeşinizin oğlu sizin yeğeniniz. TreeLinker bunu kendisi çıkarır, kimi bulduğunu ve nedenini gösterir, sonra bekler. Siz işaretlemeden arşivinize hiçbir şey girmez."
+        },
+        {
+          "h2": "Buluşmalar için gruplar, gerisi için etiketler",
+          "p": "Grup; üyeleri, anketleri ve tartışmaları olan ortak bir alandır — bir aile, bir sokak, bir sınıf. Etiket ise size özel bir yaftadır: İş arkadaşları, Eczane, bir şehir adı. Hepsinin içinden geçer ve başkası onu hiç görmez."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "Kişiler uygulamamın yerini alır mı?",
           "a": "Cihazınızdaki kişileri okur ve üzerine bir katman ekler. Telefonunuzun rehberine kendiliğinden yazmaz."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "Telefon rehberi nasıl düzenlenir",
+      "description": "On yıllık bir rehber için bir akşamlık yöntem: ölü kayıtları silin, kopyaları birleştirin, insanları arayacağınız gibi adlandırın, sonra yalnızca gerçekten bulmanız gerekenleri etiketleyin.",
+      "h1": "Telefon rehberi nasıl düzenlenir",
+      "lead": "Dört geçiş, bu sırayla. İşin çoğu silmek.",
+      "answer": "Dört geçişte çalışın ve bir sonrakine başlamadan öncekini bitirin. Ölmüş kayıtları silin, kopyaları birleştirin, adları arayacağınız biçimde yeniden yazın ve ancak ondan sonra adıyla değil rolüyle aradığınız birkaç düzine kişiyi etiketleyin. Rehberlerin çoğu dağınık değildir; etiketsiz ve yarı ölüdür — gerçek işi bu yüzden silme geçişi yapar.",
+      "sections": [
+        {
+          "h2": "Düzenlemeye değil, silmeye başlayın",
+          "body": [
+            "On yıldır birikmiş bir rehber çoğunlukla arkeolojidir: 2016'da çıktığınız evin emlakçısı, artık var olmayan bir şirketin üç numarası, tek bir tatilden kalma bir taksici. Bunların hiçbiri asla aranmayacak, ve listeyi kaydırmayı işe yaramaz kılan tam da bunlar.",
+            "Listeyi tek bir soruyla bir kez baştan sona geçin: bunu hiç arar mıyım? İlk «hayır»da silin. Bin kişilik bir rehber genelde yirmi dakikada üçte birini kaybeder ve bundan sonraki her geçiş bu sayede hızlanır."
+          ]
+        },
+        {
+          "h2": "Bir şeyi yeniden adlandırmadan önce kopyaları birleştirin",
+          "body": [
+            "Kopyalar aynı kişinin iki kez gelmesinden doğar: bir kez SIM'den, bir kez e-posta hesabından, bir kez mesajlaşma uygulamasından. Bir kopyanın iki yarısını da yeniden adlandırmak boşa emektir; önce birleştirin. Android'in Kişiler uygulamasında tam eşleşmeleri bulan bir «Birleştir ve düzelt» ekranı vardır; yakın eşleşmeleri sizin görmeniz gerekir."
+          ],
+          "list": [
+            "Aynı ad, iki numara — iki numarayı da tek kişide tutun.",
+            "Aynı numara, iki ad — gerçekten arayacağınız adı tutun.",
+            "«Anne» ile «Annem», ya da ülke koduyla ve kodsuz iki kez kayıtlı bir cep — bunlar asla tam eşleşme olarak çıkmaz.",
+            "Numarası ve e-postası olmayan bir ad kişi değildir. Kendinize bıraktığınız bir nottur."
+          ]
+        },
+        {
+          "h2": "İnsanları arayacağınız gibi adlandırın",
+          "body": [
+            "Ad alanı bir arama dizinidir, yafta değil. «Ahmet elektrikçi» diye arayacaksanız, ad odur. Dört tane Ahmet varsa hiçbiri yalnızca «Ahmet» olarak kayıtlı olmamalı.",
+            "Bir kural seçin ve herkese uygulayın: ad, soyad, sonra ayırt eden şey. Hangi kuralı seçtiğiniz, her seferinde aynısını kullanmanızdan çok daha az önemlidir; çünkü arama kutusu yalnızca ayırt edici sözcük hep aynı yerdeyse işinize yarar."
+          ]
+        },
+        {
+          "h2": "Gerçekten ihtiyaç duyduğunuz yirmi kişiyi etiketleyin",
+          "body": [
+            "Herkesin başlamak istediği geçiş budur ve sona bırakılması gereken de budur — bu noktada liste artık görülebilecek kadar kısadır. Etiketler — Android bunlara etiket, TreeLinker tag der — adıyla değil işleviyle aradığınız kişiler içindir: diş hekimi, tesisatçı, okul, acil durumda arayacağınız dört kişi.",
+            "Herkesi etiketlemeye çalışmayın. Sürdürmeyeceğiniz bir sınıflandırma hiç olmamasından kötüdür; listeyi düzenli gösterirken sessizce yanlış kalır."
+          ]
+        },
+        {
+          "h2": "Düzenlemenin çözemediği şey",
+          "body": [
+            "Bunların hiçbiri bu insanların birbirine kim olduğunu söylemez. Rehber tasarımı gereği düz bir listedir: Angelina'nın numarasını ve Micheal'ın numarasını bilir, birinin diğerinin kız kardeşi olduğunu bilmez. Sürekli kaybettiğiniz şey hangi kuzen, kimin eniştesi, arayan kim sorusuysa, bu bir düzen sorunu değil bir ilişki sorunudur — ve TreeLinker'ın az önce temizlediğiniz listenin üstüne eklediği katman tam olarak budur."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Bu ne kadar sürer?",
+          "a": "Bin kişi için yaklaşık bir saat, çoğu silme geçişinde. Beş dakikalık parçalar yerine tek oturuşta yapın: birleştirme ve yeniden adlandırma ancak listenin tamamını görebiliyorsanız işe yarar."
+        },
+        {
+          "q": "Silmeli mi arşivlemeli mi?",
+          "a": "Android'de arşiv yok. Silmek içinizi rahatsız ediyorsa önce tüm rehberin vCard kopyasını dışa aktarın, sonra gönül rahatlığıyla silin — o kopya sizin geri al tuşunuz."
+        },
+        {
+          "q": "Etiketler yeni telefona geçer mi?",
+          "a": "Bir Google hesabı içinde oluşturulan etiketler o hesapla eşitlenir. Yalnızca cihazda oluşturulanlar cihazda kalır; insanlar telefon değiştirirken bu yüzden kaybeder."
+        },
+        {
+          "q": "TreeLinker telefon rehberimi değiştirir mi?",
+          "a": "Rehberinizde hiçbir şeyi yeniden adlandırmaz, birleştirmez ve silmez — kendi ilişkilerini, etiketlerini ve notlarını onun yanında tutar. Rehberinize yazdığı tek an, başka bir kullanıcının paylaştığı bir etiketi kabul ettiğiniz andır: o etiketteki, sizde henüz olmayan kişiler eklenir."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "Telefon rehberi güvenli biçimde nasıl yedeklenir",
+      "description": "Eşitleme yedek değildir. Beş dakikalık hesap ayarı, üç ayda bir vCard dışa aktarımı ve o dosyanın neden sahip olduğunuz en hassas dosya olduğu.",
+      "h1": "Telefon rehberi güvenli biçimde nasıl yedeklenir",
+      "lead": "İki kopya, iki ayrı gerekçeyle: biri telefonu izler, diğeri izlemez.",
+      "answer": "Kişilerinizin yalnızca cihaza değil bir Google ya da iCloud hesabına yazılması için hesap eşitlemesini açın, sonra birkaç ayda bir vCard dosyası dışa aktarıp onu denetiminizdeki şifreli bir yerde saklayın. Eşitleme kayıp telefondan kurtarır; tarihli dışa aktarım ise silmeden kurtarır, çünkü eşitleme bir hatayı da her şey kadar sadakatle kopyalar. Ve o dosyaya ne olduğunu bilerek davranın: tanıdığınız herkesin düz metin listesi.",
+      "sections": [
+        {
+          "h2": "Eşitleme yedek değildir",
+          "body": [
+            "Eşitleme iki kopyayı birebir aynı tutar. Telefon nehre düştüğünde tam da istediğiniz şey budur; yanlışlıkla kırk kişiyi sildiğinizde ise tam da istemediğiniz şey — silme işlemi saniyeler içinde bütün cihazlarınıza kopyalanır.",
+            "Yedek, aslı değiştiğinde değişmeyen kopyadır. Eşitleme tanımı gereği böyle değildir. O yüzden ikisini birden yapın: hesap telefonun kaybını atlatır, tarihli dışa aktarım sizi atlatır."
+          ]
+        },
+        {
+          "h2": "Hesap eşitlemesini açın",
+          "body": [
+            "Beş dakika, bir kere. Bir kişinin hangi hesaba ait olduğu, telefon değişiminde kişilerin kaybolmasının açık ara en yaygın nedenidir: cihaza ya da SIM'e kaydedilmişlerdir ve ikisi de taşınmaz."
+          ],
+          "list": [
+            "Android: Ayarlar, sonra Şifreler ve hesaplar, sonra Google hesabınız, sonra Hesap eşitlemesi — ve Kişiler'in açık olduğunu doğrulayın.",
+            "Ardından Kişiler'i açıp yeni bir kayıt başlatın ve hangi hesaba kaydetmeyi önerdiğine bakın. «Cihaz» ya da «SIM» yazıyorsa eklediğiniz hiçbir şey hiçbir yere eşitlenmiyordur.",
+            "iPhone: Ayarlar, sonra adınız, sonra iCloud, sonra Kişiler.",
+            "İki hesap kullanıyorsanız — biri kişisel, biri iş — hangisinin gerçek rehber olduğuna karar verin. İkiye bölünmüş rehberler, ailenin yarısının tek bir telefonda kalmasının sebebidir."
+          ]
+        },
+        {
+          "h2": "Bir vCard dışa aktarın ve dosya adına tarihi yazın",
+          "body": [
+            "Her kişiler uygulaması .vcf dosyası yazabilir: rehberin tamamını taşıyan, her telefonun, her posta programının ve her başka kişiler uygulamasının okuyabildiği tek bir düz metin dosyası. Bir tane çıkarın, adına bugünün tarihini koyun ve telefon olmayan bir yerde saklayın.",
+            "Bunu üç ayda bir yapın; ayrıca rehberleri yiyen üç anın öncesinde mutlaka: telefon değişimi, Google hesabı değişimi ve büyük bir temizlik."
+          ]
+        },
+        {
+          "h2": "Dışa aktardığınız dosya tanıdığınız herkesin dosyasıdır",
+          "body": [
+            "«Güvenli» sözcüğünün işaret ettiği kısım burası. Bir .vcf dosyasının parolası da şifrelemesi de yoktur. Yüzlerce insana dair kaydettiğiniz her adı, numarayı, e-posta adresini, ev adresini, doğum gününü ve notu içerir; bunların hiçbiri orada olmayı seçmemiştir. Dosyayı kendinize e-postayla göndermek onu yıllarca bir posta kutusunda bırakır; paylaşılan bir bulut klasörüne koymak ise onu paylaşmaktır."
+          ],
+          "list": [
+            "Şifreli bir yerde tutun: parolalı bir arşiv, şifreli bir disk ya da dosya eki alabilen bir parola yöneticisi.",
+            "Kendinize e-postayla göndermeyin ve başkasının açabileceği bir klasöre koymayın.",
+            "Yenisini aldığınızda eskisini silin. Üç yıllık bayat kopyalar üç kat risk, sıfır ek güvenlik demektir.",
+            "«Kişi yedekleme» diye tanıtılan uygulamalara dikkat. Mağaza açıklamalarında yedekleme çoğu zaman sunucumuza yükleme anlamına gelir ve kimin sunucusu olduğu nadiren yazar."
+          ]
+        },
+        {
+          "h2": "TreeLinker nereye oturur, nereye oturmaz",
+          "body": [
+            "TreeLinker rehberinizin yedeği değildir ve öyleymiş gibi sunmak dürüst olmaz. Kişilerinizi yüklemez: onlardan alınan tek şey, tanıdıklarınızdan hangilerinin TreeLinker kullandığını kontrol etmeye yarayan, biçimi standartlaştırılmış bir telefon numarasıdır. Notlar, ev adresleri, e-posta adresleri ve kişi fotoğrafları cihazda okunur ve cihazda kalır.",
+            "Hesabınızda tutulan şey, sizin kurduğunuz katmandır: ilişkiler, ağaca yerleştirdiğiniz her kişi için kaydettiğiniz ad, etiketleriniz, anılarınız, zaman çizelgesi kayıtlarınız, grup üyelikleriniz ve favorileriniz. Uygulamayı yeniden kurduğunuzda ya da yeni bir telefonda oturum açtığınızda geri gelen budur. Yapı geri gelir, rehber gelmez — vCard'a hâlâ bu yüzden ihtiyacınız var."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker kişilerimi yedekler mi?",
+          "a": "Hayır, bunun için yapılmadı. Oluşturduğunuz ilişkileri, etiketleri, anıları ve zaman çizelgesi kayıtlarını, ayrıca aile ağacına yerleştirdiğiniz kişiler için kaydettiğiniz adı saklar. Rehberin kendisi telefonunuzda ve onu eşitlediğiniz hesapta kalır."
+        },
+        {
+          "q": "Google Kişiler tek başına yeter mi?",
+          "a": "Kayıp telefon için evet. Yanlışlıkla silme için Google, Kişiler, Ayarlar, Değişiklikleri geri al altında otuz günlük bir geri alma tutar. Otuz günden sonra yalnızca kendi dışa aktarımınız işe yarar."
+        },
+        {
+          "q": "Ne sıklıkla dışa aktarmalıyım?",
+          "a": "Çoğu kişi için üç ayda bir yeter; ayrıca her telefon değişiminden ve her büyük temizlikten önce birer kez."
+        },
+        {
+          "q": "Peki SIM ya da mesajlaşma uygulaması yedekleri?",
+          "a": "SIM yalnızca ad ve numaradan oluşan birkaç yüz kayıt tutar — ikinci numara yok, e-posta yok, fotoğraf yok. Mesajlaşma uygulamaları kendi sohbetlerini yedekler, rehberinizi değil. İkisi de vCard'ın yerini tutmaz."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "Rehberinizi TreeLinker'da saklamak güvenli mi?",
+      "description": "Dürüst yanıt: onu TreeLinker'da hiç saklamıyorsunuz. Telefonunuzdan tam olarak ne çıkıyor, ne kalıyor, hesabınızda ne tutuluyor ve asıl düşünülmeyi hak eden kısım hangisi.",
+      "h1": "Rehberinizi TreeLinker'da saklamak güvenli mi?",
+      "lead": "Kısa yanıt: saklamıyorsunuz. Rehber telefonda kalıyor. Uzun yanıt şöyle.",
+      "answer": "Rehberinizi TreeLinker'da saklamıyorsunuz — o cihazınızda kalıyor. Ondan alınan tek şey, kişilerinizden hangilerinin uygulamayı zaten kullandığını denetlemek için gönderilen, biçimi standartlaştırılmış bir telefon numarası. TreeLinker'ın hesabınızda tuttuğu şey, içinde sizin oluşturduklarınız: ilişkiler, ağaca yerleştirdiğiniz kişiler için kaydettiğiniz ad, etiketler, anılar, zaman çizelgesi kayıtları ve grup üyelikleri. Kişi notları, ev adresleri, e-posta adresleri ve kişi fotoğrafları telefonu hiç terk etmez; arayan tanıma işlemi ise tamamen cihazda yapılır.",
+      "sections": [
+        {
+          "h2": "Telefondan tam olarak ne çıkıyor",
+          "body": [
+            "Bir gizlilik yanıtı ancak liste hâlindeyse bir değer taşır. Listenin tamamı şu:"
+          ],
+          "list": [
+            "Kişilerinizden alınan, biçimi standartlaştırılmış telefon numaraları — hangilerinin TreeLinker kullandığını bulmak için.",
+            "Bir kişiyi ağacınıza yerleştirdiğiniz anda onun için kaydettiğiniz ad — yeniden kurduğunuzda ya da başka bir yerde oturum açtığınızda adıyla geri gelsin diye.",
+            "Kaydettiğiniz ilişkiler ve bunların oluşturduğu ağacın biçimi.",
+            "Etiketler, anılar ve onlara eklediğiniz fotoğraflarla yerler, zaman çizelgesi kayıtları, grup üyelikleri ve favoriler.",
+            "Kendi profiliniz: ad, e-posta adresi, telefon numarası, ülke ve eklediğiniz isteğe bağlı bilgiler.",
+            "Bildirimlerin cihazınıza ulaşabilmesi için bir bildirim anahtarı."
+          ]
+        },
+        {
+          "h2": "Ne kalıyor",
+          "body": [
+            "Kişi notları, ev adresleri, e-posta adresleri, kişi fotoğrafları ve rehberinizdeki diğer tüm alanlar cihazda okunur ve hiçbir zaman yüklenmez.",
+            "Arayan tanıma tamamen telefonda yapılır. Gelen numara, sizde zaten bulunan kişilerle karşılaştırılır ve kimin aradığını sormak için hiçbir sunucuya gönderilmez. Üründe paylaşılan bir ters numara rehberi yoktur: kaydetmediğiniz bir arayan için kart çıkmaz, o kişiyle ilgili hiçbir şey aranmaz, saklanmaz ve gönderilmez."
+          ]
+        },
+        {
+          "h2": "Asıl düşünülmesi gereken kısım paylaşım",
+          "body": [
+            "İnsanların sorduğu soru saklama; asıl önemli olan paylaşım. Başka bir kullanıcıya bir aile ağacı ya da bir etiket göndermek, içindeki her kişi için kaydettiğiniz adı ve telefon numarasını da göndermek demektir. Ağaçta bunlar akrabadır. Etikette ise herkes olabilir — iş arkadaşları, komşular, bir tesisatçı listesi — ve alıcı etiketi kaydettiğinde, içindeki henüz onda olmayan herkes onun kendi rehberine eklenir.",
+            "Bu, başkalarının numaralarının gerçek anlamda ifşasıdır ve bunu siz yaparsınız. Yalnızca o numaraları yüksek sesle okumaya razı olacağınız biriyle paylaşın. Teslim için tutulan veri otuz gün sonra geçersizleşir ve silinir; alıcı onu hiç açmamış olsa bile."
+          ]
+        },
+        {
+          "h2": "Arayan kartını odadaki herkes okuyabilir",
+          "body": [
+            "Arayan tanıma açıkken gelen çağrının üstündeki kart, kişiyi nereden tanıdığınızı, gruplarını ve etiketlerini, doğum gününü ve onunla ilgili en son notunuzu gösterir. Bu kart çalan bir telefonda belirir; yani yanında duran herkes o notu okuyabilir. Bir kişinin zaman çizelgesine açık sözlü bir şey yazmadan önce bilmekte fayda var."
+          ]
+        },
+        {
+          "h2": "Uygulamanın yapmadıkları",
+          "body": [
+            "Bir ürünün güvenliğinin bir kısmı, hiç inşa edilmemiş olanlarda saklıdır."
+          ],
+          "list": [
+            "Reklam yok, reklam için profilleme yok.",
+            "Üçüncü taraf analitik SDK'sı yok, çerez yok — bu bir yerel uygulama, tarayıcı değil.",
+            "Hiçbir şey satılmaz, kiralanmaz, takas edilmez; kimseye, hiçbir amaçla.",
+            "Herkese açık numara rehberi yok; siz bilerek paylaşmadıkça başka bir kullanıcının kayıtlarınızı görmesinin yolu da yok.",
+            "Parolalar bcrypt ile özetlenir ve hiçbir zaman okunabilir biçimde tutulmaz; her şey TLS üzerinden gider; oturum anahtarları Android Keystore'da durur ve otuz günlük hareketsizlikten sonra geçersizleşir."
+          ]
+        },
+        {
+          "h2": "Hepsinin silinmesini istiyorsanız",
+          "body": [
+            "Şu anda hesapta saklamayı kapatan bir ayar yok — oluşturduklarınız, yeniden kurulumu atlatsın diye hesabınıza kaydediliyor. Elinizdeki denetim silmedir ve eksiksizdir: Ayarlar, sonra Hesabı Sil, verilerinizi hem cihazdan hem sunuculardan kalıcı olarak temizler. Aynı istek bu sitedeki hesap silme sayfasından da yapılabilir.",
+            "Kişiler izni ve arayan tanımaya ait iki isteğe bağlı izin, Android'in kendi ayarlarından istediğiniz zaman geri alınabilir."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker kişilerimi yükler mi?",
+          "a": "Yalnızca biçimi standartlaştırılmış telefon numaralarını ve yalnızca kişilerinizden hangilerinin TreeLinker kullandığını eşleştirmek için. Her kaydın geri kalanı cihazınızda kalır."
+        },
+        {
+          "q": "Başka bir kullanıcı ağacımdakileri görebilir mi?",
+          "a": "Hayır. Kaydettikleriniz, siz bilerek paylaşmadıkça hesabınıza özeldir — bir gruba anı eklemek, birini gruba davet etmek ya da belirli bir kişiye ağaç veya etiket göndermek dışında."
+        },
+        {
+          "q": "Arayan tanıma internette arama yapıyor mu?",
+          "a": "Hayır. Eşleştirme cihazda, sizde zaten bulunan kişilere karşı yapılır. Bilinmeyen numaralar hiç tanımlanmaz, çünkü karşılaştırılacak bir şey yoktur."
+        },
+        {
+          "q": "Veriler gerçekte nerede duruyor?",
+          "a": "Bulut tabanlı bir çizge veritabanı olan Neo4j AuraDB'de, kendi hesabınız altında ve şifreli bağlantılar üzerinden. Firebase Cloud Messaging bildirimleri iletir ve bir cihaz anahtarından başka hiçbir şey almaz."
+        },
+        {
+          "q": "Her şeyi nasıl silerim?",
+          "a": "Uygulamada Ayarlar, sonra Hesabı Sil — ya da bu sitedeki hesap silme sayfasındaki form. Verileriniz hem cihazdan hem sunucularımızdan kalıcı olarak silinir."
         }
       ]
     }

@@ -20,6 +20,13 @@
 	"name": "treelinker",
 	"compatibility_date": "2026-08-28",
 	"assets": {
-		"directory": "./dist"
+		"directory": "./dist",
+		/**
+		 * Without this, a missing path returns an empty body with a bare 404 and
+		 * `404.html` is uploaded but never served — which is what was happening.
+		 * "404-page" serves the nearest 404.html and keeps the 404 status, so
+		 * crawlers still see the page is gone.
+		 */
+		"not_found_handling": "404-page"
 	}
 }

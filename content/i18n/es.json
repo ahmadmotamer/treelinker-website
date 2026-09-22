@@ -32,7 +32,10 @@
       "answer": "Respuesta breve",
       "faq": "Preguntas frecuentes",
       "related": "Páginas relacionadas",
-      "breadcrumb": "Ruta de navegación"
+      "breadcrumb": "Ruta de navegación",
+      "skip": "Saltar al contenido",
+      "shotAlt": "%s, en la aplicación TreeLinker para Android",
+      "allGuides": "Todas las guías"
     },
     "cta": {
       "title": "Empieza con los contactos que ya tienes",
@@ -49,7 +52,9 @@
       "deleteAccount": "Eliminar cuenta",
       "support": "Soporte",
       "rights": "Todos los derechos reservados.",
-      "madeWith": "Hecho con"
+      "madeWith": "Hecho con",
+      "contact": "Contacto",
+      "childSafety": "Seguridad infantil"
     },
     "identity": {
       "category": "una app de gestión de relaciones familiares",
@@ -165,6 +170,20 @@
         {
           "q": "¿Mi familia también tiene que instalarla?",
           "a": "No. Puedes mapear a toda tu familia por tu cuenta. Compartir un árbol con otro usuario es opcional y puntual: después no sigue sincronizándose nada."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "El árbol se dibuja solo",
+          "p": "Enlaza a dos personas una vez y la relación inversa se crea sola. Sigue hacia fuera —cónyuge, hermano, hijo— y aparece la forma de la familia, construida con los contactos que ya están en tu teléfono y no con un formulario que rellenas dos veces."
+        },
+        {
+          "h2": "Propone lo que tu árbol ya da por supuesto",
+          "p": "El hijo de tu hermano es tu sobrino. TreeLinker lo deduce, te enseña a quién ha encontrado y por qué, y luego espera. Nada entra en tu archivo hasta que lo marcas tú."
+        },
+        {
+          "h2": "Grupos para los encuentros, etiquetas para todo lo demás",
+          "p": "Un grupo es un espacio compartido con miembros, encuestas y conversaciones: una familia, una calle, una promoción. Una etiqueta es un rótulo privado —Colegas, Farmacia, el nombre de una ciudad— que atraviesa todos los grupos y que nadie más llega a ver."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "¿Sustituye a mi app de contactos?",
           "a": "Lee los contactos que ya están en tu dispositivo y añade una capa encima. No escribe en la agenda de tu teléfono por su cuenta."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "Cómo organizar los contactos del teléfono",
+      "description": "Un método para una tarde y una agenda de diez años: borra lo muerto, fusiona los duplicados, escribe los nombres como los buscarías y solo entonces etiqueta a los pocos que de verdad necesitas encontrar.",
+      "h1": "Cómo organizar los contactos del teléfono",
+      "lead": "Cuatro pasadas, en este orden. Casi todo el trabajo es borrar.",
+      "answer": "Trabaja en cuatro pasadas y termina cada una antes de empezar la siguiente. Borra lo que está muerto, fusiona los duplicados, reescribe los nombres tal y como los buscarías y solo entonces etiqueta a las pocas decenas de contactos que buscas por su función y no por su nombre. La mayoría de las agendas no están desordenadas: están sin etiquetar y medio muertas, y por eso la pasada de borrado es la que hace el trabajo de verdad.",
+      "sections": [
+        {
+          "h2": "Empieza borrando, no ordenando",
+          "body": [
+            "Una agenda que lleva diez años en marcha es sobre todo arqueología: el agente del piso que dejaste en 2016, tres números de una empresa que ya no existe, un taxista de unas vacaciones. Nada de eso se buscará jamás, y es justo lo que vuelve inútil desplazarse por la lista.",
+            "Recorre la lista una vez con una sola pregunta: ¿llamaría yo a esto alguna vez? Al primer «no», se borra. Mil contactos suelen perder un tercio en veinte minutos, y todas las pasadas siguientes se vuelven más rápidas gracias a eso."
+          ]
+        },
+        {
+          "h2": "Fusiona los duplicados antes de renombrar nada",
+          "body": [
+            "Los duplicados aparecen porque la misma persona llega dos veces: una desde la SIM, otra desde una cuenta de correo, otra desde una app de mensajería. Renombrar las dos mitades de un duplicado es trabajo perdido, así que fusiona primero. La app de Contactos de Android tiene una pantalla de «Combinar y corregir» que encuentra las coincidencias exactas; las casi coincidencias las tienes que ver tú."
+          ],
+          "list": [
+            "Mismo nombre, dos números: conserva los dos números en un solo contacto.",
+            "Mismo número, dos nombres: conserva el nombre que realmente buscarías.",
+            "«Mamá» y «Madre», o un móvil guardado dos veces con y sin prefijo de país: eso nunca sale como coincidencia exacta.",
+            "Un nombre sin número y sin correo no es un contacto. Es una nota que te dejaste."
+          ]
+        },
+        {
+          "h2": "Nombra a la gente como la buscarías",
+          "body": [
+            "El campo del nombre es un índice de búsqueda, no un rótulo. Si buscarías «Ahmed el electricista», ese es el nombre. Si tienes cuatro Ahmed, ninguno debería estar guardado como «Ahmed».",
+            "Elige una convención y aplícala a todo el mundo: nombre, apellido y después lo que distingue a esa persona. Cuál elijas importa mucho menos que usar siempre la misma, porque el buscador solo te recompensa si la palabra que distingue está siempre en el mismo sitio."
+          ]
+        },
+        {
+          "h2": "Etiqueta a los veinte que de verdad necesitas",
+          "body": [
+            "Esta es la pasada por la que todo el mundo quiere empezar y la que conviene dejar para el final: a estas alturas la lista ya es lo bastante corta para verla entera. Las etiquetas —Android las llama etiquetas y TreeLinker las llama tags— son para los contactos que buscas por su función y no por su nombre: la dentista, el fontanero, el colegio, las cuatro personas a las que llamarías en una emergencia.",
+            "No intentes etiquetar a todo el mundo. Una taxonomía que no vas a mantener es peor que ninguna, porque hace que la lista parezca ordenada mientras está silenciosamente mal."
+          ]
+        },
+        {
+          "h2": "Lo que ordenar no arregla",
+          "body": [
+            "Nada de esto te dice quiénes son esas personas entre sí. Una agenda es una lista plana por diseño: sabe el número de Angelina y el de Micheal, y no sabe nada de que una es hermana del otro. Si lo que pierdes una y otra vez es qué primo, cuñado de quién, quién está llamando, eso es un problema de relaciones y no de organización, y es la capa que TreeLinker añade sobre la lista que acabas de limpiar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿Cuánto se tarda?",
+          "a": "Alrededor de una hora para mil contactos, casi toda en la pasada de borrado. Hazlo de una sentada y no en ratos de cinco minutos: fusionar y renombrar solo funcionan si puedes ver la lista entera."
+        },
+        {
+          "q": "¿Borro un contacto o lo archivo?",
+          "a": "Android no tiene archivo. Si borrar te inquieta, exporta antes una copia vCard de toda la agenda y después borra sin miedo: la copia es tu deshacer."
+        },
+        {
+          "q": "¿Las etiquetas pasan a un teléfono nuevo?",
+          "a": "Las etiquetas creadas dentro de una cuenta de Google se sincronizan con esa cuenta. Las creadas solo en el dispositivo se quedan en el dispositivo, y por eso la gente las pierde al cambiar de móvil."
+        },
+        {
+          "q": "¿TreeLinker cambia mis contactos del teléfono?",
+          "a": "No renombra, no fusiona y no borra nada de tu agenda: mantiene al lado sus propias relaciones, etiquetas y notas. La única vez que escribe en tu agenda es cuando aceptas una etiqueta que otro usuario te ha compartido, lo que añade a las personas de esa etiqueta que aún no tengas."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "Cómo hacer una copia de seguridad segura de la agenda del teléfono",
+      "description": "Sincronizar no es respaldar. La configuración de cuenta en cinco minutos, la exportación trimestral en vCard y por qué ese archivo es el más delicado que tendrás nunca.",
+      "h1": "Cómo hacer una copia de seguridad segura de la agenda del teléfono",
+      "lead": "Dos copias, con motivos distintos: una que sigue al teléfono y otra que no.",
+      "answer": "Activa la sincronización de cuenta para que tus contactos se escriban en una cuenta de Google o iCloud y no solo en el aparato, y exporta un archivo vCard cada pocos meses guardándolo cifrado en un sitio que controles tú. La sincronización sobrevive a un teléfono perdido; la exportación fechada sobrevive a un borrado, porque la sincronización copia un error con la misma fidelidad con la que copia todo lo demás. Y trata esa exportación por lo que es: una lista en texto plano de todas las personas que conoces.",
+      "sections": [
+        {
+          "h2": "Sincronizar no es respaldar",
+          "body": [
+            "La sincronización mantiene dos copias idénticas. Es exactamente lo que quieres cuando un teléfono se cae al río, y exactamente lo que no quieres cuando borras cuarenta contactos sin querer: el borrado se copia en segundos a todos tus dispositivos.",
+            "Una copia de seguridad es una copia que no cambia cuando cambia el original. La sincronización, por definición, no lo es. Así que haz las dos cosas: la cuenta sobrevive a la pérdida del teléfono y la exportación fechada sobrevive a ti."
+          ]
+        },
+        {
+          "h2": "Activa la sincronización de cuenta",
+          "body": [
+            "Cinco minutos, una sola vez. A qué cuenta pertenece un contacto es, con diferencia, el motivo más común por el que los contactos desaparecen al cambiar de teléfono: estaban guardados en el aparato o en la SIM, y ninguno de los dos viaja."
+          ],
+          "list": [
+            "Android: Ajustes, luego Contraseñas y cuentas, luego tu cuenta de Google, luego Sincronización de la cuenta, y comprueba que Contactos está activado.",
+            "Después abre Contactos, empieza una entrada nueva y mira en qué cuenta se ofrece a guardarla. Si dice «Dispositivo» o «SIM», nada de lo que añadas se está sincronizando en ninguna parte.",
+            "iPhone: Ajustes, luego tu nombre, luego iCloud, luego Contactos.",
+            "Si usas dos cuentas —una personal y otra de trabajo—, decide cuál es la agenda de verdad. Las agendas partidas son la razón de que media familia acabe en un solo teléfono."
+          ]
+        },
+        {
+          "h2": "Exporta una vCard y ponle la fecha en el nombre",
+          "body": [
+            "Cualquier app de contactos sabe escribir un archivo .vcf: un único archivo de texto con toda la agenda, legible por cualquier teléfono, cualquier cliente de correo y cualquier otra app de contactos. Exporta uno, nómbralo con la fecha de hoy y guárdalo en algún sitio que no sea el teléfono.",
+            "Hazlo cada trimestre, y siempre antes de los tres momentos que se comen las agendas: un cambio de teléfono, un cambio de cuenta de Google y una limpieza grande."
+          ]
+        },
+        {
+          "h2": "Tu exportación es un archivo con todos los que conoces",
+          "body": [
+            "A esto se refiere la palabra «segura». Un archivo .vcf no tiene contraseña ni cifrado. Contiene todos los nombres, números, correos, direcciones postales, cumpleaños y notas que has guardado sobre cientos de personas, ninguna de las cuales eligió estar ahí. Enviártelo por correo lo deja en un buzón durante años; dejarlo en una carpeta compartida en la nube lo comparte."
+          ],
+          "list": [
+            "Guárdalo cifrado: un archivo comprimido con contraseña, un disco cifrado o un gestor de contraseñas que admita adjuntos.",
+            "No te lo mandes por correo ni lo pongas en una carpeta que otros puedan abrir.",
+            "Borra la exportación vieja cuando hagas una nueva. Tres años de copias caducadas son el triple de exposición y ninguna seguridad extra.",
+            "Cuidado con las apps que anuncian «copia de seguridad de contactos». En la ficha de una tienda, copia de seguridad suele significar «subida a nuestro servidor», y rara vez dice de quién es ese servidor."
+          ]
+        },
+        {
+          "h2": "Dónde encaja TreeLinker y dónde no",
+          "body": [
+            "TreeLinker no es una copia de seguridad de tu agenda, y presentarlo como tal sería deshonesto. No sube tus contactos: lo único que se toma de ellos es un número de teléfono normalizado, usado para comprobar cuáles de las personas que ya conoces usan TreeLinker. Las notas, las direcciones postales, los correos y las fotos de contacto se leen en el dispositivo y ahí se quedan.",
+            "Lo que sí guarda en tu cuenta es la capa que has construido tú: las relaciones, el nombre que guardaste para cada persona que colocaste en tu árbol, tus etiquetas, recuerdos, entradas de la cronología, pertenencia a grupos y favoritos. Eso es lo que vuelve cuando reinstalas la app o entras en un teléfono nuevo. Vuelve la estructura, no la agenda, y por eso sigues necesitando la vCard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿TreeLinker hace copia de seguridad de mis contactos?",
+          "a": "No, y no está hecho para eso. Guarda las relaciones, etiquetas, recuerdos y entradas de cronología que creas, además del nombre que guardaste para quien hayas colocado en tu árbol. La agenda en sí se queda en tu teléfono y en la cuenta con la que la sincronices."
+        },
+        {
+          "q": "¿Basta con Contactos de Google?",
+          "a": "Para un teléfono perdido, sí. Para un borrado accidental, Google guarda treinta días de deshacer en Contactos, Ajustes, Deshacer cambios. Pasados treinta días solo te salvará tu propia exportación."
+        },
+        {
+          "q": "¿Cada cuánto debo exportar?",
+          "a": "Cada trimestre basta para la mayoría, más una antes de cambiar de teléfono y otra antes de una limpieza grande."
+        },
+        {
+          "q": "¿Y las copias de la SIM o de las apps de mensajería?",
+          "a": "Una SIM guarda unos cientos de entradas con nombre y número y nada más: sin segundos números, sin correos, sin fotos. Las apps de mensajería respaldan sus propios chats, no tu agenda. Ninguna sustituye a una vCard."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "¿Es seguro guardar tu agenda en TreeLinker?",
+      "description": "La versión honesta: no la guardas en TreeLinker. Qué sale exactamente de tu teléfono, qué se queda, qué hay en tu cuenta y qué parte merece de verdad que pienses en ella.",
+      "h1": "¿Es seguro guardar tu agenda en TreeLinker?",
+      "lead": "La respuesta corta es que no la guardas. Se queda en el teléfono. Esta es la larga.",
+      "answer": "No guardas tu agenda en TreeLinker: se queda en tu dispositivo. Lo único que se toma de ella es un número de teléfono normalizado, enviado para comprobar cuáles de tus contactos ya usan la aplicación. Lo que TreeLinker conserva en tu cuenta es lo que creas dentro: relaciones, el nombre que guardaste para quien colocas en tu árbol, etiquetas, recuerdos, entradas de cronología y pertenencia a grupos. Las notas de contacto, las direcciones postales, los correos y las fotos de contacto no salen nunca del teléfono, y la identificación de llamadas se resuelve por completo en el dispositivo.",
+      "sections": [
+        {
+          "h2": "Qué sale del teléfono, exactamente",
+          "body": [
+            "Una respuesta sobre privacidad solo vale algo si es una lista. Esta es entera:"
+          ],
+          "list": [
+            "Números de teléfono normalizados de tus contactos, usados para saber cuáles de ellos ya usan TreeLinker.",
+            "El nombre que has guardado para una persona en cuanto la colocas en tu árbol, para que vuelva con su nombre si reinstalas o entras desde otro sitio.",
+            "Las relaciones que registras y la forma del árbol que componen.",
+            "Etiquetas, recuerdos con las fotos y lugares que les adjuntas, entradas de cronología, pertenencia a grupos y favoritos.",
+            "Tu propio perfil: nombre, correo, teléfono, país y lo opcional que hayas añadido.",
+            "Un token de notificaciones, para que los avisos lleguen a tu dispositivo."
+          ]
+        },
+        {
+          "h2": "Qué se queda",
+          "body": [
+            "Las notas de contacto, las direcciones postales, los correos, las fotos de contacto y cualquier otro campo de tu agenda se leen en el dispositivo y no se suben nunca.",
+            "La identificación de llamadas se resuelve por completo en el teléfono. El número entrante se compara con contactos que ya tienes y no se envía a ningún servidor para preguntar quién llama. No existe en el producto ningún directorio inverso compartido: una llamada de alguien que no tienes guardado no genera tarjeta, y sobre esa persona no se busca, ni se guarda, ni se envía nada."
+          ]
+        },
+        {
+          "h2": "La parte que de verdad hay que pensar es compartir",
+          "body": [
+            "Guardar es la pregunta que hace todo el mundo; compartir es la que importa. Enviar a otro usuario un árbol o una etiqueta le envía el nombre y el número de teléfono que has guardado de cada persona incluida. En un árbol son familiares. En una etiqueta puede ser cualquiera —colegas, vecinos, una lista de fontaneros— y, cuando quien lo recibe guarda la etiqueta, todos los que aún no tuviera se añaden a su propia agenda.",
+            "Eso es una divulgación real de números de otras personas, hecha por ti. Comparte solo con alguien a quien estarías dispuesto a leerle esos números en voz alta. Lo que se retiene para la entrega caduca a los treinta días y se borra, lo haya abierto el destinatario o no."
+          ]
+        },
+        {
+          "h2": "La tarjeta de llamada la lee quien esté en la habitación",
+          "body": [
+            "Con la identificación de llamadas activada, la tarjeta que aparece sobre una llamada entrante muestra de qué conoces a la persona, sus grupos y etiquetas, su cumpleaños y tu última nota sobre ella. Aparece en un teléfono que está sonando, así que cualquiera que esté al lado puede leer esa nota. Conviene saberlo antes de escribir algo franco en la cronología de un contacto."
+          ]
+        },
+        {
+          "h2": "Lo que la aplicación no hace",
+          "body": [
+            "Parte de la seguridad de un producto está en lo que nunca se construyó."
+          ],
+          "list": [
+            "Sin publicidad y sin perfilado para ella.",
+            "Sin SDK de analítica de terceros y sin cookies: es una app nativa, no un navegador.",
+            "Nada se vende, se alquila ni se intercambia, con nadie, para ningún fin.",
+            "Sin directorio público de números y sin ninguna forma de que otro usuario vea lo que has registrado salvo que lo compartas deliberadamente.",
+            "Contraseñas cifradas con bcrypt y nunca guardadas en texto legible; todo por TLS; tokens de sesión en el Android Keystore, que caducan tras treinta días de inactividad."
+          ]
+        },
+        {
+          "h2": "Si quieres que desaparezca todo",
+          "body": [
+            "Hoy no hay ningún ajuste que desactive el almacenamiento en la cuenta: lo que creas se guarda ahí para que sobreviva a una reinstalación. El control que sí tienes es el borrado, y es completo: Ajustes y luego Eliminar cuenta borra tus datos del dispositivo y de los servidores de forma permanente. La misma solicitud puede hacerse desde la página de eliminación de cuenta de este sitio.",
+            "El permiso de contactos, y los dos permisos opcionales de identificación de llamadas, pueden revocarse cuando quieras desde los propios ajustes de Android."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "¿TreeLinker sube mis contactos?",
+          "a": "Solo números de teléfono normalizados, y solo para comprobar cuáles de tus contactos ya usan TreeLinker. El resto de cada ficha se queda en tu dispositivo."
+        },
+        {
+          "q": "¿Puede otro usuario ver quién está en mi árbol?",
+          "a": "No. Lo que registras es privado de tu cuenta salvo que lo compartas deliberadamente: añadiendo un recuerdo a un grupo, invitando a alguien a uno, o enviando un árbol o una etiqueta a una persona concreta."
+        },
+        {
+          "q": "¿La identificación de llamadas busca en internet?",
+          "a": "No. La comparación ocurre en el dispositivo, contra contactos que ya tienes. Los números desconocidos no se identifican en absoluto, porque no hay nada con lo que compararlos."
+        },
+        {
+          "q": "¿Dónde se guardan realmente los datos?",
+          "a": "En Neo4j AuraDB, una base de datos de grafos en la nube, bajo tu propia cuenta y por conexiones cifradas. Firebase Cloud Messaging encamina las notificaciones y no recibe más que un token de dispositivo."
+        },
+        {
+          "q": "¿Cómo borro todo?",
+          "a": "Ajustes y luego Eliminar cuenta, en la app, o el formulario de la página de eliminación de cuenta de este sitio. Borra tus datos de forma permanente del dispositivo y de nuestros servidores."
         }
       ]
     }

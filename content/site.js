@@ -43,62 +43,97 @@ const PLAY_URL =
   'https://play.google.com/store/apps/details?id=com.sonbola.treelinker';
 
 /**
+ * Screenshots of the app, in assets/images/app/.
+ *
+ * A page names a key, not a path, so a file can be renamed or re-exported in
+ * one place. `alt` is a template: the page's own h1 is substituted for %s in
+ * the locale's `chrome.labels.shotAlt` string, which is why there is no English
+ * alt text sitting here waiting to be shipped to eleven locales untranslated.
+ */
+const SHOTS = {
+  home:         { file: 'home-dashboard',           w: 500, h: 1080 },
+  members:      { file: 'home-upcoming',            w: 500, h: 1081 },
+  contacts:     { file: 'all-contacts',             w: 500, h: 1084 },
+  contact:      { file: 'contact-details',          w: 500, h: 1077 },
+  tree:         { file: 'family-tree',              w: 500, h: 1086 },
+  caller:       { file: 'caller-card',              w: 500, h: 1080 },
+  callPlain:    { file: 'call-plain',               w: 500, h: 1083 },
+  group:        { file: 'group-details',            w: 500, h: 1080 },
+  groupMembers: { file: 'group-members',            w: 500, h: 1080 },
+  organization: { file: 'organization',             w: 500, h: 1084 },
+  tag:          { file: 'tag-details',              w: 500, h: 1479 },
+  suggestion:   { file: 'relationship-suggestion',  w: 500, h: 1133 },
+  memory:       { file: 'create-memory',            w: 500, h: 1485 },
+};
+
+/**
  * The page registry.
  *
  * `slug`    — URL path, relative to the locale root. '' is the home page.
  * `kind`    — picks the template and the structured-data type.
  * `group`   — which nav/footer cluster and breadcrumb trail it belongs to.
+ * `shot`    — a key from SHOTS, rendered beside the page's opening block.
  * `related` — slugs rendered as "related pages"; internal linking is the only
- *             reason a 24-page site is more findable than a 6-page one.
+ *             reason a 27-page site is more findable than a 6-page one.
  *
  * Order matters: it is the order of the sitemap and of the section indexes.
  */
 const PAGES = [
   { slug: '',  kind: 'home', group: 'home', priority: '1.0',
+    shot: 'home', shotB: 'caller',
+    showcaseShots: ['tree', 'suggestion', 'organization'],
     related: ['family-tree-app', 'caller-identification', 'family-contact-manager'] },
 
   // ---- Top-level landing pages: one per search intent ----
-  { slug: 'family-tree-app',        kind: 'landing', group: 'solutions', priority: '0.9',
+  { slug: 'family-tree-app',        kind: 'landing', group: 'solutions', priority: '0.9', shot: 'tree',
     related: ['features/family-tree', 'guides/how-to-create-a-family-tree', 'compare/family-tree-apps'] },
-  { slug: 'family-contact-manager', kind: 'landing', group: 'solutions', priority: '0.9',
+  { slug: 'family-contact-manager', kind: 'landing', group: 'solutions', priority: '0.9', shot: 'contacts',
     related: ['features/contacts', 'guides/how-to-organize-family-contacts', 'compare/contact-management-apps'] },
-  { slug: 'relationship-manager',   kind: 'landing', group: 'solutions', priority: '0.9',
+  { slug: 'relationship-manager',   kind: 'landing', group: 'solutions', priority: '0.9', shot: 'suggestion',
     related: ['features/relationships', 'guides/how-to-keep-track-of-family-relationships', 'caller-identification'] },
-  { slug: 'family-organizer',       kind: 'landing', group: 'solutions', priority: '0.8',
+  { slug: 'family-organizer',       kind: 'landing', group: 'solutions', priority: '0.8', shot: 'organization',
     related: ['features/groups', 'features/tags', 'guides/how-to-organize-relatives'] },
-  { slug: 'family-memory-app',      kind: 'landing', group: 'solutions', priority: '0.8',
+  { slug: 'family-memory-app',      kind: 'landing', group: 'solutions', priority: '0.8', shot: 'memory',
     related: ['features/memories', 'features/events', 'guides/how-to-document-family-memories'] },
-  { slug: 'caller-identification',  kind: 'landing', group: 'solutions', priority: '0.95',
+  { slug: 'caller-identification',  kind: 'landing', group: 'solutions', priority: '0.95', shot: 'caller',
     related: ['features/caller-identification', 'relationship-manager', 'family-contact-manager'] },
 
   // ---- Guides: the question-shaped pages ----
-  { slug: 'guides/how-to-create-a-family-tree',              kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-create-a-family-tree',              kind: 'guide', group: 'guides', priority: '0.7', shot: 'tree',
     related: ['family-tree-app', 'features/family-tree', 'guides/how-to-organize-relatives'] },
-  { slug: 'guides/how-to-organize-family-contacts',          kind: 'guide', group: 'guides', priority: '0.7',
-    related: ['family-contact-manager', 'features/tags', 'guides/how-to-organize-relatives'] },
-  { slug: 'guides/how-to-keep-track-of-family-relationships', kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-organize-family-contacts',          kind: 'guide', group: 'guides', priority: '0.7', shot: 'organization',
+    related: ['family-contact-manager', 'features/tags', 'guides/how-to-organize-your-phone-contacts'] },
+  { slug: 'guides/how-to-keep-track-of-family-relationships', kind: 'guide', group: 'guides', priority: '0.7', shot: 'contact',
     related: ['relationship-manager', 'features/relationships', 'caller-identification'] },
-  { slug: 'guides/how-to-organize-relatives',                kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-organize-relatives',                kind: 'guide', group: 'guides', priority: '0.7', shot: 'groupMembers',
     related: ['family-organizer', 'features/groups', 'features/tags'] },
-  { slug: 'guides/how-to-remember-family-birthdays',         kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-remember-family-birthdays',         kind: 'guide', group: 'guides', priority: '0.7', shot: 'members',
     related: ['features/events', 'family-organizer', 'guides/how-to-document-family-memories'] },
-  { slug: 'guides/how-to-document-family-memories',          kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-document-family-memories',          kind: 'guide', group: 'guides', priority: '0.7', shot: 'memory',
     related: ['family-memory-app', 'features/memories', 'features/events'] },
 
-  { slug: 'guides/how-to-know-how-someone-is-related-to-you', kind: 'guide', group: 'guides', priority: '0.75',
+  { slug: 'guides/how-to-know-how-someone-is-related-to-you', kind: 'guide', group: 'guides', priority: '0.75', shot: 'caller',
     related: ['relationship-manager', 'features/relationships', 'caller-identification'] },
-  { slug: 'guides/how-to-keep-track-of-in-laws',              kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-keep-track-of-in-laws',              kind: 'guide', group: 'guides', priority: '0.7', shot: 'tree',
     related: ['guides/how-to-organize-relatives', 'features/family-tree', 'relationship-manager'] },
-  { slug: 'guides/how-to-remember-distant-relatives',         kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-remember-distant-relatives',         kind: 'guide', group: 'guides', priority: '0.7', shot: 'suggestion',
     related: ['guides/how-to-know-how-someone-is-related-to-you', 'caller-identification', 'features/family-tree'] },
-  { slug: 'guides/how-to-manage-hundreds-of-contacts',        kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-manage-hundreds-of-contacts',        kind: 'guide', group: 'guides', priority: '0.7', shot: 'contacts',
     related: ['family-contact-manager', 'features/contacts', 'guides/how-to-add-tags-to-contacts'] },
-  { slug: 'guides/how-to-add-tags-to-contacts',               kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-add-tags-to-contacts',               kind: 'guide', group: 'guides', priority: '0.7', shot: 'tag',
     related: ['features/tags', 'family-organizer', 'guides/how-to-organize-family-contacts'] },
-  { slug: 'guides/how-to-organize-family-events',             kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-organize-family-events',             kind: 'guide', group: 'guides', priority: '0.7', shot: 'group',
     related: ['features/events', 'features/groups', 'guides/how-to-remember-family-birthdays'] },
-  { slug: 'guides/how-to-organize-family-photos-and-memories', kind: 'guide', group: 'guides', priority: '0.7',
+  { slug: 'guides/how-to-organize-family-photos-and-memories', kind: 'guide', group: 'guides', priority: '0.7', shot: 'memory',
     related: ['features/memories', 'family-memory-app', 'guides/how-to-document-family-memories'] },
+
+  // ---- Guides about the address book itself, rather than the family in it ----
+  { slug: 'guides/how-to-organize-your-phone-contacts',       kind: 'guide', group: 'guides', priority: '0.75', shot: 'contacts',
+    related: ['guides/how-to-back-up-your-phone-address-book-safely', 'family-contact-manager', 'guides/how-to-add-tags-to-contacts'] },
+  { slug: 'guides/how-to-back-up-your-phone-address-book-safely', kind: 'guide', group: 'guides', priority: '0.75', shot: 'contact',
+    related: ['guides/is-it-safe-to-store-your-address-book-in-treelinker', 'guides/how-to-organize-your-phone-contacts', 'features/contacts'] },
+  { slug: 'guides/is-it-safe-to-store-your-address-book-in-treelinker', kind: 'guide', group: 'guides', priority: '0.8', shot: 'caller',
+    related: ['guides/how-to-back-up-your-phone-address-book-safely', 'features/caller-identification', 'family-contact-manager'] },
 
   // ---- Comparisons: the highest-citation content format ----
   { slug: 'compare/family-tree-vs-contact-manager', kind: 'compare', group: 'compare', priority: '0.8',
@@ -111,21 +146,21 @@ const PAGES = [
     related: ['relationship-manager', 'compare/family-tree-vs-contact-manager', 'compare/contact-management-apps'] },
 
   // ---- Feature pages: one per thing the app actually does ----
-  { slug: 'features/family-tree',            kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/family-tree',            kind: 'feature', group: 'features', priority: '0.6', shot: 'tree',
     related: ['family-tree-app', 'features/relationships', 'guides/how-to-create-a-family-tree'] },
-  { slug: 'features/contacts',               kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/contacts',               kind: 'feature', group: 'features', priority: '0.6', shot: 'contacts',
     related: ['family-contact-manager', 'features/tags', 'guides/how-to-organize-family-contacts'] },
-  { slug: 'features/relationships',          kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/relationships',          kind: 'feature', group: 'features', priority: '0.6', shot: 'contact',
     related: ['relationship-manager', 'features/family-tree', 'features/caller-identification'] },
-  { slug: 'features/groups',                 kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/groups',                 kind: 'feature', group: 'features', priority: '0.6', shot: 'group',
     related: ['family-organizer', 'features/tags', 'features/events'] },
-  { slug: 'features/tags',                   kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/tags',                   kind: 'feature', group: 'features', priority: '0.6', shot: 'tag',
     related: ['family-organizer', 'features/contacts', 'guides/how-to-organize-relatives'] },
-  { slug: 'features/events',                 kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/events',                 kind: 'feature', group: 'features', priority: '0.6', shot: 'members',
     related: ['features/memories', 'guides/how-to-remember-family-birthdays', 'family-organizer'] },
-  { slug: 'features/memories',               kind: 'feature', group: 'features', priority: '0.6',
+  { slug: 'features/memories',               kind: 'feature', group: 'features', priority: '0.6', shot: 'memory',
     related: ['family-memory-app', 'features/events', 'guides/how-to-document-family-memories'] },
-  { slug: 'features/caller-identification',  kind: 'feature', group: 'features', priority: '0.7',
+  { slug: 'features/caller-identification',  kind: 'feature', group: 'features', priority: '0.7', shot: 'caller',
     related: ['caller-identification', 'features/relationships', 'features/contacts'] },
 ];
 
@@ -144,4 +179,4 @@ const STATIC_PAGES = [
   { file: 'child_safety_standards.html',  priority: '0.3', changefreq: 'yearly'  },
 ];
 
-module.exports = { BASE_URL, LOCALES, DEFAULT_LOCALE, PLAY_URL, PAGES, STATIC_PAGES };
+module.exports = { BASE_URL, LOCALES, DEFAULT_LOCALE, PLAY_URL, SHOTS, PAGES, STATIC_PAGES };

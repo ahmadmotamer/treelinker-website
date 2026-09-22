@@ -32,7 +32,10 @@
       "answer": "Short answer",
       "faq": "Frequently asked questions",
       "related": "Related pages",
-      "breadcrumb": "Breadcrumb"
+      "breadcrumb": "Breadcrumb",
+      "skip": "Skip to content",
+      "shotAlt": "%s — shown in the TreeLinker Android app",
+      "allGuides": "All guides"
     },
     "cta": {
       "title": "Start with the contacts you already have",
@@ -49,7 +52,9 @@
       "deleteAccount": "Delete account",
       "support": "Support",
       "rights": "All rights reserved.",
-      "madeWith": "Made with"
+      "madeWith": "Made with",
+      "contact": "Contact",
+      "childSafety": "Child safety"
     },
     "identity": {
       "category": "a family relationship management app",
@@ -165,6 +170,20 @@
         {
           "q": "Do I need my family to install it too?",
           "a": "No. You can map your whole family on your own. Sharing a tree with another TreeLinker user is optional and one-time — nothing keeps syncing afterwards."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "The tree draws itself",
+          "p": "Link two people once and the reverse relationship is created for you. Keep going outwards — spouse, sibling, child — and the shape of the family appears, built from the contacts already on your phone rather than from a form you filled in twice."
+        },
+        {
+          "h2": "It proposes what your tree already implies",
+          "p": "Your brother's son is your nephew. TreeLinker works that out, shows you who it found and why, and then waits. Nothing joins your archive until you tick it."
+        },
+        {
+          "h2": "Groups for the gatherings, tags for everything else",
+          "p": "A group is a shared space with members, polls and discussions — a family, a street, a class. A tag is a private label, Colleagues or Pharmacy or a city name, that cuts across all of them and that nobody else ever sees."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "Does it replace my contacts app?",
           "a": "It reads the contacts already on your device and adds a layer on top. It does not write to your phone's address book on its own."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "How to organise your phone contacts",
+      "description": "A one-evening method for an address book ten years deep: delete what is dead, merge the duplicates, name people the way you would search for them, then label only the ones you actually need to find.",
+      "h1": "How to organise your phone contacts",
+      "lead": "Four passes, in order. Most of the work is deleting.",
+      "answer": "Work in four passes and finish each before starting the next. Delete what is dead, merge the duplicates, rewrite names the way you would search for them, and only then label the few dozen contacts you need to find by role rather than by name. Most address books are not disorganised so much as unlabelled and half dead, so the deleting pass is the one that does the real work.",
+      "sections": [
+        {
+          "h2": "Start by deleting, not by organising",
+          "body": [
+            "An address book that has been running for ten years is mostly archaeology: the letting agent for a flat you left in 2016, three numbers for a company that no longer exists, a taxi driver from one holiday. None of it will ever be searched for, and all of it is what makes scrolling useless.",
+            "Go through the list once with a single question — would I ever ring this? Delete on the first no. A thousand contacts usually lose a third of their entries in twenty minutes, and every pass after this one gets faster because of it."
+          ]
+        },
+        {
+          "h2": "Merge the duplicates before you rename anything",
+          "body": [
+            "Duplicates come from the same person arriving twice: once from the SIM, once from an email account, once from a messaging app. Renaming both halves of a duplicate is wasted work, so merge first. Android's Contacts app has a Merge and fix screen that catches exact matches; the near-matches are yours to find."
+          ],
+          "list": [
+            "Same name, two numbers — keep both numbers on one contact.",
+            "Same number, two names — keep the name you would actually search for.",
+            "Mum and Mom, or a mobile saved twice with and without the country code — these never show up as exact matches.",
+            "A name with no number and no email is not a contact. It is a note you left yourself."
+          ]
+        },
+        {
+          "h2": "Name people the way you would search for them",
+          "body": [
+            "The name field is a search index, not a label. If you would look for “Ahmed the electrician”, then that is the name. If you have four people called Ahmed, none of them should be saved as Ahmed.",
+            "Pick one convention and apply it to everybody: given name, family name, then the thing that tells them apart. Which convention you choose matters far less than using the same one every time, because the search box only rewards you when the distinguishing word is always in the same place."
+          ]
+        },
+        {
+          "h2": "Label the twenty you actually need",
+          "body": [
+            "This is the pass everyone wants to start with, and the one to leave until last — by now the list is short enough to see. Labels, which Android calls labels and TreeLinker calls tags, are for the contacts you look for by role rather than by name: the dentist, the plumber, the school, the four people you would ring in an emergency.",
+            "Do not try to label everybody. A taxonomy you will not maintain is worse than none, because it makes the list look organised while quietly being wrong."
+          ]
+        },
+        {
+          "h2": "What tidying cannot fix",
+          "body": [
+            "None of this tells you who these people are to each other. An address book is a flat list by design: it knows Angelina's number and Micheal's number, and nothing about the fact that one is the other's sister. If the thing you keep losing is which cousin, whose in-law, or who is calling, that is a relationship problem rather than an organisation problem — and it is the layer TreeLinker adds on top of the list you have just cleaned up."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "How long does this take?",
+          "a": "About an hour for a thousand contacts, most of it in the deleting pass. Do it in one sitting rather than in five-minute bursts: merging and renaming only work when you can see the whole list."
+        },
+        {
+          "q": "Should I delete a contact or archive it?",
+          "a": "Android has no archive. If deleting makes you uneasy, export a vCard copy of the whole address book first and then delete freely — the export is your undo."
+        },
+        {
+          "q": "Do labels move to a new phone?",
+          "a": "Labels created inside a Google account sync with that account. Labels created only on the handset stay on the handset, which is why people lose them at upgrade time."
+        },
+        {
+          "q": "Does TreeLinker change my phone contacts?",
+          "a": "It does not rename, merge or delete anything in your address book — it keeps its own relationships, tags and notes alongside it. The one time it writes to your address book is when you accept a tag another user has shared with you, which adds the people in that tag you do not already have."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "How to back up your phone address book safely",
+      "description": "Sync is not a backup. The five-minute account setup, the quarterly vCard export, and why that export is the most sensitive file you will ever own.",
+      "h1": "How to back up your phone address book safely",
+      "lead": "Two copies, kept for different reasons: one that follows your phone, and one that does not.",
+      "answer": "Turn on account sync so your contacts are written to a Google or iCloud account instead of only to the handset, then export a vCard file every few months and keep it somewhere encrypted that you control. Sync is what survives a lost phone; the dated export is what survives a deletion, because sync copies a mistake as faithfully as it copies anything else. Treat the export as what it is — a plain-text list of everyone you know.",
+      "sections": [
+        {
+          "h2": "Sync is not a backup",
+          "body": [
+            "Sync keeps two copies identical. That is exactly what you want when a phone goes into a river, and exactly what you do not want when you delete forty contacts by accident — the deletion is copied within seconds to every device you own.",
+            "A backup is a copy that does not change when the original does. Sync, by definition, is not one. So do both: the account is what survives losing the phone, and a dated export is what survives you."
+          ]
+        },
+        {
+          "h2": "Turn on account sync",
+          "body": [
+            "Five minutes, once. The account a contact belongs to is the single most common reason contacts vanish during a phone upgrade: they were saved to the handset or the SIM, and neither of those travels."
+          ],
+          "list": [
+            "Android: Settings, then Passwords and accounts, then your Google account, then Account sync, and check that Contacts is on.",
+            "Then open Contacts, start a new entry, and look at which account it offers to save to. If it says Device or SIM, nothing you add is being synced anywhere.",
+            "iPhone: Settings, then your name, then iCloud, then Contacts.",
+            "If you use two accounts — a personal one and a work one — decide which is the real address book. Split address books are how half of a family ends up on one phone only."
+          ]
+        },
+        {
+          "h2": "Export a vCard, and put the date in the filename",
+          "body": [
+            "Every contacts app can write a .vcf file: one plain-text file holding the whole address book, readable by every phone, every mail client and every other contacts app. Export one, name it with today's date, and keep it somewhere that is not the phone.",
+            "Do it quarterly, and always before the three moments that eat address books — a phone upgrade, a change of Google account, and a large clean-up session."
+          ]
+        },
+        {
+          "h2": "Your export is a file of everyone you know",
+          "body": [
+            "This is the part that the word safely refers to. A .vcf file has no password and no encryption. It holds every name, number, email address, postal address, birthday and note you have saved about hundreds of people, none of whom chose to be in it. Emailing it to yourself leaves it in a mailbox for years; dropping it in a shared cloud folder shares it."
+          ],
+          "list": [
+            "Keep it in encrypted storage: a password-protected archive, an encrypted disk, or a password manager that takes file attachments.",
+            "Do not email it to yourself, and do not put it in a folder anyone else can open.",
+            "Delete the old export when you take a new one. Three years of stale copies is three times the exposure and no extra safety.",
+            "Be careful with apps that advertise contact backup. In an app store listing, backup very often means upload to our server, and the listing rarely says whose."
+          ]
+        },
+        {
+          "h2": "Where TreeLinker fits, and where it does not",
+          "body": [
+            "TreeLinker is not a backup for your address book, and it would be dishonest to present it as one. It does not upload your contacts: the only thing taken from them is a normalised phone number, used to check which of the people you already know are TreeLinker users. Notes, postal addresses, email addresses and contact photos are read on the device and stay there.",
+            "What it does keep on your account is the layer you built yourself — the relationships, the name you saved for each person you placed in your tree, your tags, memories, timeline entries, group membership and favourites. That is what comes back when you reinstall the app or sign in on a new phone. The structure returns; the address book does not, which is why you still want the vCard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does TreeLinker back up my contacts?",
+          "a": "No, and it is not built to. It stores the relationships, tags, memories and timeline entries you create, plus the name you saved for anyone you placed in your family tree. The address book itself stays on your phone and in whatever account you sync it with."
+        },
+        {
+          "q": "Is Google Contacts enough on its own?",
+          "a": "For a lost phone, yes. For an accidental deletion, Google keeps thirty days of undo under Contacts, Settings, Undo changes. After thirty days only your own export will help."
+        },
+        {
+          "q": "How often should I export?",
+          "a": "Quarterly is enough for most people, plus one before any phone upgrade and one before a large clean-up."
+        },
+        {
+          "q": "What about SIM or messaging-app backups?",
+          "a": "A SIM holds a few hundred entries with names and numbers only — no second numbers, no email addresses, no photos. Messaging apps back up their own chats, not your address book. Neither replaces a vCard."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "Is it safe to store your address book in TreeLinker?",
+      "description": "The honest version: you do not store it in TreeLinker at all. Exactly what leaves your phone, what stays on it, what is kept on your account, and which part is genuinely worth thinking about.",
+      "h1": "Is it safe to store your address book in TreeLinker?",
+      "lead": "The short answer is that you do not. It stays on the phone. Here is the long answer.",
+      "answer": "You do not store your address book in TreeLinker — it stays on your device. The only thing taken from it is a normalised phone number, sent to check which of your contacts already use the app. What TreeLinker keeps on your account is what you create inside it: relationships, the name you saved for anyone you place in your tree, tags, memories, timeline entries and group membership. Contact notes, postal addresses, email addresses and contact photos never leave the phone, and caller identification matches entirely on the device.",
+      "sections": [
+        {
+          "h2": "What leaves the phone, exactly",
+          "body": [
+            "A privacy answer is only worth anything if it is a list. This is the whole of it:"
+          ],
+          "list": [
+            "Normalised phone numbers from your contacts, used to find which of them already use TreeLinker.",
+            "The name you have saved for a person once you place them in your family tree — so they come back named if you reinstall or sign in elsewhere.",
+            "The relationships you record, and the shape of the tree they form.",
+            "Tags, memories, the photos and locations you attach to them, timeline entries, group membership and favourites.",
+            "Your own profile: name, email address, phone number, country, and anything optional you added.",
+            "A push token, so notifications can be routed to your device."
+          ]
+        },
+        {
+          "h2": "What stays",
+          "body": [
+            "Contact notes, postal addresses, email addresses, contact photos and every other field in your address book are read on the device and are never uploaded.",
+            "Caller identification matches entirely on the phone. An incoming number is compared against contacts you already hold, and is never sent to a server to ask who is calling. There is no shared reverse-number directory anywhere in the product: a caller you have not saved gets no card, and nothing about them is looked up, stored or sent."
+          ]
+        },
+        {
+          "h2": "The part actually worth thinking about is sharing",
+          "body": [
+            "Storage is the question people ask; sharing is the one that matters. Sending another user a family tree, or a tag, sends them the name and phone number you saved for each person in it. In a tree those people are family. In a tag they can be anyone — colleagues, neighbours, a list of plumbers — and when the recipient saves the tag, everyone in it they do not already have is added to their own address book.",
+            "That is a real disclosure of other people's numbers, made by you. Share only with someone you would be willing to read those numbers out to. What is held for delivery expires after thirty days and is then deleted, whether or not the recipient ever opened it."
+          ]
+        },
+        {
+          "h2": "The caller card can be read by whoever is in the room",
+          "body": [
+            "With caller identification on, the card over an incoming call shows how you know the person, their groups and tags, their birthday, and your most recent note about them. It appears on a ringing phone, which means anyone standing near it can read that note. Worth knowing before you write something candid on a contact's timeline."
+          ]
+        },
+        {
+          "h2": "What the app does not do",
+          "body": [
+            "Some of the safety of a product is in what it never built."
+          ],
+          "list": [
+            "No advertising, and no profiling for it.",
+            "No third-party analytics SDKs, and no cookies — it is a native app, not a browser.",
+            "Nothing sold, rented or traded, to anyone, for any purpose.",
+            "No public directory of numbers, and no way for another user to see what you have recorded unless you deliberately share it.",
+            "Passwords hashed with bcrypt and never held in readable form; everything over TLS; session tokens in the Android Keystore, expiring after thirty days of inactivity."
+          ]
+        },
+        {
+          "h2": "If you want it gone",
+          "body": [
+            "There is currently no setting that turns off account storage — what you create is saved to your account so it survives a reinstall. The control you do have is deletion, and it is complete: Settings, then Delete Account, erases your data from the device and from the servers permanently. The same request can be made from the delete-account page on this site.",
+            "The contacts permission, and the two optional caller-identification permissions, can be revoked at any time in Android's own settings."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Does TreeLinker upload my contacts?",
+          "a": "Only normalised phone numbers, and only to match which of your contacts already use TreeLinker. The rest of each contact record stays on your device."
+        },
+        {
+          "q": "Can another user see who is in my tree?",
+          "a": "No. What you record is private to your account unless you deliberately share it — by adding a memory to a group, inviting someone into one, or sending a tree or a tag to a specific person."
+        },
+        {
+          "q": "Does caller identification look my callers up online?",
+          "a": "No. Matching happens on the device, against contacts you already hold. Unknown numbers are not identified at all, because there is nothing to identify them against."
+        },
+        {
+          "q": "Where is the data actually stored?",
+          "a": "In Neo4j AuraDB, a cloud graph database, under your own account and over encrypted connections. Firebase Cloud Messaging routes push notifications and receives nothing but a device token."
+        },
+        {
+          "q": "How do I delete everything?",
+          "a": "Settings, then Delete Account, in the app — or the form on the delete-account page of this site. It permanently erases your data from both the device and our servers."
         }
       ]
     }

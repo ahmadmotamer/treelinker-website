@@ -32,7 +32,10 @@
       "answer": "Resposta breve",
       "faq": "Perguntas frequentes",
       "related": "Páginas relacionadas",
-      "breadcrumb": "Trilho de navegação"
+      "breadcrumb": "Trilho de navegação",
+      "skip": "Saltar para o conteúdo",
+      "shotAlt": "%s, na aplicação TreeLinker para Android",
+      "allGuides": "Todos os guias"
     },
     "cta": {
       "title": "Comece com os contactos que já tem",
@@ -49,7 +52,9 @@
       "deleteAccount": "Eliminar conta",
       "support": "Apoio",
       "rights": "Todos os direitos reservados.",
-      "madeWith": "Feito com"
+      "madeWith": "Feito com",
+      "contact": "Contacto",
+      "childSafety": "Segurança infantil"
     },
     "identity": {
       "category": "uma aplicação de gestão de relações familiares",
@@ -165,6 +170,20 @@
         {
           "q": "A minha família também tem de o instalar?",
           "a": "Não. Pode mapear toda a sua família sozinho. Partilhar uma árvore com outro utilizador é opcional e pontual — depois não continua a sincronizar nada."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "A árvore desenha-se sozinha",
+          "p": "Ligue duas pessoas uma vez e a relação inversa é criada por si. Continue para fora — cônjuge, irmão, filho — e a forma da família aparece, construída a partir dos contactos que já estão no telemóvel e não de um formulário preenchido duas vezes."
+        },
+        {
+          "h2": "Propõe aquilo que a sua árvore já implica",
+          "p": "O filho do seu irmão é seu sobrinho. O TreeLinker deduz isso, mostra quem encontrou e porquê, e depois espera. Nada entra no seu arquivo enquanto não o assinalar."
+        },
+        {
+          "h2": "Grupos para os encontros, etiquetas para todo o resto",
+          "p": "Um grupo é um espaço partilhado com membros, sondagens e discussões — uma família, uma rua, uma turma. Uma etiqueta é um rótulo privado — Colegas, Farmácia, o nome de uma cidade — que atravessa tudo isso e que mais ninguém chega a ver."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "Substitui a minha aplicação de contactos?",
           "a": "Lê os contactos já presentes no dispositivo e acrescenta uma camada por cima. Não escreve na agenda do telemóvel por iniciativa própria."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "Como organizar os contactos do telemóvel",
+      "description": "Um método de uma noite para uma lista com dez anos: apagar o que está morto, juntar os duplicados, escrever os nomes como os procuraria e só então etiquetar os poucos que precisa mesmo de encontrar.",
+      "h1": "Como organizar os contactos do telemóvel",
+      "lead": "Quatro passagens, por esta ordem. Quase todo o trabalho é apagar.",
+      "answer": "Trabalhe em quatro passagens e termine cada uma antes de começar a seguinte. Apague o que está morto, junte os duplicados, reescreva os nomes tal como os procuraria e só então etiquete as poucas dezenas de contactos que procura pela função e não pelo nome. A maioria das listas não está desorganizada: está sem rótulos e meio morta, e é por isso que a passagem de apagar faz o trabalho a sério.",
+      "sections": [
+        {
+          "h2": "Comece por apagar, não por arrumar",
+          "body": [
+            "Uma lista de contactos com dez anos é sobretudo arqueologia: o agente do apartamento que deixou em 2016, três números de uma empresa que já não existe, um taxista de umas férias. Nada disso será alguma vez procurado, e é exactamente isso que torna inútil percorrer a lista.",
+            "Percorra-a uma vez com uma única pergunta: alguma vez telefonaria para aqui? Ao primeiro «não», apaga-se. Mil contactos costumam perder um terço em vinte minutos, e todas as passagens seguintes ficam mais rápidas por causa disso."
+          ]
+        },
+        {
+          "h2": "Junte os duplicados antes de renomear seja o que for",
+          "body": [
+            "Os duplicados nascem da mesma pessoa a chegar duas vezes: uma pelo cartão SIM, outra por uma conta de e-mail, outra por uma aplicação de mensagens. Renomear as duas metades de um duplicado é trabalho perdido, por isso junte primeiro. A aplicação Contactos do Android tem um ecrã «Juntar e corrigir» que encontra as correspondências exactas; as quase-correspondências tem de as ver você."
+          ],
+          "list": [
+            "Mesmo nome, dois números — guarde os dois números num só contacto.",
+            "Mesmo número, dois nomes — guarde o nome que realmente procuraria.",
+            "«Mãe» e «Mamã», ou um telemóvel guardado duas vezes com e sem indicativo do país — isto nunca aparece como correspondência exacta.",
+            "Um nome sem número e sem e-mail não é um contacto. É um recado que deixou a si próprio."
+          ]
+        },
+        {
+          "h2": "Dê às pessoas o nome pelo qual as procuraria",
+          "body": [
+            "O campo do nome é um índice de pesquisa, não um rótulo. Se procuraria «Ahmed o electricista», é esse o nome. Se tem quatro pessoas chamadas Ahmed, nenhuma delas devia estar guardada como «Ahmed».",
+            "Escolha uma convenção e aplique-a a toda a gente: nome próprio, apelido e depois aquilo que distingue a pessoa. Qual escolhe importa muito menos do que usar sempre a mesma, porque a caixa de pesquisa só o recompensa se a palavra distintiva estiver sempre no mesmo sítio."
+          ]
+        },
+        {
+          "h2": "Etiquete os vinte de que precisa mesmo",
+          "body": [
+            "Esta é a passagem por onde toda a gente quer começar e a que deve ficar para o fim — a esta altura a lista já é curta o suficiente para se ver. As etiquetas — o Android chama-lhes etiquetas, o TreeLinker chama-lhes tags — servem para os contactos que procura pela função e não pelo nome: a dentista, o canalizador, a escola, as quatro pessoas a quem telefonaria numa emergência.",
+            "Não tente etiquetar toda a gente. Uma taxonomia que não vai manter é pior do que nenhuma, porque faz a lista parecer arrumada enquanto está caladamente errada."
+          ]
+        },
+        {
+          "h2": "O que arrumar não resolve",
+          "body": [
+            "Nada disto lhe diz quem são estas pessoas umas para as outras. Uma lista de contactos é plana por desenho: sabe o número da Angelina e o do Micheal, e não sabe nada sobre uma ser irmã do outro. Se o que perde sempre é qual primo, cunhado de quem, quem está a ligar — isso é um problema de relações e não de organização, e é a camada que o TreeLinker acrescenta por cima da lista que acabou de limpar."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Quanto tempo demora?",
+          "a": "Cerca de uma hora para mil contactos, a maior parte na passagem de apagar. Faça-o de uma assentada e não em bocados de cinco minutos: juntar e renomear só funcionam se conseguir ver a lista toda."
+        },
+        {
+          "q": "Apago o contacto ou arquivo-o?",
+          "a": "O Android não tem arquivo. Se apagar o deixa desconfortável, exporte primeiro uma cópia vCard de toda a lista e depois apague à vontade — a cópia é o seu desfazer."
+        },
+        {
+          "q": "As etiquetas passam para um telemóvel novo?",
+          "a": "As etiquetas criadas dentro de uma conta Google sincronizam com essa conta. As criadas apenas no aparelho ficam no aparelho, e é por isso que se perdem na mudança de telemóvel."
+        },
+        {
+          "q": "O TreeLinker altera os contactos do meu telemóvel?",
+          "a": "Não renomeia, não junta e não apaga nada na sua lista — mantém ao lado as suas próprias relações, etiquetas e notas. A única vez em que escreve na sua lista é quando aceita uma etiqueta partilhada por outro utilizador, o que acrescenta as pessoas dessa etiqueta que ainda não tenha."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "Como fazer cópia de segurança da lista de contactos em segurança",
+      "description": "Sincronizar não é fazer cópia de segurança. A configuração da conta em cinco minutos, a exportação vCard trimestral e porque esse ficheiro é o mais sensível que alguma vez terá.",
+      "h1": "Como fazer cópia de segurança da lista de contactos em segurança",
+      "lead": "Duas cópias, por razões diferentes: uma que segue o telemóvel e outra que não.",
+      "answer": "Ligue a sincronização da conta para que os contactos sejam escritos numa conta Google ou iCloud e não apenas no aparelho, e exporte um ficheiro vCard de poucos em poucos meses, guardando-o cifrado num sítio que controle. A sincronização sobrevive a um telemóvel perdido; a exportação datada sobrevive a uma eliminação, porque a sincronização copia um erro com a mesma fidelidade com que copia tudo o resto. E trate essa exportação pelo que é: uma lista em texto simples de toda a gente que conhece.",
+      "sections": [
+        {
+          "h2": "Sincronizar não é fazer cópia de segurança",
+          "body": [
+            "A sincronização mantém duas cópias idênticas. É exactamente o que quer quando um telemóvel cai ao rio, e exactamente o que não quer quando apaga quarenta contactos sem querer — a eliminação é copiada em segundos para todos os seus aparelhos.",
+            "Uma cópia de segurança é uma cópia que não muda quando o original muda. A sincronização, por definição, não é uma. Portanto, faça as duas coisas: a conta sobrevive à perda do telemóvel, a exportação datada sobrevive a si."
+          ]
+        },
+        {
+          "h2": "Ligue a sincronização da conta",
+          "body": [
+            "Cinco minutos, uma vez. A conta a que um contacto pertence é de longe a razão mais comum para os contactos desaparecerem numa mudança de telemóvel: estavam guardados no aparelho ou no SIM, e nenhum dos dois viaja."
+          ],
+          "list": [
+            "Android: Definições, depois Palavras-passe e contas, depois a sua conta Google, depois Sincronização da conta, e confirme que Contactos está ligado.",
+            "Depois abra os Contactos, comece uma entrada nova e veja em que conta ele se oferece para guardar. Se disser «Dispositivo» ou «SIM», nada do que acrescenta está a ser sincronizado.",
+            "iPhone: Definições, depois o seu nome, depois iCloud, depois Contactos.",
+            "Se usa duas contas — uma pessoal e uma de trabalho — decida qual é a lista verdadeira. Listas partidas ao meio são a razão de meia família acabar só num telemóvel."
+          ]
+        },
+        {
+          "h2": "Exporte um vCard e ponha a data no nome do ficheiro",
+          "body": [
+            "Qualquer aplicação de contactos sabe escrever um ficheiro .vcf: um único ficheiro de texto com a lista inteira, legível por qualquer telemóvel, qualquer programa de correio e qualquer outra aplicação de contactos. Exporte um, dê-lhe o nome com a data de hoje e guarde-o num sítio que não seja o telemóvel.",
+            "Faça-o trimestralmente e sempre antes dos três momentos que comem listas de contactos: uma mudança de telemóvel, uma mudança de conta Google e uma grande limpeza."
+          ]
+        },
+        {
+          "h2": "A sua exportação é um ficheiro sobre toda a gente que conhece",
+          "body": [
+            "É a esta parte que a palavra «segurança» se refere. Um ficheiro .vcf não tem palavra-passe nem cifra. Contém todos os nomes, números, endereços de e-mail, moradas, datas de nascimento e notas que guardou sobre centenas de pessoas, nenhuma das quais escolheu estar lá. Enviá-lo para o seu próprio e-mail deixa-o numa caixa de correio durante anos; pô-lo numa pasta partilhada na nuvem partilha-o."
+          ],
+          "list": [
+            "Guarde-o em armazenamento cifrado: um arquivo protegido por palavra-passe, um disco cifrado ou um gestor de palavras-passe que aceite anexos.",
+            "Não o envie para si por e-mail e não o ponha numa pasta que outros possam abrir.",
+            "Apague a exportação antiga quando fizer uma nova. Três anos de cópias velhas são o triplo da exposição sem qualquer segurança adicional.",
+            "Cuidado com aplicações que anunciam «cópia de segurança dos contactos». Na descrição de uma loja, cópia de segurança quer muitas vezes dizer carregamento para o nosso servidor, e raramente diz de quem é o servidor."
+          ]
+        },
+        {
+          "h2": "Onde o TreeLinker encaixa e onde não encaixa",
+          "body": [
+            "O TreeLinker não é uma cópia de segurança da sua lista de contactos, e apresentá-lo como tal seria desonesto. Não carrega os seus contactos: a única coisa retirada deles é um número de telefone normalizado, usado para verificar quais das pessoas que já conhece usam o TreeLinker. Notas, moradas, endereços de e-mail e fotografias de contacto são lidos no aparelho e ficam lá.",
+            "O que fica na sua conta é a camada que construiu — as relações, o nome que guardou para cada pessoa que colocou na árvore, as suas etiquetas, memórias, entradas da cronologia, participação em grupos e favoritos. É isso que volta quando reinstala a aplicação ou entra num telemóvel novo. A estrutura volta; a lista de contactos não, e por isso continua a precisar do vCard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O TreeLinker faz cópia de segurança dos meus contactos?",
+          "a": "Não, e não foi feito para isso. Guarda as relações, etiquetas, memórias e entradas de cronologia que cria, além do nome que guardou para quem colocou na árvore. A lista em si fica no telemóvel e na conta com que a sincroniza."
+        },
+        {
+          "q": "Os Contactos Google chegam?",
+          "a": "Para um telemóvel perdido, sim. Para uma eliminação acidental, a Google guarda trinta dias de anulação em Contactos, Definições, Anular alterações. Passados trinta dias só a sua própria exportação ajuda."
+        },
+        {
+          "q": "Com que frequência devo exportar?",
+          "a": "Trimestralmente chega para a maioria, mais uma antes de qualquer mudança de telemóvel e outra antes de uma grande limpeza."
+        },
+        {
+          "q": "E as cópias do SIM ou das aplicações de mensagens?",
+          "a": "Um SIM guarda umas centenas de entradas apenas com nomes e números — sem segundos números, sem e-mails, sem fotografias. As aplicações de mensagens guardam as suas conversas, não a sua lista de contactos. Nenhuma substitui um vCard."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "É seguro guardar a sua lista de contactos no TreeLinker?",
+      "description": "A versão honesta: não a guarda no TreeLinker. O que sai exactamente do telemóvel, o que lá fica, o que é guardado na sua conta e qual é a parte que merece mesmo ser pensada.",
+      "h1": "É seguro guardar a sua lista de contactos no TreeLinker?",
+      "lead": "A resposta curta é que não guarda. Fica no telemóvel. Esta é a resposta longa.",
+      "answer": "Não guarda a sua lista de contactos no TreeLinker — ela fica no seu aparelho. A única coisa retirada dela é um número de telefone normalizado, enviado para verificar quais dos seus contactos já usam a aplicação. O que o TreeLinker mantém na sua conta é aquilo que cria lá dentro: relações, o nome que guardou para quem coloca na árvore, etiquetas, memórias, entradas de cronologia e participação em grupos. Notas de contacto, moradas, endereços de e-mail e fotografias de contacto nunca saem do telemóvel, e a identificação de chamadas é feita inteiramente no aparelho.",
+      "sections": [
+        {
+          "h2": "O que sai do telemóvel, exactamente",
+          "body": [
+            "Uma resposta sobre privacidade só vale alguma coisa se for uma lista. Esta é a lista completa:"
+          ],
+          "list": [
+            "Números de telefone normalizados dos seus contactos, usados para descobrir quais deles já usam o TreeLinker.",
+            "O nome que guardou para uma pessoa assim que a coloca na sua árvore — para que volte com nome se reinstalar ou entrar noutro sítio.",
+            "As relações que regista e a forma da árvore que compõem.",
+            "Etiquetas, memórias com as fotografias e locais que lhes junta, entradas de cronologia, participação em grupos e favoritos.",
+            "O seu próprio perfil: nome, endereço de e-mail, número, país e o que tiver acrescentado de opcional.",
+            "Um token de notificações, para que os avisos cheguem ao seu aparelho."
+          ]
+        },
+        {
+          "h2": "O que fica",
+          "body": [
+            "Notas de contacto, moradas, endereços de e-mail, fotografias de contacto e todos os outros campos da sua lista são lidos no aparelho e nunca são carregados.",
+            "A identificação de chamadas é feita inteiramente no telemóvel. O número recebido é comparado com contactos que já tem, e nunca é enviado a um servidor para perguntar quem está a ligar. Não existe no produto qualquer directório inverso partilhado: quem liga sem estar guardado não gera cartão nenhum, e nada sobre essa pessoa é procurado, guardado ou enviado."
+          ]
+        },
+        {
+          "h2": "A parte que merece mesmo ser pensada é a partilha",
+          "body": [
+            "Guardar é a pergunta que as pessoas fazem; partilhar é a que importa. Enviar a outro utilizador uma árvore ou uma etiqueta envia-lhe o nome e o número de telefone que guardou para cada pessoa incluída. Numa árvore são familiares. Numa etiqueta podem ser quaisquer pessoas — colegas, vizinhos, uma lista de canalizadores — e quando quem recebe guarda a etiqueta, todos os que ainda não tinha são acrescentados à sua própria lista.",
+            "Isso é uma divulgação real de números de outras pessoas, feita por si. Partilhe apenas com alguém a quem estaria disposto a ler esses números em voz alta. O que fica retido para entrega expira ao fim de trinta dias e é apagado, quer o destinatário o tenha aberto quer não."
+          ]
+        },
+        {
+          "h2": "O cartão de chamada pode ser lido por quem estiver na sala",
+          "body": [
+            "Com a identificação de chamadas ligada, o cartão sobre uma chamada a entrar mostra como conhece a pessoa, os seus grupos e etiquetas, a data de nascimento e a sua nota mais recente sobre ela. Aparece num telemóvel a tocar, o que significa que qualquer pessoa ao lado consegue ler essa nota. Vale a pena saber antes de escrever algo franco na cronologia de um contacto."
+          ]
+        },
+        {
+          "h2": "O que a aplicação não faz",
+          "body": [
+            "Parte da segurança de um produto está naquilo que nunca foi construído."
+          ],
+          "list": [
+            "Sem publicidade e sem criação de perfis para ela.",
+            "Sem SDK de análise de terceiros e sem cookies — é uma aplicação nativa, não um navegador.",
+            "Nada é vendido, alugado ou trocado, a ninguém, para fim nenhum.",
+            "Sem directório público de números e sem qualquer forma de outro utilizador ver o que registou, a menos que o partilhe deliberadamente.",
+            "Palavras-passe com hash bcrypt e nunca guardadas de forma legível; tudo por TLS; tokens de sessão no Android Keystore, a expirar ao fim de trinta dias de inactividade."
+          ]
+        },
+        {
+          "h2": "Se quiser tudo apagado",
+          "body": [
+            "Neste momento não há definição que desligue o armazenamento na conta — o que cria é guardado na conta para sobreviver a uma reinstalação. O controlo que tem é a eliminação, e é completa: Definições, depois Eliminar conta, apaga permanentemente os seus dados do aparelho e dos servidores. O mesmo pedido pode ser feito na página de eliminação de conta deste site.",
+            "A permissão de contactos, e as duas permissões opcionais da identificação de chamadas, podem ser revogadas a qualquer momento nas definições do próprio Android."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "O TreeLinker carrega os meus contactos?",
+          "a": "Apenas números de telefone normalizados, e apenas para verificar quais dos seus contactos já usam o TreeLinker. O resto de cada ficha fica no seu aparelho."
+        },
+        {
+          "q": "Outro utilizador pode ver quem está na minha árvore?",
+          "a": "Não. O que regista é privado da sua conta, a menos que o partilhe deliberadamente — juntando uma memória a um grupo, convidando alguém para ele, ou enviando uma árvore ou uma etiqueta a uma pessoa concreta."
+        },
+        {
+          "q": "A identificação de chamadas procura na internet?",
+          "a": "Não. A comparação acontece no aparelho, contra contactos que já tem. Números desconhecidos não são identificados de todo, porque não há nada com que os comparar."
+        },
+        {
+          "q": "Onde ficam realmente os dados?",
+          "a": "No Neo4j AuraDB, uma base de dados de grafos na nuvem, sob a sua própria conta e por ligações cifradas. O Firebase Cloud Messaging encaminha notificações e não recebe mais do que um token do aparelho."
+        },
+        {
+          "q": "Como apago tudo?",
+          "a": "Definições, depois Eliminar conta, na aplicação — ou o formulário na página de eliminação de conta deste site. Apaga permanentemente os seus dados do aparelho e dos nossos servidores."
         }
       ]
     }

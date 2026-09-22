@@ -32,7 +32,10 @@
       "answer": "Jawaban singkat",
       "faq": "Pertanyaan umum",
       "related": "Halaman terkait",
-      "breadcrumb": "Jalur navigasi"
+      "breadcrumb": "Jalur navigasi",
+      "skip": "Lewati ke konten",
+      "shotAlt": "%s — di aplikasi TreeLinker untuk Android",
+      "allGuides": "Semua panduan"
     },
     "cta": {
       "title": "Mulai dari kontak yang sudah Anda miliki",
@@ -49,7 +52,9 @@
       "deleteAccount": "Hapus akun",
       "support": "Dukungan",
       "rights": "Seluruh hak dilindungi.",
-      "madeWith": "Dibuat dengan"
+      "madeWith": "Dibuat dengan",
+      "contact": "Kontak",
+      "childSafety": "Keselamatan anak"
     },
     "identity": {
       "category": "aplikasi pengelolaan hubungan keluarga",
@@ -165,6 +170,20 @@
         {
           "q": "Apakah keluarga saya harus ikut memasangnya?",
           "a": "Tidak. Anda bisa memetakan seluruh keluarga sendiri. Membagikan pohon ke pengguna lain bersifat opsional dan sekali jalan — tidak ada sinkronisasi yang berlanjut setelahnya."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "Pohonnya menggambar dirinya sendiri",
+          "p": "Hubungkan dua orang sekali saja, dan hubungan kebalikannya dibuatkan untuk Anda. Teruskan ke luar — pasangan, saudara, anak — dan bentuk keluarga itu muncul, dibangun dari kontak yang sudah ada di ponsel Anda, bukan dari formulir yang diisi dua kali."
+        },
+        {
+          "h2": "Ia mengusulkan apa yang sudah tersirat di pohon Anda",
+          "p": "Anak dari saudara laki-laki Anda adalah keponakan Anda. TreeLinker menyimpulkannya, menunjukkan siapa yang ia temukan dan alasannya, lalu menunggu. Tidak ada yang masuk ke arsip Anda sebelum Anda mencentangnya."
+        },
+        {
+          "h2": "Grup untuk pertemuan, tag untuk selebihnya",
+          "p": "Grup adalah ruang bersama dengan anggota, jajak pendapat, dan diskusi — satu keluarga, satu gang, satu angkatan. Tag adalah label pribadi — Kolega, Apotek, nama kota — yang memotong semuanya dan tidak pernah dilihat orang lain."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "Apakah ia menggantikan aplikasi kontak saya?",
           "a": "Ia membaca kontak yang sudah ada di perangkat dan menambahkan lapisan di atasnya. Ia tidak menulis ke buku alamat ponsel atas inisiatif sendiri."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "Cara merapikan kontak di ponsel",
+      "description": "Metode satu malam untuk buku alamat berusia sepuluh tahun: hapus yang mati, gabungkan yang ganda, tulis nama sebagaimana Anda akan mencarinya, lalu beri label hanya pada yang benar-benar perlu Anda temukan.",
+      "h1": "Cara merapikan kontak di ponsel",
+      "lead": "Empat putaran, berurutan. Sebagian besar pekerjaannya adalah menghapus.",
+      "answer": "Kerjakan dalam empat putaran dan selesaikan satu sebelum memulai berikutnya. Hapus yang sudah mati, gabungkan yang ganda, tulis ulang nama sebagaimana Anda akan mencarinya, dan baru setelah itu beri label pada beberapa puluh kontak yang Anda cari berdasarkan perannya, bukan namanya. Kebanyakan buku alamat bukan berantakan, melainkan tak berlabel dan separuhnya mati — karena itulah putaran penghapusan yang mengerjakan bagian terbesarnya.",
+      "sections": [
+        {
+          "h2": "Mulailah dengan menghapus, bukan merapikan",
+          "body": [
+            "Buku alamat yang berjalan sepuluh tahun sebagian besar adalah arkeologi: agen properti dari kos yang Anda tinggalkan pada 2016, tiga nomor perusahaan yang sudah tutup, sopir taksi dari satu perjalanan. Tak satu pun akan pernah dicari, dan justru itulah yang membuat menggulir daftar jadi sia-sia.",
+            "Telusuri daftarnya sekali dengan satu pertanyaan: akankah saya menelepon ini? Hapus pada «tidak» yang pertama. Seribu kontak biasanya menyusut sepertiga dalam dua puluh menit, dan setiap putaran berikutnya jadi lebih cepat karenanya."
+          ]
+        },
+        {
+          "h2": "Gabungkan yang ganda sebelum mengganti nama apa pun",
+          "body": [
+            "Duplikat muncul karena orang yang sama datang dua kali: sekali dari SIM, sekali dari akun surel, sekali dari aplikasi pesan. Mengganti nama kedua bagian duplikat itu pekerjaan sia-sia, jadi gabungkan dulu. Aplikasi Kontak Android punya layar «Gabungkan & perbaiki» yang menemukan kecocokan persis; yang nyaris cocok harus Anda temukan sendiri."
+          ],
+          "list": [
+            "Nama sama, dua nomor — simpan kedua nomor pada satu kontak.",
+            "Nomor sama, dua nama — simpan nama yang benar-benar akan Anda cari.",
+            "«Ibu» dan «Mama», atau nomor yang tersimpan dua kali dengan dan tanpa kode negara — ini tidak pernah muncul sebagai kecocokan persis.",
+            "Nama tanpa nomor dan tanpa surel bukan kontak. Itu catatan untuk diri sendiri."
+          ]
+        },
+        {
+          "h2": "Namai orang sebagaimana Anda akan mencarinya",
+          "body": [
+            "Kolom nama adalah indeks pencarian, bukan label. Kalau Anda akan mencari «Ahmad tukang listrik», maka itulah namanya. Kalau Anda punya empat Ahmad, tak satu pun boleh disimpan sebagai «Ahmad».",
+            "Pilih satu aturan dan terapkan ke semua orang: nama depan, nama keluarga, lalu penanda pembeda. Aturan mana yang Anda pilih jauh kurang penting daripada memakai aturan yang sama setiap kali, karena kotak pencarian hanya berguna jika kata pembeda selalu ada di posisi yang sama."
+          ]
+        },
+        {
+          "h2": "Beri label pada dua puluh yang benar-benar Anda perlukan",
+          "body": [
+            "Inilah putaran yang ingin dilakukan semua orang lebih dulu, dan justru yang harus ditunda ke akhir — sekarang daftarnya sudah cukup pendek untuk dilihat utuh. Label — Android menyebutnya label, TreeLinker menyebutnya tag — untuk kontak yang Anda cari berdasarkan perannya, bukan namanya: dokter gigi, tukang ledeng, sekolah, empat orang yang akan Anda hubungi saat darurat.",
+            "Jangan coba memberi label pada semua orang. Taksonomi yang tidak akan Anda rawat lebih buruk daripada tidak ada, karena ia membuat daftar tampak rapi padahal diam-diam salah."
+          ]
+        },
+        {
+          "h2": "Yang tidak bisa diperbaiki dengan merapikan",
+          "body": [
+            "Tak satu pun dari ini memberi tahu Anda siapa orang-orang itu satu sama lain. Buku alamat memang dirancang sebagai daftar datar: ia tahu nomor Angelina dan nomor Micheal, dan tidak tahu bahwa yang satu adalah saudara perempuan yang lain. Kalau yang terus hilang adalah sepupu yang mana, ipar siapa, atau siapa yang menelepon — itu masalah hubungan, bukan masalah kerapian, dan itulah lapisan yang ditambahkan TreeLinker di atas daftar yang baru saja Anda bersihkan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Berapa lama ini memakan waktu?",
+          "a": "Sekitar satu jam untuk seribu kontak, sebagian besar di putaran penghapusan. Kerjakan sekali duduk, bukan dicicil lima menitan: menggabungkan dan mengganti nama hanya berhasil kalau Anda bisa melihat seluruh daftar."
+        },
+        {
+          "q": "Dihapus atau diarsipkan?",
+          "a": "Android tidak punya arsip. Kalau ragu menghapus, ekspor dulu salinan vCard dari seluruh buku alamat, lalu hapus dengan bebas — salinan itu tombol batal Anda."
+        },
+        {
+          "q": "Apakah label ikut pindah ke ponsel baru?",
+          "a": "Label yang dibuat di dalam akun Google ikut tersinkron dengan akun itu. Label yang dibuat hanya di perangkat tetap di perangkat, dan itulah sebabnya orang kehilangannya saat ganti ponsel."
+        },
+        {
+          "q": "Apakah TreeLinker mengubah kontak di ponsel saya?",
+          "a": "Ia tidak mengganti nama, tidak menggabungkan, dan tidak menghapus apa pun di buku alamat Anda — ia menyimpan hubungan, tag, dan catatannya sendiri di sampingnya. Satu-satunya saat ia menulis ke buku alamat Anda adalah ketika Anda menerima tag yang dibagikan pengguna lain, yang menambahkan orang-orang dalam tag itu yang belum Anda punya."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "Cara mencadangkan buku alamat ponsel dengan aman",
+      "description": "Sinkronisasi bukan pencadangan. Penyiapan akun lima menit, ekspor vCard tiap tiga bulan, dan mengapa berkas itu yang paling sensitif yang Anda miliki.",
+      "h1": "Cara mencadangkan buku alamat ponsel dengan aman",
+      "lead": "Dua salinan, dengan alasan berbeda: satu mengikuti ponsel, satu tidak.",
+      "answer": "Nyalakan sinkronisasi akun agar kontak Anda ditulis ke akun Google atau iCloud, bukan hanya ke perangkat, lalu ekspor berkas vCard tiap beberapa bulan dan simpan terenkripsi di tempat yang Anda kendalikan. Sinkronisasi menyelamatkan Anda dari ponsel hilang; ekspor bertanggal menyelamatkan Anda dari penghapusan, karena sinkronisasi menyalin kesalahan dengan setia seperti menyalin yang lain. Perlakukan ekspor itu apa adanya: daftar teks polos berisi semua orang yang Anda kenal.",
+      "sections": [
+        {
+          "h2": "Sinkronisasi bukan pencadangan",
+          "body": [
+            "Sinkronisasi menjaga dua salinan tetap identik. Itu persis yang Anda inginkan ketika ponsel jatuh ke sungai, dan persis yang tidak Anda inginkan ketika Anda menghapus empat puluh kontak tanpa sengaja — penghapusan itu tersalin dalam hitungan detik ke semua perangkat Anda.",
+            "Cadangan adalah salinan yang tidak ikut berubah ketika aslinya berubah. Sinkronisasi, menurut definisinya, bukan itu. Jadi lakukan keduanya: akun menyelamatkan dari kehilangan ponsel, ekspor bertanggal menyelamatkan dari Anda sendiri."
+          ]
+        },
+        {
+          "h2": "Nyalakan sinkronisasi akun",
+          "body": [
+            "Lima menit, sekali saja. Akun tempat sebuah kontak bernaung adalah penyebab paling umum kontak lenyap saat ganti ponsel: kontak itu tersimpan di perangkat atau di SIM, dan keduanya tidak ikut pindah."
+          ],
+          "list": [
+            "Android: Setelan, lalu Sandi & akun, lalu akun Google Anda, lalu Sinkronisasi akun, dan pastikan Kontak menyala.",
+            "Lalu buka Kontak, mulai entri baru, dan lihat akun mana yang ditawarkan untuk menyimpannya. Kalau tertulis «Perangkat» atau «SIM», tidak ada yang Anda tambahkan tersinkron ke mana pun.",
+            "iPhone: Pengaturan, lalu nama Anda, lalu iCloud, lalu Kontak.",
+            "Kalau Anda memakai dua akun — pribadi dan kerja — putuskan mana buku alamat yang sebenarnya. Buku alamat yang terbelah adalah sebab separuh keluarga berakhir hanya di satu ponsel."
+          ]
+        },
+        {
+          "h2": "Ekspor vCard, dan cantumkan tanggal di nama berkasnya",
+          "body": [
+            "Setiap aplikasi kontak bisa menulis berkas .vcf: satu berkas teks polos berisi seluruh buku alamat, terbaca oleh setiap ponsel, setiap klien surel, dan setiap aplikasi kontak lain. Ekspor satu, beri nama dengan tanggal hari ini, dan simpan di tempat yang bukan ponsel.",
+            "Lakukan tiap tiga bulan, dan selalu sebelum tiga momen yang melahap buku alamat: ganti ponsel, ganti akun Google, dan sesi bersih-bersih besar."
+          ]
+        },
+        {
+          "h2": "Ekspor Anda adalah berkas berisi semua orang yang Anda kenal",
+          "body": [
+            "Inilah yang dimaksud kata «aman». Berkas .vcf tidak punya sandi dan tidak terenkripsi. Ia memuat setiap nama, nomor, alamat surel, alamat rumah, tanggal lahir, dan catatan yang Anda simpan tentang ratusan orang, yang tak satu pun memilih untuk ada di dalamnya. Mengirimkannya ke surel sendiri meninggalkannya di kotak masuk bertahun-tahun; menaruhnya di folder awan bersama berarti membagikannya."
+          ],
+          "list": [
+            "Simpan di penyimpanan terenkripsi: arsip berkata sandi, disk terenkripsi, atau pengelola kata sandi yang menerima lampiran berkas.",
+            "Jangan kirim ke surel sendiri, dan jangan taruh di folder yang bisa dibuka orang lain.",
+            "Hapus ekspor lama begitu Anda membuat yang baru. Tiga tahun salinan usang berarti tiga kali lipat paparan tanpa tambahan keamanan.",
+            "Hati-hati dengan aplikasi yang mengiklankan «cadangan kontak». Di deskripsi toko, cadangan sangat sering berarti unggah ke server kami, dan jarang disebut server siapa."
+          ]
+        },
+        {
+          "h2": "Di mana TreeLinker cocok, dan di mana tidak",
+          "body": [
+            "TreeLinker bukan cadangan buku alamat Anda, dan menyebutnya begitu akan menyesatkan. Ia tidak mengunggah kontak Anda: satu-satunya yang diambil adalah nomor telepon dengan format dibakukan, dipakai untuk memeriksa siapa di antara kenalan Anda yang sudah memakai TreeLinker. Catatan, alamat rumah, alamat surel, dan foto kontak dibaca di perangkat dan tetap di sana.",
+            "Yang ia simpan di akun Anda adalah lapisan yang Anda bangun sendiri — hubungan, nama yang Anda simpan untuk tiap orang yang Anda tempatkan di pohon, tag, kenangan, entri lini masa, keanggotaan grup, dan favorit. Itulah yang kembali saat Anda memasang ulang aplikasi atau masuk di ponsel baru. Strukturnya kembali; buku alamatnya tidak, dan karena itu vCard tetap Anda perlukan."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah TreeLinker mencadangkan kontak saya?",
+          "a": "Tidak, dan memang tidak dibangun untuk itu. Ia menyimpan hubungan, tag, kenangan, dan entri lini masa yang Anda buat, ditambah nama yang Anda simpan untuk siapa pun yang Anda tempatkan di pohon keluarga. Buku alamatnya sendiri tetap di ponsel Anda dan di akun tempat Anda menyinkronkannya."
+        },
+        {
+          "q": "Apakah Google Kontak sudah cukup?",
+          "a": "Untuk ponsel hilang, ya. Untuk penghapusan tak sengaja, Google menyimpan tiga puluh hari pembatalan di Kontak, Setelan, Urungkan perubahan. Lewat tiga puluh hari, hanya ekspor Anda sendiri yang menolong."
+        },
+        {
+          "q": "Seberapa sering harus mengekspor?",
+          "a": "Tiap tiga bulan sudah cukup bagi kebanyakan orang, ditambah satu sebelum ganti ponsel dan satu sebelum bersih-bersih besar."
+        },
+        {
+          "q": "Bagaimana dengan cadangan SIM atau aplikasi pesan?",
+          "a": "SIM memuat beberapa ratus entri berisi nama dan nomor saja — tanpa nomor kedua, tanpa surel, tanpa foto. Aplikasi pesan mencadangkan obrolannya sendiri, bukan buku alamat Anda. Keduanya bukan pengganti vCard."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "Amankah menyimpan buku alamat Anda di TreeLinker?",
+      "description": "Versi jujurnya: Anda tidak menyimpannya di TreeLinker sama sekali. Apa persisnya yang keluar dari ponsel, apa yang tetap tinggal, apa yang disimpan di akun Anda, dan bagian mana yang benar-benar layak dipikirkan.",
+      "h1": "Amankah menyimpan buku alamat Anda di TreeLinker?",
+      "lead": "Jawaban singkatnya: Anda tidak menyimpannya. Ia tetap di ponsel. Ini jawaban panjangnya.",
+      "answer": "Anda tidak menyimpan buku alamat di TreeLinker — ia tetap di perangkat Anda. Satu-satunya yang diambil darinya adalah nomor telepon dengan format dibakukan, dikirim untuk memeriksa siapa di antara kontak Anda yang sudah memakai aplikasi ini. Yang disimpan TreeLinker di akun Anda adalah yang Anda buat di dalamnya: hubungan, nama yang Anda simpan untuk orang yang Anda tempatkan di pohon, tag, kenangan, entri lini masa, dan keanggotaan grup. Catatan kontak, alamat rumah, alamat surel, dan foto kontak tidak pernah meninggalkan ponsel, dan identifikasi penelepon dicocokkan sepenuhnya di perangkat.",
+      "sections": [
+        {
+          "h2": "Apa yang keluar dari ponsel, persisnya",
+          "body": [
+            "Jawaban soal privasi baru berarti kalau berbentuk daftar. Ini daftarnya, lengkap:"
+          ],
+          "list": [
+            "Nomor telepon berformat baku dari kontak Anda, dipakai untuk menemukan siapa di antaranya yang sudah memakai TreeLinker.",
+            "Nama yang Anda simpan untuk seseorang begitu Anda menempatkannya di pohon keluarga — agar ia kembali bernama jika Anda memasang ulang atau masuk di tempat lain.",
+            "Hubungan yang Anda catat, dan bentuk pohon yang terbentuk darinya.",
+            "Tag, kenangan beserta foto dan lokasi yang Anda lampirkan, entri lini masa, keanggotaan grup, dan favorit.",
+            "Profil Anda sendiri: nama, alamat surel, nomor telepon, negara, dan apa pun yang opsional yang Anda tambahkan.",
+            "Token notifikasi, agar pemberitahuan sampai ke perangkat Anda."
+          ]
+        },
+        {
+          "h2": "Apa yang tetap tinggal",
+          "body": [
+            "Catatan kontak, alamat rumah, alamat surel, foto kontak, dan setiap kolom lain di buku alamat Anda dibaca di perangkat dan tidak pernah diunggah.",
+            "Identifikasi penelepon dicocokkan sepenuhnya di ponsel. Nomor masuk dibandingkan dengan kontak yang sudah Anda miliki, dan tidak pernah dikirim ke server untuk menanyakan siapa yang menelepon. Tidak ada direktori nomor terbalik bersama di produk ini: penelepon yang tidak Anda simpan tidak memunculkan kartu apa pun, dan tidak ada apa pun tentangnya yang dicari, disimpan, atau dikirim."
+          ]
+        },
+        {
+          "h2": "Yang benar-benar layak dipikirkan adalah berbagi",
+          "body": [
+            "Penyimpanan adalah pertanyaan yang ditanyakan orang; berbagi adalah yang benar-benar penting. Mengirim pohon keluarga atau tag ke pengguna lain berarti mengirimkan nama dan nomor telepon yang Anda simpan untuk setiap orang di dalamnya. Dalam pohon, mereka keluarga. Dalam tag, mereka bisa siapa saja — kolega, tetangga, daftar tukang ledeng — dan ketika penerima menyimpan tag itu, semua orang di dalamnya yang belum ia punya ditambahkan ke buku alamatnya sendiri.",
+            "Itu pengungkapan nyata atas nomor orang lain, dan Anda yang melakukannya. Bagikan hanya kepada orang yang kepadanya Anda bersedia membacakan nomor-nomor itu. Yang ditahan untuk pengiriman kedaluwarsa setelah tiga puluh hari lalu dihapus, entah penerimanya pernah membukanya atau tidak."
+          ]
+        },
+        {
+          "h2": "Kartu penelepon bisa dibaca siapa pun yang ada di ruangan",
+          "body": [
+            "Dengan identifikasi penelepon aktif, kartu di atas panggilan masuk menampilkan hubungan Anda dengan orang itu, grup dan tag-nya, tanggal lahirnya, serta catatan terakhir Anda tentangnya. Ia muncul di ponsel yang sedang berdering, artinya siapa pun yang berdiri di dekatnya bisa membaca catatan itu. Baik diketahui sebelum Anda menulis sesuatu yang terus terang di lini masa seorang kontak."
+          ]
+        },
+        {
+          "h2": "Yang tidak dilakukan aplikasi ini",
+          "body": [
+            "Sebagian keamanan sebuah produk terletak pada apa yang tidak pernah dibangun."
+          ],
+          "list": [
+            "Tanpa iklan, dan tanpa pemrofilan untuk iklan.",
+            "Tanpa SDK analitik pihak ketiga dan tanpa kuki — ini aplikasi native, bukan peramban.",
+            "Tidak ada yang dijual, disewakan, atau dipertukarkan, kepada siapa pun, untuk tujuan apa pun.",
+            "Tidak ada direktori nomor publik, dan tidak ada cara bagi pengguna lain melihat catatan Anda kecuali Anda sengaja membagikannya.",
+            "Kata sandi di-hash dengan bcrypt dan tidak pernah disimpan dalam bentuk terbaca; semua lewat TLS; token sesi di Android Keystore, kedaluwarsa setelah tiga puluh hari tidak aktif."
+          ]
+        },
+        {
+          "h2": "Kalau Anda ingin semuanya hilang",
+          "body": [
+            "Saat ini tidak ada setelan yang mematikan penyimpanan di akun — apa yang Anda buat disimpan ke akun agar selamat dari pemasangan ulang. Kendali yang Anda punya adalah penghapusan, dan itu menyeluruh: Setelan, lalu Hapus Akun, menghapus data Anda dari perangkat dan dari server secara permanen. Permintaan yang sama bisa diajukan dari halaman penghapusan akun di situs ini.",
+            "Izin kontak, dan dua izin opsional untuk identifikasi penelepon, bisa dicabut kapan saja di setelan Android sendiri."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Apakah TreeLinker mengunggah kontak saya?",
+          "a": "Hanya nomor telepon berformat baku, dan hanya untuk mencocokkan siapa di antara kontak Anda yang sudah memakai TreeLinker. Sisa data tiap kontak tetap di perangkat Anda."
+        },
+        {
+          "q": "Bisakah pengguna lain melihat siapa saja di pohon saya?",
+          "a": "Tidak. Apa yang Anda catat bersifat pribadi untuk akun Anda kecuali Anda sengaja membagikannya — dengan menambahkan kenangan ke grup, mengundang seseorang ke dalamnya, atau mengirim pohon atau tag kepada orang tertentu."
+        },
+        {
+          "q": "Apakah identifikasi penelepon mencari di internet?",
+          "a": "Tidak. Pencocokan terjadi di perangkat, terhadap kontak yang sudah Anda miliki. Nomor tak dikenal tidak diidentifikasi sama sekali, karena tidak ada pembandingnya."
+        },
+        {
+          "q": "Di mana data sebenarnya disimpan?",
+          "a": "Di Neo4j AuraDB, basis data graf di awan, di bawah akun Anda sendiri dan lewat koneksi terenkripsi. Firebase Cloud Messaging mengantar notifikasi dan tidak menerima apa pun selain token perangkat."
+        },
+        {
+          "q": "Bagaimana cara menghapus semuanya?",
+          "a": "Setelan, lalu Hapus Akun, di aplikasi — atau formulir di halaman penghapusan akun situs ini. Data Anda terhapus permanen dari perangkat dan dari server kami."
         }
       ]
     }

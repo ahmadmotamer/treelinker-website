@@ -32,7 +32,10 @@
       "answer": "Réponse courte",
       "faq": "Questions fréquentes",
       "related": "Pages liées",
-      "breadcrumb": "Fil d'Ariane"
+      "breadcrumb": "Fil d'Ariane",
+      "skip": "Aller au contenu",
+      "shotAlt": "%s, dans l'application TreeLinker pour Android",
+      "allGuides": "Tous les guides"
     },
     "cta": {
       "title": "Commencez avec les contacts que vous avez déjà",
@@ -49,7 +52,9 @@
       "deleteAccount": "Supprimer le compte",
       "support": "Assistance",
       "rights": "Tous droits réservés.",
-      "madeWith": "Fait avec"
+      "madeWith": "Fait avec",
+      "contact": "Contact",
+      "childSafety": "Protection des mineurs"
     },
     "identity": {
       "category": "une application de gestion des relations familiales",
@@ -165,6 +170,20 @@
         {
           "q": "Ma famille doit-elle l'installer aussi ?",
           "a": "Non. Vous pouvez cartographier toute votre famille seul. Partager un arbre avec un autre utilisateur est facultatif et ponctuel : rien ne continue à se synchroniser ensuite."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "L'arbre se dessine tout seul",
+          "p": "Reliez deux personnes une fois et la relation inverse est créée pour vous. Continuez vers l'extérieur — conjoint, frère, enfant — et la forme de la famille apparaît, construite à partir des contacts déjà présents sur votre téléphone plutôt que d'un formulaire rempli deux fois."
+        },
+        {
+          "h2": "Il propose ce que votre arbre dit déjà",
+          "p": "Le fils de votre frère est votre neveu. TreeLinker le déduit, vous montre qui il a trouvé et pourquoi, puis attend. Rien n'entre dans vos archives tant que vous ne l'avez pas coché."
+        },
+        {
+          "h2": "Des groupes pour les réunions, des étiquettes pour le reste",
+          "p": "Un groupe est un espace partagé avec des membres, des sondages et des discussions : une famille, une rue, une promotion. Une étiquette est un libellé privé — Collègues, Pharmacie, un nom de ville — qui traverse tout cela et que personne d'autre ne voit jamais."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "Remplace-t-elle mon application de contacts ?",
           "a": "Elle lit les contacts déjà présents sur votre appareil et ajoute une couche par-dessus. Elle n'écrit pas d'elle-même dans le carnet de votre téléphone."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "Comment organiser les contacts de son téléphone",
+      "description": "Une méthode tenant en une soirée pour un répertoire vieux de dix ans : supprimer ce qui est mort, fusionner les doublons, nommer les gens comme on les chercherait, puis n'étiqueter que ceux qu'on a vraiment besoin de retrouver.",
+      "h1": "Comment organiser les contacts de son téléphone",
+      "lead": "Quatre passages, dans cet ordre. L'essentiel du travail consiste à supprimer.",
+      "answer": "Procédez en quatre passages et terminez chacun avant d'entamer le suivant. Supprimez ce qui est mort, fusionnez les doublons, réécrivez les noms tels que vous les chercheriez, et seulement ensuite étiquetez les quelques dizaines de contacts que vous cherchez par leur rôle plutôt que par leur nom. La plupart des répertoires ne sont pas désordonnés : ils sont sans libellés et à moitié morts, et c'est pour cela que le passage de suppression fait le vrai travail.",
+      "sections": [
+        {
+          "h2": "Commencez par supprimer, pas par ranger",
+          "body": [
+            "Un répertoire qui tourne depuis dix ans est surtout de l'archéologie : l'agent immobilier d'un appartement quitté en 2016, trois numéros d'une société qui n'existe plus, un chauffeur de taxi d'un seul séjour. Rien de tout cela ne sera jamais cherché, et c'est précisément ce qui rend le défilement inutile.",
+            "Parcourez la liste une fois avec une seule question : est-ce que j'appellerais ce numéro un jour ? Au premier « non », on supprime. Mille contacts en perdent généralement un tiers en vingt minutes, et chaque passage suivant en devient plus rapide."
+          ]
+        },
+        {
+          "h2": "Fusionnez les doublons avant de renommer quoi que ce soit",
+          "body": [
+            "Les doublons viennent de la même personne arrivée deux fois : une fois depuis la carte SIM, une fois depuis un compte de messagerie, une fois depuis une application de discussion. Renommer les deux moitiés d'un doublon est du travail perdu : fusionnez d'abord. L'application Contacts d'Android propose un écran « Fusionner et corriger » qui trouve les correspondances exactes ; les quasi-correspondances, c'est à vous de les voir."
+          ],
+          "list": [
+            "Même nom, deux numéros : gardez les deux numéros sur une seule fiche.",
+            "Même numéro, deux noms : gardez le nom que vous chercheriez réellement.",
+            "« Maman » et « Mère », ou un mobile enregistré deux fois avec et sans indicatif : cela ne ressort jamais comme correspondance exacte.",
+            "Un nom sans numéro ni adresse e-mail n'est pas un contact. C'est une note que vous vous êtes laissée."
+          ]
+        },
+        {
+          "h2": "Nommez les gens comme vous les chercheriez",
+          "body": [
+            "Le champ du nom est un index de recherche, pas une étiquette. Si vous cherchiez « Ahmed l'électricien », c'est cela, le nom. Si vous avez quatre Ahmed, aucun ne devrait être enregistré sous « Ahmed ».",
+            "Choisissez une convention et appliquez-la à tout le monde : prénom, nom, puis ce qui distingue la personne. Laquelle vous choisissez importe bien moins que de toujours prendre la même, car le champ de recherche ne vous récompense que si le mot distinctif se trouve toujours au même endroit."
+          ]
+        },
+        {
+          "h2": "Étiquetez les vingt dont vous avez vraiment besoin",
+          "body": [
+            "C'est le passage par lequel tout le monde veut commencer, et celui qu'il faut garder pour la fin : à ce stade, la liste est assez courte pour être vue. Les libellés — Android dit libellés, TreeLinker dit étiquettes — servent aux contacts que vous cherchez par leur rôle et non par leur nom : la dentiste, le plombier, l'école, les quatre personnes que vous appelleriez en urgence.",
+            "N'essayez pas d'étiqueter tout le monde. Une taxonomie que vous n'entretiendrez pas est pire que rien, car elle donne à la liste un air rangé tout en étant silencieusement fausse."
+          ]
+        },
+        {
+          "h2": "Ce que le rangement ne répare pas",
+          "body": [
+            "Rien de tout cela ne vous dit qui ces gens sont les uns pour les autres. Un répertoire est une liste plate par construction : il connaît le numéro d'Angelina et celui de Micheal, et ignore que l'une est la sœur de l'autre. Si ce que vous perdez sans cesse, c'est quel cousin, le beau-frère de qui, qui appelle — alors c'est un problème de relations et non d'organisation, et c'est la couche que TreeLinker ajoute par-dessus la liste que vous venez de nettoyer."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Combien de temps cela prend-il ?",
+          "a": "Environ une heure pour mille contacts, surtout pour le passage de suppression. Faites-le d'une traite plutôt que par tranches de cinq minutes : fusionner et renommer ne fonctionnent que si vous voyez la liste entière."
+        },
+        {
+          "q": "Faut-il supprimer un contact ou l'archiver ?",
+          "a": "Android n'a pas d'archive. Si supprimer vous met mal à l'aise, exportez d'abord une copie vCard de tout le répertoire, puis supprimez librement : l'export est votre annulation."
+        },
+        {
+          "q": "Les libellés suivent-ils sur un nouveau téléphone ?",
+          "a": "Les libellés créés dans un compte Google se synchronisent avec ce compte. Ceux créés uniquement sur l'appareil y restent, et c'est pour cela qu'on les perd au changement de téléphone."
+        },
+        {
+          "q": "TreeLinker modifie-t-il mes contacts ?",
+          "a": "Il ne renomme, ne fusionne et ne supprime rien dans votre répertoire : il tient à côté ses propres relations, étiquettes et notes. Le seul moment où il y écrit, c'est lorsque vous acceptez une étiquette partagée par un autre utilisateur, ce qui ajoute les personnes de cette étiquette que vous n'avez pas déjà."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "Comment sauvegarder le répertoire de son téléphone en sécurité",
+      "description": "La synchronisation n'est pas une sauvegarde. La configuration du compte en cinq minutes, l'export vCard trimestriel, et pourquoi ce fichier est le plus sensible que vous possédiez.",
+      "h1": "Comment sauvegarder le répertoire de son téléphone en sécurité",
+      "lead": "Deux copies, pour deux raisons différentes : une qui suit le téléphone, une qui ne le suit pas.",
+      "answer": "Activez la synchronisation de compte pour que vos contacts soient écrits dans un compte Google ou iCloud et non seulement sur l'appareil, puis exportez un fichier vCard tous les quelques mois et conservez-le chiffré, à un endroit que vous maîtrisez. La synchronisation survit à un téléphone perdu ; l'export daté survit à une suppression, car la synchronisation recopie une erreur aussi fidèlement que le reste. Et traitez cet export pour ce qu'il est : la liste en clair de toutes les personnes que vous connaissez.",
+      "sections": [
+        {
+          "h2": "La synchronisation n'est pas une sauvegarde",
+          "body": [
+            "La synchronisation maintient deux copies identiques. C'est exactement ce que vous voulez quand un téléphone tombe dans la rivière, et exactement ce que vous ne voulez pas quand vous supprimez quarante contacts par erreur : la suppression est recopiée en quelques secondes sur tous vos appareils.",
+            "Une sauvegarde est une copie qui ne change pas quand l'original change. La synchronisation, par définition, n'en est pas une. Faites donc les deux : le compte survit à la perte du téléphone, l'export daté vous survit à vous."
+          ]
+        },
+        {
+          "h2": "Activez la synchronisation de compte",
+          "body": [
+            "Cinq minutes, une fois pour toutes. Le compte auquel appartient un contact est de loin la première cause de disparition des contacts lors d'un changement de téléphone : ils étaient enregistrés sur l'appareil ou sur la SIM, et ni l'un ni l'autre ne voyage."
+          ],
+          "list": [
+            "Android : Paramètres, puis Mots de passe et comptes, puis votre compte Google, puis Synchronisation du compte, et vérifiez que Contacts est activé.",
+            "Ouvrez ensuite Contacts, commencez une nouvelle fiche et regardez dans quel compte il propose de l'enregistrer. S'il indique « Appareil » ou « SIM », rien de ce que vous ajoutez n'est synchronisé où que ce soit.",
+            "iPhone : Réglages, puis votre nom, puis iCloud, puis Contacts.",
+            "Si vous utilisez deux comptes — un personnel et un professionnel — décidez lequel est le vrai répertoire. Les répertoires coupés en deux sont la raison pour laquelle la moitié d'une famille finit sur un seul téléphone."
+          ]
+        },
+        {
+          "h2": "Exportez une vCard, avec la date dans le nom du fichier",
+          "body": [
+            "Toute application de contacts sait écrire un fichier .vcf : un seul fichier texte contenant tout le répertoire, lisible par n'importe quel téléphone, n'importe quel logiciel de messagerie et n'importe quelle autre application de contacts. Exportez-en un, nommez-le avec la date du jour et rangez-le ailleurs que sur le téléphone.",
+            "Faites-le chaque trimestre, et toujours avant les trois moments qui dévorent les répertoires : un changement de téléphone, un changement de compte Google et un grand nettoyage."
+          ]
+        },
+        {
+          "h2": "Votre export est un fichier sur tous ceux que vous connaissez",
+          "body": [
+            "C'est à cette partie que renvoie le mot « sécurité ». Un fichier .vcf n'a ni mot de passe ni chiffrement. Il contient chaque nom, numéro, adresse e-mail, adresse postale, date d'anniversaire et note que vous avez enregistrés sur des centaines de personnes, dont aucune n'a choisi d'y figurer. Vous l'envoyer par e-mail le laisse dans une boîte pendant des années ; le déposer dans un dossier cloud partagé le partage."
+          ],
+          "list": [
+            "Gardez-le dans un stockage chiffré : une archive protégée par mot de passe, un disque chiffré, ou un gestionnaire de mots de passe acceptant les pièces jointes.",
+            "Ne vous l'envoyez pas par e-mail et ne le mettez pas dans un dossier que d'autres peuvent ouvrir.",
+            "Supprimez l'ancien export dès que vous en faites un nouveau. Trois ans de copies périmées, c'est trois fois l'exposition pour aucune sécurité supplémentaire.",
+            "Méfiez-vous des applications qui promettent une « sauvegarde des contacts ». Dans une fiche de magasin, sauvegarde signifie très souvent téléversement sur notre serveur, et la fiche dit rarement lequel."
+          ]
+        },
+        {
+          "h2": "Où TreeLinker s'inscrit, et où il ne s'inscrit pas",
+          "body": [
+            "TreeLinker n'est pas une sauvegarde de votre répertoire, et le présenter ainsi serait malhonnête. Il ne téléverse pas vos contacts : la seule chose qui en est extraite est un numéro de téléphone normalisé, servant à vérifier lesquelles des personnes que vous connaissez utilisent TreeLinker. Notes, adresses postales, adresses e-mail et photos de contact sont lues sur l'appareil et y restent.",
+            "Ce qu'il conserve dans votre compte, c'est la couche que vous avez bâtie : les relations, le nom que vous avez enregistré pour chaque personne placée dans votre arbre, vos étiquettes, souvenirs, entrées de chronologie, appartenances aux groupes et favoris. C'est cela qui revient quand vous réinstallez l'application ou vous connectez sur un nouveau téléphone. La structure revient, le répertoire non : d'où la vCard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker sauvegarde-t-il mes contacts ?",
+          "a": "Non, ce n'est pas sa fonction. Il enregistre les relations, étiquettes, souvenirs et entrées de chronologie que vous créez, ainsi que le nom que vous avez enregistré pour les personnes placées dans votre arbre. Le répertoire lui-même reste sur votre téléphone et dans le compte avec lequel vous le synchronisez."
+        },
+        {
+          "q": "Google Contacts suffit-il ?",
+          "a": "Pour un téléphone perdu, oui. Pour une suppression accidentelle, Google conserve trente jours d'annulation dans Contacts, Paramètres, Annuler les modifications. Passé trente jours, seul votre propre export vous sauvera."
+        },
+        {
+          "q": "À quelle fréquence exporter ?",
+          "a": "Chaque trimestre suffit à la plupart des gens, plus une fois avant tout changement de téléphone et une fois avant un grand nettoyage."
+        },
+        {
+          "q": "Et les sauvegardes SIM ou des messageries ?",
+          "a": "Une SIM contient quelques centaines d'entrées avec noms et numéros seulement : pas de second numéro, pas d'e-mail, pas de photo. Les applications de discussion sauvegardent leurs conversations, pas votre répertoire. Aucune ne remplace une vCard."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "Est-il sûr de stocker son répertoire dans TreeLinker ?",
+      "description": "La version honnête : vous ne l'y stockez pas. Ce qui quitte exactement votre téléphone, ce qui y reste, ce qui est conservé dans votre compte, et la partie qui mérite vraiment réflexion.",
+      "h1": "Est-il sûr de stocker son répertoire dans TreeLinker ?",
+      "lead": "Réponse courte : vous ne le faites pas. Il reste sur le téléphone. Voici la réponse longue.",
+      "answer": "Vous ne stockez pas votre répertoire dans TreeLinker : il reste sur votre appareil. La seule chose qui en est extraite est un numéro de téléphone normalisé, envoyé pour vérifier lesquels de vos contacts utilisent déjà l'application. Ce que TreeLinker conserve dans votre compte, c'est ce que vous y créez : relations, nom enregistré pour les personnes placées dans votre arbre, étiquettes, souvenirs, entrées de chronologie et appartenances aux groupes. Notes de contact, adresses postales, adresses e-mail et photos de contact ne quittent jamais le téléphone, et l'identification des appels se fait entièrement sur l'appareil.",
+      "sections": [
+        {
+          "h2": "Ce qui quitte le téléphone, exactement",
+          "body": [
+            "Une réponse sur la vie privée ne vaut que si c'est une liste. Voici la liste entière :"
+          ],
+          "list": [
+            "Des numéros de téléphone normalisés issus de vos contacts, pour savoir lesquels utilisent déjà TreeLinker.",
+            "Le nom que vous avez enregistré pour une personne dès que vous la placez dans votre arbre, afin qu'elle revienne nommée après une réinstallation ou une connexion ailleurs.",
+            "Les relations que vous enregistrez et la forme de l'arbre qu'elles composent.",
+            "Les étiquettes, les souvenirs avec les photos et lieux que vous y joignez, les entrées de chronologie, les appartenances aux groupes et les favoris.",
+            "Votre propre profil : nom, adresse e-mail, numéro, pays, et ce que vous avez ajouté en option.",
+            "Un jeton de notification, pour que les alertes parviennent à votre appareil."
+          ]
+        },
+        {
+          "h2": "Ce qui reste",
+          "body": [
+            "Notes de contact, adresses postales, adresses e-mail, photos de contact et tous les autres champs de votre répertoire sont lus sur l'appareil et ne sont jamais téléversés.",
+            "L'identification des appels se fait entièrement sur le téléphone. Le numéro entrant est comparé aux contacts que vous détenez déjà, et n'est jamais envoyé à un serveur pour demander qui appelle. Il n'existe dans le produit aucun annuaire inversé partagé : un appelant que vous n'avez pas enregistré n'obtient aucune carte, et rien le concernant n'est recherché, conservé ni transmis."
+          ]
+        },
+        {
+          "h2": "Ce qui mérite vraiment réflexion, c'est le partage",
+          "body": [
+            "Le stockage est la question qu'on pose ; le partage est celle qui compte. Envoyer un arbre ou une étiquette à un autre utilisateur lui envoie le nom et le numéro que vous avez enregistrés pour chaque personne concernée. Dans un arbre, ce sont des proches. Dans une étiquette, ce peut être n'importe qui — collègues, voisins, une liste de plombiers — et quand le destinataire enregistre l'étiquette, toutes les personnes qu'il n'a pas encore sont ajoutées à son propre répertoire.",
+            "C'est une divulgation réelle des numéros d'autres personnes, et c'est vous qui la faites. Ne partagez qu'avec quelqu'un à qui vous accepteriez de lire ces numéros à voix haute. Ce qui est retenu pour la livraison expire au bout de trente jours puis est supprimé, que le destinataire l'ait ouvert ou non."
+          ]
+        },
+        {
+          "h2": "La carte d'appel est lisible par toute la pièce",
+          "body": [
+            "Avec l'identification des appels activée, la carte affichée par-dessus un appel entrant montre comment vous connaissez la personne, ses groupes et étiquettes, sa date d'anniversaire et votre dernière note à son sujet. Elle apparaît sur un téléphone qui sonne : quiconque se tient à côté peut donc lire cette note. Bon à savoir avant d'écrire quelque chose de franc dans la chronologie d'un contact."
+          ]
+        },
+        {
+          "h2": "Ce que l'application ne fait pas",
+          "body": [
+            "Une partie de la sécurité d'un produit tient à ce qui n'a jamais été construit."
+          ],
+          "list": [
+            "Pas de publicité, ni de profilage pour en faire.",
+            "Pas de SDK d'analyse tiers et pas de cookies : c'est une application native, pas un navigateur.",
+            "Rien n'est vendu, loué ni échangé, à personne, à aucune fin.",
+            "Aucun annuaire public de numéros, et aucun moyen pour un autre utilisateur de voir ce que vous avez enregistré sans un partage délibéré de votre part.",
+            "Mots de passe hachés avec bcrypt et jamais conservés en clair ; tout passe par TLS ; jetons de session dans l'Android Keystore, expirant après trente jours d'inactivité."
+          ]
+        },
+        {
+          "h2": "Si vous voulez tout effacer",
+          "body": [
+            "Il n'existe aujourd'hui aucun réglage pour désactiver l'enregistrement dans le compte : ce que vous créez y est conservé afin de survivre à une réinstallation. Le contrôle dont vous disposez est la suppression, et elle est complète : Paramètres, puis Supprimer le compte, efface définitivement vos données de l'appareil et des serveurs. La même demande peut être faite depuis la page de suppression de compte de ce site.",
+            "L'autorisation d'accès aux contacts, ainsi que les deux autorisations facultatives liées à l'identification des appels, peuvent être révoquées à tout moment dans les réglages d'Android."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "TreeLinker téléverse-t-il mes contacts ?",
+          "a": "Uniquement des numéros normalisés, et uniquement pour repérer lesquels de vos contacts utilisent déjà TreeLinker. Le reste de chaque fiche reste sur votre appareil."
+        },
+        {
+          "q": "Un autre utilisateur peut-il voir qui est dans mon arbre ?",
+          "a": "Non. Ce que vous enregistrez est privé à votre compte, sauf partage délibéré : ajouter un souvenir à un groupe, y inviter quelqu'un, ou envoyer un arbre ou une étiquette à une personne précise."
+        },
+        {
+          "q": "L'identification des appels fait-elle une recherche en ligne ?",
+          "a": "Non. La comparaison a lieu sur l'appareil, avec les contacts que vous détenez déjà. Les numéros inconnus ne sont pas identifiés du tout, faute de quoi que ce soit à quoi les comparer."
+        },
+        {
+          "q": "Où les données sont-elles réellement stockées ?",
+          "a": "Dans Neo4j AuraDB, une base de données orientée graphe dans le cloud, sous votre propre compte et via des connexions chiffrées. Firebase Cloud Messaging achemine les notifications et ne reçoit qu'un jeton d'appareil."
+        },
+        {
+          "q": "Comment tout supprimer ?",
+          "a": "Paramètres, puis Supprimer le compte, dans l'application — ou le formulaire de la page de suppression de compte de ce site. Vos données sont effacées définitivement de l'appareil et de nos serveurs."
         }
       ]
     }

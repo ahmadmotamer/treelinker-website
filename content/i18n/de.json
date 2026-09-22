@@ -32,7 +32,10 @@
       "answer": "Kurze Antwort",
       "faq": "Häufige Fragen",
       "related": "Verwandte Seiten",
-      "breadcrumb": "Brotkrumennavigation"
+      "breadcrumb": "Brotkrumennavigation",
+      "skip": "Zum Inhalt springen",
+      "shotAlt": "%s – im TreeLinker-Android-App",
+      "allGuides": "Alle Ratgeber"
     },
     "cta": {
       "title": "Fangen Sie mit den Kontakten an, die Sie schon haben",
@@ -49,7 +52,9 @@
       "deleteAccount": "Konto löschen",
       "support": "Hilfe",
       "rights": "Alle Rechte vorbehalten.",
-      "madeWith": "Gemacht mit"
+      "madeWith": "Gemacht mit",
+      "contact": "Kontakt",
+      "childSafety": "Kinderschutz"
     },
     "identity": {
       "category": "eine App zur Verwaltung von Familienbeziehungen",
@@ -165,6 +170,20 @@
         {
           "q": "Muss meine Familie die App auch installieren?",
           "a": "Nein. Sie können Ihre ganze Familie allein abbilden. Einen Baum mit anderen zu teilen ist freiwillig und einmalig — danach synchronisiert nichts weiter."
+        }
+      ],
+      "showcase": [
+        {
+          "h2": "Der Stammbaum zeichnet sich selbst",
+          "p": "Verbinden Sie zwei Personen einmal, und die umgekehrte Beziehung wird für Sie angelegt. Arbeiten Sie sich nach außen – Ehepartner, Geschwister, Kind – und die Form der Familie erscheint, gebaut aus den Kontakten, die ohnehin auf Ihrem Telefon liegen, statt aus einem Formular, das Sie zweimal ausfüllen."
+        },
+        {
+          "h2": "Es schlägt vor, was Ihr Stammbaum bereits sagt",
+          "p": "Der Sohn Ihres Bruders ist Ihr Neffe. TreeLinker rechnet das aus, zeigt Ihnen, wen es gefunden hat und warum – und wartet dann. Nichts kommt in Ihr Archiv, bevor Sie es angehakt haben."
+        },
+        {
+          "h2": "Gruppen für die Treffen, Tags für alles andere",
+          "p": "Eine Gruppe ist ein geteilter Raum mit Mitgliedern, Umfragen und Diskussionen – eine Familie, eine Straße, ein Jahrgang. Ein Tag ist eine private Beschriftung, „Kollegen“ oder „Apotheke“ oder ein Städtename, die quer durch alles läuft und die sonst niemand je zu sehen bekommt."
         }
       ]
     },
@@ -1878,6 +1897,229 @@
         {
           "q": "Ersetzt sie meine Kontakte-App?",
           "a": "Sie liest die Kontakte auf Ihrem Gerät und legt eine Schicht darüber. In das Adressbuch Ihres Telefons schreibt sie nicht von sich aus."
+        }
+      ]
+    },
+    "guides/how-to-organize-your-phone-contacts": {
+      "title": "Telefonkontakte richtig ordnen",
+      "description": "Eine Methode für einen Abend und ein zehn Jahre altes Adressbuch: Totes löschen, Dubletten zusammenführen, Namen so schreiben, wie Sie danach suchen würden – und erst dann die wenigen beschriften, die Sie wirklich wiederfinden müssen.",
+      "h1": "Telefonkontakte richtig ordnen",
+      "lead": "Vier Durchgänge, in dieser Reihenfolge. Das meiste davon ist Löschen.",
+      "answer": "Arbeiten Sie in vier Durchgängen und beenden Sie jeden, bevor Sie den nächsten beginnen. Löschen Sie, was tot ist, führen Sie Dubletten zusammen, schreiben Sie Namen so, wie Sie danach suchen würden, und beschriften Sie erst dann die paar Dutzend Kontakte, die Sie über ihre Rolle statt über ihren Namen suchen. Die meisten Adressbücher sind weniger unordentlich als unbeschriftet und halb tot – deshalb leistet der Lösch-Durchgang die eigentliche Arbeit.",
+      "sections": [
+        {
+          "h2": "Fangen Sie mit Löschen an, nicht mit Ordnen",
+          "body": [
+            "Ein Adressbuch, das seit zehn Jahren mitläuft, ist überwiegend Archäologie: der Makler einer Wohnung, aus der Sie 2016 ausgezogen sind, drei Nummern einer Firma, die es nicht mehr gibt, ein Taxifahrer aus einem einzigen Urlaub. Nach nichts davon wird je gesucht, und genau das macht das Scrollen nutzlos.",
+            "Gehen Sie die Liste einmal mit einer einzigen Frage durch: Würde ich da je anrufen? Beim ersten Nein wird gelöscht. Tausend Kontakte verlieren so meist ein Drittel in zwanzig Minuten, und jeder weitere Durchgang wird dadurch schneller."
+          ]
+        },
+        {
+          "h2": "Dubletten zusammenführen, bevor Sie irgendetwas umbenennen",
+          "body": [
+            "Dubletten entstehen, weil dieselbe Person zweimal ankommt: einmal von der SIM, einmal aus einem E-Mail-Konto, einmal aus einem Messenger. Beide Hälften einer Dublette umzubenennen ist verlorene Arbeit – also zuerst zusammenführen. Die Kontakte-App von Android hat dafür den Bildschirm „Zusammenführen und korrigieren“, der exakte Treffer findet; die knappen Treffer müssen Sie selbst sehen."
+          ],
+          "list": [
+            "Gleicher Name, zwei Nummern – beide Nummern auf einem Kontakt behalten.",
+            "Gleiche Nummer, zwei Namen – den Namen behalten, nach dem Sie tatsächlich suchen würden.",
+            "„Mama“ und „Mutter“, oder eine Mobilnummer zweimal gespeichert, mit und ohne Ländervorwahl – das taucht nie als exakter Treffer auf.",
+            "Ein Name ohne Nummer und ohne E-Mail ist kein Kontakt. Das ist eine Notiz an sich selbst."
+          ]
+        },
+        {
+          "h2": "Benennen Sie Menschen so, wie Sie nach ihnen suchen",
+          "body": [
+            "Das Namensfeld ist ein Suchindex, keine Beschriftung. Wenn Sie nach „Ahmed, Elektriker“ suchen würden, dann ist das der Name. Wenn Sie vier Leute namens Ahmed haben, sollte keiner von ihnen als „Ahmed“ gespeichert sein.",
+            "Wählen Sie eine Konvention und wenden Sie sie auf alle an: Vorname, Nachname, dann das Unterscheidende. Welche Konvention Sie wählen, ist weit weniger wichtig als jedes Mal dieselbe zu nehmen – das Suchfeld belohnt Sie nur, wenn das unterscheidende Wort immer an derselben Stelle steht."
+          ]
+        },
+        {
+          "h2": "Beschriften Sie die zwanzig, die Sie wirklich brauchen",
+          "body": [
+            "Mit diesem Durchgang wollen alle anfangen, und er gehört als letzter dran – bis hierher ist die Liste kurz genug, um sie zu überblicken. Labels, wie Android sie nennt, oder Tags, wie TreeLinker sie nennt, sind für Kontakte, die Sie über ihre Rolle suchen statt über ihren Namen: die Zahnärztin, der Klempner, die Schule, die vier Menschen, die Sie im Notfall anrufen würden.",
+            "Versuchen Sie nicht, alle zu beschriften. Eine Systematik, die Sie nicht pflegen, ist schlechter als keine, weil sie die Liste geordnet aussehen lässt, während sie still falsch ist."
+          ]
+        },
+        {
+          "h2": "Was Aufräumen nicht behebt",
+          "body": [
+            "Nichts davon sagt Ihnen, wer diese Menschen füreinander sind. Ein Adressbuch ist absichtlich eine flache Liste: Es kennt Angelinas Nummer und Michaels Nummer, und nichts davon, dass die eine die Schwester des anderen ist. Wenn Sie immer wieder verlieren, welcher Cousin, wessen Schwager, wer da gerade anruft – dann ist das ein Beziehungsproblem und kein Ordnungsproblem, und genau diese Schicht legt TreeLinker über die Liste, die Sie eben aufgeräumt haben."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Wie lange dauert das?",
+          "a": "Etwa eine Stunde für tausend Kontakte, das meiste davon im Lösch-Durchgang. Machen Sie es in einem Zug statt in Fünf-Minuten-Häppchen: Zusammenführen und Umbenennen funktionieren nur, wenn Sie die ganze Liste sehen."
+        },
+        {
+          "q": "Löschen oder archivieren?",
+          "a": "Android kennt kein Archiv. Wenn Ihnen beim Löschen unwohl ist, exportieren Sie zuerst eine vCard-Kopie des gesamten Adressbuchs und löschen Sie dann frei – der Export ist Ihr Rückgängig."
+        },
+        {
+          "q": "Wandern Labels auf ein neues Telefon mit?",
+          "a": "Labels, die in einem Google-Konto angelegt wurden, werden mit diesem Konto synchronisiert. Labels, die nur auf dem Gerät entstanden sind, bleiben dort – deshalb gehen sie beim Gerätewechsel verloren."
+        },
+        {
+          "q": "Verändert TreeLinker meine Telefonkontakte?",
+          "a": "Es benennt nichts um, führt nichts zusammen und löscht nichts in Ihrem Adressbuch – es hält seine eigenen Beziehungen, Tags und Notizen daneben. Der einzige Moment, in dem es in Ihr Adressbuch schreibt, ist, wenn Sie ein von jemandem geteiltes Tag annehmen: Dann werden die Personen daraus angelegt, die Sie noch nicht haben."
+        }
+      ]
+    },
+    "guides/how-to-back-up-your-phone-address-book-safely": {
+      "title": "Das Telefon-Adressbuch sicher sichern",
+      "description": "Synchronisierung ist kein Backup. Die Kontoeinrichtung in fünf Minuten, der vierteljährliche vCard-Export – und warum dieser Export die heikelste Datei ist, die Sie besitzen.",
+      "h1": "Das Telefon-Adressbuch sicher sichern",
+      "lead": "Zwei Kopien, aus zwei verschiedenen Gründen: eine, die dem Telefon folgt, und eine, die es nicht tut.",
+      "answer": "Schalten Sie die Kontosynchronisierung ein, damit Ihre Kontakte in ein Google- oder iCloud-Konto geschrieben werden statt nur auf das Gerät, und exportieren Sie alle paar Monate eine vCard-Datei, die Sie verschlüsselt an einem Ort aufbewahren, den Sie kontrollieren. Die Synchronisierung überlebt ein verlorenes Telefon; der datierte Export überlebt eine Löschung, denn die Synchronisierung kopiert einen Fehler genauso treu wie alles andere. Und behandeln Sie diesen Export als das, was er ist: eine Klartextliste aller Menschen, die Sie kennen.",
+      "sections": [
+        {
+          "h2": "Synchronisierung ist kein Backup",
+          "body": [
+            "Synchronisierung hält zwei Kopien identisch. Genau das wollen Sie, wenn ein Telefon in den Fluss fällt – und genau das wollen Sie nicht, wenn Sie versehentlich vierzig Kontakte löschen: Die Löschung ist binnen Sekunden auf allen Ihren Geräten.",
+            "Ein Backup ist eine Kopie, die sich nicht ändert, wenn das Original sich ändert. Synchronisierung ist per Definition keine. Also machen Sie beides: Das Konto überlebt den Verlust des Telefons, der datierte Export überlebt Sie selbst."
+          ]
+        },
+        {
+          "h2": "Kontosynchronisierung einschalten",
+          "body": [
+            "Fünf Minuten, einmalig. Zu welchem Konto ein Kontakt gehört, ist der mit Abstand häufigste Grund, warum Kontakte beim Gerätewechsel verschwinden: Sie lagen auf dem Gerät oder auf der SIM, und beides zieht nicht mit um."
+          ],
+          "list": [
+            "Android: Einstellungen, dann Passwörter und Konten, dann Ihr Google-Konto, dann Kontosynchronisierung – und prüfen, ob „Kontakte“ an ist.",
+            "Danach die Kontakte-App öffnen, einen neuen Eintrag beginnen und schauen, in welches Konto gespeichert werden soll. Steht dort „Gerät“ oder „SIM“, wird nichts davon irgendwo synchronisiert.",
+            "iPhone: Einstellungen, dann Ihr Name, dann iCloud, dann Kontakte.",
+            "Wenn Sie zwei Konten nutzen – ein privates und ein dienstliches – entscheiden Sie, welches das echte Adressbuch ist. Geteilte Adressbücher sind der Grund, warum die halbe Familie am Ende nur auf einem Telefon steht."
+          ]
+        },
+        {
+          "h2": "Eine vCard exportieren – mit Datum im Dateinamen",
+          "body": [
+            "Jede Kontakte-App kann eine .vcf-Datei schreiben: eine einzige Klartextdatei mit dem gesamten Adressbuch, lesbar von jedem Telefon, jedem Mailprogramm und jeder anderen Kontakte-App. Exportieren Sie eine, benennen Sie sie mit dem heutigen Datum und legen Sie sie irgendwo ab, das nicht das Telefon ist.",
+            "Machen Sie das vierteljährlich – und immer vor den drei Momenten, die Adressbücher fressen: ein Gerätewechsel, ein Wechsel des Google-Kontos und eine große Aufräumaktion."
+          ]
+        },
+        {
+          "h2": "Ihr Export ist eine Datei über alle, die Sie kennen",
+          "body": [
+            "Auf diesen Teil bezieht sich das Wort „sicher“. Eine .vcf-Datei hat kein Passwort und keine Verschlüsselung. Sie enthält jeden Namen, jede Nummer, jede E-Mail-Adresse, jede Anschrift, jeden Geburtstag und jede Notiz, die Sie zu Hunderten von Menschen gespeichert haben, von denen keiner sich dafür entschieden hat. Sich die Datei selbst zu mailen, lässt sie jahrelang in einem Postfach liegen; sie in einen geteilten Cloud-Ordner zu legen, teilt sie."
+          ],
+          "list": [
+            "Verschlüsselt aufbewahren: ein passwortgeschütztes Archiv, eine verschlüsselte Festplatte oder ein Passwortmanager, der Dateianhänge annimmt.",
+            "Nicht an sich selbst mailen und nicht in einen Ordner legen, den andere öffnen können.",
+            "Den alten Export löschen, sobald ein neuer da ist. Drei Jahre alte Kopien bedeuten dreifaches Risiko bei null zusätzlicher Sicherheit.",
+            "Vorsicht bei Apps, die mit „Kontakte-Backup“ werben. In einer Store-Beschreibung heißt Backup sehr oft „Upload auf unseren Server“, und wessen Server das ist, steht selten dabei."
+          ]
+        },
+        {
+          "h2": "Wo TreeLinker hineinpasst – und wo nicht",
+          "body": [
+            "TreeLinker ist kein Backup für Ihr Adressbuch, und es als eines zu verkaufen wäre unehrlich. Es lädt Ihre Kontakte nicht hoch: Das Einzige, was ihnen entnommen wird, ist eine normalisierte Telefonnummer, mit der geprüft wird, welche der Menschen, die Sie kennen, TreeLinker nutzen. Notizen, Anschriften, E-Mail-Adressen und Kontaktfotos werden auf dem Gerät gelesen und bleiben dort.",
+            "In Ihrem Konto liegt die Schicht, die Sie selbst gebaut haben: die Beziehungen, der Name, den Sie für jede in Ihren Stammbaum gesetzte Person gespeichert haben, Ihre Tags, Erinnerungen, Zeitleisteneinträge, Gruppenmitgliedschaften und Favoriten. Das kommt zurück, wenn Sie die App neu installieren oder sich auf einem neuen Telefon anmelden. Die Struktur kehrt zurück, das Adressbuch nicht – und genau dafür brauchen Sie die vCard."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Sichert TreeLinker meine Kontakte?",
+          "a": "Nein, dafür ist es nicht gebaut. Es speichert die Beziehungen, Tags, Erinnerungen und Zeitleisteneinträge, die Sie anlegen, sowie den Namen, den Sie für Personen in Ihrem Stammbaum gespeichert haben. Das Adressbuch selbst bleibt auf Ihrem Telefon und in dem Konto, mit dem Sie es synchronisieren."
+        },
+        {
+          "q": "Reichen Google-Kontakte allein?",
+          "a": "Gegen ein verlorenes Telefon ja. Gegen eine versehentliche Löschung hält Google dreißig Tage Rückgängig unter Kontakte, Einstellungen, Änderungen rückgängig machen bereit. Nach dreißig Tagen hilft nur Ihr eigener Export."
+        },
+        {
+          "q": "Wie oft sollte ich exportieren?",
+          "a": "Vierteljährlich reicht für die meisten, dazu einmal vor jedem Gerätewechsel und einmal vor jeder großen Aufräumaktion."
+        },
+        {
+          "q": "Und SIM- oder Messenger-Backups?",
+          "a": "Eine SIM fasst ein paar hundert Einträge mit Namen und Nummern – keine Zweitnummern, keine E-Mail-Adressen, keine Fotos. Messenger sichern ihre eigenen Chats, nicht Ihr Adressbuch. Keines von beidem ersetzt eine vCard."
+        }
+      ]
+    },
+    "guides/is-it-safe-to-store-your-address-book-in-treelinker": {
+      "title": "Ist es sicher, sein Adressbuch in TreeLinker zu speichern?",
+      "description": "Die ehrliche Fassung: Sie speichern es gar nicht in TreeLinker. Was genau Ihr Telefon verlässt, was darauf bleibt, was im Konto liegt – und welcher Teil wirklich Nachdenken verdient.",
+      "h1": "Ist es sicher, sein Adressbuch in TreeLinker zu speichern?",
+      "lead": "Die kurze Antwort: Sie tun es nicht. Es bleibt auf dem Telefon. Hier die lange.",
+      "answer": "Sie speichern Ihr Adressbuch nicht in TreeLinker – es bleibt auf Ihrem Gerät. Entnommen wird ihm nur eine normalisierte Telefonnummer, gesendet, um zu prüfen, welche Ihrer Kontakte die App bereits nutzen. Im Konto liegt, was Sie darin selbst anlegen: Beziehungen, der Name, den Sie für Personen in Ihrem Stammbaum gespeichert haben, Tags, Erinnerungen, Zeitleisteneinträge und Gruppenmitgliedschaften. Kontaktnotizen, Anschriften, E-Mail-Adressen und Kontaktfotos verlassen das Telefon nie, und die Anruferkennung gleicht vollständig auf dem Gerät ab.",
+      "sections": [
+        {
+          "h2": "Was genau das Telefon verlässt",
+          "body": [
+            "Eine Datenschutzantwort taugt nur etwas, wenn sie eine Liste ist. Das ist die ganze:"
+          ],
+          "list": [
+            "Normalisierte Telefonnummern aus Ihren Kontakten, um herauszufinden, wer davon TreeLinker bereits nutzt.",
+            "Der Name, den Sie für eine Person gespeichert haben, sobald Sie sie in Ihren Stammbaum setzen – damit sie benannt zurückkommt, wenn Sie neu installieren oder sich anderswo anmelden.",
+            "Die Beziehungen, die Sie erfassen, und die Form des Baums, den sie ergeben.",
+            "Tags, Erinnerungen samt angehängter Fotos und Orte, Zeitleisteneinträge, Gruppenmitgliedschaften und Favoriten.",
+            "Ihr eigenes Profil: Name, E-Mail-Adresse, Telefonnummer, Land und alles Optionale, das Sie ergänzt haben.",
+            "Ein Push-Token, damit Benachrichtigungen an Ihr Gerät zugestellt werden können."
+          ]
+        },
+        {
+          "h2": "Was bleibt",
+          "body": [
+            "Kontaktnotizen, Anschriften, E-Mail-Adressen, Kontaktfotos und jedes andere Feld Ihres Adressbuchs werden auf dem Gerät gelesen und niemals hochgeladen.",
+            "Die Anruferkennung gleicht vollständig auf dem Telefon ab. Eine eingehende Nummer wird mit Kontakten verglichen, die Sie bereits haben, und nie an einen Server geschickt, um zu fragen, wer da anruft. Es gibt im ganzen Produkt kein geteiltes Rückwärtsverzeichnis: Ein Anrufer, den Sie nicht gespeichert haben, bekommt keine Karte, und über ihn wird nichts nachgeschlagen, gespeichert oder gesendet."
+          ]
+        },
+        {
+          "h2": "Worüber es wirklich nachzudenken lohnt, ist das Teilen",
+          "body": [
+            "Speichern ist die Frage, die gestellt wird; Teilen ist die, auf die es ankommt. Wenn Sie einem anderen Nutzer einen Stammbaum oder ein Tag schicken, schicken Sie den Namen und die Telefonnummer mit, die Sie zu jeder Person darin gespeichert haben. In einem Stammbaum sind das Verwandte. In einem Tag kann es jeder sein – Kollegen, Nachbarn, eine Liste von Klempnern – und wenn die Empfängerin das Tag speichert, landen alle darin, die sie noch nicht hat, in ihrem eigenen Adressbuch.",
+            "Das ist eine echte Weitergabe fremder Telefonnummern, und Sie nehmen sie vor. Teilen Sie nur mit jemandem, dem Sie diese Nummern auch vorlesen würden. Was zur Zustellung vorgehalten wird, verfällt nach dreißig Tagen und wird gelöscht, ob es je geöffnet wurde oder nicht."
+          ]
+        },
+        {
+          "h2": "Die Anruferkarte kann jeder im Raum mitlesen",
+          "body": [
+            "Ist die Anruferkennung aktiv, zeigt die Karte über einem eingehenden Anruf, wie Sie die Person kennen, ihre Gruppen und Tags, ihren Geburtstag und Ihre letzte Notiz zu ihr. Sie erscheint auf einem klingelnden Telefon – wer daneben steht, kann diese Notiz also lesen. Gut zu wissen, bevor Sie etwas Freimütiges auf die Zeitleiste eines Kontakts schreiben."
+          ]
+        },
+        {
+          "h2": "Was die App nicht tut",
+          "body": [
+            "Ein Teil der Sicherheit eines Produkts steckt in dem, was nie gebaut wurde."
+          ],
+          "list": [
+            "Keine Werbung und kein Profiling dafür.",
+            "Keine Analyse-SDKs von Dritten und keine Cookies – es ist eine native App, kein Browser.",
+            "Nichts wird verkauft, vermietet oder getauscht, an niemanden, zu keinem Zweck.",
+            "Kein öffentliches Nummernverzeichnis, und keine Möglichkeit für andere Nutzer, Ihre Einträge zu sehen, sofern Sie sie nicht bewusst teilen.",
+            "Passwörter mit bcrypt gehasht und nie im Klartext gehalten; alles über TLS; Sitzungstoken im Android-Keystore, die nach dreißig Tagen Inaktivität verfallen."
+          ]
+        },
+        {
+          "h2": "Wenn alles weg soll",
+          "body": [
+            "Es gibt derzeit keine Einstellung, die die Speicherung im Konto abschaltet – was Sie anlegen, wird im Konto gesichert, damit es eine Neuinstallation übersteht. Die Kontrolle, die Sie haben, ist die Löschung, und sie ist vollständig: Einstellungen, dann Konto löschen, entfernt Ihre Daten dauerhaft vom Gerät und von den Servern. Dieselbe Anfrage lässt sich über die Seite zur Kontolöschung auf dieser Website stellen.",
+            "Die Kontaktberechtigung und die beiden optionalen Berechtigungen für die Anruferkennung können Sie jederzeit in den Android-Einstellungen entziehen."
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "q": "Lädt TreeLinker meine Kontakte hoch?",
+          "a": "Nur normalisierte Telefonnummern, und nur zum Abgleich, wer Ihrer Kontakte TreeLinker schon nutzt. Der Rest jedes Kontakteintrags bleibt auf Ihrem Gerät."
+        },
+        {
+          "q": "Kann ein anderer Nutzer sehen, wer in meinem Stammbaum steht?",
+          "a": "Nein. Was Sie erfassen, ist privat zu Ihrem Konto, sofern Sie es nicht bewusst teilen – durch eine Erinnerung in einer Gruppe, eine Einladung dorthin oder das Senden eines Stammbaums oder Tags an eine bestimmte Person."
+        },
+        {
+          "q": "Schlägt die Anruferkennung meine Anrufer online nach?",
+          "a": "Nein. Der Abgleich passiert auf dem Gerät, gegen Kontakte, die Sie bereits haben. Unbekannte Nummern werden gar nicht identifiziert, weil es nichts gibt, wogegen man sie abgleichen könnte."
+        },
+        {
+          "q": "Wo liegen die Daten tatsächlich?",
+          "a": "In Neo4j AuraDB, einer Cloud-Graphdatenbank, unter Ihrem eigenen Konto und über verschlüsselte Verbindungen. Firebase Cloud Messaging stellt Push-Nachrichten zu und erhält nichts als ein Gerätetoken."
+        },
+        {
+          "q": "Wie lösche ich alles?",
+          "a": "Einstellungen, dann Konto löschen, in der App – oder das Formular auf der Seite zur Kontolöschung dieser Website. Das entfernt Ihre Daten dauerhaft vom Gerät und von unseren Servern."
         }
       ]
     }
