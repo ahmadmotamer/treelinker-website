@@ -27,7 +27,7 @@
     <header class="page-header">
       <div class="container">
         <h1>Privacy Policy</h1>
-        <p>Effective date: September 13, 2026</p>
+        <p>Effective date: September 24, 2026</p>
       </div>
     </header>
 
@@ -89,6 +89,10 @@
               <p><strong>Device Contacts</strong><br>
               With your permission, TreeLinker securely processes your device contacts to help identify people you already know who use the app. Only normalized phone numbers are transmitted to our cloud database for matching. Contact notes, addresses, email addresses, photos, and other contact information remain on your device and are never uploaded.</p>
 
+              <p><strong>Address Book Backup, Restore and Duplicates</strong><br>
+              You can back up your device address book, restore it from a backup, and find and merge duplicate contacts. A backup is a single file containing the contacts on your device &mdash; names, phone numbers, email addresses and the other fields your address book holds. It is created on your device and saved wherever you choose, which may include a cloud storage service you use; TreeLinker never uploads it to our servers and cannot read it afterwards. Backup files are not encrypted by the app, so keep them somewhere you trust.</p>
+              <p>Restoring a backup or merging duplicates adds, updates or deletes contacts in your device address book. This happens only when you start it, and the app shows you what will change first. Before any restore or merge changes your contacts, TreeLinker automatically keeps a safety copy in the app's private storage on your device so the change can be undone; these copies are removed after a limited time and are never uploaded.</p>
+
               <p><strong>Names of People in Your Family Tree</strong><br>
               When you add someone to your family tree, the name you have saved for that person is stored in your account alongside the relationship itself. This is what allows their name to come back if you reinstall the app or sign in on another device — without it, people who are no longer in your address book would reappear unnamed. This applies only to people you have placed in your tree, never to your address book as a whole. The name is private to your account: it is stored against your own record of that person, it is never shown to another user, and no other account can read it. You can remove it by removing the person from your tree, or by deleting your account.</p>
 
@@ -132,7 +136,7 @@
                   <tbody>
                     <tr>
                       <td>Contacts</td>
-                      <td>To identify friends and family who already use TreeLinker and help you build your family tree.</td>
+                      <td>To identify friends and family who already use TreeLinker and help you build your family tree. TreeLinker adds, updates or deletes contacts in your address book only when you start a restore or remove duplicates yourself, and always shows you what will change first.</td>
                     </tr>
                     <tr>
                       <td>Notifications</td>
@@ -233,7 +237,23 @@
                     </tr>
                     <tr>
                       <td>Firebase Cloud Messaging</td>
-                      <td>Delivery of push notifications. Firebase processes your FCM token solely to route notifications to your device. We do not use any other Firebase product.</td>
+                      <td>Delivery of push notifications. Firebase processes your FCM token solely to route notifications to your device.</td>
+                    </tr>
+                    <tr>
+                      <td>Firebase Analytics</td>
+                      <td>Understanding how the app is used, so we can improve it. See Analytics and Cookies below for exactly what is collected.</td>
+                    </tr>
+                    <tr>
+                      <td>Firebase Crashlytics</td>
+                      <td>Crash and error reports, so we can find and fix problems. A report contains technical details of the error and your device, and your TreeLinker account ID so we can investigate a problem you report.</td>
+                    </tr>
+                    <tr>
+                      <td>Firebase Remote Config</td>
+                      <td>Turning app features on or off and checking whether your app version is still supported, without requiring an app update. It uses a Firebase installation identifier and no personal information.</td>
+                    </tr>
+                    <tr>
+                      <td>Google Play In-App Review (Android)</td>
+                      <td>Occasionally asking whether you would like to rate TreeLinker. The rating and any review you write are handled by Google Play under Google's own privacy policy; TreeLinker never sees them.</td>
                     </tr>
                   </tbody>
                 </table></div>
@@ -313,8 +333,9 @@
             <section id="analytics">
               <h2>12. Analytics and Cookies</h2>
               <p><strong>TreeLinker does not use cookies.</strong> As a native mobile application, it does not operate in a browser context and does not set or read browser cookies.</p>
-              <p><strong>We do not include third-party analytics SDKs</strong> (such as Google Analytics, Mixpanel, or Amplitude) in the app. We do not track your in-app behaviour for advertising or analytics purposes.</p>
-              <p>Firebase Cloud Messaging is used exclusively to deliver push notifications. We do not use Firebase Analytics or any other Firebase analytics product.</p>
+              <p><strong>We use Firebase Analytics</strong> to understand how TreeLinker is used and to improve it. The app records which screens are opened and when certain actions happen &mdash; for example signing in, creating a group, adding a relationship, backing up contacts, or finishing a Feature Tour topic. Some events include a type or a count (such as the kind of relationship added or how many contacts a backup held) or an internal record identifier. Events never include names, phone numbers, email addresses, or the content of your memories, notes, timeline or contacts. Firebase also automatically collects standard technical information such as an app-instance identifier, device model, operating system, app version, and approximate region.</p>
+              <p><strong>We use Firebase Crashlytics</strong> to receive crash and error reports, as described in Third-Party Services above.</p>
+              <p>We do not use this information for advertising, we do not sell it, and we do not combine it with information from other companies to track you across apps or websites.</p>
             </section>
 
             <section id="changes">
